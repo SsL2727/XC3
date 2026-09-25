@@ -1,0 +1,74 @@
+{
+"heroes": [
+{
+"pc": "PC_ZEON",
+"name": "Zeon",
+"item": 16150
+},
+{
+"pc": "PC_GREY",
+"name": "Gray",
+"item": 16151
+},
+{
+"pc": "PC_RIKU",
+"name": "Riku & Manana",
+"item": 16152
+},
+{
+"pc": "PC_MANANA",
+"name": "Riku & Manana",
+"item": 16152
+},
+{
+"pc": "PC_SHIDOU",
+"name": "Teach",
+"item": 16153
+},
+{
+"pc": "PC_ISURUGI",
+"name": "Isurd",
+"item": 16154
+},
+{
+"pc": "PC_ASHERAH",
+"name": "Ashera",
+"item": 16155
+},
+{
+"pc": "PC_MONICA",
+"name": "Monica",
+"item": 16156
+},
+{
+"pc": "PC_MIYABI",
+"name": "Miyabi",
+"item": 16157
+},
+{
+"pc": "PC_RUDY",
+"name": "Valdi",
+"item": 16158
+},
+{
+"pc": "PC_NIINA",
+"name": "Alexandria",
+"item": 16159
+},
+{
+"pc": "PC_MASHIRO",
+"name": "Fiona",
+"item": 16160
+},
+{
+"pc": "PC_GONDOU",
+"name": "Ghondor",
+"item": 16161
+},
+{
+"pc": "PC_TRYDEN",
+"name": "Triton",
+"item": 16162
+}
+]
+}

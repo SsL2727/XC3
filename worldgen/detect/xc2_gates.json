@@ -1,0 +1,1438 @@
+{
+"flag_type": 1,
+"count": 116,
+"beats": [
+{
+"need": 1,
+"scenario": 1017,
+"flag": 65001,
+"item": 25500,
+"label": "Story Step 001 (Maelstrom)",
+"pops": {
+"ma03a": [
+3001
+]
+}
+},
+{
+"need": 2,
+"scenario": 1020,
+"flag": 65002,
+"item": 25501,
+"label": "Story Step 002 (Ancient Ship)",
+"pops": {
+"ma04a": [
+4001
+]
+}
+},
+{
+"need": 3,
+"scenario": 1024,
+"flag": 65003,
+"item": 25502,
+"label": "Story Step 003 (Ancient Ship)",
+"pops": {
+"ma04a": [
+4002
+]
+}
+},
+{
+"need": 4,
+"scenario": 1028,
+"flag": 65004,
+"item": 25503,
+"label": "Story Step 004 (Elysium Dream)",
+"pops": {
+"ma30a": [
+30001
+]
+}
+},
+{
+"need": 5,
+"scenario": 2002,
+"flag": 65005,
+"item": 25504,
+"label": "Story Step 005 (Gormott)",
+"pops": {
+"ma05a": [
+5001
+]
+}
+},
+{
+"need": 6,
+"scenario": 2003,
+"flag": 65006,
+"item": 25505,
+"label": "Story Step 006 (Gormott)",
+"pops": {
+"ma05a": [
+5002
+]
+}
+},
+{
+"need": 7,
+"scenario": 2010,
+"flag": 65007,
+"item": 25506,
+"label": "Story Step 007 (Gormott)",
+"pops": {
+"ma05a": [
+5003
+]
+}
+},
+{
+"need": 8,
+"scenario": 2011,
+"flag": 65008,
+"item": 25507,
+"label": "Story Step 008 (Gormott)",
+"pops": {
+"ma05a": [
+5004,
+5060
+]
+}
+},
+{
+"need": 9,
+"scenario": 2014,
+"flag": 65009,
+"item": 25508,
+"label": "Story Step 009 (Gormott)",
+"pops": {
+"ma05a": [
+5005
+]
+}
+},
+{
+"need": 10,
+"scenario": 2022,
+"flag": 65010,
+"item": 25509,
+"label": "Story Step 010 (Gormott)",
+"pops": {
+"ma05a": [
+5006
+]
+},
+"skip_gate": true
+},
+{
+"need": 11,
+"scenario": 2029,
+"flag": 65011,
+"item": 25510,
+"label": "Story Step 011 (Gormott)",
+"pops": {
+"ma05a": [
+5007,
+5015
+]
+}
+},
+{
+"need": 12,
+"scenario": 2031,
+"flag": 65012,
+"item": 25511,
+"label": "Story Step 012 (Gormott)",
+"pops": {
+"ma05a": [
+5008
+]
+}
+},
+{
+"need": 13,
+"scenario": 2034,
+"flag": 65013,
+"item": 25512,
+"label": "Story Step 013 (Gormott)",
+"pops": {
+"ma05a": [
+5009
+]
+}
+},
+{
+"need": 14,
+"scenario": 2035,
+"flag": 65014,
+"item": 25513,
+"label": "Story Step 014 (Gormott)",
+"pops": {
+"ma05a": [
+5010
+]
+}
+},
+{
+"need": 15,
+"scenario": 2036,
+"flag": 65015,
+"item": 25514,
+"label": "Story Step 015 (Gormott)",
+"pops": {
+"ma05a": [
+5011
+]
+}
+},
+{
+"need": 16,
+"scenario": 2039,
+"flag": 65016,
+"item": 25515,
+"label": "Story Step 016 (Gormott)",
+"pops": {
+"ma05a": [
+5012
+]
+}
+},
+{
+"need": 17,
+"scenario": 2042,
+"flag": 65017,
+"item": 25516,
+"label": "Story Step 017 (Gormott)",
+"pops": {
+"ma05a": [
+5013,
+5016
+]
+}
+},
+{
+"need": 18,
+"scenario": 2045,
+"flag": 65018,
+"item": 25517,
+"label": "Story Step 018 (Gormott)",
+"pops": {
+"ma05a": [
+5014
+]
+}
+},
+{
+"need": 19,
+"scenario": 3003,
+"flag": 65019,
+"item": 25518,
+"label": "Story Step 019 (Gormott)",
+"pops": {
+"ma05a": [
+5017
+]
+}
+},
+{
+"need": 20,
+"scenario": 3008,
+"flag": 65020,
+"item": 25519,
+"label": "Story Step 020 (Uraya)",
+"pops": {
+"ma07a": [
+7001
+]
+}
+},
+{
+"need": 21,
+"scenario": 3010,
+"flag": 65021,
+"item": 25520,
+"label": "Story Step 021 (Uraya)",
+"pops": {
+"ma07a": [
+7002
+]
+}
+},
+{
+"need": 22,
+"scenario": 3013,
+"flag": 65022,
+"item": 25521,
+"label": "Story Step 022 (Uraya)",
+"pops": {
+"ma07a": [
+7003,
+7004
+]
+}
+},
+{
+"need": 23,
+"scenario": 3016,
+"flag": 65023,
+"item": 25522,
+"label": "Story Step 023 (Uraya)",
+"pops": {
+"ma07a": [
+7005
+]
+}
+},
+{
+"need": 24,
+"scenario": 3018,
+"flag": 65024,
+"item": 25523,
+"label": "Story Step 024 (Uraya)",
+"pops": {
+"ma07a": [
+7006
+]
+}
+},
+{
+"need": 25,
+"scenario": 3023,
+"flag": 65025,
+"item": 25524,
+"label": "Story Step 025 (Uraya)",
+"pops": {
+"ma07a": [
+7049
+]
+}
+},
+{
+"need": 26,
+"scenario": 3026,
+"flag": 65026,
+"item": 25525,
+"label": "Story Step 026 (Uraya)",
+"pops": {
+"ma07a": [
+7007
+]
+}
+},
+{
+"need": 27,
+"scenario": 3028,
+"flag": 65027,
+"item": 25526,
+"label": "Story Step 027 (Uraya)",
+"pops": {
+"ma07a": [
+7008
+]
+}
+},
+{
+"need": 28,
+"scenario": 3030,
+"flag": 65028,
+"item": 25527,
+"label": "Story Step 028 (Uraya)",
+"pops": {
+"ma07a": [
+7009
+]
+}
+},
+{
+"need": 29,
+"scenario": 3032,
+"flag": 65029,
+"item": 25528,
+"label": "Story Step 029 (Uraya)",
+"pops": {
+"ma07a": [
+7010
+]
+}
+},
+{
+"need": 30,
+"scenario": 3034,
+"flag": 65030,
+"item": 25529,
+"label": "Story Step 030 (Uraya)",
+"pops": {
+"ma07a": [
+7011
+]
+}
+},
+{
+"need": 31,
+"scenario": 3043,
+"flag": 65031,
+"item": 25530,
+"label": "Story Step 031 (Uraya)",
+"pops": {
+"ma07a": [
+7012
+]
+}
+},
+{
+"need": 32,
+"scenario": 4010,
+"flag": 65032,
+"item": 25531,
+"label": "Story Step 032 (Argentum)",
+"pops": {
+"ma02a": [
+2011
+]
+}
+},
+{
+"need": 33,
+"scenario": 4014,
+"flag": 65033,
+"item": 25532,
+"label": "Story Step 033 (Argentum)",
+"pops": {
+"ma02a": [
+2009
+],
+"ma08a": [
+8001
+]
+}
+},
+{
+"need": 34,
+"scenario": 4015,
+"flag": 65034,
+"item": 25533,
+"label": "Story Step 034 (Argentum)",
+"pops": {
+"ma02a": [
+2010
+]
+}
+},
+{
+"need": 35,
+"scenario": 4017,
+"flag": 65035,
+"item": 25534,
+"label": "Story Step 035 (Gormott)",
+"pops": {
+"ma05a": [
+5018
+]
+}
+},
+{
+"need": 36,
+"scenario": 4019,
+"flag": 65036,
+"item": 25535,
+"label": "Story Step 036 (Gormott)",
+"pops": {
+"ma05a": [
+5019
+]
+}
+},
+{
+"need": 37,
+"scenario": 4022,
+"flag": 65037,
+"item": 25536,
+"label": "Story Step 037 (Gormott)",
+"pops": {
+"ma05a": [
+5020
+]
+}
+},
+{
+"need": 38,
+"scenario": 4026,
+"flag": 65038,
+"item": 25537,
+"label": "Story Step 038 (Mor Ardain)",
+"pops": {
+"ma08a": [
+8002
+]
+}
+},
+{
+"need": 39,
+"scenario": 4029,
+"flag": 65039,
+"item": 25538,
+"label": "Story Step 039 (Mor Ardain)",
+"pops": {
+"ma08a": [
+8003
+]
+}
+},
+{
+"need": 40,
+"scenario": 4032,
+"flag": 65040,
+"item": 25539,
+"label": "Story Step 040 (Mor Ardain)",
+"pops": {
+"ma08a": [
+8004,
+8014,
+8015
+]
+}
+},
+{
+"need": 41,
+"scenario": 4034,
+"flag": 65041,
+"item": 25540,
+"label": "Story Step 041 (Mor Ardain)",
+"pops": {
+"ma08a": [
+8005
+]
+}
+},
+{
+"need": 42,
+"scenario": 4040,
+"flag": 65042,
+"item": 25541,
+"label": "Story Step 042 (Mor Ardain)",
+"pops": {
+"ma08a": [
+8006
+]
+}
+},
+{
+"need": 43,
+"scenario": 4042,
+"flag": 65043,
+"item": 25542,
+"label": "Story Step 043 (Mor Ardain)",
+"pops": {
+"ma08a": [
+8007
+]
+}
+},
+{
+"need": 44,
+"scenario": 4045,
+"flag": 65044,
+"item": 25543,
+"label": "Story Step 044 (Mor Ardain)",
+"pops": {
+"ma08a": [
+8008,
+8009
+]
+}
+},
+{
+"need": 45,
+"scenario": 4047,
+"flag": 65045,
+"item": 25544,
+"label": "Story Step 045 (Mor Ardain)",
+"pops": {
+"ma08a": [
+8010
+]
+}
+},
+{
+"need": 46,
+"scenario": 4050,
+"flag": 65046,
+"item": 25545,
+"label": "Story Step 046 (Mor Ardain)",
+"pops": {
+"ma08a": [
+8011
+]
+}
+},
+{
+"need": 47,
+"scenario": 4055,
+"flag": 65047,
+"item": 25546,
+"label": "Story Step 047 (Mor Ardain)",
+"pops": {
+"ma08a": [
+8012
+]
+}
+},
+{
+"need": 48,
+"scenario": 5009,
+"flag": 65048,
+"item": 25547,
+"label": "Story Step 048 (Leftheria)",
+"pops": {
+"ma15a": [
+15001,
+15002
+]
+}
+},
+{
+"need": 49,
+"scenario": 5010,
+"flag": 65049,
+"item": 25548,
+"label": "Story Step 049 (Leftheria)",
+"pops": {
+"ma15a": [
+15003,
+15004
+]
+}
+},
+{
+"need": 50,
+"scenario": 5014,
+"flag": 65050,
+"item": 25549,
+"label": "Story Step 050 (Leftheria)",
+"pops": {
+"ma15a": [
+15005
+]
+}
+},
+{
+"need": 51,
+"scenario": 5020,
+"flag": 65051,
+"item": 25550,
+"label": "Story Step 051 (Leftheria)",
+"pops": {
+"ma15a": [
+15006
+]
+}
+},
+{
+"need": 52,
+"scenario": 5023,
+"flag": 65052,
+"item": 25551,
+"label": "Story Step 052 (Indol)",
+"pops": {
+"ma11a": [
+11001
+]
+}
+},
+{
+"need": 53,
+"scenario": 5024,
+"flag": 65053,
+"item": 25552,
+"label": "Story Step 053 (Indol)",
+"pops": {
+"ma11a": [
+11002
+]
+}
+},
+{
+"need": 54,
+"scenario": 5029,
+"flag": 65054,
+"item": 25553,
+"label": "Story Step 054 (Indol)",
+"pops": {
+"ma11a": [
+11003
+]
+}
+},
+{
+"need": 55,
+"scenario": 5039,
+"flag": 65055,
+"item": 25554,
+"label": "Story Step 055 (Indol)",
+"pops": {
+"ma11a": [
+11004
+]
+}
+},
+{
+"need": 56,
+"scenario": 5040,
+"flag": 65056,
+"item": 25555,
+"label": "Story Step 056 (Indol)",
+"pops": {
+"ma11a": [
+11005
+]
+}
+},
+{
+"need": 57,
+"scenario": 5041,
+"flag": 65057,
+"item": 25556,
+"label": "Story Step 057 (Indol)",
+"pops": {
+"ma11a": [
+11006
+]
+}
+},
+{
+"need": 58,
+"scenario": 5044,
+"flag": 65058,
+"item": 25557,
+"label": "Story Step 058 (Temperantia)",
+"pops": {
+"ma10a": [
+10001
+]
+}
+},
+{
+"need": 59,
+"scenario": 5045,
+"flag": 65059,
+"item": 25558,
+"label": "Story Step 059 (Temperantia)",
+"pops": {
+"ma10a": [
+10002
+]
+}
+},
+{
+"need": 60,
+"scenario": 6011,
+"flag": 65060,
+"item": 25559,
+"label": "Story Step 060 (Indol)",
+"pops": {
+"ma11a": [
+11008
+]
+}
+},
+{
+"need": 61,
+"scenario": 6017,
+"flag": 65061,
+"item": 25560,
+"label": "Story Step 061 (Indol)",
+"pops": {
+"ma11a": [
+11010
+]
+}
+},
+{
+"need": 62,
+"scenario": 6019,
+"flag": 65062,
+"item": 25561,
+"label": "Story Step 062 (Indol)",
+"pops": {
+"ma11a": [
+11009
+]
+}
+},
+{
+"need": 63,
+"scenario": 6020,
+"flag": 65063,
+"item": 25562,
+"label": "Story Step 063 (Indol)",
+"pops": {
+"ma11a": [
+11011,
+11012
+]
+}
+},
+{
+"need": 64,
+"scenario": 6023,
+"flag": 65064,
+"item": 25563,
+"label": "Story Step 064 (Indol)",
+"pops": {
+"ma11a": [
+11013
+]
+}
+},
+{
+"need": 65,
+"scenario": 6034,
+"flag": 65065,
+"item": 25564,
+"label": "Story Step 065 (Tantal)",
+"pops": {
+"ma13a": [
+13001,
+13002
+]
+}
+},
+{
+"need": 66,
+"scenario": 6036,
+"flag": 65066,
+"item": 25565,
+"label": "Story Step 066 (Tantal)",
+"pops": {
+"ma13a": [
+13003,
+13035
+]
+}
+},
+{
+"need": 67,
+"scenario": 6037,
+"flag": 65067,
+"item": 25566,
+"label": "Story Step 067 (Tantal)",
+"pops": {
+"ma13a": [
+13004
+]
+}
+},
+{
+"need": 68,
+"scenario": 6038,
+"flag": 65068,
+"item": 25567,
+"label": "Story Step 068 (Tantal)",
+"pops": {
+"ma13a": [
+13005
+]
+}
+},
+{
+"need": 69,
+"scenario": 6044,
+"flag": 65069,
+"item": 25568,
+"label": "Story Step 069 (Tantal)",
+"pops": {
+"ma13a": [
+13006
+]
+}
+},
+{
+"need": 70,
+"scenario": 6045,
+"flag": 65070,
+"item": 25569,
+"label": "Story Step 070 (Tantal)",
+"pops": {
+"ma13a": [
+13007
+]
+}
+},
+{
+"need": 71,
+"scenario": 6047,
+"flag": 65071,
+"item": 25570,
+"label": "Story Step 071 (Tantal)",
+"pops": {
+"ma13a": [
+13008
+]
+}
+},
+{
+"need": 72,
+"scenario": 6053,
+"flag": 65072,
+"item": 25571,
+"label": "Story Step 072 (Tantal)",
+"pops": {
+"ma13a": [
+13009
+]
+}
+},
+{
+"need": 73,
+"scenario": 6055,
+"flag": 65073,
+"item": 25572,
+"label": "Story Step 073 (Tantal)",
+"pops": {
+"ma13a": [
+13010
+]
+}
+},
+{
+"need": 74,
+"scenario": 6058,
+"flag": 65074,
+"item": 25573,
+"label": "Story Step 074 (Tantal)",
+"pops": {
+"ma13a": [
+13011
+]
+}
+},
+{
+"need": 75,
+"scenario": 7006,
+"flag": 65075,
+"item": 25574,
+"label": "Story Step 075 (Tantal)",
+"pops": {
+"ma13a": [
+13012
+]
+}
+},
+{
+"need": 76,
+"scenario": 7012,
+"flag": 65076,
+"item": 25575,
+"label": "Story Step 076 (Leftheria)",
+"pops": {
+"ma15a": [
+15007
+]
+}
+},
+{
+"need": 77,
+"scenario": 7013,
+"flag": 65077,
+"item": 25576,
+"label": "Story Step 077 (Leftheria)",
+"pops": {
+"ma15a": [
+15008
+]
+}
+},
+{
+"need": 78,
+"scenario": 7019,
+"flag": 65078,
+"item": 25577,
+"label": "Story Step 078 (Spirit Crucible)",
+"pops": {
+"ma16a": [
+16001
+]
+}
+},
+{
+"need": 79,
+"scenario": 7020,
+"flag": 65079,
+"item": 25578,
+"label": "Story Step 079 (Leftheria)",
+"pops": {
+"ma15a": [
+15009
+],
+"ma16a": [
+16002
+]
+}
+},
+{
+"need": 80,
+"scenario": 7021,
+"flag": 65080,
+"item": 25579,
+"label": "Story Step 080 (Spirit Crucible)",
+"pops": {
+"ma16a": [
+16003
+]
+}
+},
+{
+"need": 81,
+"scenario": 7027,
+"flag": 65081,
+"item": 25580,
+"label": "Story Step 081 (Spirit Crucible)",
+"pops": {
+"ma16a": [
+16004
+]
+}
+},
+{
+"need": 82,
+"scenario": 7028,
+"flag": 65082,
+"item": 25581,
+"label": "Story Step 082 (Spirit Crucible)",
+"pops": {
+"ma16a": [
+16005
+]
+}
+},
+{
+"need": 83,
+"scenario": 7029,
+"flag": 65083,
+"item": 25582,
+"label": "Story Step 083 (Spirit Crucible)",
+"pops": {
+"ma16a": [
+16006
+]
+}
+},
+{
+"need": 84,
+"scenario": 7030,
+"flag": 65084,
+"item": 25583,
+"label": "Story Step 084 (Spirit Crucible)",
+"pops": {
+"ma16a": [
+16007
+]
+}
+},
+{
+"need": 85,
+"scenario": 7038,
+"flag": 65085,
+"item": 25584,
+"label": "Story Step 085 (Spirit Crucible)",
+"pops": {
+"ma16a": [
+16008
+]
+}
+},
+{
+"need": 86,
+"scenario": 7042,
+"flag": 65086,
+"item": 25585,
+"label": "Story Step 086 (Leftheria)",
+"pops": {
+"ma15a": [
+15010
+]
+}
+},
+{
+"need": 87,
+"scenario": 7044,
+"flag": 65087,
+"item": 25586,
+"label": "Story Step 087 (Cliffs of Morytha)",
+"pops": {
+"ma17a": [
+17001
+]
+}
+},
+{
+"need": 88,
+"scenario": 7049,
+"flag": 65088,
+"item": 25587,
+"label": "Story Step 088 (Cliffs of Morytha)",
+"pops": {
+"ma17a": [
+17002
+]
+}
+},
+{
+"need": 89,
+"scenario": 7054,
+"flag": 65089,
+"item": 25588,
+"label": "Story Step 089 (Cliffs of Morytha)",
+"pops": {
+"ma17a": [
+17003
+]
+}
+},
+{
+"need": 90,
+"scenario": 7056,
+"flag": 65090,
+"item": 25589,
+"label": "Story Step 090 (Cliffs of Morytha)",
+"pops": {
+"ma17a": [
+17004
+]
+}
+},
+{
+"need": 91,
+"scenario": 8004,
+"flag": 65091,
+"item": 25590,
+"label": "Story Step 091 (Land of Morytha)",
+"pops": {
+"ma18a": [
+18002
+]
+}
+},
+{
+"need": 92,
+"scenario": 8009,
+"flag": 65092,
+"item": 25591,
+"label": "Story Step 092 (Land of Morytha)",
+"pops": {
+"ma18a": [
+18003,
+18011
+]
+}
+},
+{
+"need": 93,
+"scenario": 8014,
+"flag": 65093,
+"item": 25592,
+"label": "Story Step 093 (Land of Morytha)",
+"pops": {
+"ma18a": [
+18004
+]
+}
+},
+{
+"need": 94,
+"scenario": 8017,
+"flag": 65094,
+"item": 25593,
+"label": "Story Step 094 (Land of Morytha)",
+"pops": {
+"ma18a": [
+18005
+]
+}
+},
+{
+"need": 95,
+"scenario": 8019,
+"flag": 65095,
+"item": 25594,
+"label": "Story Step 095 (Land of Morytha)",
+"pops": {
+"ma18a": [
+18006
+]
+}
+},
+{
+"need": 96,
+"scenario": 8028,
+"flag": 65096,
+"item": 25595,
+"label": "Story Step 096 (Land of Morytha)",
+"pops": {
+"ma18a": [
+18007
+]
+}
+},
+{
+"need": 97,
+"scenario": 8030,
+"flag": 65097,
+"item": 25596,
+"label": "Story Step 097 (Land of Morytha)",
+"pops": {
+"ma18a": [
+18008
+]
+}
+},
+{
+"need": 98,
+"scenario": 8032,
+"flag": 65098,
+"item": 25597,
+"label": "Story Step 098 (World Tree)",
+"pops": {
+"ma20a": [
+20005
+]
+}
+},
+{
+"need": 99,
+"scenario": 8033,
+"flag": 65099,
+"item": 25598,
+"label": "Story Step 099 (World Tree)",
+"pops": {
+"ma20a": [
+20001
+]
+}
+},
+{
+"need": 100,
+"scenario": 8037,
+"flag": 65100,
+"item": 25599,
+"label": "Story Step 100 (World Tree)",
+"pops": {
+"ma20a": [
+20006
+]
+}
+},
+{
+"need": 101,
+"scenario": 8038,
+"flag": 65101,
+"item": 25600,
+"label": "Story Step 101 (World Tree)",
+"pops": {
+"ma20a": [
+20002
+]
+}
+},
+{
+"need": 102,
+"scenario": 8039,
+"flag": 65102,
+"item": 25601,
+"label": "Story Step 102 (World Tree)",
+"pops": {
+"ma20a": [
+20003
+]
+}
+},
+{
+"need": 103,
+"scenario": 8043,
+"flag": 65103,
+"item": 25602,
+"label": "Story Step 103 (World Tree)",
+"pops": {
+"ma20a": [
+20004
+]
+}
+},
+{
+"need": 104,
+"scenario": 9009,
+"flag": 65104,
+"item": 25603,
+"label": "Story Step 104 (World Tree)",
+"pops": {
+"ma20a": [
+20010
+]
+}
+},
+{
+"need": 105,
+"scenario": 9010,
+"flag": 65105,
+"item": 25604,
+"label": "Story Step 105 (World Tree)",
+"pops": {
+"ma20a": [
+20007
+]
+}
+},
+{
+"need": 106,
+"scenario": 9015,
+"flag": 65106,
+"item": 25605,
+"label": "Story Step 106 (World Tree)",
+"pops": {
+"ma20a": [
+20008
+]
+}
+},
+{
+"need": 107,
+"scenario": 9019,
+"flag": 65107,
+"item": 25606,
+"label": "Story Step 107 (World Tree)",
+"pops": {
+"ma20a": [
+20009
+]
+}
+},
+{
+"need": 108,
+"scenario": 9021,
+"flag": 65108,
+"item": 25607,
+"label": "Story Step 108 (World Tree)",
+"pops": {
+"ma20a": [
+20011
+]
+}
+},
+{
+"need": 109,
+"scenario": 10002,
+"flag": 65109,
+"item": 25608,
+"label": "Story Step 109 (Elysium)",
+"pops": {
+"ma21a": [
+21001
+]
+}
+},
+{
+"need": 110,
+"scenario": 10005,
+"flag": 65110,
+"item": 25609,
+"label": "Story Step 110 (Elysium)",
+"pops": {
+"ma21a": [
+21002
+]
+}
+},
+{
+"need": 111,
+"scenario": 10007,
+"flag": 65111,
+"item": 25610,
+"label": "Story Step 111 (Elysium)",
+"pops": {
+"ma21a": [
+21003
+]
+}
+},
+{
+"need": 112,
+"scenario": 10008,
+"flag": 65112,
+"item": 25611,
+"label": "Story Step 112 (Elysium)",
+"pops": {
+"ma21a": [
+21004
+]
+}
+},
+{
+"need": 113,
+"scenario": 10009,
+"flag": 65113,
+"item": 25612,
+"label": "Story Step 113 (Elysium)",
+"pops": {
+"ma21a": [
+21005
+]
+}
+},
+{
+"need": 114,
+"scenario": 10029,
+"flag": 65114,
+"item": 25613,
+"label": "Story Step 114 (Elysium)",
+"pops": {
+"ma21a": [
+21006
+]
+}
+},
+{
+"need": 115,
+"scenario": 10032,
+"flag": 65115,
+"item": 25614,
+"label": "Story Step 115 (Elysium)",
+"pops": {
+"ma21a": [
+21007
+]
+}
+},
+{
+"need": 116,
+"scenario": 10048,
+"flag": 65116,
+"item": 25615,
+"label": "Story Step 116 (Mor Ardain)",
+"pops": {
+"ma08a": [
+8013
+]
+}
+}
+],
+"requirements": {
+"1": 1,
+"2": 4,
+"3": 19,
+"4": 32,
+"5": 32,
+"6": 47,
+"7": 47,
+"8": 51,
+"9": 57,
+"10": 64,
+"11": 64,
+"12": 74,
+"13": 77,
+"14": 86,
+"15": 90,
+"16": 97,
+"17": 108,
+"18": 116
+}
+}

@@ -1,0 +1,848 @@
+{
+"skills": {
+"Fire Mastery": 10,
+"Water Mastery": 11,
+"Earth Mastery": 12,
+"Wind Mastery": 13,
+"Electric Mastery": 14,
+"Ice Mastery": 15,
+"Dark Mastery": 16,
+"Lockpicking": 18,
+"Keen Eye": 19,
+"Leaping": 20,
+"Superstrength": 21,
+"Focus": 22,
+"Ancient Wisdom": 23,
+"Nopon Wisdom": 24,
+"Fortitude": 25,
+"Cooking": 26
+},
+"blades": {
+"Roc": {
+"trust": "Roc Trust",
+"driver": null,
+"group": null,
+"levels": {
+"Wind Mastery": [
+1,
+1,
+2,
+2,
+3
+],
+"Lockpicking": [
+1,
+1,
+2,
+2,
+3
+]
+}
+},
+"Aegaeon": {
+"trust": "Aegaeon Trust",
+"driver": null,
+"group": null,
+"levels": {
+"Water Mastery": [
+1,
+2,
+2,
+3,
+3
+],
+"Ancient Wisdom": [
+1,
+2,
+2,
+3,
+3
+],
+"Leaping": [
+1,
+2,
+2,
+3,
+3
+]
+}
+},
+"Wulfric": {
+"trust": "Wulfric Trust",
+"driver": null,
+"group": null,
+"levels": {
+"Superstrength": [
+1,
+2,
+3,
+4,
+5
+],
+"Earth Mastery": [
+1,
+2,
+3,
+4,
+5
+],
+"Focus": [
+1,
+2,
+3,
+4,
+5
+]
+}
+},
+"Vale": {
+"trust": "Vale Trust",
+"driver": null,
+"group": null,
+"levels": {
+"Dark Mastery": [
+1,
+1,
+2,
+2,
+3
+]
+}
+},
+"Agate": {
+"trust": "Agate Trust",
+"driver": null,
+"group": null,
+"levels": {
+"Keen Eye": [
+1,
+1,
+2,
+2,
+3
+]
+}
+},
+"Gorg": {
+"trust": "Gorg Trust",
+"driver": null,
+"group": null,
+"levels": {
+"Keen Eye": [
+1,
+1,
+2,
+2,
+3
+],
+"Fortitude": [
+1,
+1,
+2,
+2,
+3
+]
+}
+},
+"Boreas": {
+"trust": "Boreas Trust",
+"driver": null,
+"group": null,
+"levels": {
+"Nopon Wisdom": [
+1,
+1,
+2,
+2,
+3
+]
+}
+},
+"Perun": {
+"trust": "Perun Trust",
+"driver": null,
+"group": null,
+"levels": {
+"Ice Mastery": [
+1,
+1,
+2,
+2,
+3
+],
+"Ancient Wisdom": [
+1,
+1,
+2,
+2,
+3
+]
+}
+},
+"Kora": {
+"trust": "Kora Trust",
+"driver": null,
+"group": null,
+"levels": {
+"Electric Mastery": [
+1,
+1,
+2,
+3,
+3
+],
+"Lockpicking": [
+1,
+1,
+2,
+2,
+3
+]
+}
+},
+"Ursula": {
+"trust": "Ursula Trust",
+"driver": null,
+"group": null,
+"levels": {
+"Fortitude": [
+1,
+1,
+2,
+2,
+3
+]
+}
+},
+"Newt": {
+"trust": "Newt Trust",
+"driver": null,
+"group": null,
+"levels": {
+"Superstrength": [
+1,
+1,
+2,
+2,
+3
+]
+}
+},
+"Nim": {
+"trust": "Nim Trust",
+"driver": null,
+"group": null,
+"levels": {
+"Earth Mastery": [
+1,
+1,
+2,
+3,
+3
+]
+}
+},
+"Sheba": {
+"trust": "Sheba Trust",
+"driver": null,
+"group": null,
+"levels": {
+"Lockpicking": [
+1,
+1,
+2,
+2,
+3
+]
+}
+},
+"Adenine": {
+"trust": "Adenine Trust",
+"driver": null,
+"group": null,
+"levels": {
+"Wind Mastery": [
+1,
+1,
+2,
+2,
+3
+],
+"Keen Eye": [
+1,
+1,
+2,
+2,
+3
+]
+}
+},
+"Zenobia": {
+"trust": "Zenobia Trust",
+"driver": null,
+"group": null,
+"levels": {
+"Wind Mastery": [
+1,
+2,
+3,
+4,
+5
+],
+"Superstrength": [
+1,
+2,
+3,
+4,
+5
+],
+"Leaping": [
+1,
+2,
+3,
+4,
+5
+]
+}
+},
+"Floren": {
+"trust": "Floren Trust",
+"driver": null,
+"group": null,
+"levels": {
+"Earth Mastery": [
+1,
+2,
+2,
+3,
+3
+]
+}
+},
+"KOS-MOS": {
+"trust": "KOS-MOS Trust",
+"driver": null,
+"group": null,
+"levels": {
+"Lockpicking": [
+1,
+1,
+2,
+3,
+3
+]
+}
+},
+"Herald": {
+"trust": "Herald Trust",
+"driver": null,
+"group": null,
+"levels": {
+"Electric Mastery": [
+1,
+1,
+2,
+2,
+3
+],
+"Superstrength": [
+1,
+1,
+2,
+2,
+3
+]
+}
+},
+"Pyra": {
+"trust": "Pyra Trust",
+"driver": null,
+"group": "pyra",
+"levels": {
+"Fire Mastery": [
+1,
+2,
+2,
+3,
+3
+],
+"Focus": [
+1,
+1,
+2,
+2,
+3
+],
+"Cooking": [
+1,
+1,
+2,
+2,
+3
+]
+}
+},
+"Aegis True Form": {
+"trust": "Pyra Trust",
+"driver": null,
+"group": "pyra",
+"levels": {
+"Focus": [
+1,
+1,
+2,
+2,
+3
+]
+}
+},
+"Dromarch": {
+"trust": "Dromarch Trust",
+"driver": "Nia (Driver)",
+"group": "dromarch",
+"levels": {
+"Water Mastery": [
+1,
+1,
+2,
+2,
+3
+],
+"Ancient Wisdom": [
+1,
+2,
+2,
+3,
+3
+]
+}
+},
+"Poppi a": {
+"trust": "Poppi a Trust",
+"driver": "Tora",
+"group": "poppi",
+"levels": {
+"Leaping": [
+1,
+2,
+2,
+3,
+3
+],
+"Nopon Wisdom": [
+1,
+2,
+2,
+3,
+3
+],
+"Superstrength": [
+1,
+1,
+2,
+2,
+3
+]
+}
+},
+"Poppi QT": {
+"trust": "Poppi QT Trust",
+"driver": "Tora",
+"group": "poppi",
+"levels": {
+"Lockpicking": [
+1,
+1,
+2,
+2,
+3
+],
+"Fortitude": [
+1,
+2,
+2,
+3,
+3
+]
+}
+},
+"Poppi QT Pi": {
+"trust": "Poppi QT Pi Trust",
+"driver": "Tora",
+"group": "poppi",
+"levels": {
+"Keen Eye": [
+1,
+1,
+2,
+2,
+3
+],
+"Ancient Wisdom": [
+1,
+1,
+2,
+2,
+3
+]
+}
+},
+"Pandoria": {
+"trust": "Pandoria Trust",
+"driver": "Zeke",
+"group": "pandoria",
+"levels": {
+"Electric Mastery": [
+1,
+1,
+2,
+2,
+3
+],
+"Lockpicking": [
+1,
+2,
+2,
+3,
+3
+]
+}
+},
+"Nia (Blade)": {
+"trust": null,
+"driver": null,
+"group": "nia",
+"levels": {
+"Water Mastery": [
+1,
+2,
+2,
+3,
+3
+],
+"Fortitude": [
+1,
+1,
+2,
+2,
+3
+]
+}
+},
+"Brighid": {
+"trust": null,
+"driver": "Morag",
+"group": "brighid",
+"levels": {
+"Fire Mastery": [
+1,
+1,
+2,
+2,
+3
+],
+"Keen Eye": [
+1,
+2,
+2,
+3,
+3
+]
+}
+},
+"Perceval": {
+"trust": "Perceval Trust",
+"driver": null,
+"group": null,
+"levels": {
+"Dark Mastery": [
+1,
+1,
+2,
+2,
+3
+],
+"Leaping": [
+1,
+1,
+2,
+2,
+3
+]
+}
+},
+"Kasandra": {
+"trust": "Kasandra Trust",
+"driver": null,
+"group": null,
+"levels": {
+"Nopon Wisdom": [
+1,
+1,
+2,
+3,
+3
+]
+}
+},
+"Praxis": {
+"trust": "Praxis Trust",
+"driver": null,
+"group": null,
+"levels": {
+"Water Mastery": [
+1,
+1,
+2,
+2,
+3
+]
+}
+},
+"Theory": {
+"trust": "Theory Trust",
+"driver": null,
+"group": null,
+"levels": {
+"Ice Mastery": [
+1,
+2,
+2,
+3,
+3
+],
+"Focus": [
+1,
+2,
+2,
+3,
+3
+],
+"Nopon Wisdom": [
+1,
+2,
+2,
+3,
+3
+]
+}
+},
+"Azami": {
+"trust": "Azami Trust",
+"driver": null,
+"group": null,
+"levels": {
+"Dark Mastery": [
+1,
+1,
+2,
+2,
+3
+]
+}
+},
+"Vess": {
+"trust": "Vess Trust",
+"driver": null,
+"group": null,
+"levels": {
+"Fortitude": [
+1,
+1,
+2,
+3,
+3
+]
+}
+},
+"Electra": {
+"trust": "Electra Trust",
+"driver": null,
+"group": null,
+"levels": {
+"Electric Mastery": [
+1,
+2,
+3,
+4,
+5
+],
+"Focus": [
+0,
+0,
+1,
+2,
+3
+]
+}
+},
+"Finch": {
+"trust": "Finch Trust",
+"driver": null,
+"group": null,
+"levels": {
+"Leaping": [
+1,
+1,
+2,
+3,
+3
+]
+}
+},
+"Dahlia": {
+"trust": "Dahlia Trust",
+"driver": null,
+"group": null,
+"levels": {
+"Ice Mastery": [
+1,
+2,
+2,
+3,
+3
+]
+}
+},
+"T-elos": {
+"trust": "T-elos Trust",
+"driver": null,
+"group": null,
+"levels": {
+"Dark Mastery": [
+1,
+2,
+3,
+4,
+5
+],
+"Leaping": [
+1,
+2,
+3,
+3,
+3
+]
+}
+},
+"Poppibuster": {
+"trust": "Poppibuster Trust",
+"driver": null,
+"group": null,
+"levels": {
+"Superstrength": [
+1,
+2,
+3,
+4,
+5
+]
+}
+},
+"Shulk": {
+"trust": "Shulk Trust",
+"driver": null,
+"group": null,
+"levels": {
+"Keen Eye": [
+0,
+0,
+1,
+2,
+3
+],
+"Ancient Wisdom": [
+0,
+0,
+1,
+2,
+3
+]
+}
+},
+"Fiora": {
+"trust": "Fiora Trust",
+"driver": null,
+"group": null,
+"levels": {
+"Fortitude": [
+0,
+0,
+1,
+2,
+3
+],
+"Nopon Wisdom": [
+0,
+0,
+1,
+2,
+3
+]
+}
+},
+"Corvin": {
+"trust": "Corvin Trust",
+"driver": null,
+"group": null,
+"levels": {
+"Ancient Wisdom": [
+1,
+1,
+1,
+2,
+3
+]
+}
+},
+"Crossette": {
+"trust": "Crossette Trust",
+"driver": null,
+"group": null,
+"levels": {
+"Fortitude": [
+1,
+2,
+3,
+3,
+3
+]
+}
+},
+"Elma": {
+"trust": "Elma Trust",
+"driver": null,
+"group": null,
+"levels": {
+"Keen Eye": [
+1,
+2,
+3,
+3,
+3
+],
+"Focus": [
+1,
+2,
+3,
+4,
+5
+],
+"Lockpicking": [
+1,
+2,
+3,
+3,
+3
+]
+}
+}
+},
+"drivers": [
+"Nia (Driver)",
+"Tora",
+"Morag",
+"Zeke",
+"Vandham"
+]
+}

@@ -1,0 +1,16 @@
+# build output and caches
+__pycache__/
+*.pyc
+worldgen/out/
+**/bin/
+**/obj/
+
+# third-party binaries and downloads - not redistributed here (see README.md / SETUP.md for where to get them)
+/bdat-toolset.exe
+/xbtool/
+/xbtool.zip
+/xc3_lib/
+/xc3_lib.zip
+
+# logs
+*.log

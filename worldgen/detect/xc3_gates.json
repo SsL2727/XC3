@@ -1,0 +1,280 @@
+{
+"count": 23,
+"beats": [
+{
+"need": 1,
+"scenario": 1062,
+"item": 16127,
+"label": "Story Step 001 (Chapter 1)",
+"pops": {
+"ma01a": [
+139
+]
+}
+},
+{
+"need": 2,
+"scenario": 1069,
+"item": 16128,
+"label": "Story Step 002 (Chapter 2)",
+"pops": {
+"ma01a": [
+144
+]
+}
+},
+{
+"need": 3,
+"scenario": 1119,
+"item": 16129,
+"label": "Story Step 003 (Chapter 3)",
+"pops": {
+"ma01a": [
+83,
+121
+],
+"ma04a": [
+29
+]
+}
+},
+{
+"need": 4,
+"scenario": 1123,
+"item": 16130,
+"label": "Story Step 004 (Chapter 3)",
+"pops": {
+"ma01a": [
+134
+]
+}
+},
+{
+"need": 5,
+"scenario": 1155,
+"item": 16131,
+"label": "Story Step 005 (Chapter 3)",
+"pops": {
+"ma07a": [
+11
+]
+}
+},
+{
+"need": 6,
+"scenario": 1175,
+"item": 16132,
+"label": "Story Step 006 (Chapter 3)",
+"pops": {
+"ma07a": [
+107
+]
+}
+},
+{
+"need": 7,
+"scenario": 1178,
+"item": 16133,
+"label": "Story Step 007",
+"pops": {
+"ma07a": [
+91
+]
+}
+},
+{
+"need": 8,
+"scenario": 1206,
+"item": 16134,
+"label": "Story Step 008 (Chapter 4)",
+"pops": {
+"ma07a": [
+59
+]
+}
+},
+{
+"need": 9,
+"scenario": 1248,
+"item": 16135,
+"label": "Story Step 009 (Chapter 4)",
+"pops": {
+"ma09a": [
+15
+]
+}
+},
+{
+"need": 10,
+"scenario": 1257,
+"item": 16136,
+"label": "Story Step 010 (Chapter 4)",
+"pops": {
+"ma09a": [
+60
+]
+}
+},
+{
+"need": 11,
+"scenario": 1262,
+"item": 16137,
+"label": "Story Step 011 (Chapter 4)",
+"pops": {
+"ma09a": [
+62
+]
+}
+},
+{
+"need": 12,
+"scenario": 1264,
+"item": 16138,
+"label": "Story Step 012 (Chapter 5)",
+"pops": {
+"ma11a": [
+40,
+114,
+116
+]
+}
+},
+{
+"need": 13,
+"scenario": 1298,
+"item": 16139,
+"label": "Story Step 013",
+"pops": {
+"ma15a": [
+45,
+71,
+72,
+73,
+74,
+75,
+76,
+77
+]
+}
+},
+{
+"need": 14,
+"scenario": 1314,
+"item": 16140,
+"label": "Story Step 014",
+"pops": {
+"ma04a": [
+45
+],
+"ma15a": [
+43
+]
+}
+},
+{
+"need": 15,
+"scenario": 1329,
+"item": 16141,
+"label": "Story Step 015",
+"pops": {
+"ma11a": [
+162
+]
+}
+},
+{
+"need": 16,
+"scenario": 1335,
+"item": 16142,
+"label": "Story Step 016",
+"pops": {
+"ma11a": [
+56
+]
+}
+},
+{
+"need": 17,
+"scenario": 1336,
+"item": 16143,
+"label": "Story Step 017",
+"pops": {
+"ma11a": [
+57
+]
+}
+},
+{
+"need": 18,
+"scenario": 1341,
+"item": 16144,
+"label": "Story Step 018",
+"pops": {
+"ma11a": [
+58
+]
+}
+},
+{
+"need": 19,
+"scenario": 1359,
+"item": 16145,
+"label": "Story Step 019 (Chapter 5)",
+"pops": {
+"ma14a": [
+6
+]
+}
+},
+{
+"need": 20,
+"scenario": 1360,
+"item": 16146,
+"label": "Story Step 020",
+"pops": {
+"ma14a": [
+7
+]
+}
+},
+{
+"need": 21,
+"scenario": 1361,
+"item": 16147,
+"label": "Story Step 021",
+"pops": {
+"ma14a": [
+8
+]
+}
+},
+{
+"need": 22,
+"scenario": 1374,
+"item": 16148,
+"label": "Story Step 022 (Chapter 6)",
+"pops": {
+"ma01a": [
+49
+],
+"ma07a": [
+50
+]
+}
+},
+{
+"need": 23,
+"scenario": 1471,
+"item": 16149,
+"label": "Story Step 023 (Chapter 7)",
+"pops": {
+"ma09a": [
+41
+],
+"ma15a": [
+23
+]
+}
+}
+]
+}

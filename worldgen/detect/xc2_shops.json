@@ -1,0 +1,3253 @@
+{
+"placeholder_base": 40429,
+"shops": [
+{
+"table": 6,
+"name": "Argentum: Shynini's Accessories",
+"area": "Argentum",
+"region": "Free",
+"slots": [
+{
+"col": "DefItem1",
+"orig": 20,
+"n": 0
+},
+{
+"col": "DefItem2",
+"orig": 22,
+"n": 1
+},
+{
+"col": "DefItem3",
+"orig": 24,
+"n": 2
+},
+{
+"col": "DefItem4",
+"orig": 68,
+"n": 3
+},
+{
+"col": "DefItem5",
+"orig": 88,
+"n": 4
+}
+],
+"scenario_min": 0,
+"quest_flag": 2002,
+"quest_min": 1,
+"quest_max": 1
+},
+{
+"table": 7,
+"name": "Argentum: Shroomblade Smithing",
+"area": "Argentum",
+"region": "Free",
+"slots": [
+{
+"col": "DefItem1",
+"orig": 10002,
+"n": 5
+},
+{
+"col": "Addtem1",
+"orig": 10005,
+"n": 6
+},
+{
+"col": "Addtem2",
+"orig": 10006,
+"n": 7
+},
+{
+"col": "Addtem3",
+"orig": 10007,
+"n": 8
+}
+],
+"scenario_min": 0,
+"quest_flag": 0,
+"quest_min": 0,
+"quest_max": 0
+},
+{
+"table": 8,
+"name": "Argentum: Rumbletum Canteen",
+"area": "Argentum",
+"region": "Free",
+"slots": [
+{
+"col": "DefItem1",
+"orig": 40001,
+"n": 9
+},
+{
+"col": "DefItem2",
+"orig": 40002,
+"n": 10
+},
+{
+"col": "DefItem3",
+"orig": 40004,
+"n": 11
+},
+{
+"col": "Addtem1",
+"orig": 40005,
+"n": 12
+},
+{
+"col": "Addtem2",
+"orig": 40006,
+"n": 13
+}
+],
+"scenario_min": 0,
+"quest_flag": 0,
+"quest_min": 0,
+"quest_max": 0
+},
+{
+"table": 9,
+"name": "Argentum: Noodler's Delight",
+"area": "Argentum",
+"region": "Free",
+"slots": [
+{
+"col": "DefItem1",
+"orig": 40003,
+"n": 14
+}
+],
+"scenario_min": 0,
+"quest_flag": 0,
+"quest_min": 0,
+"quest_max": 0
+},
+{
+"table": 10,
+"name": "Argentum: Fishy Fishy",
+"area": "Argentum",
+"region": "Free",
+"slots": [
+{
+"col": "DefItem2",
+"orig": 40008,
+"n": 15
+},
+{
+"col": "DefItem3",
+"orig": 40009,
+"n": 16
+}
+],
+"scenario_min": 0,
+"quest_flag": 2008,
+"quest_min": 1,
+"quest_max": 1
+},
+{
+"table": 11,
+"name": "Argentum: Honeycomb Sweets",
+"area": "Argentum",
+"region": "Free",
+"slots": [
+{
+"col": "DefItem1",
+"orig": 40010,
+"n": 17
+},
+{
+"col": "DefItem3",
+"orig": 40012,
+"n": 18
+},
+{
+"col": "DefItem4",
+"orig": 40014,
+"n": 19
+}
+],
+"scenario_min": 0,
+"quest_flag": 0,
+"quest_min": 0,
+"quest_max": 0
+},
+{
+"table": 12,
+"name": "Argentum: 12 Brothersisterpon",
+"area": "Argentum",
+"region": "Free",
+"slots": [
+{
+"col": "DefItem1",
+"orig": 40015,
+"n": 20
+},
+{
+"col": "DefItem2",
+"orig": 40016,
+"n": 21
+},
+{
+"col": "DefItem3",
+"orig": 40017,
+"n": 22
+},
+{
+"col": "Addtem1",
+"orig": 40018,
+"n": 23
+},
+{
+"col": "Addtem2",
+"orig": 40019,
+"n": 24
+}
+],
+"scenario_min": 0,
+"quest_flag": 0,
+"quest_min": 0,
+"quest_max": 0
+},
+{
+"table": 13,
+"name": "Argentum: Strummer Instruments",
+"area": "Argentum",
+"region": "Free",
+"slots": [
+{
+"col": "DefItem1",
+"orig": 40021,
+"n": 25
+},
+{
+"col": "DefItem2",
+"orig": 40022,
+"n": 26
+},
+{
+"col": "DefItem3",
+"orig": 40023,
+"n": 27
+},
+{
+"col": "DefItem4",
+"orig": 40024,
+"n": 28
+},
+{
+"col": "Addtem1",
+"orig": 40025,
+"n": 29
+}
+],
+"scenario_min": 0,
+"quest_flag": 0,
+"quest_min": 0,
+"quest_max": 0
+},
+{
+"table": 14,
+"name": "Argentum: Reedirait Bookstore",
+"area": "Argentum",
+"region": "Free",
+"slots": [
+{
+"col": "DefItem1",
+"orig": 40027,
+"n": 30
+},
+{
+"col": "DefItem2",
+"orig": 40028,
+"n": 31
+},
+{
+"col": "DefItem3",
+"orig": 40029,
+"n": 32
+},
+{
+"col": "Addtem1",
+"orig": 40030,
+"n": 33
+},
+{
+"col": "Addtem2",
+"orig": 40031,
+"n": 34
+}
+],
+"scenario_min": 0,
+"quest_flag": 1218,
+"quest_min": 0,
+"quest_max": 0
+},
+{
+"table": 16,
+"name": "Argentum: Nopox Hobby Store",
+"area": "Argentum",
+"region": "Free",
+"slots": [
+{
+"col": "DefItem1",
+"orig": 40032,
+"n": 35
+},
+{
+"col": "DefItem2",
+"orig": 40033,
+"n": 36
+},
+{
+"col": "DefItem3",
+"orig": 40034,
+"n": 37
+},
+{
+"col": "DefItem4",
+"orig": 40035,
+"n": 38
+},
+{
+"col": "Addtem1",
+"orig": 40036,
+"n": 39
+}
+],
+"scenario_min": 0,
+"quest_flag": 0,
+"quest_min": 0,
+"quest_max": 0
+},
+{
+"table": 17,
+"name": "Argentum: Cleo's Cosmetics",
+"area": "Argentum",
+"region": "Free",
+"slots": [
+{
+"col": "DefItem1",
+"orig": 40038,
+"n": 40
+},
+{
+"col": "DefItem2",
+"orig": 40039,
+"n": 41
+},
+{
+"col": "DefItem3",
+"orig": 40040,
+"n": 42
+},
+{
+"col": "DefItem4",
+"orig": 40041,
+"n": 43
+},
+{
+"col": "DefItem5",
+"orig": 40042,
+"n": 44
+}
+],
+"scenario_min": 0,
+"quest_flag": 0,
+"quest_min": 0,
+"quest_max": 0
+},
+{
+"table": 18,
+"name": "Argentum: Whiteside Salvaging",
+"area": "Argentum",
+"region": "Free",
+"slots": [
+{
+"col": "DefItem1",
+"orig": 20001,
+"n": 45
+},
+{
+"col": "DefItem2",
+"orig": 20002,
+"n": 46
+},
+{
+"col": "Addtem1",
+"orig": 20003,
+"n": 47
+},
+{
+"col": "Addtem2",
+"orig": 20004,
+"n": 48
+}
+],
+"scenario_min": 0,
+"quest_flag": 0,
+"quest_min": 0,
+"quest_max": 0
+},
+{
+"table": 19,
+"name": "Argentum: Informant",
+"area": "Argentum",
+"region": "Free",
+"slots": [
+{
+"col": "DefItem1",
+"orig": 26067,
+"n": 49
+},
+{
+"col": "DefItem2",
+"orig": 26068,
+"n": 50
+},
+{
+"col": "DefItem3",
+"orig": 26069,
+"n": 51
+},
+{
+"col": "DefItem4",
+"orig": 26066,
+"n": 52
+},
+{
+"col": "DefItem5",
+"orig": 26109,
+"n": 53
+}
+],
+"scenario_min": 0,
+"quest_flag": 0,
+"quest_min": 0,
+"quest_max": 0
+},
+{
+"table": 20,
+"name": "Gormott: Keydal Accessories",
+"area": "Gormott",
+"region": "Gormott",
+"slots": [
+{
+"col": "DefItem1",
+"orig": 26,
+"n": 54
+},
+{
+"col": "DefItem2",
+"orig": 28,
+"n": 55
+},
+{
+"col": "DefItem3",
+"orig": 76,
+"n": 56
+},
+{
+"col": "DefItem4",
+"orig": 79,
+"n": 57
+},
+{
+"col": "DefItem5",
+"orig": 128,
+"n": 58
+}
+],
+"scenario_min": 0,
+"quest_flag": 0,
+"quest_min": 0,
+"quest_max": 0
+},
+{
+"table": 21,
+"name": "Gormott: Zelkova Blacksmiths",
+"area": "Gormott",
+"region": "Gormott",
+"slots": [
+{
+"col": "DefItem1",
+"orig": 10002,
+"n": 59
+},
+{
+"col": "DefItem2",
+"orig": 10009,
+"n": 60
+},
+{
+"col": "DefItem3",
+"orig": 10010,
+"n": 61
+}
+],
+"scenario_min": 0,
+"quest_flag": 0,
+"quest_min": 0,
+"quest_max": 0
+},
+{
+"table": 22,
+"name": "Gormott: Tilly Bakery",
+"area": "Gormott",
+"region": "Gormott",
+"slots": [
+{
+"col": "DefItem1",
+"orig": 40044,
+"n": 62
+},
+{
+"col": "DefItem2",
+"orig": 40045,
+"n": 63
+},
+{
+"col": "DefItem3",
+"orig": 40046,
+"n": 64
+},
+{
+"col": "DefItem4",
+"orig": 40048,
+"n": 65
+},
+{
+"col": "DefItem5",
+"orig": 40296,
+"n": 66
+}
+],
+"scenario_min": 0,
+"quest_flag": 5094,
+"quest_min": 2,
+"quest_max": 2
+},
+{
+"table": 24,
+"name": "Gormott: Gryff Butchers",
+"area": "Gormott",
+"region": "Gormott",
+"slots": [
+{
+"col": "DefItem1",
+"orig": 40054,
+"n": 67
+},
+{
+"col": "DefItem2",
+"orig": 40055,
+"n": 68
+},
+{
+"col": "Addtem1",
+"orig": 40056,
+"n": 69
+},
+{
+"col": "Addtem2",
+"orig": 40057,
+"n": 70
+}
+],
+"scenario_min": 0,
+"quest_flag": 0,
+"quest_min": 0,
+"quest_max": 0
+},
+{
+"table": 25,
+"name": "Gormott: Tomi Fishmongers",
+"area": "Gormott",
+"region": "Gormott",
+"slots": [
+{
+"col": "DefItem1",
+"orig": 40058,
+"n": 71
+},
+{
+"col": "DefItem2",
+"orig": 40059,
+"n": 72
+},
+{
+"col": "Addtem1",
+"orig": 40060,
+"n": 73
+}
+],
+"scenario_min": 0,
+"quest_flag": 0,
+"quest_min": 0,
+"quest_max": 0
+},
+{
+"table": 26,
+"name": "Gormott: Café Savvy",
+"area": "Gormott",
+"region": "Gormott",
+"slots": [
+{
+"col": "DefItem1",
+"orig": 40061,
+"n": 74
+},
+{
+"col": "DefItem3",
+"orig": 40063,
+"n": 75
+},
+{
+"col": "Addtem1",
+"orig": 40064,
+"n": 76
+},
+{
+"col": "Addtem2",
+"orig": 40065,
+"n": 77
+}
+],
+"scenario_min": 0,
+"quest_flag": 0,
+"quest_min": 0,
+"quest_max": 0
+},
+{
+"table": 27,
+"name": "Gormott: Soniarus Music",
+"area": "Gormott",
+"region": "Gormott",
+"slots": [
+{
+"col": "DefItem2",
+"orig": 40067,
+"n": 78
+},
+{
+"col": "DefItem3",
+"orig": 40068,
+"n": 79
+},
+{
+"col": "Addtem1",
+"orig": 40069,
+"n": 80
+},
+{
+"col": "Addtem2",
+"orig": 40070,
+"n": 81
+}
+],
+"scenario_min": 0,
+"quest_flag": 0,
+"quest_min": 0,
+"quest_max": 0
+},
+{
+"table": 28,
+"name": "Gormott: Cmalaf Artwork",
+"area": "Gormott",
+"region": "Gormott",
+"slots": [
+{
+"col": "DefItem1",
+"orig": 40071,
+"n": 82
+},
+{
+"col": "DefItem2",
+"orig": 40072,
+"n": 83
+},
+{
+"col": "Addtem1",
+"orig": 40073,
+"n": 84
+},
+{
+"col": "Addtem2",
+"orig": 40074,
+"n": 85
+}
+],
+"scenario_min": 0,
+"quest_flag": 0,
+"quest_min": 0,
+"quest_max": 0
+},
+{
+"table": 29,
+"name": "Gormott: Cosmetipolitan",
+"area": "Gormott",
+"region": "Gormott",
+"slots": [
+{
+"col": "DefItem1",
+"orig": 40075,
+"n": 86
+},
+{
+"col": "DefItem2",
+"orig": 40076,
+"n": 87
+},
+{
+"col": "DefItem3",
+"orig": 40077,
+"n": 88
+},
+{
+"col": "Addtem1",
+"orig": 40078,
+"n": 89
+},
+{
+"col": "Addtem2",
+"orig": 40079,
+"n": 90
+}
+],
+"scenario_min": 0,
+"quest_flag": 0,
+"quest_min": 0,
+"quest_max": 0
+},
+{
+"table": 30,
+"name": "Gormott: Neuromin Textiles",
+"area": "Gormott",
+"region": "Gormott",
+"slots": [
+{
+"col": "DefItem1",
+"orig": 40080,
+"n": 91
+},
+{
+"col": "DefItem2",
+"orig": 40081,
+"n": 92
+},
+{
+"col": "DefItem3",
+"orig": 40082,
+"n": 93
+},
+{
+"col": "Addtem1",
+"orig": 40084,
+"n": 94
+},
+{
+"col": "Addtem2",
+"orig": 40085,
+"n": 95
+}
+],
+"scenario_min": 0,
+"quest_flag": 0,
+"quest_min": 0,
+"quest_max": 0
+},
+{
+"table": 31,
+"name": "Gormott: Yarvay Salvaging",
+"area": "Gormott",
+"region": "Gormott",
+"slots": [
+{
+"col": "DefItem1",
+"orig": 20001,
+"n": 96
+},
+{
+"col": "DefItem2",
+"orig": 20002,
+"n": 97
+},
+{
+"col": "Addtem1",
+"orig": 20003,
+"n": 98
+},
+{
+"col": "Addtem2",
+"orig": 20004,
+"n": 99
+}
+],
+"scenario_min": 0,
+"quest_flag": 0,
+"quest_min": 0,
+"quest_max": 0
+},
+{
+"table": 32,
+"name": "Gormott: Informant",
+"area": "Gormott",
+"region": "Gormott",
+"slots": [
+{
+"col": "DefItem1",
+"orig": 26070,
+"n": 100
+},
+{
+"col": "DefItem2",
+"orig": 26071,
+"n": 101
+},
+{
+"col": "DefItem3",
+"orig": 26072,
+"n": 102
+},
+{
+"col": "DefItem4",
+"orig": 26103,
+"n": 103
+},
+{
+"col": "DefItem5",
+"orig": 26108,
+"n": 104
+}
+],
+"scenario_min": 0,
+"quest_flag": 0,
+"quest_min": 0,
+"quest_max": 0
+},
+{
+"table": 33,
+"name": "Gormott: Margia's Odds & Ends",
+"area": "Gormott",
+"region": "Gormott",
+"slots": [
+{
+"col": "DefItem1",
+"orig": 35009,
+"n": 105
+},
+{
+"col": "Addtem2",
+"orig": 45003,
+"n": 106
+}
+],
+"scenario_min": 2031,
+"quest_flag": 2011,
+"quest_min": 0,
+"quest_max": 0
+},
+{
+"table": 34,
+"name": "Uraya: Whelza Accessories",
+"area": "Uraya",
+"region": "Uraya",
+"slots": [
+{
+"col": "DefItem1",
+"orig": 25,
+"n": 107
+},
+{
+"col": "DefItem2",
+"orig": 56,
+"n": 108
+},
+{
+"col": "DefItem3",
+"orig": 91,
+"n": 109
+},
+{
+"col": "DefItem4",
+"orig": 101,
+"n": 110
+},
+{
+"col": "DefItem5",
+"orig": 131,
+"n": 111
+}
+],
+"scenario_min": 0,
+"quest_flag": 0,
+"quest_min": 0,
+"quest_max": 0
+},
+{
+"table": 35,
+"name": "Uraya: Piccaka Accessories",
+"area": "Uraya",
+"region": "Uraya",
+"slots": [
+{
+"col": "DefItem1",
+"orig": 21,
+"n": 112
+},
+{
+"col": "DefItem2",
+"orig": 23,
+"n": 113
+},
+{
+"col": "DefItem3",
+"orig": 82,
+"n": 114
+},
+{
+"col": "DefItem4",
+"orig": 89,
+"n": 115
+},
+{
+"col": "DefItem5",
+"orig": 130,
+"n": 116
+}
+],
+"scenario_min": 3010,
+"quest_flag": 0,
+"quest_min": 0,
+"quest_max": 0
+},
+{
+"table": 36,
+"name": "Uraya: Proplater Blacksmiths",
+"area": "Uraya",
+"region": "Uraya",
+"slots": [
+{
+"col": "DefItem1",
+"orig": 10017,
+"n": 117
+},
+{
+"col": "DefItem2",
+"orig": 10018,
+"n": 118
+}
+],
+"scenario_min": 0,
+"quest_flag": 0,
+"quest_min": 0,
+"quest_max": 0
+},
+{
+"table": 37,
+"name": "Uraya: Lleman Blacksmiths",
+"area": "Uraya",
+"region": "Uraya",
+"slots": [
+{
+"col": "DefItem1",
+"orig": 10003,
+"n": 119
+},
+{
+"col": "DefItem2",
+"orig": 10011,
+"n": 120
+}
+],
+"scenario_min": 3010,
+"quest_flag": 0,
+"quest_min": 0,
+"quest_max": 0
+},
+{
+"table": 38,
+"name": "Uraya: Brad Flatforms",
+"area": "Uraya",
+"region": "Uraya",
+"slots": [
+{
+"col": "DefItem2",
+"orig": 40087,
+"n": 121
+},
+{
+"col": "DefItem3",
+"orig": 40303,
+"n": 122
+},
+{
+"col": "Addtem1",
+"orig": 40088,
+"n": 123
+},
+{
+"col": "Addtem2",
+"orig": 40089,
+"n": 124
+}
+],
+"scenario_min": 0,
+"quest_flag": 0,
+"quest_min": 0,
+"quest_max": 0
+},
+{
+"table": 39,
+"name": "Uraya: Sadecott Groceries",
+"area": "Uraya",
+"region": "Uraya",
+"slots": [
+{
+"col": "DefItem1",
+"orig": 40090,
+"n": 125
+},
+{
+"col": "DefItem2",
+"orig": 40091,
+"n": 126
+},
+{
+"col": "Addtem1",
+"orig": 40092,
+"n": 127
+},
+{
+"col": "Addtem2",
+"orig": 40093,
+"n": 128
+}
+],
+"scenario_min": 3010,
+"quest_flag": 0,
+"quest_min": 0,
+"quest_max": 0
+},
+{
+"table": 40,
+"name": "Uraya: Volty Butchers",
+"area": "Uraya",
+"region": "Uraya",
+"slots": [
+{
+"col": "DefItem1",
+"orig": 40094,
+"n": 129
+},
+{
+"col": "DefItem2",
+"orig": 40095,
+"n": 130
+},
+{
+"col": "Addtem1",
+"orig": 40096,
+"n": 131
+},
+{
+"col": "Addtem2",
+"orig": 40097,
+"n": 132
+}
+],
+"scenario_min": 0,
+"quest_flag": 0,
+"quest_min": 0,
+"quest_max": 0
+},
+{
+"table": 41,
+"name": "Uraya: Ikthus Fishmongers",
+"area": "Uraya",
+"region": "Uraya",
+"slots": [
+{
+"col": "DefItem1",
+"orig": 40098,
+"n": 133
+},
+{
+"col": "DefItem2",
+"orig": 40099,
+"n": 134
+},
+{
+"col": "Addtem1",
+"orig": 40100,
+"n": 135
+},
+{
+"col": "Addtem2",
+"orig": 40101,
+"n": 136
+}
+],
+"scenario_min": 0,
+"quest_flag": 0,
+"quest_min": 0,
+"quest_max": 0
+},
+{
+"table": 42,
+"name": "Uraya: Sprintsy Sweets",
+"area": "Uraya",
+"region": "Uraya",
+"slots": [
+{
+"col": "DefItem2",
+"orig": 40103,
+"n": 137
+},
+{
+"col": "Addtem1",
+"orig": 40104,
+"n": 138
+}
+],
+"scenario_min": 0,
+"quest_flag": 0,
+"quest_min": 0,
+"quest_max": 0
+},
+{
+"table": 44,
+"name": "Uraya: Vargel Tavern",
+"area": "Uraya",
+"region": "Uraya",
+"slots": [
+{
+"col": "DefItem1",
+"orig": 40111,
+"n": 139
+},
+{
+"col": "DefItem3",
+"orig": 40114,
+"n": 140
+},
+{
+"col": "Addtem1",
+"orig": 40113,
+"n": 141
+}
+],
+"scenario_min": 3010,
+"quest_flag": 0,
+"quest_min": 0,
+"quest_max": 0
+},
+{
+"table": 45,
+"name": "Uraya: Vibrattio Instruments",
+"area": "Uraya",
+"region": "Uraya",
+"slots": [
+{
+"col": "DefItem2",
+"orig": 40116,
+"n": 142
+},
+{
+"col": "DefItem3",
+"orig": 40117,
+"n": 143
+},
+{
+"col": "DefItem4",
+"orig": 40119,
+"n": 144
+},
+{
+"col": "Addtem1",
+"orig": 40118,
+"n": 145
+}
+],
+"scenario_min": 3010,
+"quest_flag": 0,
+"quest_min": 0,
+"quest_max": 0
+},
+{
+"table": 46,
+"name": "Uraya: Maluria Antiques",
+"area": "Uraya",
+"region": "Uraya",
+"slots": [
+{
+"col": "DefItem1",
+"orig": 40120,
+"n": 146
+},
+{
+"col": "DefItem2",
+"orig": 40121,
+"n": 147
+},
+{
+"col": "Addtem1",
+"orig": 40122,
+"n": 148
+},
+{
+"col": "Addtem2",
+"orig": 40123,
+"n": 149
+}
+],
+"scenario_min": 0,
+"quest_flag": 0,
+"quest_min": 0,
+"quest_max": 0
+},
+{
+"table": 47,
+"name": "Uraya: Aldomar Books",
+"area": "Uraya",
+"region": "Uraya",
+"slots": [
+{
+"col": "DefItem1",
+"orig": 40124,
+"n": 150
+},
+{
+"col": "DefItem2",
+"orig": 40125,
+"n": 151
+},
+{
+"col": "Addtem1",
+"orig": 40126,
+"n": 152
+},
+{
+"col": "Addtem2",
+"orig": 40127,
+"n": 153
+},
+{
+"col": "Addtem3",
+"orig": 25199,
+"n": 154
+}
+],
+"scenario_min": 0,
+"quest_flag": 1227,
+"quest_min": 0,
+"quest_max": 0
+},
+{
+"table": 49,
+"name": "Uraya: Hobby Knick-Knacks",
+"area": "Uraya",
+"region": "Uraya",
+"slots": [
+{
+"col": "DefItem1",
+"orig": 40128,
+"n": 155
+},
+{
+"col": "DefItem2",
+"orig": 40129,
+"n": 156
+},
+{
+"col": "DefItem3",
+"orig": 40130,
+"n": 157
+},
+{
+"col": "DefItem4",
+"orig": 40131,
+"n": 158
+},
+{
+"col": "DefItem5",
+"orig": 40132,
+"n": 159
+}
+],
+"scenario_min": 0,
+"quest_flag": 0,
+"quest_min": 0,
+"quest_max": 0
+},
+{
+"table": 50,
+"name": "Uraya: Aquaneze Cosmetics",
+"area": "Uraya",
+"region": "Uraya",
+"slots": [
+{
+"col": "DefItem1",
+"orig": 40134,
+"n": 160
+},
+{
+"col": "DefItem2",
+"orig": 40135,
+"n": 161
+},
+{
+"col": "DefItem3",
+"orig": 40136,
+"n": 162
+},
+{
+"col": "Addtem1",
+"orig": 40137,
+"n": 163
+},
+{
+"col": "Addtem2",
+"orig": 40138,
+"n": 164
+}
+],
+"scenario_min": 0,
+"quest_flag": 0,
+"quest_min": 0,
+"quest_max": 0
+},
+{
+"table": 51,
+"name": "Uraya: Fallone Crafts",
+"area": "Uraya",
+"region": "Uraya",
+"slots": [
+{
+"col": "DefItem1",
+"orig": 40139,
+"n": 165
+},
+{
+"col": "DefItem2",
+"orig": 40140,
+"n": 166
+},
+{
+"col": "DefItem3",
+"orig": 40141,
+"n": 167
+},
+{
+"col": "DefItem4",
+"orig": 40142,
+"n": 168
+},
+{
+"col": "DefItem5",
+"orig": 40143,
+"n": 169
+}
+],
+"scenario_min": 3010,
+"quest_flag": 0,
+"quest_min": 0,
+"quest_max": 0
+},
+{
+"table": 52,
+"name": "Uraya: Malbren Salvaging",
+"area": "Uraya",
+"region": "Uraya",
+"slots": [
+{
+"col": "DefItem1",
+"orig": 20001,
+"n": 170
+},
+{
+"col": "DefItem2",
+"orig": 20002,
+"n": 171
+},
+{
+"col": "Addtem2",
+"orig": 20003,
+"n": 172
+},
+{
+"col": "Addtem3",
+"orig": 20004,
+"n": 173
+}
+],
+"scenario_min": 0,
+"quest_flag": 0,
+"quest_min": 0,
+"quest_max": 0
+},
+{
+"table": 53,
+"name": "Uraya: Informant",
+"area": "Uraya",
+"region": "Uraya",
+"slots": [
+{
+"col": "DefItem1",
+"orig": 26074,
+"n": 174
+},
+{
+"col": "DefItem2",
+"orig": 26075,
+"n": 175
+},
+{
+"col": "DefItem3",
+"orig": 26076,
+"n": 176
+},
+{
+"col": "DefItem4",
+"orig": 26077,
+"n": 177
+},
+{
+"col": "DefItem5",
+"orig": 26118,
+"n": 178
+}
+],
+"scenario_min": 0,
+"quest_flag": 0,
+"quest_min": 0,
+"quest_max": 0
+},
+{
+"table": 54,
+"name": "Uraya: Informant (2)",
+"area": "Uraya",
+"region": "Uraya",
+"slots": [
+{
+"col": "DefItem1",
+"orig": 26078,
+"n": 179
+},
+{
+"col": "DefItem2",
+"orig": 26079,
+"n": 180
+},
+{
+"col": "DefItem3",
+"orig": 26080,
+"n": 181
+},
+{
+"col": "DefItem4",
+"orig": 26098,
+"n": 182
+},
+{
+"col": "DefItem5",
+"orig": 26099,
+"n": 183
+}
+],
+"scenario_min": 0,
+"quest_flag": 0,
+"quest_min": 0,
+"quest_max": 0
+},
+{
+"table": 55,
+"name": "Mor Ardain: Peatopaz Accessories",
+"area": "Mor Ardain",
+"region": "Mor Ardain",
+"slots": [
+{
+"col": "DefItem2",
+"orig": 5,
+"n": 184
+},
+{
+"col": "DefItem3",
+"orig": 27,
+"n": 185
+},
+{
+"col": "DefItem4",
+"orig": 29,
+"n": 186
+},
+{
+"col": "DefItem5",
+"orig": 38,
+"n": 187
+},
+{
+"col": "DefItem6",
+"orig": 44,
+"n": 188
+}
+],
+"scenario_min": 0,
+"quest_flag": 0,
+"quest_min": 0,
+"quest_max": 0
+},
+{
+"table": 56,
+"name": "Mor Ardain: Carwood Blacksmiths",
+"area": "Mor Ardain",
+"region": "Mor Ardain",
+"slots": [
+{
+"col": "DefItem1",
+"orig": 10025,
+"n": 189
+},
+{
+"col": "DefItem2",
+"orig": 10026,
+"n": 190
+}
+],
+"scenario_min": 0,
+"quest_flag": 0,
+"quest_min": 0,
+"quest_max": 0
+},
+{
+"table": 57,
+"name": "Mor Ardain: Griogair's Greens",
+"area": "Mor Ardain",
+"region": "Mor Ardain",
+"slots": [
+{
+"col": "DefItem1",
+"orig": 40145,
+"n": 191
+},
+{
+"col": "DefItem2",
+"orig": 40146,
+"n": 192
+},
+{
+"col": "Addtem1",
+"orig": 40147,
+"n": 193
+},
+{
+"col": "Addtem2",
+"orig": 40148,
+"n": 194
+}
+],
+"scenario_min": 0,
+"quest_flag": 0,
+"quest_min": 0,
+"quest_max": 0
+},
+{
+"table": 58,
+"name": "Mor Ardain: Bassani Butchers",
+"area": "Mor Ardain",
+"region": "Mor Ardain",
+"slots": [
+{
+"col": "DefItem1",
+"orig": 40149,
+"n": 195
+},
+{
+"col": "DefItem2",
+"orig": 40150,
+"n": 196
+},
+{
+"col": "DefItem3",
+"orig": 40151,
+"n": 197
+},
+{
+"col": "DefItem4",
+"orig": 40152,
+"n": 198
+},
+{
+"col": "DefItem5",
+"orig": 40153,
+"n": 199
+}
+],
+"scenario_min": 0,
+"quest_flag": 0,
+"quest_min": 0,
+"quest_max": 0
+},
+{
+"table": 59,
+"name": "Mor Ardain: Hanoon Fishmongers",
+"area": "Mor Ardain",
+"region": "Mor Ardain",
+"slots": [
+{
+"col": "DefItem1",
+"orig": 40154,
+"n": 200
+},
+{
+"col": "DefItem2",
+"orig": 40155,
+"n": 201
+},
+{
+"col": "Addtem1",
+"orig": 40156,
+"n": 202
+},
+{
+"col": "Addtem2",
+"orig": 40157,
+"n": 203
+}
+],
+"scenario_min": 0,
+"quest_flag": 0,
+"quest_min": 0,
+"quest_max": 0
+},
+{
+"table": 60,
+"name": "Mor Ardain: Salter Sweets",
+"area": "Mor Ardain",
+"region": "Mor Ardain",
+"slots": [
+{
+"col": "DefItem1",
+"orig": 40158,
+"n": 204
+},
+{
+"col": "DefItem2",
+"orig": 40159,
+"n": 205
+},
+{
+"col": "DefItem3",
+"orig": 40160,
+"n": 206
+},
+{
+"col": "DefItem4",
+"orig": 40161,
+"n": 207
+},
+{
+"col": "Addtem1",
+"orig": 40162,
+"n": 208
+}
+],
+"scenario_min": 0,
+"quest_flag": 0,
+"quest_min": 0,
+"quest_max": 0
+},
+{
+"table": 61,
+"name": "Mor Ardain: Adelno Music",
+"area": "Mor Ardain",
+"region": "Mor Ardain",
+"slots": [
+{
+"col": "DefItem3",
+"orig": 40166,
+"n": 209
+},
+{
+"col": "DefItem4",
+"orig": 40167,
+"n": 210
+},
+{
+"col": "Addtem1",
+"orig": 40168,
+"n": 211
+},
+{
+"col": "Addtem2",
+"orig": 40169,
+"n": 212
+}
+],
+"scenario_min": 0,
+"quest_flag": 0,
+"quest_min": 0,
+"quest_max": 0
+},
+{
+"table": 62,
+"name": "Mor Ardain: Yafush Antiques",
+"area": "Mor Ardain",
+"region": "Mor Ardain",
+"slots": [
+{
+"col": "DefItem1",
+"orig": 40170,
+"n": 213
+},
+{
+"col": "DefItem2",
+"orig": 40171,
+"n": 214
+},
+{
+"col": "DefItem3",
+"orig": 40302,
+"n": 215
+},
+{
+"col": "Addtem1",
+"orig": 40172,
+"n": 216
+},
+{
+"col": "Addtem2",
+"orig": 40173,
+"n": 217
+}
+],
+"scenario_min": 0,
+"quest_flag": 0,
+"quest_min": 0,
+"quest_max": 0
+},
+{
+"table": 63,
+"name": "Mor Ardain: Haskefell Books",
+"area": "Mor Ardain",
+"region": "Mor Ardain",
+"slots": [
+{
+"col": "DefItem1",
+"orig": 40174,
+"n": 218
+},
+{
+"col": "DefItem2",
+"orig": 40175,
+"n": 219
+},
+{
+"col": "DefItem3",
+"orig": 40176,
+"n": 220
+},
+{
+"col": "DefItem4",
+"orig": 40177,
+"n": 221
+},
+{
+"col": "DefItem5",
+"orig": 40179,
+"n": 222
+}
+],
+"scenario_min": 0,
+"quest_flag": 1221,
+"quest_min": 0,
+"quest_max": 0
+},
+{
+"table": 65,
+"name": "Mor Ardain: Elgeschel Hobby Store",
+"area": "Mor Ardain",
+"region": "Mor Ardain",
+"slots": [
+{
+"col": "DefItem1",
+"orig": 40180,
+"n": 223
+},
+{
+"col": "DefItem2",
+"orig": 40181,
+"n": 224
+},
+{
+"col": "DefItem3",
+"orig": 40182,
+"n": 225
+},
+{
+"col": "DefItem4",
+"orig": 40183,
+"n": 226
+},
+{
+"col": "Addtem1",
+"orig": 40184,
+"n": 227
+}
+],
+"scenario_min": 0,
+"quest_flag": 0,
+"quest_min": 0,
+"quest_max": 0
+},
+{
+"table": 66,
+"name": "Mor Ardain: Larmogg Salvaging",
+"area": "Mor Ardain",
+"region": "Mor Ardain",
+"slots": [
+{
+"col": "DefItem1",
+"orig": 20001,
+"n": 228
+},
+{
+"col": "DefItem2",
+"orig": 20002,
+"n": 229
+},
+{
+"col": "DefItem3",
+"orig": 20003,
+"n": 230
+},
+{
+"col": "Addtem1",
+"orig": 20004,
+"n": 231
+}
+],
+"scenario_min": 0,
+"quest_flag": 0,
+"quest_min": 0,
+"quest_max": 0
+},
+{
+"table": 67,
+"name": "Mor Ardain: Informant",
+"area": "Mor Ardain",
+"region": "Mor Ardain",
+"slots": [
+{
+"col": "DefItem1",
+"orig": 26060,
+"n": 232
+},
+{
+"col": "DefItem2",
+"orig": 26081,
+"n": 233
+},
+{
+"col": "DefItem3",
+"orig": 26082,
+"n": 234
+},
+{
+"col": "DefItem4",
+"orig": 26083,
+"n": 235
+},
+{
+"col": "DefItem5",
+"orig": 26084,
+"n": 236
+}
+],
+"scenario_min": 0,
+"quest_flag": 0,
+"quest_min": 0,
+"quest_max": 0
+},
+{
+"table": 69,
+"name": "Indol: Koacurio Accessories",
+"area": "Indol",
+"region": "Indol",
+"slots": [
+{
+"col": "DefItem1",
+"orig": 11,
+"n": 237
+},
+{
+"col": "DefItem2",
+"orig": 14,
+"n": 238
+},
+{
+"col": "DefItem3",
+"orig": 149,
+"n": 239
+},
+{
+"col": "DefItem4",
+"orig": 50,
+"n": 240
+},
+{
+"col": "DefItem5",
+"orig": 83,
+"n": 241
+}
+],
+"scenario_min": 0,
+"quest_flag": 0,
+"quest_min": 0,
+"quest_max": 0
+},
+{
+"table": 70,
+"name": "Indol: Regulus Blacksmiths",
+"area": "Indol",
+"region": "Indol",
+"slots": [
+{
+"col": "DefItem1",
+"orig": 10033,
+"n": 242
+},
+{
+"col": "DefItem2",
+"orig": 10034,
+"n": 243
+}
+],
+"scenario_min": 0,
+"quest_flag": 0,
+"quest_min": 0,
+"quest_max": 0
+},
+{
+"table": 71,
+"name": "Indol: Calceno Deli",
+"area": "Indol",
+"region": "Indol",
+"slots": [
+{
+"col": "DefItem1",
+"orig": 40001,
+"n": 244
+},
+{
+"col": "DefItem2",
+"orig": 40045,
+"n": 245
+}
+],
+"scenario_min": 0,
+"quest_flag": 0,
+"quest_min": 0,
+"quest_max": 0
+},
+{
+"table": 72,
+"name": "Indol: Icarus Butchers",
+"area": "Indol",
+"region": "Indol",
+"slots": [
+{
+"col": "DefItem1",
+"orig": 40054,
+"n": 246
+},
+{
+"col": "DefItem2",
+"orig": 40095,
+"n": 247
+},
+{
+"col": "DefItem3",
+"orig": 40150,
+"n": 248
+}
+],
+"scenario_min": 0,
+"quest_flag": 0,
+"quest_min": 0,
+"quest_max": 0
+},
+{
+"table": 74,
+"name": "Indol: Cafe Lutino",
+"area": "Indol",
+"region": "Indol",
+"slots": [
+{
+"col": "DefItem1",
+"orig": 40202,
+"n": 249
+},
+{
+"col": "DefItem3",
+"orig": 40204,
+"n": 250
+}
+],
+"scenario_min": 0,
+"quest_flag": 0,
+"quest_min": 0,
+"quest_max": 0
+},
+{
+"table": 75,
+"name": "Indol: Jugos Antiques",
+"area": "Indol",
+"region": "Indol",
+"slots": [
+{
+"col": "DefItem1",
+"orig": 40071,
+"n": 251
+},
+{
+"col": "DefItem2",
+"orig": 40121,
+"n": 252
+}
+],
+"scenario_min": 0,
+"quest_flag": 0,
+"quest_min": 0,
+"quest_max": 0
+},
+{
+"table": 76,
+"name": "Indol: Colpon Books",
+"area": "Indol",
+"region": "Indol",
+"slots": [
+{
+"col": "DefItem1",
+"orig": 40029,
+"n": 253
+},
+{
+"col": "DefItem2",
+"orig": 40124,
+"n": 254
+}
+],
+"scenario_min": 0,
+"quest_flag": 0,
+"quest_min": 0,
+"quest_max": 0
+},
+{
+"table": 77,
+"name": "Indol: Silktu Textiles",
+"area": "Indol",
+"region": "Indol",
+"slots": [
+{
+"col": "DefItem1",
+"orig": 40082,
+"n": 255
+},
+{
+"col": "DefItem2",
+"orig": 40142,
+"n": 256
+}
+],
+"scenario_min": 0,
+"quest_flag": 0,
+"quest_min": 0,
+"quest_max": 0
+},
+{
+"table": 78,
+"name": "Indol: Aquarius Salvaging",
+"area": "Indol",
+"region": "Indol",
+"slots": [
+{
+"col": "DefItem1",
+"orig": 20001,
+"n": 257
+},
+{
+"col": "DefItem2",
+"orig": 20002,
+"n": 258
+},
+{
+"col": "DefItem3",
+"orig": 20003,
+"n": 259
+},
+{
+"col": "Addtem1",
+"orig": 20004,
+"n": 260
+}
+],
+"scenario_min": 0,
+"quest_flag": 0,
+"quest_min": 0,
+"quest_max": 0
+},
+{
+"table": 79,
+"name": "Indol: Informant",
+"area": "Indol",
+"region": "Indol",
+"slots": [
+{
+"col": "DefItem1",
+"orig": 26084,
+"n": 261
+},
+{
+"col": "DefItem2",
+"orig": 26085,
+"n": 262
+},
+{
+"col": "DefItem3",
+"orig": 26086,
+"n": 263
+},
+{
+"col": "DefItem4",
+"orig": 26087,
+"n": 264
+},
+{
+"col": "Addtem2",
+"orig": 26018,
+"n": 265
+}
+],
+"scenario_min": 0,
+"quest_flag": 0,
+"quest_min": 0,
+"quest_max": 0
+},
+{
+"table": 80,
+"name": "Tantal: Lansmeyer Accessories",
+"area": "Tantal",
+"region": "Tantal",
+"slots": [
+{
+"col": "DefItem1",
+"orig": 3,
+"n": 266
+},
+{
+"col": "DefItem2",
+"orig": 6,
+"n": 267
+},
+{
+"col": "DefItem3",
+"orig": 9,
+"n": 268
+},
+{
+"col": "DefItem4",
+"orig": 39,
+"n": 269
+},
+{
+"col": "DefItem5",
+"orig": 45,
+"n": 270
+}
+],
+"scenario_min": 0,
+"quest_flag": 0,
+"quest_min": 0,
+"quest_max": 0
+},
+{
+"table": 81,
+"name": "Tantal: Casheefs Blacksmiths",
+"area": "Tantal",
+"region": "Tantal",
+"slots": [
+{
+"col": "DefItem1",
+"orig": 10029,
+"n": 271
+},
+{
+"col": "DefItem2",
+"orig": 10030,
+"n": 272
+},
+{
+"col": "DefItem3",
+"orig": 10041,
+"n": 273
+}
+],
+"scenario_min": 0,
+"quest_flag": 0,
+"quest_min": 0,
+"quest_max": 0
+},
+{
+"table": 82,
+"name": "Tantal: Platini Deli",
+"area": "Tantal",
+"region": "Tantal",
+"slots": [
+{
+"col": "DefItem1",
+"orig": 40217,
+"n": 274
+},
+{
+"col": "DefItem2",
+"orig": 40218,
+"n": 275
+},
+{
+"col": "DefItem3",
+"orig": 40301,
+"n": 276
+},
+{
+"col": "Addtem1",
+"orig": 40219,
+"n": 277
+},
+{
+"col": "Addtem2",
+"orig": 40220,
+"n": 278
+}
+],
+"scenario_min": 0,
+"quest_flag": 0,
+"quest_min": 0,
+"quest_max": 0
+},
+{
+"table": 83,
+"name": "Tantal: Lectica Vegetables",
+"area": "Tantal",
+"region": "Tantal",
+"slots": [
+{
+"col": "DefItem1",
+"orig": 40221,
+"n": 279
+},
+{
+"col": "DefItem2",
+"orig": 40222,
+"n": 280
+},
+{
+"col": "DefItem3",
+"orig": 40224,
+"n": 281
+},
+{
+"col": "DefItem4",
+"orig": 40053,
+"n": 282
+},
+{
+"col": "Addtem1",
+"orig": 40223,
+"n": 283
+}
+],
+"scenario_min": 0,
+"quest_flag": 0,
+"quest_min": 0,
+"quest_max": 0
+},
+{
+"table": 84,
+"name": "Tantal: Tatraty Fish",
+"area": "Tantal",
+"region": "Tantal",
+"slots": [
+{
+"col": "DefItem1",
+"orig": 40225,
+"n": 284
+},
+{
+"col": "DefItem2",
+"orig": 40226,
+"n": 285
+},
+{
+"col": "Addtem1",
+"orig": 40227,
+"n": 286
+},
+{
+"col": "Addtem2",
+"orig": 40228,
+"n": 287
+}
+],
+"scenario_min": 0,
+"quest_flag": 0,
+"quest_min": 0,
+"quest_max": 0
+},
+{
+"table": 85,
+"name": "Tantal: Placks Patisserie",
+"area": "Tantal",
+"region": "Tantal",
+"slots": [
+{
+"col": "DefItem1",
+"orig": 40229,
+"n": 288
+},
+{
+"col": "DefItem2",
+"orig": 40230,
+"n": 289
+},
+{
+"col": "DefItem3",
+"orig": 40231,
+"n": 290
+},
+{
+"col": "DefItem4",
+"orig": 40232,
+"n": 291
+},
+{
+"col": "Addtem1",
+"orig": 40233,
+"n": 292
+}
+],
+"scenario_min": 7001,
+"quest_flag": 2502,
+"quest_min": 0,
+"quest_max": 1
+},
+{
+"table": 86,
+"name": "Tantal: Memoria Art",
+"area": "Tantal",
+"region": "Tantal",
+"slots": [
+{
+"col": "DefItem1",
+"orig": 40235,
+"n": 293
+},
+{
+"col": "DefItem2",
+"orig": 40236,
+"n": 294
+},
+{
+"col": "DefItem3",
+"orig": 40237,
+"n": 295
+},
+{
+"col": "Addtem1",
+"orig": 40071,
+"n": 296
+},
+{
+"col": "Addtem2",
+"orig": 40121,
+"n": 297
+}
+],
+"scenario_min": 0,
+"quest_flag": 0,
+"quest_min": 0,
+"quest_max": 0
+},
+{
+"table": 87,
+"name": "Tantal: Biblio Paulio",
+"area": "Tantal",
+"region": "Tantal",
+"slots": [
+{
+"col": "DefItem1",
+"orig": 40238,
+"n": 298
+},
+{
+"col": "DefItem2",
+"orig": 40239,
+"n": 299
+},
+{
+"col": "DefItem3",
+"orig": 40240,
+"n": 300
+},
+{
+"col": "DefItem4",
+"orig": 40241,
+"n": 301
+},
+{
+"col": "Addtem1",
+"orig": 40242,
+"n": 302
+}
+],
+"scenario_min": 0,
+"quest_flag": 1224,
+"quest_min": 0,
+"quest_max": 0
+},
+{
+"table": 90,
+"name": "Tantal: Hobby Trappers",
+"area": "Tantal",
+"region": "Tantal",
+"slots": [
+{
+"col": "DefItem1",
+"orig": 40244,
+"n": 303
+},
+{
+"col": "DefItem2",
+"orig": 40245,
+"n": 304
+},
+{
+"col": "DefItem3",
+"orig": 40246,
+"n": 305
+},
+{
+"col": "Addtem1",
+"orig": 40247,
+"n": 306
+},
+{
+"col": "Addtem2",
+"orig": 40248,
+"n": 307
+}
+],
+"scenario_min": 0,
+"quest_flag": 0,
+"quest_min": 0,
+"quest_max": 0
+},
+{
+"table": 91,
+"name": "Tantal: Praximo Cosmetics",
+"area": "Tantal",
+"region": "Tantal",
+"slots": [
+{
+"col": "DefItem1",
+"orig": 40249,
+"n": 308
+},
+{
+"col": "DefItem2",
+"orig": 40250,
+"n": 309
+},
+{
+"col": "DefItem3",
+"orig": 40251,
+"n": 310
+},
+{
+"col": "DefItem4",
+"orig": 40252,
+"n": 311
+},
+{
+"col": "DefItem5",
+"orig": 40253,
+"n": 312
+}
+],
+"scenario_min": 0,
+"quest_flag": 0,
+"quest_min": 0,
+"quest_max": 0
+},
+{
+"table": 92,
+"name": "Tantal: Boldarde Textiles",
+"area": "Tantal",
+"region": "Tantal",
+"slots": [
+{
+"col": "DefItem1",
+"orig": 40254,
+"n": 313
+},
+{
+"col": "DefItem2",
+"orig": 40255,
+"n": 314
+},
+{
+"col": "DefItem4",
+"orig": 40257,
+"n": 315
+},
+{
+"col": "Addtem1",
+"orig": 40258,
+"n": 316
+},
+{
+"col": "Addtem2",
+"orig": 40259,
+"n": 317
+}
+],
+"scenario_min": 0,
+"quest_flag": 0,
+"quest_min": 0,
+"quest_max": 0
+},
+{
+"table": 93,
+"name": "Tantal: Dolphin Salvagers",
+"area": "Tantal",
+"region": "Tantal",
+"slots": [
+{
+"col": "DefItem1",
+"orig": 20001,
+"n": 318
+},
+{
+"col": "DefItem2",
+"orig": 20002,
+"n": 319
+},
+{
+"col": "DefItem3",
+"orig": 20003,
+"n": 320
+},
+{
+"col": "Addtem1",
+"orig": 20004,
+"n": 321
+}
+],
+"scenario_min": 0,
+"quest_flag": 0,
+"quest_min": 0,
+"quest_max": 0
+},
+{
+"table": 94,
+"name": "Tantal: Informant",
+"area": "Tantal",
+"region": "Tantal",
+"slots": [
+{
+"col": "DefItem1",
+"orig": 26088,
+"n": 322
+},
+{
+"col": "DefItem2",
+"orig": 26089,
+"n": 323
+},
+{
+"col": "DefItem3",
+"orig": 26090,
+"n": 324
+},
+{
+"col": "DefItem4",
+"orig": 26091,
+"n": 325
+},
+{
+"col": "Addtem3",
+"orig": 26061,
+"n": 326
+}
+],
+"scenario_min": 0,
+"quest_flag": 5014,
+"quest_min": 1,
+"quest_max": 1
+},
+{
+"table": 95,
+"name": "Cliffs of Morytha: Kinkir Accessories",
+"area": "Cliffs of Morytha",
+"region": "CliffsOfMorytha",
+"slots": [
+{
+"col": "DefItem1",
+"orig": 72,
+"n": 327
+},
+{
+"col": "DefItem2",
+"orig": 73,
+"n": 328
+},
+{
+"col": "DefItem3",
+"orig": 122,
+"n": 329
+},
+{
+"col": "DefItem4",
+"orig": 123,
+"n": 330
+},
+{
+"col": "DefItem5",
+"orig": 442,
+"n": 331
+}
+],
+"scenario_min": 7043,
+"quest_flag": 1086,
+"quest_min": 0,
+"quest_max": 1
+},
+{
+"table": 96,
+"name": "Cliffs of Morytha: Bamboo Sword Smithy",
+"area": "Cliffs of Morytha",
+"region": "CliffsOfMorytha",
+"slots": [
+{
+"col": "DefItem1",
+"orig": 10021,
+"n": 332
+},
+{
+"col": "DefItem2",
+"orig": 10022,
+"n": 333
+},
+{
+"col": "DefItem3",
+"orig": 10037,
+"n": 334
+},
+{
+"col": "DefItem4",
+"orig": 10038,
+"n": 335
+},
+{
+"col": "Addtem1",
+"orig": 10045,
+"n": 336
+}
+],
+"scenario_min": 7043,
+"quest_flag": 0,
+"quest_min": 0,
+"quest_max": 0
+},
+{
+"table": 97,
+"name": "Leftheria: Corcaja Greengrocers",
+"area": "Leftheria",
+"region": "Letheria",
+"slots": [
+{
+"col": "DefItem1",
+"orig": 40186,
+"n": 337
+},
+{
+"col": "DefItem2",
+"orig": 40187,
+"n": 338
+},
+{
+"col": "DefItem3",
+"orig": 40188,
+"n": 339
+},
+{
+"col": "Addtem1",
+"orig": 40189,
+"n": 340
+},
+{
+"col": "Addtem2",
+"orig": 40190,
+"n": 341
+}
+],
+"scenario_min": 0,
+"quest_flag": 0,
+"quest_min": 0,
+"quest_max": 0
+},
+{
+"table": 98,
+"name": "Leftheria: Speck Butchers",
+"area": "Leftheria",
+"region": "Letheria",
+"slots": [
+{
+"col": "DefItem1",
+"orig": 40191,
+"n": 342
+},
+{
+"col": "DefItem2",
+"orig": 40192,
+"n": 343
+},
+{
+"col": "DefItem3",
+"orig": 40193,
+"n": 344
+},
+{
+"col": "DefItem4",
+"orig": 40194,
+"n": 345
+},
+{
+"col": "Addtem1",
+"orig": 40195,
+"n": 346
+}
+],
+"scenario_min": 0,
+"quest_flag": 0,
+"quest_min": 0,
+"quest_max": 0
+},
+{
+"table": 99,
+"name": "Leftheria: Coral Leaf Fresh Fish",
+"area": "Leftheria",
+"region": "Letheria",
+"slots": [
+{
+"col": "DefItem1",
+"orig": 40197,
+"n": 347
+},
+{
+"col": "DefItem2",
+"orig": 40198,
+"n": 348
+},
+{
+"col": "DefItem3",
+"orig": 40199,
+"n": 349
+},
+{
+"col": "DefItem4",
+"orig": 40201,
+"n": 350
+},
+{
+"col": "Addtem1",
+"orig": 40200,
+"n": 351
+}
+],
+"scenario_min": 0,
+"quest_flag": 0,
+"quest_min": 0,
+"quest_max": 0
+},
+{
+"table": 100,
+"name": "Leftheria: Talmye Antiques",
+"area": "Leftheria",
+"region": "Letheria",
+"slots": [
+{
+"col": "DefItem1",
+"orig": 40207,
+"n": 352
+},
+{
+"col": "DefItem2",
+"orig": 40208,
+"n": 353
+},
+{
+"col": "DefItem3",
+"orig": 40209,
+"n": 354
+},
+{
+"col": "DefItem4",
+"orig": 40210,
+"n": 355
+}
+],
+"scenario_min": 0,
+"quest_flag": 0,
+"quest_min": 0,
+"quest_max": 0
+},
+{
+"table": 101,
+"name": "Leftheria: Future Crafts",
+"area": "Leftheria",
+"region": "Letheria",
+"slots": [
+{
+"col": "DefItem1",
+"orig": 40211,
+"n": 356
+},
+{
+"col": "DefItem2",
+"orig": 40212,
+"n": 357
+},
+{
+"col": "DefItem3",
+"orig": 40213,
+"n": 358
+},
+{
+"col": "DefItem4",
+"orig": 40214,
+"n": 359
+},
+{
+"col": "Addtem1",
+"orig": 40215,
+"n": 360
+}
+],
+"scenario_min": 0,
+"quest_flag": 0,
+"quest_min": 0,
+"quest_max": 0
+},
+{
+"table": 102,
+"name": "Leftheria: Courtcoster Salvaging",
+"area": "Leftheria",
+"region": "Letheria",
+"slots": [
+{
+"col": "DefItem1",
+"orig": 20001,
+"n": 361
+},
+{
+"col": "DefItem2",
+"orig": 20002,
+"n": 362
+},
+{
+"col": "DefItem3",
+"orig": 20003,
+"n": 363
+},
+{
+"col": "Addtem1",
+"orig": 20004,
+"n": 364
+}
+],
+"scenario_min": 0,
+"quest_flag": 0,
+"quest_min": 0,
+"quest_max": 0
+},
+{
+"table": 103,
+"name": "Leftheria: Informant",
+"area": "Leftheria",
+"region": "Letheria",
+"slots": [
+{
+"col": "DefItem1",
+"orig": 26084,
+"n": 365
+},
+{
+"col": "DefItem2",
+"orig": 26085,
+"n": 366
+},
+{
+"col": "DefItem3",
+"orig": 26086,
+"n": 367
+},
+{
+"col": "DefItem4",
+"orig": 26087,
+"n": 368
+},
+{
+"col": "Addtem2",
+"orig": 26018,
+"n": 369
+}
+],
+"scenario_min": 9019,
+"quest_flag": 0,
+"quest_min": 0,
+"quest_max": 0
+},
+{
+"table": 105,
+"name": "Argentum: Falala, Pop Star",
+"area": "Argentum",
+"region": "Free",
+"slots": [
+{
+"col": "DefItem1",
+"orig": 40273,
+"n": 370
+}
+],
+"scenario_min": 0,
+"quest_flag": 2085,
+"quest_min": 2,
+"quest_max": 2
+},
+{
+"table": 106,
+"name": "Leftheria: Cafe Lutino",
+"area": "Leftheria",
+"region": "Letheria",
+"slots": [
+{
+"col": "DefItem1",
+"orig": 40202,
+"n": 371
+},
+{
+"col": "DefItem3",
+"orig": 40204,
+"n": 372
+},
+{
+"col": "Addtem1",
+"orig": 40205,
+"n": 373
+}
+],
+"scenario_min": 9019,
+"quest_flag": 0,
+"quest_min": 0,
+"quest_max": 0
+},
+{
+"table": 107,
+"name": "Gormott: Informant (2)",
+"area": "Gormott",
+"region": "Gormott",
+"slots": [
+{
+"col": "DefItem1",
+"orig": 26057,
+"n": 374
+},
+{
+"col": "Addtem2",
+"orig": 26033,
+"n": 375
+},
+{
+"col": "Addtem3",
+"orig": 26018,
+"n": 376
+}
+],
+"scenario_min": 0,
+"quest_flag": 2010,
+"quest_min": 1,
+"quest_max": 1
+}
+],
+"required": [
+1,
+2,
+20009,
+20010,
+25002,
+25004,
+25005,
+25006,
+25007,
+25008,
+25010,
+25013,
+25017,
+25020,
+25021,
+25023,
+25024,
+25025,
+25026,
+25027,
+25028,
+25029,
+25032,
+25035,
+25036,
+25037,
+25039,
+25040,
+25041,
+25042,
+25043,
+25044,
+25046,
+25049,
+25050,
+25051,
+25059,
+25063,
+25067,
+25068,
+25073,
+25074,
+25075,
+25088,
+25092,
+25097,
+25120,
+25124,
+25125,
+25126,
+25127,
+25132,
+25140,
+25147,
+25148,
+25149,
+25153,
+25155,
+25156,
+25158,
+25159,
+25160,
+25163,
+25164,
+25167,
+25168,
+25170,
+25182,
+25201,
+25203,
+25204,
+25205,
+25206,
+25207,
+25209,
+25229,
+25258,
+25303,
+25444,
+25447,
+25449,
+25451,
+25452,
+25457,
+25458,
+25459,
+25460,
+25461,
+25463,
+25464,
+25465,
+25470,
+25471,
+25473,
+25515,
+25536,
+26001,
+26007,
+26009,
+26010,
+26011,
+26017,
+26019,
+26020,
+26021,
+26028,
+26056,
+30001,
+30002,
+30005,
+30006,
+30008,
+30015,
+30018,
+30019,
+30022,
+30023,
+30024,
+30025,
+30026,
+30027,
+30030,
+30031,
+30033,
+30039,
+30044,
+30046,
+30049,
+30053,
+30054,
+30055,
+30057,
+30059,
+30060,
+30063,
+30064,
+30069,
+30070,
+30071,
+30072,
+30073,
+30076,
+30091,
+30093,
+30095,
+30105,
+30108,
+30109,
+30110,
+30114,
+30116,
+30117,
+30118,
+30124,
+30135,
+30137,
+30139,
+30145,
+30155,
+30161,
+30162,
+30164,
+30166,
+30170,
+30200,
+30211,
+30231,
+30232,
+30233,
+30234,
+30235,
+30236,
+30237,
+30238,
+30239,
+30240,
+30244,
+30245,
+30246,
+30247,
+30248,
+30249,
+30273,
+30276,
+30278,
+30280,
+30282,
+30287,
+30289,
+30298,
+30301,
+30303,
+30305,
+30326,
+30340,
+30344,
+30347,
+30350,
+30352,
+30353,
+30355,
+30363,
+30365,
+30370,
+30374,
+30378,
+30380,
+30383,
+30388,
+30425,
+30426,
+30427,
+30428,
+30438,
+30440,
+30441,
+35007,
+35012,
+35015,
+35016,
+35019,
+35022,
+35038,
+35058,
+40007,
+40011,
+40013,
+40047,
+40062,
+40066,
+40083,
+40086,
+40102,
+40105,
+40108,
+40112,
+40115,
+40164,
+40165,
+40203,
+40206,
+40256,
+40278,
+40281,
+40283,
+40304,
+40313,
+40314,
+40331,
+40337,
+40338,
+40339,
+40349,
+40372,
+40411,
+45001,
+56003
+]
+}

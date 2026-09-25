@@ -1,0 +1,5827 @@
+{
+"locations": {
+"Colony 9 Command": {
+"t": "f1",
+"i": 17729,
+"src": "location:ma01a:exact"
+},
+"Flamii Watering Hole": {
+"t": "f1",
+"i": 17735,
+"src": "location:ma01a:exact"
+},
+"Sonata Saddleback": {
+"t": "f1",
+"i": 17734,
+"src": "location:ma01a:exact"
+},
+"Spongy Spud Patch": {
+"t": "f1",
+"i": 17732,
+"src": "location:ma01a:exact"
+},
+"Svinne Cavity": {
+"t": "f1",
+"i": 17736,
+"src": "location:ma01a:exact"
+},
+"Alfeto Valley Mouth": {
+"t": "f1",
+"i": 17758,
+"src": "location:ma01a:exact"
+},
+"Colony 9 Assembly Square": {
+"t": "f1",
+"i": 17756,
+"src": "location:ma01a:exact"
+},
+"Colony 9 Front Gate": {
+"t": "f1",
+"i": 17757,
+"src": "location:ma01a:exact"
+},
+"Colony 9 Rear Gate": {
+"t": "f1",
+"i": 17755,
+"src": "location:ma01a:exact"
+},
+"Shark's Jaws Cape": {
+"t": "f1",
+"i": 17759,
+"src": "location:ma01a:exact"
+},
+"Skyview Falls": {
+"t": "f1",
+"i": 17733,
+"src": "location:ma01a:exact"
+},
+"Colony 9 Barracks": {
+"t": "f1",
+"i": 17778,
+"src": "location:ma01a:exact"
+},
+"Colony 9 Canteen": {
+"t": "f1",
+"i": 17779,
+"src": "location:ma01a:exact"
+},
+"Preparing for Battle": {
+"t": "f2",
+"i": 1044,
+"v": 2,
+"src": "quest"
+},
+"Supplies in the Wind": {
+"t": "f2",
+"i": 1185,
+"v": 2,
+"src": "quest"
+},
+"Friendly Support": {
+"t": "f2",
+"i": 1186,
+"v": 2,
+"src": "quest"
+},
+"Farewell Melody": {
+"t": "f2",
+"i": 1140,
+"v": 2,
+"src": "quest"
+},
+"Rottswoe Battlescar": {
+"t": "f1",
+"i": 17726,
+"src": "location:ma01a:exact"
+},
+"Riccalo Pond": {
+"t": "f1",
+"i": 17790,
+"src": "location:ma01a:exact"
+},
+"Torchlight Hill": {
+"t": "f1",
+"i": 17754,
+"src": "location:ma01a:exact"
+},
+"Battlescar Ferronis Hulk": {
+"t": "f1",
+"i": 17785,
+"src": "location:ma01a:exact"
+},
+"Berje Belt": {
+"t": "f1",
+"i": 17737,
+"src": "location:ma01a:exact"
+},
+"Hermit's Alleyway": {
+"t": "f1",
+"i": 17738,
+"src": "location:ma01a:exact"
+},
+"Volff Lair": {
+"t": "f1",
+"i": 17739,
+"src": "location:ma01a:exact"
+},
+"Gura Flava Lowlands": {
+"t": "f1",
+"i": 17760,
+"src": "location:ma01a:exact"
+},
+"Sepulchral Cliffpath": {
+"t": "f1",
+"i": 17792,
+"src": "location:ma01a:exact"
+},
+"Forward Post Camp": {
+"t": "f1",
+"i": 17780,
+"src": "location:ma01a:exact"
+},
+"Gura Flava Camp": {
+"t": "f1",
+"i": 17781,
+"src": "location:ma01a:exact"
+},
+"Coolley Lake": {
+"t": "f1",
+"i": 17769,
+"src": "location:ma01a:exact"
+},
+"Gamma, Assembly Yard": {
+"t": "f1",
+"i": 17772,
+"src": "location:ma01a:exact"
+},
+"Gamma, Back Way": {
+"t": "f1",
+"i": 17773,
+"src": "location:ma01a:exact"
+},
+"Gamma, Main Approach": {
+"t": "f1",
+"i": 17770,
+"src": "location:ma01a:exact"
+},
+"Loch Ciel": {
+"t": "f1",
+"i": 17762,
+"src": "location:ma01a:exact"
+},
+"Watchpoint Bridge": {
+"t": "f1",
+"i": 17763,
+"src": "location:ma01a:exact"
+},
+"Transcendent Retreat": {
+"t": "f1",
+"i": 17777,
+"src": "location:ma01a:exact"
+},
+"Coolley Pool Camp": {
+"t": "f1",
+"i": 17784,
+"src": "location:ma01a:exact"
+},
+"Coolley Pool": {
+"t": "f1",
+"i": 17728,
+"src": "location:ma01a:exact"
+},
+"Gamma, Staging Yard": {
+"t": "f1",
+"i": 17747,
+"src": "location:ma01a:exact"
+},
+"Melnath's Pass, Lower": {
+"t": "f1",
+"i": 17742,
+"src": "location:ma01a:exact"
+},
+"Melnath's Pass, Upper": {
+"t": "f1",
+"i": 17727,
+"src": "location:ma01a:exact"
+},
+"Petrivore Judomar (Lv. 31)": {
+"t": "tb",
+"i": 14,
+"src": "tombstone"
+},
+"Perilwing Ryuho (Lv. 100)": {
+"t": "tb",
+"i": 18,
+"src": "tombstone"
+},
+"The Hillside Hulk": {
+"t": "f2",
+"i": 1045,
+"v": 2,
+"src": "quest"
+},
+"Nopon Register": {
+"t": "f2",
+"i": 1298,
+"v": 2,
+"src": "quest"
+},
+"Going Beyond Power": {
+"t": "f2",
+"i": 1084,
+"v": 2,
+"src": "quest"
+},
+"Where The Heart Is": {
+"t": "f2",
+"i": 1083,
+"v": 2,
+"src": "quest"
+},
+"An Off-Seer's Anguish": {
+"t": "f2",
+"i": 1135,
+"v": 2,
+"src": "quest"
+},
+"A Gray Matter": {
+"t": "f2",
+"i": 1092,
+"v": 2,
+"src": "quest"
+},
+"The Kind Right Hand": {
+"t": "f2",
+"i": 1082,
+"v": 2,
+"src": "quest"
+},
+"Lean Times in Colony 9": {
+"t": "f2",
+"i": 1136,
+"v": 2,
+"src": "quest"
+},
+"Live Combat Training": {
+"t": "f2",
+"i": 1275,
+"v": 2,
+"src": "quest"
+},
+"Theoretical Knowledge": {
+"t": "f2",
+"i": 1276,
+"v": 2,
+"src": "quest"
+},
+"Forgotten Supplies": {
+"t": "f2",
+"i": 1141,
+"v": 2,
+"src": "quest"
+},
+"Teach's Teachers": {
+"t": "f2",
+"i": 1274,
+"v": 2,
+"src": "quest"
+},
+"The Battlescar Hulk": {
+"t": "f2",
+"i": 1320,
+"v": 2,
+"src": "quest"
+},
+"A Lesson in Off-Seeing": {
+"t": "f2",
+"i": 1277,
+"v": 2,
+"src": "quest"
+},
+"Shared Secret": {
+"t": "f2",
+"i": 1142,
+"v": 2,
+"src": "quest"
+},
+"A Difficult Transition": {
+"t": "f2",
+"i": 1137,
+"v": 2,
+"src": "quest"
+},
+"Research Procedures": {
+"t": "f2",
+"i": 1279,
+"v": 2,
+"src": "quest"
+},
+"For Colony 9": {
+"t": "f2",
+"i": 1138,
+"v": 2,
+"src": "quest"
+},
+"Reasons to Evolve": {
+"t": "f2",
+"i": 1109,
+"v": 2,
+"src": "quest"
+},
+"My Memories": {
+"t": "f2",
+"i": 1241,
+"v": 2,
+"src": "quest"
+},
+"Extracurricular Lesson": {
+"t": "f2",
+"i": 1280,
+"v": 2,
+"src": "quest"
+},
+"Side Story: Mio": {
+"t": "f2",
+"i": 1065,
+"v": 2,
+"src": "quest"
+},
+"Crusader For Spuds": {
+"t": "f2",
+"i": 1139,
+"v": 2,
+"src": "quest"
+},
+"A Twist of Fate": {
+"t": "f2",
+"i": 1077,
+"v": 2,
+"src": "quest"
+},
+"The Big, Unseen Monster": {
+"t": "f2",
+"i": 1254,
+"v": 2,
+"src": "quest"
+},
+"Shadow of Enmity": {
+"t": "f2",
+"i": 1110,
+"v": 2,
+"src": "quest"
+},
+"In Search of a Home": {
+"t": "f2",
+"i": 1148,
+"v": 2,
+"src": "quest"
+},
+"The Illusion Returns": {
+"t": "f2",
+"i": 1188,
+"v": 2,
+"src": "quest"
+},
+"Inhumanity": {
+"t": "f2",
+"i": 1090,
+"v": 2,
+"src": "quest"
+},
+"A Chance Encounter": {
+"t": "f2",
+"i": 1143,
+"v": 2,
+"src": "quest"
+},
+"Special Instructors": {
+"t": "f2",
+"i": 1283,
+"v": 2,
+"src": "quest"
+},
+"Chapter 1": {
+"t": "f2",
+"i": 2,
+"v": 2,
+"src": "quest"
+},
+"Chapter 2": {
+"t": "f2",
+"i": 3,
+"v": 2,
+"src": "quest"
+},
+"Chapter 3": {
+"t": "f2",
+"i": 4,
+"v": 2,
+"src": "quest"
+},
+"Chapter 4": {
+"t": "f2",
+"i": 5,
+"v": 2,
+"src": "quest"
+},
+"Chapter 5": {
+"t": "f2",
+"i": 6,
+"v": 2,
+"src": "quest"
+},
+"Chapter 6": {
+"t": "f2",
+"i": 7,
+"v": 2,
+"src": "quest"
+},
+"Chapter 7": {
+"t": "f2",
+"i": 8,
+"v": 2,
+"src": "quest"
+},
+"Collapsed Traderpon": {
+"t": "f2",
+"i": 1299,
+"v": 2,
+"src": "quest"
+},
+"Helping Out": {
+"t": "f2",
+"i": 1047,
+"v": 2,
+"src": "quest"
+},
+"No Want of Courage": {
+"t": "f2",
+"i": 1074,
+"v": 2,
+"src": "quest"
+},
+"Charity and Hypocrisy": {
+"t": "f2",
+"i": 1242,
+"v": 2,
+"src": "quest"
+},
+"Dorin and Bambam": {
+"t": "f2",
+"i": 1250,
+"v": 2,
+"src": "quest"
+},
+"Melody of Mourning": {
+"t": "f2",
+"i": 1286,
+"v": 2,
+"src": "quest"
+},
+"Serene Melody": {
+"t": "f2",
+"i": 1144,
+"v": 2,
+"src": "quest"
+},
+"The Tableland Hulk": {
+"t": "f2",
+"i": 1314,
+"v": 2,
+"src": "quest"
+},
+"The Missing Squad": {
+"t": "f2",
+"i": 1171,
+"v": 2,
+"src": "quest"
+},
+"Exhausted Supplies": {
+"t": "f2",
+"i": 1247,
+"v": 2,
+"src": "quest"
+},
+"Wish Upon a Clover": {
+"t": "f2",
+"i": 1178,
+"v": 2,
+"src": "quest"
+},
+"Fear of the Unknown": {
+"t": "f2",
+"i": 1251,
+"v": 2,
+"src": "quest"
+},
+"The Thrill of the Hunt!": {
+"t": "f2",
+"i": 1300,
+"v": 2,
+"src": "quest"
+},
+"Big Friendly Friend": {
+"t": "f2",
+"i": 1172,
+"v": 2,
+"src": "quest"
+},
+"Harvest Day": {
+"t": "f2",
+"i": 1285,
+"v": 2,
+"src": "quest"
+},
+"Tactical Eradication": {
+"t": "f2",
+"i": 1243,
+"v": 2,
+"src": "quest"
+},
+"Fla'ran's Request": {
+"t": "f2",
+"i": 1331,
+"v": 2,
+"src": "quest"
+},
+"Jeremy's Request": {
+"t": "f2",
+"i": 1332,
+"v": 2,
+"src": "quest"
+},
+"Yorde's Request": {
+"t": "f2",
+"i": 1330,
+"v": 2,
+"src": "quest"
+},
+"Missing Parts": {
+"t": "f2",
+"i": 1173,
+"v": 2,
+"src": "quest"
+},
+"The True Culprit?": {
+"t": "f2",
+"i": 1174,
+"v": 2,
+"src": "quest"
+},
+"The Desert Hulk": {
+"t": "f2",
+"i": 1315,
+"v": 2,
+"src": "quest"
+},
+"Her Reasons": {
+"t": "f2",
+"i": 1085,
+"v": 2,
+"src": "quest"
+},
+"Finite Time": {
+"t": "f2",
+"i": 1145,
+"v": 2,
+"src": "quest"
+},
+"Severed Connection": {
+"t": "f2",
+"i": 1244,
+"v": 2,
+"src": "quest"
+},
+"Enemies and Allies": {
+"t": "f2",
+"i": 1134,
+"v": 2,
+"src": "quest"
+},
+"Rousing Bolearis": {
+"t": "f2",
+"i": 1245,
+"v": 2,
+"src": "quest"
+},
+"A Burning Curiosity": {
+"t": "f2",
+"i": 1248,
+"v": 2,
+"src": "quest"
+},
+"The Ouroboros Experiment": {
+"t": "f2",
+"i": 1146,
+"v": 2,
+"src": "quest"
+},
+"Bugs": {
+"t": "f2",
+"i": 1169,
+"v": 2,
+"src": "quest"
+},
+"Scant Supplies": {
+"t": "f2",
+"i": 1147,
+"v": 2,
+"src": "quest"
+},
+"There's No Ether!!!": {
+"t": "f2",
+"i": 1175,
+"v": 2,
+"src": "quest"
+},
+"I'm a Mechanic": {
+"t": "f2",
+"i": 1108,
+"v": 2,
+"src": "quest"
+},
+"Alexandria's Birthday": {
+"t": "f2",
+"i": 1168,
+"v": 2,
+"src": "quest"
+},
+"Inescapable Past": {
+"t": "f2",
+"i": 1111,
+"v": 2,
+"src": "quest"
+},
+"Beyond Mercy and Revenge": {
+"t": "f2",
+"i": 1246,
+"v": 2,
+"src": "quest"
+},
+"A Burning Curiosity, Part 2": {
+"t": "f2",
+"i": 1249,
+"v": 2,
+"src": "quest"
+},
+"Dorrick is Online!": {
+"t": "f2",
+"i": 1176,
+"v": 2,
+"src": "quest"
+},
+"So Much More to See": {
+"t": "f2",
+"i": 1255,
+"v": 2,
+"src": "quest"
+},
+"A Deep-Seated Scar": {
+"t": "f2",
+"i": 1113,
+"v": 2,
+"src": "quest"
+},
+"Bearing Fruit": {
+"t": "f2",
+"i": 1170,
+"v": 2,
+"src": "quest"
+},
+"The Final Cog": {
+"t": "f2",
+"i": 1177,
+"v": 2,
+"src": "quest"
+},
+"A Nopon's Counsel": {
+"t": "f2",
+"i": 1075,
+"v": 2,
+"src": "quest"
+},
+"Unwavering Resolve": {
+"t": "f2",
+"i": 1076,
+"v": 2,
+"src": "quest"
+},
+"Lambda's Problem": {
+"t": "f2",
+"i": 1226,
+"v": 2,
+"src": "quest"
+},
+"The Lost Off-Seer": {
+"t": "f2",
+"i": 1227,
+"v": 2,
+"src": "quest"
+},
+"The Cascade Hulk": {
+"t": "f2",
+"i": 1316,
+"v": 2,
+"src": "quest"
+},
+"Restart": {
+"t": "f2",
+"i": 1228,
+"v": 2,
+"src": "quest"
+},
+"Natural Selection": {
+"t": "f2",
+"i": 1086,
+"v": 2,
+"src": "quest"
+},
+"Imminent Illusion": {
+"t": "f2",
+"i": 1059,
+"v": 2,
+"src": "quest"
+},
+"Off-Seeing Customs": {
+"t": "f2",
+"i": 1265,
+"v": 2,
+"src": "quest"
+},
+"Stolen Provisions": {
+"t": "f2",
+"i": 1049,
+"v": 2,
+"src": "quest"
+},
+"The Harvest": {
+"t": "f2",
+"i": 1266,
+"v": 2,
+"src": "quest"
+},
+"A More Balanced Recipe": {
+"t": "f2",
+"i": 1252,
+"v": 2,
+"src": "quest"
+},
+"The Hunter": {
+"t": "f2",
+"i": 1267,
+"v": 2,
+"src": "quest"
+},
+"Tau-Tirkin Alliance": {
+"t": "f2",
+"i": 1278,
+"v": 2,
+"src": "quest"
+},
+"Securing Supplies": {
+"t": "f2",
+"i": 1229,
+"v": 2,
+"src": "quest"
+},
+"The Clifftop Hulk": {
+"t": "f2",
+"i": 1317,
+"v": 2,
+"src": "quest"
+},
+"The Wildwood Life": {
+"t": "f2",
+"i": 1301,
+"v": 2,
+"src": "quest"
+},
+"Surplus Supply": {
+"t": "f2",
+"i": 1230,
+"v": 2,
+"src": "quest"
+},
+"Lost Friend": {
+"t": "f2",
+"i": 1268,
+"v": 2,
+"src": "quest"
+},
+"Cultural Exchange": {
+"t": "f2",
+"i": 1269,
+"v": 2,
+"src": "quest"
+},
+"Korresia Finds Her Calling": {
+"t": "f2",
+"i": 1270,
+"v": 2,
+"src": "quest"
+},
+"Survivors": {
+"t": "f2",
+"i": 1112,
+"v": 2,
+"src": "quest"
+},
+"New Developments": {
+"t": "f2",
+"i": 1231,
+"v": 2,
+"src": "quest"
+},
+"Water of Rhonnar": {
+"t": "f2",
+"i": 1282,
+"v": 2,
+"src": "quest"
+},
+"Duty": {
+"t": "f2",
+"i": 1232,
+"v": 2,
+"src": "quest"
+},
+"Learning from Lambda": {
+"t": "f2",
+"i": 1281,
+"v": 2,
+"src": "quest"
+},
+"Effervescent Heart": {
+"t": "f2",
+"i": 1101,
+"v": 2,
+"src": "quest"
+},
+"The Hunt of Plenty": {
+"t": "f2",
+"i": 1284,
+"v": 2,
+"src": "quest"
+},
+"Past and Present": {
+"t": "f2",
+"i": 1233,
+"v": 2,
+"src": "quest"
+},
+"The Wrath of Ashera": {
+"t": "f2",
+"i": 1087,
+"v": 2,
+"src": "quest"
+},
+"A Warrior's Pride": {
+"t": "f2",
+"i": 1234,
+"v": 2,
+"src": "quest"
+},
+"Rules of the Hunt": {
+"t": "f2",
+"i": 1235,
+"v": 2,
+"src": "quest"
+},
+"Indomitable": {
+"t": "f2",
+"i": 1236,
+"v": 2,
+"src": "quest"
+},
+"Three Ravens at War": {
+"t": "f2",
+"i": 1225,
+"v": 2,
+"src": "quest"
+},
+"Merciless Pursuit": {
+"t": "f2",
+"i": 1237,
+"v": 2,
+"src": "quest"
+},
+"Side Story: Noah": {
+"t": "f2",
+"i": 1064,
+"v": 2,
+"src": "quest"
+},
+"An Artist": {
+"t": "f2",
+"i": 1192,
+"v": 2,
+"src": "quest"
+},
+"Leaders in Training": {
+"t": "f2",
+"i": 1189,
+"v": 2,
+"src": "quest"
+},
+"The New Inspector": {
+"t": "f2",
+"i": 1193,
+"v": 2,
+"src": "quest"
+},
+"A Dark Cloud": {
+"t": "f2",
+"i": 1194,
+"v": 2,
+"src": "quest"
+},
+"The Castle Guard": {
+"t": "f2",
+"i": 1190,
+"v": 2,
+"src": "quest"
+},
+"Festival of War": {
+"t": "f2",
+"i": 1238,
+"v": 2,
+"src": "quest"
+},
+"Fate": {
+"t": "f2",
+"i": 1239,
+"v": 2,
+"src": "quest"
+},
+"The True Inspector": {
+"t": "f2",
+"i": 1195,
+"v": 2,
+"src": "quest"
+},
+"The Castle Beckons": {
+"t": "f2",
+"i": 1051,
+"v": 2,
+"src": "quest"
+},
+"Missing Luggage": {
+"t": "f2",
+"i": 1253,
+"v": 2,
+"src": "quest"
+},
+"Transparent Dreams": {
+"t": "f2",
+"i": 1089,
+"v": 2,
+"src": "quest"
+},
+"Doing It My Way": {
+"t": "f2",
+"i": 1240,
+"v": 2,
+"src": "quest"
+},
+"Side Story: Lanz": {
+"t": "f2",
+"i": 1068,
+"v": 2,
+"src": "quest"
+},
+"The Atoll Hulk": {
+"t": "f2",
+"i": 1318,
+"v": 2,
+"src": "quest"
+},
+"Unease": {
+"t": "f2",
+"i": 1196,
+"v": 2,
+"src": "quest"
+},
+"The Mysterious White Fog": {
+"t": "f2",
+"i": 1302,
+"v": 2,
+"src": "quest"
+},
+"First Day of Prison": {
+"t": "f2",
+"i": 1097,
+"v": 2,
+"src": "quest"
+},
+"Second Day of Prison": {
+"t": "f2",
+"i": 1053,
+"v": 2,
+"src": "quest"
+},
+"Third Day of Prison": {
+"t": "f2",
+"i": 1054,
+"v": 2,
+"src": "quest"
+},
+"To Face Forward": {
+"t": "f2",
+"i": 1197,
+"v": 2,
+"src": "quest"
+},
+"Distress Signal": {
+"t": "f2",
+"i": 1303,
+"v": 2,
+"src": "quest"
+},
+"Unspeakable Being": {
+"t": "f2",
+"i": 1304,
+"v": 2,
+"src": "quest"
+},
+"The Sandbar Hulk": {
+"t": "f2",
+"i": 1319,
+"v": 2,
+"src": "quest"
+},
+"Culinary Repertoire": {
+"t": "f2",
+"i": 1100,
+"v": 2,
+"src": "quest"
+},
+"Side Story: Taion": {
+"t": "f2",
+"i": 1067,
+"v": 2,
+"src": "quest"
+},
+"Prison Refurbishment": {
+"t": "f2",
+"i": 1149,
+"v": 2,
+"src": "quest"
+},
+"Prison Spring Clean": {
+"t": "f2",
+"i": 1150,
+"v": 2,
+"src": "quest"
+},
+"A Farewell Reset": {
+"t": "f2",
+"i": 1115,
+"v": 2,
+"src": "quest"
+},
+"The Future I Want to Spin": {
+"t": "f2",
+"i": 1198,
+"v": 2,
+"src": "quest"
+},
+"Colony Mu's Resolve": {
+"t": "f2",
+"i": 1199,
+"v": 2,
+"src": "quest"
+},
+"Shut-In": {
+"t": "f2",
+"i": 1151,
+"v": 2,
+"src": "quest"
+},
+"Contrary Emotions": {
+"t": "f2",
+"i": 1152,
+"v": 2,
+"src": "quest"
+},
+"The Ultimate Vessel": {
+"t": "f2",
+"i": 1055,
+"v": 2,
+"src": "quest"
+},
+"Acknowledging Feelings": {
+"t": "f2",
+"i": 1153,
+"v": 2,
+"src": "quest"
+},
+"Treasured Memory": {
+"t": "f2",
+"i": 1200,
+"v": 2,
+"src": "quest"
+},
+"Uniting the Seven Nopon": {
+"t": "f2",
+"i": 1166,
+"v": 2,
+"src": "quest"
+},
+"New Names": {
+"t": "f2",
+"i": 1154,
+"v": 2,
+"src": "quest"
+},
+"Future Trajectory": {
+"t": "f2",
+"i": 1201,
+"v": 2,
+"src": "quest"
+},
+"Invisible Bond": {
+"t": "f2",
+"i": 1116,
+"v": 2,
+"src": "quest"
+},
+"Castle Access": {
+"t": "f2",
+"i": 1050,
+"v": 2,
+"src": "quest"
+},
+"Unsolved Riddle": {
+"t": "f2",
+"i": 1156,
+"v": 2,
+"src": "quest"
+},
+"Vandham's Heir": {
+"t": "f2",
+"i": 1078,
+"v": 2,
+"src": "quest"
+},
+"Counterpoint": {
+"t": "f2",
+"i": 1157,
+"v": 2,
+"src": "quest"
+},
+"The Scavenger Force": {
+"t": "f2",
+"i": 1155,
+"v": 2,
+"src": "quest"
+},
+"Side Story: Eunie": {
+"t": "f2",
+"i": 1066,
+"v": 2,
+"src": "quest"
+},
+"Romero and Joulietta": {
+"t": "f2",
+"i": 1158,
+"v": 2,
+"src": "quest"
+},
+"Lovebirds": {
+"t": "f2",
+"i": 1160,
+"v": 2,
+"src": "quest"
+},
+"Writer's Block": {
+"t": "f2",
+"i": 1159,
+"v": 2,
+"src": "quest"
+},
+"A Young Noble's Request": {
+"t": "f2",
+"i": 1161,
+"v": 2,
+"src": "quest"
+},
+"Payback for Treason": {
+"t": "f2",
+"i": 1118,
+"v": 2,
+"src": "quest"
+},
+"Life in the City": {
+"t": "f2",
+"i": 1309,
+"v": 2,
+"src": "quest"
+},
+"Joulietta and Romero": {
+"t": "f2",
+"i": 1163,
+"v": 2,
+"src": "quest"
+},
+"Shock to the System": {
+"t": "f2",
+"i": 1164,
+"v": 2,
+"src": "quest"
+},
+"Choices": {
+"t": "f2",
+"i": 1162,
+"v": 2,
+"src": "quest"
+},
+"The Kids' Aspiration": {
+"t": "f2",
+"i": 1165,
+"v": 2,
+"src": "quest"
+},
+"Happiness": {
+"t": "f2",
+"i": 1102,
+"v": 2,
+"src": "quest"
+},
+"Side Story: Sena": {
+"t": "f2",
+"i": 1069,
+"v": 2,
+"src": "quest"
+},
+"Colony 15 Soldiers Missing": {
+"t": "f2",
+"i": 1311,
+"v": 2,
+"src": "quest"
+},
+"Promise to the Future": {
+"t": "f2",
+"i": 1104,
+"v": 2,
+"src": "quest"
+},
+"The Key to a New Home": {
+"t": "f2",
+"i": 1167,
+"v": 2,
+"src": "quest"
+},
+"Lost Stones": {
+"t": "f2",
+"i": 1305,
+"v": 2,
+"src": "quest"
+},
+"Going Home": {
+"t": "f2",
+"i": 1202,
+"v": 2,
+"src": "quest"
+},
+"Seeker's True Intent": {
+"t": "f2",
+"i": 1203,
+"v": 2,
+"src": "quest"
+},
+"The Three Fiends": {
+"t": "f2",
+"i": 1206,
+"v": 2,
+"src": "quest"
+},
+"Three Fiends: Xera": {
+"t": "f2",
+"i": 1221,
+"v": 2,
+"src": "quest"
+},
+"Three Fiends: Tohma": {
+"t": "f2",
+"i": 1220,
+"v": 2,
+"src": "quest"
+},
+"Three Fiends: Jhodor": {
+"t": "f2",
+"i": 1222,
+"v": 2,
+"src": "quest"
+},
+"Why So Busy?": {
+"t": "f2",
+"i": 1204,
+"v": 2,
+"src": "quest"
+},
+"Missing in Action": {
+"t": "f2",
+"i": 1205,
+"v": 2,
+"src": "quest"
+},
+"Knowing Your Family": {
+"t": "f2",
+"i": 1117,
+"v": 2,
+"src": "quest"
+},
+"Elgares Depths Entrance": {
+"t": "f1",
+"i": 17761,
+"src": "location:ma01a:exact"
+},
+"Kamos Guidepost": {
+"t": "f1",
+"i": 17774,
+"src": "location:ma01a:exact"
+},
+"Kilmarris Highland": {
+"t": "f1",
+"i": 17764,
+"src": "location:ma01a:exact"
+},
+"Luca's Eyot": {
+"t": "f1",
+"i": 17791,
+"src": "location:ma01a:exact"
+},
+"Millick Ravine Way": {
+"t": "f1",
+"i": 17765,
+"src": "location:ma01a:exact"
+},
+"Depths Camp": {
+"t": "f1",
+"i": 17789,
+"src": "location:ma01a:exact"
+},
+"Hillside Ferronis Hulk": {
+"t": "f1",
+"i": 17782,
+"src": "location:ma01a:exact"
+},
+"Fuschian Fields": {
+"t": "f1",
+"i": 17740,
+"src": "location:ma01a:exact"
+},
+"Elgares Depths": {
+"t": "f1",
+"i": 17741,
+"src": "location:ma01a:exact"
+},
+"Murmur Rise": {
+"t": "f1",
+"i": 17749,
+"src": "location:ma01a:exact"
+},
+"Viliera Hill": {
+"t": "f1",
+"i": 17748,
+"src": "location:ma01a:exact"
+},
+"Wraiths' Void": {
+"t": "f1",
+"i": 17750,
+"src": "location:ma01a:exact"
+},
+"Altruistic Maribel (Lv. 29)": {
+"t": "tb",
+"i": 10,
+"src": "tombstone"
+},
+"Fang-King Clavein (Lv. 80)": {
+"t": "tb",
+"i": 17,
+"src": "tombstone"
+},
+"Indiscreet Gombaba (Lv. 12)": {
+"t": "tb",
+"i": 7,
+"src": "tombstone"
+},
+"Jingoistic Gigantus (Lv. 80)": {
+"t": "tb",
+"i": 20,
+"src": "tombstone"
+},
+"Migratory Circe (Lv. 14)": {
+"t": "tb",
+"i": 5,
+"src": "tombstone"
+},
+"Perturbed Bilkin (Lv. 13)": {
+"t": "tb",
+"i": 11,
+"src": "tombstone"
+},
+"Phantom Streya (Lv. 51)": {
+"t": "tb",
+"i": 16,
+"src": "tombstone"
+},
+"Wicked Wolf Aranqui (Lv. 70)": {
+"t": "tb",
+"i": 2,
+"src": "tombstone"
+},
+"Bennel Cave": {
+"t": "f1",
+"i": 17930,
+"src": "location:ma04a:exact"
+},
+"Colony 4 Checkpoint": {
+"t": "f1",
+"i": 17946,
+"src": "location:ma04a:exact"
+},
+"Colony 4 Command": {
+"t": "f1",
+"i": 17948,
+"src": "location:ma04a:exact"
+},
+"Colony 4 Ferronis Hatch": {
+"t": "f1",
+"i": 17947,
+"src": "location:ma04a:exact"
+},
+"Galghour's Menhir": {
+"t": "f1",
+"i": 17942,
+"src": "location:ma04a:exact"
+},
+"Gorge of Odie": {
+"t": "f1",
+"i": 17943,
+"src": "location:ma04a:exact"
+},
+"Hegemon's Seat": {
+"t": "f1",
+"i": 17944,
+"src": "location:ma04a:exact"
+},
+"Menno Arch": {
+"t": "f1",
+"i": 17940,
+"src": "location:ma04a:exact"
+},
+"Ordell Ravine Way": {
+"t": "f1",
+"i": 17939,
+"src": "location:ma04a:exact"
+},
+"Wall of the Great Hand": {
+"t": "f1",
+"i": 17941,
+"src": "location:ma04a:exact"
+},
+"Zem's Crossway": {
+"t": "f1",
+"i": 17929,
+"src": "location:ma04a:exact"
+},
+"Bennel Cave Camp": {
+"t": "f1",
+"i": 17950,
+"src": "location:ma04a:exact"
+},
+"Colony 4 Barracks": {
+"t": "f1",
+"i": 17952,
+"src": "location:ma04a:exact"
+},
+"Colony 4 Canteen": {
+"t": "f1",
+"i": 17951,
+"src": "location:ma04a:exact"
+},
+"Lake Rezzento Camp": {
+"t": "f1",
+"i": 17949,
+"src": "location:ma04a:exact"
+},
+"Barren Knoll": {
+"t": "f1",
+"i": 17923,
+"src": "location:ma04a:exact"
+},
+"Carafe of Plenty": {
+"t": "f1",
+"i": 17932,
+"src": "location:ma04a:exact"
+},
+"Colony 4 Central Hangar": {
+"t": "f1",
+"i": 17936,
+"src": "location:ma04a:exact"
+},
+"Colony 4 Central Yard": {
+"t": "f1",
+"i": 17934,
+"src": "location:ma04a:exact"
+},
+"Colony 4 Council Room": {
+"t": "f1",
+"i": 17935,
+"src": "location:ma04a:exact"
+},
+"Colony 4 Medical Quarter": {
+"t": "f1",
+"i": 17933,
+"src": "location:ma04a:exact"
+},
+"Colony 4 Observation Deck": {
+"t": "f1",
+"i": 17937,
+"src": "location:ma04a:exact"
+},
+"Dome of Stahl": {
+"t": "f1",
+"i": 17927,
+"src": "location:ma04a:exact"
+},
+"Metamural Garden": {
+"t": "f1",
+"i": 17931,
+"src": "location:ma04a:exact"
+},
+"Nih'l Valley": {
+"t": "f1",
+"i": 17928,
+"src": "location:ma04a:exact"
+},
+"Lake Rezzento": {
+"t": "f1",
+"i": 17925,
+"src": "location:ma04a:exact"
+},
+"Piento Basin": {
+"t": "f1",
+"i": 17922,
+"src": "location:ma04a:exact"
+},
+"Racine's Platter": {
+"t": "f1",
+"i": 17924,
+"src": "location:ma04a:exact"
+},
+"Reith Valley": {
+"t": "f1",
+"i": 17921,
+"src": "location:ma04a:exact"
+},
+"Ricoth Wellspring": {
+"t": "f1",
+"i": 17926,
+"src": "location:ma04a:exact"
+},
+"Farseer Pirtett (Lv. 40)": {
+"t": "tb",
+"i": 22,
+"src": "tombstone"
+},
+"Hazardous Jarrahed (Lv. 16)": {
+"t": "tb",
+"i": 24,
+"src": "tombstone"
+},
+"Rambler Curalie (Lv. 17)": {
+"t": "tb",
+"i": 23,
+"src": "tombstone"
+},
+"Sharpwitted Tracy (Lv. 15)": {
+"t": "tb",
+"i": 25,
+"src": "tombstone"
+},
+"Cadion Cliffside": {
+"t": "f1",
+"i": 17973,
+"src": "location:ma04a:exact"
+},
+"Colony Iota Base Entrance": {
+"t": "f1",
+"i": 17977,
+"src": "location:ma04a:exact"
+},
+"Colony Iota South Gate": {
+"t": "f1",
+"i": 17976,
+"src": "location:ma04a:exact"
+},
+"Dies Arch": {
+"t": "f1",
+"i": 17968,
+"src": "location:ma04a:exact"
+},
+"Eldritch Obelisk": {
+"t": "f1",
+"i": 17975,
+"src": "location:ma04a:exact"
+},
+"Hidden Stash": {
+"t": "f1",
+"i": 17974,
+"src": "location:ma04a:exact"
+},
+"Igna Conglomerate": {
+"t": "f1",
+"i": 17972,
+"src": "location:ma04a:exact"
+},
+"Purus Palecolumn": {
+"t": "f1",
+"i": 17970,
+"src": "location:ma04a:exact"
+},
+"Singbreeze Funnel": {
+"t": "f1",
+"i": 17971,
+"src": "location:ma04a:exact"
+},
+"Slanne Wondersphere": {
+"t": "f1",
+"i": 17969,
+"src": "location:ma04a:exact"
+},
+"Distant Fingertip": {
+"t": "f1",
+"i": 17978,
+"src": "location:ma04a:exact"
+},
+"Colony Iota Canteen": {
+"t": "f1",
+"i": 17980,
+"src": "location:ma04a:exact"
+},
+"Visura Parkland Camp": {
+"t": "f1",
+"i": 17979,
+"src": "location:ma04a:exact"
+},
+"Ag's Talon": {
+"t": "f1",
+"i": 17961,
+"src": "location:ma04a:exact"
+},
+"Colony Iota North Gate": {
+"t": "f1",
+"i": 17966,
+"src": "location:ma04a:exact"
+},
+"Great Liente Shelf": {
+"t": "f1",
+"i": 17958,
+"src": "location:ma04a:exact"
+},
+"Hictern's Cleft": {
+"t": "f1",
+"i": 17962,
+"src": "location:ma04a:exact"
+},
+"Mehnert Interdigit": {
+"t": "f1",
+"i": 17956,
+"src": "location:ma04a:exact"
+},
+"Nid Cave": {
+"t": "f1",
+"i": 17963,
+"src": "location:ma04a:exact"
+},
+"Sequestered Lake": {
+"t": "f1",
+"i": 17960,
+"src": "location:ma04a:exact"
+},
+"Tepnos Heights": {
+"t": "f1",
+"i": 17954,
+"src": "location:ma04a:exact"
+},
+"Three Heroes Peak": {
+"t": "f1",
+"i": 17955,
+"src": "location:ma04a:exact"
+},
+"Torus Hollow": {
+"t": "f1",
+"i": 17964,
+"src": "location:ma04a:exact"
+},
+"Visura Parkland": {
+"t": "f1",
+"i": 17959,
+"src": "location:ma04a:exact"
+},
+"Yunnae's Rise": {
+"t": "f1",
+"i": 17965,
+"src": "location:ma04a:exact"
+},
+"Zain's Talon": {
+"t": "f1",
+"i": 17957,
+"src": "location:ma04a:exact"
+},
+"Ecto Hollow": {
+"t": "f1",
+"i": 18003,
+"src": "location:ma04a:exact"
+},
+"Glam Rock": {
+"t": "f1",
+"i": 18001,
+"src": "location:ma04a:exact"
+},
+"Great Idalla Ravine": {
+"t": "f1",
+"i": 17995,
+"src": "location:ma04a:exact"
+},
+"Peshris Fountain": {
+"t": "f1",
+"i": 18002,
+"src": "location:ma04a:exact"
+},
+"Quicksand Basin": {
+"t": "f1",
+"i": 17998,
+"src": "location:ma04a:exact"
+},
+"Raptor Perch": {
+"t": "f1",
+"i": 17996,
+"src": "location:ma04a:exact"
+},
+"Sage's Domicile": {
+"t": "f1",
+"i": 18000,
+"src": "location:ma04a:exact"
+},
+"Zorza's Stonehammer": {
+"t": "f1",
+"i": 17997,
+"src": "location:ma04a:exact"
+},
+"Desert Ferronis Hulk": {
+"t": "f1",
+"i": 18006,
+"src": "location:ma04a:exact"
+},
+"Namba Mound Camp": {
+"t": "f1",
+"i": 18005,
+"src": "location:ma04a:exact"
+},
+"Serrato Spring": {
+"t": "f1",
+"i": 17999,
+"src": "location:ma04a:exact"
+},
+"The Blue Bluffs": {
+"t": "f1",
+"i": 18004,
+"src": "location:ma04a:exact"
+},
+"Alefa Skysphere": {
+"t": "f1",
+"i": 17988,
+"src": "location:ma04a:exact"
+},
+"Apex Wing": {
+"t": "f1",
+"i": 17989,
+"src": "location:ma04a:exact"
+},
+"Bulik Brae": {
+"t": "f1",
+"i": 17990,
+"src": "location:ma04a:exact"
+},
+"Devil's Skillet": {
+"t": "f1",
+"i": 17985,
+"src": "location:ma04a:exact"
+},
+"Dougis Quicksands": {
+"t": "f1",
+"i": 17987,
+"src": "location:ma04a:exact"
+},
+"Fetos Sandgarden": {
+"t": "f1",
+"i": 17986,
+"src": "location:ma04a:exact"
+},
+"Klondos Table": {
+"t": "f1",
+"i": 17994,
+"src": "location:ma04a:exact"
+},
+"Limoux Hill": {
+"t": "f1",
+"i": 17993,
+"src": "location:ma04a:exact"
+},
+"Milio Trick Caverns": {
+"t": "f1",
+"i": 17991,
+"src": "location:ma04a:exact"
+},
+"Namba Mound": {
+"t": "f1",
+"i": 17982,
+"src": "location:ma04a:exact"
+},
+"Sage's Garden": {
+"t": "f1",
+"i": 17992,
+"src": "location:ma04a:exact"
+},
+"Ypsil Hill": {
+"t": "f1",
+"i": 17983,
+"src": "location:ma04a:exact"
+},
+"Zell Quicksands": {
+"t": "f1",
+"i": 17984,
+"src": "location:ma04a:exact"
+},
+"Crystalline DuGarre (Lv. 27)": {
+"t": "tb",
+"i": 33,
+"src": "tombstone"
+},
+"Dunesea Marcellus (Lv. 87)": {
+"t": "tb",
+"i": 34,
+"src": "tombstone"
+},
+"Scornful Daria (Lv. 22)": {
+"t": "tb",
+"i": 31,
+"src": "tombstone"
+},
+"Stoneclipper Gorse (Lv. 25)": {
+"t": "tb",
+"i": 32,
+"src": "tombstone"
+},
+"Terrorbird Zieger (Lv. 37)": {
+"t": "tb",
+"i": 35,
+"src": "tombstone"
+},
+"Colony 30 Cave Mouth": {
+"t": "f1",
+"i": 18028,
+"src": "location:ma04a:exact"
+},
+"Elsie's Spout": {
+"t": "f1",
+"i": 18026,
+"src": "location:ma04a:exact"
+},
+"Igno Viaduct": {
+"t": "f1",
+"i": 18025,
+"src": "location:ma04a:exact"
+},
+"Killy Fors": {
+"t": "f1",
+"i": 18022,
+"src": "location:ma04a:exact"
+},
+"Magglia Lake": {
+"t": "f1",
+"i": 18023,
+"src": "location:ma04a:exact"
+},
+"Shikashaka Mesa": {
+"t": "f1",
+"i": 18024,
+"src": "location:ma04a:exact"
+},
+"Tirkin Headquarters": {
+"t": "f1",
+"i": 18027,
+"src": "location:ma04a:exact"
+},
+"Colony 30 Canteen": {
+"t": "f1",
+"i": 18030,
+"src": "location:ma04a:exact"
+},
+"Llyn Nyddwr Camp": {
+"t": "f1",
+"i": 18029,
+"src": "location:ma04a:exact"
+},
+"Beik Vault": {
+"t": "f1",
+"i": 18018,
+"src": "location:ma04a:exact"
+},
+"Caitlin Drum": {
+"t": "f1",
+"i": 18013,
+"src": "location:ma04a:exact"
+},
+"Colony 30 Maintenance Bay": {
+"t": "f1",
+"i": 18020,
+"src": "location:ma04a:exact"
+},
+"Grun Slope": {
+"t": "f1",
+"i": 18017,
+"src": "location:ma04a:exact"
+},
+"Isla Passerat": {
+"t": "f1",
+"i": 18012,
+"src": "location:ma04a:exact"
+},
+"Laprel Knoll": {
+"t": "f1",
+"i": 18011,
+"src": "location:ma04a:exact"
+},
+"Llyn Nyddwr": {
+"t": "f1",
+"i": 18009,
+"src": "location:ma04a:exact"
+},
+"Paltir Hillock": {
+"t": "f1",
+"i": 18019,
+"src": "location:ma04a:exact"
+},
+"Precipice of Judgment": {
+"t": "f1",
+"i": 18014,
+"src": "location:ma04a:exact"
+},
+"Sage's Balcony": {
+"t": "f1",
+"i": 18015,
+"src": "location:ma04a:exact"
+},
+"Sparres Barr": {
+"t": "f1",
+"i": 18008,
+"src": "location:ma04a:exact"
+},
+"Terra Wastelands": {
+"t": "f1",
+"i": 18016,
+"src": "location:ma04a:exact"
+},
+"Tonic Waters": {
+"t": "f1",
+"i": 18010,
+"src": "location:ma04a:exact"
+},
+"Hedonist Tirkin (Lv. 23)": {
+"t": "tb",
+"i": 36,
+"src": "tombstone"
+},
+"Perspicacious Oldar (Lv. 20)": {
+"t": "tb",
+"i": 38,
+"src": "tombstone"
+},
+"Ruthless Grokken (Lv. 81)": {
+"t": "tb",
+"i": 39,
+"src": "tombstone"
+},
+"Unruffled Narrah (Lv. 19)": {
+"t": "tb",
+"i": 37,
+"src": "tombstone"
+},
+"Conqueror's Peak": {
+"t": "f1",
+"i": 18045,
+"src": "location:ma04a:exact"
+},
+"Dow Dolmen": {
+"t": "f1",
+"i": 18050,
+"src": "location:ma04a:exact"
+},
+"Old Kana Battlefield": {
+"t": "f1",
+"i": 18048,
+"src": "location:ma04a:exact"
+},
+"Orochi's Crag": {
+"t": "f1",
+"i": 18051,
+"src": "location:ma04a:exact"
+},
+"Saffronia Tree": {
+"t": "f1",
+"i": 18046,
+"src": "location:ma04a:exact"
+},
+"The Lace Subterranean": {
+"t": "f1",
+"i": 18047,
+"src": "location:ma04a:exact"
+},
+"Urayan Tunnels, Entrance": {
+"t": "f1",
+"i": 18049,
+"src": "location:ma04a:exact"
+},
+"Forerunners' Tower": {
+"t": "f1",
+"i": 18052,
+"src": "location:ma04a:exact"
+},
+"Seilas Terrace Camp": {
+"t": "f1",
+"i": 18053,
+"src": "location:ma04a:exact"
+},
+"Tableland Ferronis Hulk": {
+"t": "f1",
+"i": 18054,
+"src": "location:ma04a:exact"
+},
+"Bittley Slope": {
+"t": "f1",
+"i": 18041,
+"src": "location:ma04a:exact"
+},
+"Dumas' Jaw": {
+"t": "f1",
+"i": 18032,
+"src": "location:ma04a:exact"
+},
+"Elsayer Cape": {
+"t": "f1",
+"i": 18043,
+"src": "location:ma04a:exact"
+},
+"Isnie Ledge": {
+"t": "f1",
+"i": 18039,
+"src": "location:ma04a:exact"
+},
+"Lisza Garden": {
+"t": "f1",
+"i": 18033,
+"src": "location:ma04a:exact"
+},
+"Lomi Hill": {
+"t": "f1",
+"i": 18034,
+"src": "location:ma04a:exact"
+},
+"Perrato Cave": {
+"t": "f1",
+"i": 18038,
+"src": "location:ma04a:exact"
+},
+"Pinasa Highland": {
+"t": "f1",
+"i": 18036,
+"src": "location:ma04a:exact"
+},
+"Riez Tarn": {
+"t": "f1",
+"i": 18037,
+"src": "location:ma04a:exact"
+},
+"Rutez Barr": {
+"t": "f1",
+"i": 18035,
+"src": "location:ma04a:exact"
+},
+"Seilas Terrace": {
+"t": "f1",
+"i": 18040,
+"src": "location:ma04a:exact"
+},
+"Tilpa Scree": {
+"t": "f1",
+"i": 18042,
+"src": "location:ma04a:exact"
+},
+"Valley of Anguish": {
+"t": "f1",
+"i": 18044,
+"src": "location:ma04a:exact"
+},
+"Dapper Sepiar (Lv. 22)": {
+"t": "tb",
+"i": 47,
+"src": "tombstone"
+},
+"Doomfang Caum (Lv. 50)": {
+"t": "tb",
+"i": 41,
+"src": "tombstone"
+},
+"Heretical Saurow (Lv. 25)": {
+"t": "tb",
+"i": 42,
+"src": "tombstone"
+},
+"Joyful Nimroog (Lv. 68)": {
+"t": "tb",
+"i": 46,
+"src": "tombstone"
+},
+"Kilocorn Grandeps (Lv. 95)": {
+"t": "tb",
+"i": 44,
+"src": "tombstone"
+},
+"Tenderling Rumi (Lv. 23)": {
+"t": "tb",
+"i": 43,
+"src": "tombstone"
+},
+"Wraithfin Segna (Lv. 24)": {
+"t": "tb",
+"i": 40,
+"src": "tombstone"
+},
+"Garf Mine Track": {
+"t": "f1",
+"i": 18177,
+"src": "location:ma07a:exact"
+},
+"Myma Gate": {
+"t": "f1",
+"i": 18174,
+"src": "location:ma07a:exact"
+},
+"Ore Stockpile": {
+"t": "f1",
+"i": 18187,
+"src": "location:ma07a:exact"
+},
+"Stoneyard": {
+"t": "f1",
+"i": 18173,
+"src": "location:ma07a:exact"
+},
+"Generator Control Room": {
+"t": "f1",
+"i": 18191,
+"src": "location:ma07a:exact"
+},
+"Ruins of Seebu Camp": {
+"t": "f1",
+"i": 18192,
+"src": "location:ma07a:exact"
+},
+"Cavern Waterfall": {
+"t": "f1",
+"i": 18134,
+"src": "location:ma07a:exact"
+},
+"Cavern Waterway": {
+"t": "f1",
+"i": 18135,
+"src": "location:ma07a:exact"
+},
+"Elevator No. 1": {
+"t": "f1",
+"i": 18126,
+"src": "location:ma07a:exact"
+},
+"Elevator No. 2": {
+"t": "f1",
+"i": 18129,
+"src": "location:ma07a:exact"
+},
+"Elevator No. 3": {
+"t": "f1",
+"i": 18130,
+"src": "location:ma07a:exact"
+},
+"Kachurichu Cavern": {
+"t": "f1",
+"i": 18133,
+"src": "location:ma07a:exact"
+},
+"Mine No. 1": {
+"t": "f1",
+"i": 18161,
+"src": "location:ma07a:exact"
+},
+"Mine No. 2": {
+"t": "f1",
+"i": 18132,
+"src": "location:ma07a:exact"
+},
+"Mine No. 3": {
+"t": "f1",
+"i": 18162,
+"src": "location:ma07a:exact"
+},
+"Quarry Road": {
+"t": "f1",
+"i": 18131,
+"src": "location:ma07a:exact"
+},
+"Roaring Spring": {
+"t": "f1",
+"i": 18128,
+"src": "location:ma07a:exact"
+},
+"Ruins of Seebu": {
+"t": "f1",
+"i": 18127,
+"src": "location:ma07a:exact"
+},
+"Gracious Titania (Lv. 50)": {
+"t": "tb",
+"i": 53,
+"src": "tombstone"
+},
+"Impregnable Sandhu (Lv. 82)": {
+"t": "tb",
+"i": 64,
+"src": "tombstone"
+},
+"Raucous Ron (Lv. 27)": {
+"t": "tb",
+"i": 55,
+"src": "tombstone"
+},
+"Shimmering Marcko (Lv. 28)": {
+"t": "tb",
+"i": 58,
+"src": "tombstone"
+},
+"Aquifer Exhaust": {
+"t": "f1",
+"i": 18186,
+"src": "location:ma07a:exact"
+},
+"Clearwater Shelf": {
+"t": "f1",
+"i": 18184,
+"src": "location:ma07a:exact"
+},
+"Colony Lambda, Cave Mouth": {
+"t": "f1",
+"i": 18183,
+"src": "location:ma07a:exact"
+},
+"Cotte Fountainhead": {
+"t": "f1",
+"i": 18190,
+"src": "location:ma07a:exact"
+},
+"Hidden Freshwater Inlet": {
+"t": "f1",
+"i": 18189,
+"src": "location:ma07a:exact"
+},
+"Cascade Ferronis Hulk": {
+"t": "f1",
+"i": 18201,
+"src": "location:ma07a:exact"
+},
+"Titan Rock Camp": {
+"t": "f1",
+"i": 18193,
+"src": "location:ma07a:exact"
+},
+"Amoney's Hallows": {
+"t": "f1",
+"i": 18139,
+"src": "location:ma07a:exact"
+},
+"Cave at Pira Bluffs": {
+"t": "f1",
+"i": 18137,
+"src": "location:ma07a:exact"
+},
+"Colony Lambda Ferronis": {
+"t": "f1",
+"i": 18169,
+"src": "location:ma07a:exact"
+},
+"Cotte Outlook": {
+"t": "f1",
+"i": 18141,
+"src": "location:ma07a:exact"
+},
+"Cotte Trick Ruins": {
+"t": "f1",
+"i": 18142,
+"src": "location:ma07a:exact"
+},
+"Fallfoot Battlescar": {
+"t": "f1",
+"i": 18136,
+"src": "location:ma07a:exact"
+},
+"First Cataract": {
+"t": "f1",
+"i": 18158,
+"src": "location:ma07a:exact"
+},
+"Muroon Bridge": {
+"t": "f1",
+"i": 18138,
+"src": "location:ma07a:exact"
+},
+"Second Cataract": {
+"t": "f1",
+"i": 18159,
+"src": "location:ma07a:exact"
+},
+"Third Cataract": {
+"t": "f1",
+"i": 18160,
+"src": "location:ma07a:exact"
+},
+"Titan Rock": {
+"t": "f1",
+"i": 18140,
+"src": "location:ma07a:exact"
+},
+"Titan Rock Apex": {
+"t": "f1",
+"i": 18171,
+"src": "location:ma07a:exact"
+},
+"Budding Francis (Lv. 32)": {
+"t": "tb",
+"i": 61,
+"src": "tombstone"
+},
+"Frolicking Parker (Lv. 31)": {
+"t": "tb",
+"i": 62,
+"src": "tombstone"
+},
+"Gallivanter Buckley (Lv. 30)": {
+"t": "tb",
+"i": 50,
+"src": "tombstone"
+},
+"Massive Georges (Lv. 37)": {
+"t": "tb",
+"i": 56,
+"src": "tombstone"
+},
+"Phantasmagorical Rist (Lv. 35)": {
+"t": "tb",
+"i": 67,
+"src": "tombstone"
+},
+"Saberly Doramp\u00e9 (Lv. 65)": {
+"t": "tb",
+"i": 60,
+"src": "tombstone"
+},
+"Soaring Virion (Lv. 36)": {
+"t": "tb",
+"i": 54,
+"src": "tombstone"
+},
+"Old Way Camp": {
+"t": "f1",
+"i": 18194,
+"src": "location:ma07a:exact"
+},
+"Spring of Rhonnar": {
+"t": "f1",
+"i": 18143,
+"src": "location:ma07a:exact"
+},
+"Colony Tau Entrance": {
+"t": "f1",
+"i": 18180,
+"src": "location:ma07a:exact"
+},
+"Colony Tau Ferronis": {
+"t": "f1",
+"i": 18181,
+"src": "location:ma07a:exact"
+},
+"Colony Tau Watchtower": {
+"t": "f1",
+"i": 18182,
+"src": "location:ma07a:exact"
+},
+"Vista of Rhonnar": {
+"t": "f1",
+"i": 18185,
+"src": "location:ma07a:exact"
+},
+"Windstrong Bluffs": {
+"t": "f1",
+"i": 18179,
+"src": "location:ma07a:exact"
+},
+"Colony Tau Canteen": {
+"t": "f1",
+"i": 18200,
+"src": "location:ma07a:exact"
+},
+"Engardo Pass Camp": {
+"t": "f1",
+"i": 18197,
+"src": "location:ma07a:exact"
+},
+"Sparkling Pool Camp": {
+"t": "f1",
+"i": 18195,
+"src": "location:ma07a:exact"
+},
+"Tower Camp": {
+"t": "f1",
+"i": 18196,
+"src": "location:ma07a:exact"
+},
+"Archaic Tower": {
+"t": "f1",
+"i": 18149,
+"src": "location:ma07a:exact"
+},
+"Colony Tau, Crop Fields": {
+"t": "f1",
+"i": 18167,
+"src": "location:ma07a:exact"
+},
+"Colony Tau, Ferronis Head": {
+"t": "f1",
+"i": 18166,
+"src": "location:ma07a:exact"
+},
+"Engardo Pass": {
+"t": "f1",
+"i": 18163,
+"src": "location:ma07a:exact"
+},
+"Gogols' Tree": {
+"t": "f1",
+"i": 18147,
+"src": "location:ma07a:exact"
+},
+"Runo Ruins": {
+"t": "f1",
+"i": 18172,
+"src": "location:ma07a:exact"
+},
+"Spring of Quarquaka": {
+"t": "f1",
+"i": 18144,
+"src": "location:ma07a:exact"
+},
+"The Tirkinhold": {
+"t": "f1",
+"i": 18148,
+"src": "location:ma07a:exact"
+},
+"Tree Hollow Opening": {
+"t": "f1",
+"i": 18145,
+"src": "location:ma07a:exact"
+},
+"Yellowgrove": {
+"t": "f1",
+"i": 18146,
+"src": "location:ma07a:exact"
+},
+"Forgotten Trick Gate": {
+"t": "f1",
+"i": 18176,
+"src": "location:ma07a:exact"
+},
+"Warning Tree": {
+"t": "f1",
+"i": 18175,
+"src": "location:ma07a:exact"
+},
+"Ancient Storehouse": {
+"t": "f1",
+"i": 18151,
+"src": "location:ma07a:exact"
+},
+"Cavern of Oblivion": {
+"t": "f1",
+"i": 18152,
+"src": "location:ma07a:exact"
+},
+"Gingin's Treehouse": {
+"t": "f1",
+"i": 18150,
+"src": "location:ma07a:exact"
+},
+"Dreadwyrm Nizoont (Lv.105)": {
+"t": "tb",
+"i": 49,
+"src": "tombstone"
+},
+"Gorgeous Mandora (Lv.96)": {
+"t": "tb",
+"i": 57,
+"src": "tombstone"
+},
+"Spartan Fennick (Lv.78)": {
+"t": "tb",
+"i": 52,
+"src": "tombstone"
+},
+"Pelza's Pass": {
+"t": "f1",
+"i": 18178,
+"src": "location:ma07a:exact"
+},
+"Clifftop Ferronis Hulk": {
+"t": "f1",
+"i": 18202,
+"src": "location:ma07a:exact"
+},
+"Balquors Gate": {
+"t": "f1",
+"i": 18164,
+"src": "location:ma07a:exact"
+},
+"Colony 5 Ferronis": {
+"t": "f1",
+"i": 18170,
+"src": "location:ma07a:exact"
+},
+"Loska Plateau": {
+"t": "f1",
+"i": 18156,
+"src": "location:ma07a:exact"
+},
+"Loska's Cavern": {
+"t": "f1",
+"i": 18155,
+"src": "location:ma07a:exact"
+},
+"Mountain Front: Agnus": {
+"t": "f1",
+"i": 18153,
+"src": "location:ma07a:exact"
+},
+"Mountain Front: Keves": {
+"t": "f1",
+"i": 18154,
+"src": "location:ma07a:exact"
+},
+"Besieger Sheritt (Lv. 48)": {
+"t": "tb",
+"i": 65,
+"src": "tombstone"
+},
+"Bloodsucking Elvis (Lv. 53)": {
+"t": "tb",
+"i": 63,
+"src": "tombstone"
+},
+"Bushwhacker Farritt (Lv. 48)": {
+"t": "tb",
+"i": 66,
+"src": "tombstone"
+},
+"Colony 11: East Gate": {
+"t": "f1",
+"i": 18376,
+"src": "location:ma09a:exact"
+},
+"Colony 11: West Gate": {
+"t": "f1",
+"i": 18377,
+"src": "location:ma09a:exact"
+},
+"East Gate Road": {
+"t": "f1",
+"i": 18379,
+"src": "location:ma09a:exact"
+},
+"Ekdaso Verge": {
+"t": "f1",
+"i": 18381,
+"src": "location:ma09a:exact"
+},
+"Great Sword Furrow": {
+"t": "f1",
+"i": 18380,
+"src": "location:ma09a:exact"
+},
+"Penshia Portal": {
+"t": "f1",
+"i": 18375,
+"src": "location:ma09a:exact"
+},
+"West Gate Road": {
+"t": "f1",
+"i": 18378,
+"src": "location:ma09a:exact"
+},
+"Holy Lid": {
+"t": "f1",
+"i": 18382,
+"src": "location:ma09a:exact"
+},
+"Colony 11 Canteen": {
+"t": "f1",
+"i": 18384,
+"src": "location:ma09a:exact"
+},
+"Hovering Reef 2 Camp": {
+"t": "f1",
+"i": 18383,
+"src": "location:ma09a:exact"
+},
+"The Tap-Dancing Nopon": {
+"t": "f1",
+"i": 18385,
+"src": "location:ma09a:exact"
+},
+"Colony 11, Training Pit": {
+"t": "f1",
+"i": 18369,
+"src": "location:ma09a:exact"
+},
+"Ether Mine": {
+"t": "f1",
+"i": 18374,
+"src": "location:ma09a:exact"
+},
+"First Ixia Bridge": {
+"t": "f1",
+"i": 18354,
+"src": "location:ma09a:exact"
+},
+"Fourth Ixia Bridge": {
+"t": "f1",
+"i": 18360,
+"src": "location:ma09a:exact"
+},
+"Gardin Defense Base": {
+"t": "f1",
+"i": 18359,
+"src": "location:ma09a:exact"
+},
+"Helheim Sky Bridge": {
+"t": "f1",
+"i": 18371,
+"src": "location:ma09a:exact"
+},
+"Hovering Reef 0": {
+"t": "f1",
+"i": 18361,
+"src": "location:ma09a:exact"
+},
+"Hovering Reef 1": {
+"t": "f1",
+"i": 18362,
+"src": "location:ma09a:exact"
+},
+"Hovering Reef 2": {
+"t": "f1",
+"i": 18363,
+"src": "location:ma09a:exact"
+},
+"Hovering Reef 3": {
+"t": "f1",
+"i": 18364,
+"src": "location:ma09a:exact"
+},
+"Hovering Reef 4": {
+"t": "f1",
+"i": 18365,
+"src": "location:ma09a:exact"
+},
+"Hovering Reef 5": {
+"t": "f1",
+"i": 18366,
+"src": "location:ma09a:exact"
+},
+"Hovering Reef 6": {
+"t": "f1",
+"i": 18367,
+"src": "location:ma09a:exact"
+},
+"Hovering Reef 7": {
+"t": "f1",
+"i": 18368,
+"src": "location:ma09a:exact"
+},
+"Kismet Crossing": {
+"t": "f1",
+"i": 18370,
+"src": "location:ma09a:exact"
+},
+"Propatheon Cathedral": {
+"t": "f1",
+"i": 18372,
+"src": "location:ma09a:exact"
+},
+"Second Ixia Bridge": {
+"t": "f1",
+"i": 18356,
+"src": "location:ma09a:exact"
+},
+"Third Ixia Bridge": {
+"t": "f1",
+"i": 18358,
+"src": "location:ma09a:exact"
+},
+"Ambusher Tirion (Lv. 39)": {
+"t": "tb",
+"i": 73,
+"src": "tombstone"
+},
+"Blazing Karlos (Lv. 40)": {
+"t": "tb",
+"i": 69,
+"src": "tombstone"
+},
+"Craven Piggard (Lv. 38)": {
+"t": "tb",
+"i": 71,
+"src": "tombstone"
+},
+"Diabolical Rindolph (Lv. 49)": {
+"t": "tb",
+"i": 70,
+"src": "tombstone"
+},
+"Hornbow Dante (Lv. 55)": {
+"t": "tb",
+"i": 68,
+"src": "tombstone"
+},
+"Infiltrator Garnach (Lv. 64)": {
+"t": "tb",
+"i": 72,
+"src": "tombstone"
+},
+"Protector Revelta (Lv. 64)": {
+"t": "tb",
+"i": 77,
+"src": "tombstone"
+},
+"Ascension Hall": {
+"t": "f1",
+"i": 18341,
+"src": "location:ma09a:exact"
+},
+"Hangar, Lower: East Gate": {
+"t": "f1",
+"i": 18339,
+"src": "location:ma09a:exact"
+},
+"Hangar, Lower: West Gate": {
+"t": "f1",
+"i": 18338,
+"src": "location:ma09a:exact"
+},
+"Main Castle Gate": {
+"t": "f1",
+"i": 18340,
+"src": "location:ma09a:exact"
+},
+"Storage Area #1": {
+"t": "f1",
+"i": 18336,
+"src": "location:ma09a:exact"
+},
+"Storage Area #2": {
+"t": "f1",
+"i": 18337,
+"src": "location:ma09a:exact"
+},
+"Ceale Great Hall": {
+"t": "f1",
+"i": 18323,
+"src": "location:ma09a:exact"
+},
+"Hangar, Passageway": {
+"t": "f1",
+"i": 18324,
+"src": "location:ma09a:exact"
+},
+"Hangar, Upper: Main Gate": {
+"t": "f1",
+"i": 18342,
+"src": "location:ma09a:exact"
+},
+"Storage Area #3": {
+"t": "f1",
+"i": 18350,
+"src": "location:ma09a:exact"
+},
+"Annihilator Foundations": {
+"t": "f1",
+"i": 18344,
+"src": "location:ma09a:exact"
+},
+"Revelation Hall": {
+"t": "f1",
+"i": 18345,
+"src": "location:ma09a:exact"
+},
+"Troop Reserve Section": {
+"t": "f1",
+"i": 18343,
+"src": "location:ma09a:exact"
+},
+"Equipment Storage": {
+"t": "f1",
+"i": 18351,
+"src": "location:ma09a:exact"
+},
+"Goods Transport Shaft": {
+"t": "f1",
+"i": 18331,
+"src": "location:ma09a:exact"
+},
+"Grace Row": {
+"t": "f1",
+"i": 18330,
+"src": "location:ma09a:exact"
+},
+"Hull Maintenance Block": {
+"t": "f1",
+"i": 18328,
+"src": "location:ma09a:exact"
+},
+"Middle Drainage": {
+"t": "f1",
+"i": 18329,
+"src": "location:ma09a:exact"
+},
+"Standby Room #1": {
+"t": "f1",
+"i": 18326,
+"src": "location:ma09a:exact"
+},
+"Standby Room #2": {
+"t": "f1",
+"i": 18327,
+"src": "location:ma09a:exact"
+},
+"Grand Tower Walkway": {
+"t": "f1",
+"i": 18346,
+"src": "location:ma09a:exact"
+},
+"Upper Water Supply": {
+"t": "f1",
+"i": 18352,
+"src": "location:ma09a:exact"
+},
+"Throne Room": {
+"t": "f1",
+"i": 18332,
+"src": "location:ma09a:exact"
+},
+"Upper Drainage": {
+"t": "f1",
+"i": 18333,
+"src": "location:ma09a:exact"
+},
+"Grand Tower Skygarden": {
+"t": "f1",
+"i": 18335,
+"src": "location:ma09a:exact"
+},
+"Queen's Chambers": {
+"t": "f1",
+"i": 18349,
+"src": "location:ma09a:exact"
+},
+"Drainage Sluice": {
+"t": "f1",
+"i": 18347,
+"src": "location:ma09a:exact"
+},
+"Lower Drainage": {
+"t": "f1",
+"i": 18334,
+"src": "location:ma09a:exact"
+},
+"Forsaken Arbiter (Lv. 42)": {
+"t": "tb",
+"i": 75,
+"src": "tombstone"
+},
+"Mobile Vespa (Lv. 41)": {
+"t": "tb",
+"i": 74,
+"src": "tombstone"
+},
+"Turbulent Martinez (Lv. 43)": {
+"t": "tb",
+"i": 76,
+"src": "tombstone"
+},
+"Bannis Path": {
+"t": "f1",
+"i": 18576,
+"src": "location:ma11a:exact"
+},
+"Cradle Convoy Shelter": {
+"t": "f1",
+"i": 18599,
+"src": "location:ma11a:exact"
+},
+"Fuller Elevator Landing": {
+"t": "f1",
+"i": 18578,
+"src": "location:ma11a:exact"
+},
+"Morrack Inlet": {
+"t": "f1",
+"i": 18598,
+"src": "location:ma11a:exact"
+},
+"Sentridge Harbor Control": {
+"t": "f1",
+"i": 18592,
+"src": "location:ma11a:exact"
+},
+"Sturc Gully Gate": {
+"t": "f1",
+"i": 18616,
+"src": "location:ma11a:exact"
+},
+"The Swordface": {
+"t": "f1",
+"i": 18577,
+"src": "location:ma11a:exact"
+},
+"Headwater Camp": {
+"t": "f1",
+"i": 18622,
+"src": "location:ma11a:exact"
+},
+"Dock No. 3": {
+"t": "f1",
+"i": 18527,
+"src": "location:ma11a:exact"
+},
+"Great Sword Passage": {
+"t": "f1",
+"i": 18525,
+"src": "location:ma11a:exact"
+},
+"Hidden Weapon Lab": {
+"t": "f1",
+"i": 18529,
+"src": "location:ma11a:exact"
+},
+"Knife's Edge Pass": {
+"t": "f1",
+"i": 18544,
+"src": "location:ma11a:exact"
+},
+"N'ohm Wetlands": {
+"t": "f1",
+"i": 18524,
+"src": "location:ma11a:exact"
+},
+"Pedesto Valley Floor": {
+"t": "f1",
+"i": 18545,
+"src": "location:ma11a:exact"
+},
+"Samon's Secret Storage": {
+"t": "f1",
+"i": 18528,
+"src": "location:ma11a:exact"
+},
+"Sentridge Harbor": {
+"t": "f1",
+"i": 18526,
+"src": "location:ma11a:exact"
+},
+"Dolgan Cliff": {
+"t": "f1",
+"i": 18948,
+"src": "location:ma15a:exact"
+},
+"Material Storage Warehouse": {
+"t": "f1",
+"i": 18949,
+"src": "location:ma15a:exact"
+},
+"Airway Corridor": {
+"t": "f1",
+"i": 18923,
+"src": "location:ma15a:exact"
+},
+"Astelle Harbor": {
+"t": "f1",
+"i": 18953,
+"src": "location:ma15a:exact"
+},
+"City Entrance": {
+"t": "f1",
+"i": 18950,
+"src": "location:ma15a:exact"
+},
+"Memorial Hall": {
+"t": "f1",
+"i": 18952,
+"src": "location:ma15a:exact"
+},
+"Mitia Lookout": {
+"t": "f1",
+"i": 18955,
+"src": "location:ma15a:exact"
+},
+"Module Warehouse": {
+"t": "f1",
+"i": 18954,
+"src": "location:ma15a:exact"
+},
+"Remembrance Stones": {
+"t": "f1",
+"i": 18951,
+"src": "location:ma15a:exact"
+},
+"Serene Square": {
+"t": "f1",
+"i": 18967,
+"src": "location:ma15a:exact"
+},
+"War Room": {
+"t": "f1",
+"i": 18956,
+"src": "location:ma15a:exact"
+},
+"City Camp": {
+"t": "f1",
+"i": 18963,
+"src": "location:ma15a:exact"
+},
+"Michiba Canteen": {
+"t": "f1",
+"i": 18964,
+"src": "location:ma15a:exact"
+},
+"Caelum Residential Quarter": {
+"t": "f1",
+"i": 18928,
+"src": "location:ma15a:exact"
+},
+"Centrilo Parade": {
+"t": "f1",
+"i": 18924,
+"src": "location:ma15a:exact"
+},
+"Lost Numbers Dormitory": {
+"t": "f1",
+"i": 18930,
+"src": "location:ma15a:exact"
+},
+"Medical Facility": {
+"t": "f1",
+"i": 18927,
+"src": "location:ma15a:exact"
+},
+"Mxene Tech Quarter": {
+"t": "f1",
+"i": 18925,
+"src": "location:ma15a:exact"
+},
+"Praetorian Hill": {
+"t": "f1",
+"i": 18926,
+"src": "location:ma15a:exact"
+},
+"Ribelly Plaza": {
+"t": "f1",
+"i": 18931,
+"src": "location:ma15a:exact"
+},
+"Sikert Pathway": {
+"t": "f1",
+"i": 18932,
+"src": "location:ma15a:exact"
+},
+"Supply Stockpile": {
+"t": "f1",
+"i": 18933,
+"src": "location:ma15a:exact"
+},
+"Training Ground": {
+"t": "f1",
+"i": 18934,
+"src": "location:ma15a:exact"
+},
+"Virid Park": {
+"t": "f1",
+"i": 18929,
+"src": "location:ma15a:exact"
+},
+"Bed of Woes and Wishes": {
+"t": "f1",
+"i": 18615,
+"src": "location:ma11a:exact"
+},
+"Cascade Crossroads": {
+"t": "f1",
+"i": 18582,
+"src": "location:ma11a:exact"
+},
+"Chief's Quarters": {
+"t": "f1",
+"i": 18601,
+"src": "location:ma11a:exact"
+},
+"Colony Mu Main Gate": {
+"t": "f1",
+"i": 18590,
+"src": "location:ma11a:exact"
+},
+"Colony Mu, Respite Ranch": {
+"t": "f1",
+"i": 18606,
+"src": "location:ma11a:exact"
+},
+"Conchrock Beach": {
+"t": "f1",
+"i": 18589,
+"src": "location:ma11a:exact"
+},
+"Demihuman Gutter": {
+"t": "f1",
+"i": 18605,
+"src": "location:ma11a:exact"
+},
+"Doublecrag Gate": {
+"t": "f1",
+"i": 18579,
+"src": "location:ma11a:exact"
+},
+"Emerald Font": {
+"t": "f1",
+"i": 18604,
+"src": "location:ma11a:exact"
+},
+"Eternal Canopy": {
+"t": "f1",
+"i": 18588,
+"src": "location:ma11a:exact"
+},
+"Fifth Pillar Remnant": {
+"t": "f1",
+"i": 18619,
+"src": "location:ma11a:exact"
+},
+"First Pillar Remnant": {
+"t": "f1",
+"i": 18586,
+"src": "location:ma11a:exact"
+},
+"Fourth Pillar Remnant": {
+"t": "f1",
+"i": 18591,
+"src": "location:ma11a:exact"
+},
+"Hermit's Inlet": {
+"t": "f1",
+"i": 18600,
+"src": "location:ma11a:exact"
+},
+"Ishan Isle": {
+"t": "f1",
+"i": 18584,
+"src": "location:ma11a:exact"
+},
+"Malevolent Hollow": {
+"t": "f1",
+"i": 18603,
+"src": "location:ma11a:exact"
+},
+"Pioneer's Inlet": {
+"t": "f1",
+"i": 18585,
+"src": "location:ma11a:exact"
+},
+"Place of Heroes Past": {
+"t": "f1",
+"i": 18597,
+"src": "location:ma11a:exact"
+},
+"Predator's Paw": {
+"t": "f1",
+"i": 18596,
+"src": "location:ma11a:exact"
+},
+"Relay Base Bridge": {
+"t": "f1",
+"i": 18614,
+"src": "location:ma11a:exact"
+},
+"Rujah Headwaters": {
+"t": "f1",
+"i": 18618,
+"src": "location:ma11a:exact"
+},
+"Seaspray Lookout": {
+"t": "f1",
+"i": 18581,
+"src": "location:ma11a:exact"
+},
+"Searing Strand": {
+"t": "f1",
+"i": 18602,
+"src": "location:ma11a:exact"
+},
+"Second Pillar Remnant": {
+"t": "f1",
+"i": 18594,
+"src": "location:ma11a:exact"
+},
+"Third Pillar Remnant": {
+"t": "f1",
+"i": 18595,
+"src": "location:ma11a:exact"
+},
+"Thurbin Harbor": {
+"t": "f1",
+"i": 18580,
+"src": "location:ma11a:exact"
+},
+"Twinpalm Isle": {
+"t": "f1",
+"i": 18593,
+"src": "location:ma11a:exact"
+},
+"Welkin Falls": {
+"t": "f1",
+"i": 18583,
+"src": "location:ma11a:exact"
+},
+"Eternal Elegance": {
+"t": "f1",
+"i": 18621,
+"src": "location:ma11a:exact"
+},
+"Radial Outlook": {
+"t": "f1",
+"i": 18620,
+"src": "location:ma11a:exact"
+},
+"Anu Shoals Camp": {
+"t": "f1",
+"i": 18623,
+"src": "location:ma11a:exact"
+},
+"Atoll Ferronis Hulk": {
+"t": "f1",
+"i": 18626,
+"src": "location:ma11a:exact"
+},
+"Colony Mu Barracks": {
+"t": "f1",
+"i": 18633,
+"src": "location:ma11a:exact"
+},
+"Colony Mu Canteen": {
+"t": "f1",
+"i": 18632,
+"src": "location:ma11a:exact"
+},
+"Corne Island Camp": {
+"t": "f1",
+"i": 18625,
+"src": "location:ma11a:exact"
+},
+"Hargan Point Camp": {
+"t": "f1",
+"i": 18629,
+"src": "location:ma11a:exact"
+},
+"Inlet Camp": {
+"t": "f1",
+"i": 18634,
+"src": "location:ma11a:exact"
+},
+"Lost Colony Barracks": {
+"t": "f1",
+"i": 18628,
+"src": "location:ma11a:exact"
+},
+"Sandbar Ferronis Hulk": {
+"t": "f1",
+"i": 18627,
+"src": "location:ma11a:exact"
+},
+"Vinisog Holm Camp": {
+"t": "f1",
+"i": 18624,
+"src": "location:ma11a:exact"
+},
+"Antol Pit": {
+"t": "f1",
+"i": 18543,
+"src": "location:ma11a:exact"
+},
+"Anu Shoals": {
+"t": "f1",
+"i": 18533,
+"src": "location:ma11a:exact"
+},
+"Baldotas Atoll": {
+"t": "f1",
+"i": 18537,
+"src": "location:ma11a:exact"
+},
+"Brasa Geothermal Belt": {
+"t": "f1",
+"i": 18550,
+"src": "location:ma11a:exact"
+},
+"Brasa Spa": {
+"t": "f1",
+"i": 18552,
+"src": "location:ma11a:exact"
+},
+"Cape Arcaphor": {
+"t": "f1",
+"i": 18534,
+"src": "location:ma11a:exact"
+},
+"Cay of the Trick Grotto": {
+"t": "f1",
+"i": 18536,
+"src": "location:ma11a:exact"
+},
+"Colony Mu Hidden Coast": {
+"t": "f1",
+"i": 18566,
+"src": "location:ma11a:exact"
+},
+"Corne Island": {
+"t": "f1",
+"i": 18531,
+"src": "location:ma11a:exact"
+},
+"Daedal Isle": {
+"t": "f1",
+"i": 18538,
+"src": "location:ma11a:exact"
+},
+"Data Archives": {
+"t": "f1",
+"i": 18562,
+"src": "location:ma11a:exact"
+},
+"Erythia Relay Base": {
+"t": "f1",
+"i": 18574,
+"src": "location:ma11a:exact"
+},
+"Farlaine Underpass": {
+"t": "f1",
+"i": 18546,
+"src": "location:ma11a:exact"
+},
+"Farview Cape": {
+"t": "f1",
+"i": 18549,
+"src": "location:ma11a:exact"
+},
+"Hargan Point": {
+"t": "f1",
+"i": 18535,
+"src": "location:ma11a:exact"
+},
+"Hykt's Cove": {
+"t": "f1",
+"i": 18573,
+"src": "location:ma11a:exact"
+},
+"Irma's Secret Base": {
+"t": "f1",
+"i": 18569,
+"src": "location:ma11a:exact"
+},
+"Krezen Cliffs": {
+"t": "f1",
+"i": 18548,
+"src": "location:ma11a:exact"
+},
+"Lavi Sandbar": {
+"t": "f1",
+"i": 18541,
+"src": "location:ma11a:exact"
+},
+"Migrow's Rosary": {
+"t": "f1",
+"i": 18539,
+"src": "location:ma11a:exact"
+},
+"Needle Reef Beach": {
+"t": "f1",
+"i": 18572,
+"src": "location:ma11a:exact"
+},
+"Oshia's Reef Ravine": {
+"t": "f1",
+"i": 18570,
+"src": "location:ma11a:exact"
+},
+"Patulia Bay": {
+"t": "f1",
+"i": 18575,
+"src": "location:ma11a:exact"
+},
+"Rebellion Cave": {
+"t": "f1",
+"i": 18551,
+"src": "location:ma11a:exact"
+},
+"Sea Lizards' Tide Pool": {
+"t": "f1",
+"i": 18571,
+"src": "location:ma11a:exact"
+},
+"Tengate Ruins": {
+"t": "f1",
+"i": 18565,
+"src": "location:ma11a:exact"
+},
+"The Aegis Sea": {
+"t": "f1",
+"i": 18568,
+"src": "location:ma11a:exact"
+},
+"Thurbin Island": {
+"t": "f1",
+"i": 18532,
+"src": "location:ma11a:exact"
+},
+"Vinisog Holm": {
+"t": "f1",
+"i": 18530,
+"src": "location:ma11a:exact"
+},
+"Abysmal Rakshmi (Lv. 64)": {
+"t": "tb",
+"i": 110,
+"src": "tombstone"
+},
+"Barbed Merod (Lv. 51)": {
+"t": "tb",
+"i": 93,
+"src": "tombstone"
+},
+"Covetous Gerondon (Lv. 60)": {
+"t": "tb",
+"i": 80,
+"src": "tombstone"
+},
+"Demonic Krenolur (Lv. 75)": {
+"t": "tb",
+"i": 86,
+"src": "tombstone"
+},
+"Fleeting Shikino (Lv. 65)": {
+"t": "tb",
+"i": 105,
+"src": "tombstone"
+},
+"Flyswatter Kamado (Lv. 77)": {
+"t": "tb",
+"i": 83,
+"src": "tombstone"
+},
+"Galloping Ghuldan (Lv. 56)": {
+"t": "tb",
+"i": 79,
+"src": "tombstone"
+},
+"Hardscale Gouran (Lv. 66)": {
+"t": "tb",
+"i": 97,
+"src": "tombstone"
+},
+"Hardshelled Admory (Lv. 57)": {
+"t": "tb",
+"i": 90,
+"src": "tombstone"
+},
+"Heroic Gulkin (Lv. 76)": {
+"t": "tb",
+"i": 96,
+"src": "tombstone"
+},
+"Intrusive Neville (Lv. 49)": {
+"t": "tb",
+"i": 112,
+"src": "tombstone"
+},
+"Jealous Mizraile (Lv. 72)": {
+"t": "tb",
+"i": 82,
+"src": "tombstone"
+},
+"Killhappy Brijaidor (Lv. 79)": {
+"t": "tb",
+"i": 100,
+"src": "tombstone"
+},
+"King Krawkin (Lv. 102)": {
+"t": "tb",
+"i": 94,
+"src": "tombstone"
+},
+"King Krawkin (Lv. 110)": {
+"t": "tb",
+"i": 94,
+"src": "tombstone"
+},
+"Littlefort Morley (Lv. 46)": {
+"t": "tb",
+"i": 89,
+"src": "tombstone"
+},
+"Naval Gyrus (Lv. 75)": {
+"t": "tb",
+"i": 91,
+"src": "tombstone"
+},
+"Navigator Helios (Lv. 48)": {
+"t": "tb",
+"i": 106,
+"src": "tombstone"
+},
+"Oceanic Lucera (Lv. 73)": {
+"t": "tb",
+"i": 87,
+"src": "tombstone"
+},
+"Otherworldly Rodsin (Lv. 60)": {
+"t": "tb",
+"i": 92,
+"src": "tombstone"
+},
+"Ragemaw Tempeldo (Lv. 78)": {
+"t": "tb",
+"i": 81,
+"src": "tombstone"
+},
+"Ravenous Babayaga (Lv. 84)": {
+"t": "tb",
+"i": 103,
+"src": "tombstone"
+},
+"Seadragoon Melchior (Lv. 85)": {
+"t": "tb",
+"i": 99,
+"src": "tombstone"
+},
+"Seatiger Tridence (Lv. 77)": {
+"t": "tb",
+"i": 102,
+"src": "tombstone"
+},
+"Sharkblade Nedd (Lv. 67)": {
+"t": "tb",
+"i": 101,
+"src": "tombstone"
+},
+"Slack-Jawed Zephal (Lv. 80)": {
+"t": "tb",
+"i": 108,
+"src": "tombstone"
+},
+"Spiky Aurelia (Lv. 63)": {
+"t": "tb",
+"i": 84,
+"src": "tombstone"
+},
+"Talkative Dirakha (Lv. 63)": {
+"t": "tb",
+"i": 111,
+"src": "tombstone"
+},
+"Taskmaster Imperion (Lv. 49)": {
+"t": "tb",
+"i": 109,
+"src": "tombstone"
+},
+"Virtuous Gulkin (Lv. 52)": {
+"t": "tb",
+"i": 95,
+"src": "tombstone"
+},
+"Widdershins Radler (Lv. 48)": {
+"t": "tb",
+"i": 85,
+"src": "tombstone"
+},
+"Perimeter Outlet": {
+"t": "f1",
+"i": 18608,
+"src": "location:ma11a:exact"
+},
+"Cell No. 1": {
+"t": "f1",
+"i": 18630,
+"src": "location:ma11a:exact"
+},
+"Central Cell Canteen": {
+"t": "f1",
+"i": 18635,
+"src": "location:ma11a:exact"
+},
+"Central Cell": {
+"t": "f1",
+"i": 18556,
+"src": "location:ma11a:exact"
+},
+"Communal Cell Block": {
+"t": "f1",
+"i": 18558,
+"src": "location:ma11a:exact"
+},
+"Food Storage": {
+"t": "f1",
+"i": 18555,
+"src": "location:ma11a:exact"
+},
+"Guard Quarters": {
+"t": "f1",
+"i": 18564,
+"src": "location:ma11a:exact"
+},
+"Perimeter Woodland": {
+"t": "f1",
+"i": 18557,
+"src": "location:ma11a:exact"
+},
+"Watchtower No. 1": {
+"t": "f1",
+"i": 18609,
+"src": "location:ma11a:exact"
+},
+"Ascension Grounds": {
+"t": "f1",
+"i": 18722,
+"src": "location:ma14a:exact"
+},
+"Death's Door": {
+"t": "f1",
+"i": 18724,
+"src": "location:ma14a:exact"
+},
+"Station Breakroom": {
+"t": "f1",
+"i": 18725,
+"src": "location:ma14a:exact"
+},
+"Ivory Gaol": {
+"t": "f1",
+"i": 18721,
+"src": "location:ma14a:exact"
+},
+"Funicular Approach": {
+"t": "f1",
+"i": 18613,
+"src": "location:ma11a:exact"
+},
+"Levnis Workyard Entrance": {
+"t": "f1",
+"i": 18612,
+"src": "location:ma11a:exact"
+},
+"Mulus Depot": {
+"t": "f1",
+"i": 18611,
+"src": "location:ma11a:exact"
+},
+"Old Road of Rebirth": {
+"t": "f1",
+"i": 18617,
+"src": "location:ma11a:exact"
+},
+"Prison Camp, Freight Gate": {
+"t": "f1",
+"i": 18610,
+"src": "location:ma11a:exact"
+},
+"Vent Entrance": {
+"t": "f1",
+"i": 18607,
+"src": "location:ma11a:exact"
+},
+"Central Harbor": {
+"t": "f1",
+"i": 18561,
+"src": "location:ma11a:exact"
+},
+"Hope's Rest": {
+"t": "f1",
+"i": 18559,
+"src": "location:ma11a:exact"
+},
+"Levnis Workyard": {
+"t": "f1",
+"i": 18542,
+"src": "location:ma11a:exact"
+},
+"Perimeter Bridge": {
+"t": "f1",
+"i": 18560,
+"src": "location:ma11a:exact"
+},
+"Prison Precipice": {
+"t": "f1",
+"i": 18554,
+"src": "location:ma11a:exact"
+},
+"Sea-Gnawed Cave": {
+"t": "f1",
+"i": 18553,
+"src": "location:ma11a:exact"
+},
+"West Perimeter Gate": {
+"t": "f1",
+"i": 18640,
+"src": "location:ma11a:exact"
+},
+"Obliterator Centaurio (Lv. 91)": {
+"t": "tb",
+"i": 107,
+"src": "tombstone"
+},
+"Altar of Reception": {
+"t": "f1",
+"i": 17775,
+"src": "location:ma01a:exact"
+},
+"Captocorn Pass": {
+"t": "f1",
+"i": 17766,
+"src": "location:ma01a:exact"
+},
+"Gava Junction": {
+"t": "f1",
+"i": 17771,
+"src": "location:ma01a:exact"
+},
+"Hall of the Serene": {
+"t": "f1",
+"i": 17776,
+"src": "location:ma01a:exact"
+},
+"Nocclia Mire": {
+"t": "f1",
+"i": 17768,
+"src": "location:ma01a:exact"
+},
+"Spoondrift Gate": {
+"t": "f1",
+"i": 17767,
+"src": "location:ma01a:exact"
+},
+"Colony Omega Camp": {
+"t": "f1",
+"i": 17787,
+"src": "location:ma01a:exact"
+},
+"Ladras Camp": {
+"t": "f1",
+"i": 17788,
+"src": "location:ma01a:exact"
+},
+"Tsang Camp": {
+"t": "f1",
+"i": 17786,
+"src": "location:ma01a:exact"
+},
+"Cloudkeep": {
+"t": "f1",
+"i": 17752,
+"src": "location:ma01a:exact"
+},
+"Ladras Way": {
+"t": "f1",
+"i": 17731,
+"src": "location:ma01a:exact"
+},
+"Piula Path": {
+"t": "f1",
+"i": 17751,
+"src": "location:ma01a:exact"
+},
+"Tsang Road": {
+"t": "f1",
+"i": 17730,
+"src": "location:ma01a:exact"
+},
+"Amphitheater": {
+"t": "f1",
+"i": 19161,
+"src": "location:ma17a:exact"
+},
+"Amplifier No. 1: Lower Gate": {
+"t": "f1",
+"i": 19129,
+"src": "location:ma17a:exact"
+},
+"Amplifier No. 1: Upper Gate": {
+"t": "f1",
+"i": 19128,
+"src": "location:ma17a:exact"
+},
+"Amplifier No. 2: Lower Gate": {
+"t": "f1",
+"i": 19131,
+"src": "location:ma17a:exact"
+},
+"Amplifier No. 2: Upper Gate": {
+"t": "f1",
+"i": 19130,
+"src": "location:ma17a:exact"
+},
+"Arms Storage Tower, Lower": {
+"t": "f1",
+"i": 19159,
+"src": "location:ma17a:exact"
+},
+"Defense Tower #1": {
+"t": "f1",
+"i": 19157,
+"src": "location:ma17a:exact"
+},
+"Defense Tower #3": {
+"t": "f1",
+"i": 19158,
+"src": "location:ma17a:exact"
+},
+"Eternal Prison": {
+"t": "f1",
+"i": 19143,
+"src": "location:ma17a:exact"
+},
+"Ferronis Arsenal #1: E. Gate": {
+"t": "f1",
+"i": 19137,
+"src": "location:ma17a:exact"
+},
+"Ferronis Arsenal #1: S. Gate": {
+"t": "f1",
+"i": 19138,
+"src": "location:ma17a:exact"
+},
+"Ferronis Arsenal #3: E. Gate": {
+"t": "f1",
+"i": 19140,
+"src": "location:ma17a:exact"
+},
+"Ferronis Arsenal #3: N. Gate": {
+"t": "f1",
+"i": 19139,
+"src": "location:ma17a:exact"
+},
+"Force Field Generator Base": {
+"t": "f1",
+"i": 19121,
+"src": "location:ma17a:exact"
+},
+"Hangar, Lower: Main Gate": {
+"t": "f1",
+"i": 19150,
+"src": "location:ma17a:exact"
+},
+"Hangar, Upper: East Gate": {
+"t": "f1",
+"i": 19148,
+"src": "location:ma17a:exact"
+},
+"Hangar, Upper: West Gate": {
+"t": "f1",
+"i": 19149,
+"src": "location:ma17a:exact"
+},
+"Supply Storage #2": {
+"t": "f1",
+"i": 19151,
+"src": "location:ma17a:exact"
+},
+"Amplifier Control Room": {
+"t": "f1",
+"i": 19132,
+"src": "location:ma17a:exact"
+},
+"Arsenal Control Room": {
+"t": "f1",
+"i": 19141,
+"src": "location:ma17a:exact"
+},
+"Cabin of the Bravery": {
+"t": "f1",
+"i": 19123,
+"src": "location:ma17a:exact"
+},
+"Supply Storage #1": {
+"t": "f1",
+"i": 19152,
+"src": "location:ma17a:exact"
+},
+"Amplifier No. 1": {
+"t": "f1",
+"i": 19124,
+"src": "location:ma17a:exact"
+},
+"Amplifier No. 2": {
+"t": "f1",
+"i": 19127,
+"src": "location:ma17a:exact"
+},
+"Amplifier Section": {
+"t": "f1",
+"i": 19126,
+"src": "location:ma17a:exact"
+},
+"Central Defense": {
+"t": "f1",
+"i": 19153,
+"src": "location:ma17a:exact"
+},
+"Central Sector Passage": {
+"t": "f1",
+"i": 19156,
+"src": "location:ma17a:exact"
+},
+"Defense Tower #2": {
+"t": "f1",
+"i": 19154,
+"src": "location:ma17a:exact"
+},
+"Defense Tower #4": {
+"t": "f1",
+"i": 19155,
+"src": "location:ma17a:exact"
+},
+"East-West Sector Passage": {
+"t": "f1",
+"i": 19136,
+"src": "location:ma17a:exact"
+},
+"Ferronis Arsenal #1": {
+"t": "f1",
+"i": 19133,
+"src": "location:ma17a:exact"
+},
+"Ferronis Arsenal #2": {
+"t": "f1",
+"i": 19134,
+"src": "location:ma17a:exact"
+},
+"Ferronis Arsenal #3": {
+"t": "f1",
+"i": 19135,
+"src": "location:ma17a:exact"
+},
+"Hangar Zone": {
+"t": "f1",
+"i": 19147,
+"src": "location:ma17a:exact"
+},
+"North Sector Passage": {
+"t": "f1",
+"i": 19122,
+"src": "location:ma17a:exact"
+},
+"North Shell Passage": {
+"t": "f1",
+"i": 19125,
+"src": "location:ma17a:exact"
+},
+"South Sector Passage": {
+"t": "f1",
+"i": 19142,
+"src": "location:ma17a:exact"
+},
+"South Shell Passage": {
+"t": "f1",
+"i": 19144,
+"src": "location:ma17a:exact"
+},
+"Clinging Azreel (Lv. 69)": {
+"t": "tb",
+"i": 119,
+"src": "tombstone"
+},
+"Creeping Hameel (Lv. 67)": {
+"t": "tb",
+"i": 118,
+"src": "tombstone"
+},
+"Defiled Ishtar (Lv. 65)": {
+"t": "tb",
+"i": 124,
+"src": "tombstone"
+},
+"Desired Oruria (Lv. 86)": {
+"t": "tb",
+"i": 123,
+"src": "tombstone"
+},
+"Ghostfist R\u00f3is\u00edn (Lv. 66)": {
+"t": "tb",
+"i": 116,
+"src": "tombstone"
+},
+"Pressing Rafeel (Lv. 69)": {
+"t": "tb",
+"i": 120,
+"src": "tombstone"
+},
+"Reaping Anteel (Lv. 72)": {
+"t": "tb",
+"i": 121,
+"src": "tombstone"
+},
+"Thaumawolf Bajeek (Lv. 71)": {
+"t": "tb",
+"i": 122,
+"src": "tombstone"
+},
+"Vapid Roger (Lv. 70)": {
+"t": "tb",
+"i": 117,
+"src": "tombstone"
+},
+"Shattered Pathway": {
+"t": "f1",
+"i": 19325,
+"src": "location:ma22a:exact"
+},
+"Heavenrazor Egreet (Lv. 90)": {
+"t": "tb",
+"i": 114,
+"src": "tombstone"
+},
+"Seraphic Ceratinia (Lv. 120)": {
+"t": "tb",
+"i": 115,
+"src": "tombstone"
+},
+"Captocorn Peak Container 1": {
+"t": "f1",
+"i": 6931,
+"src": "container"
+},
+"Riccalo Pond Container 1": {
+"t": "f1",
+"i": 6932,
+"src": "container"
+},
+"Colony 9 Rear Gate Container 1": {
+"t": "f1",
+"i": 6933,
+"src": "container"
+},
+"Captocorn Peak Container 2": {
+"t": "f1",
+"i": 6934,
+"src": "container"
+},
+"Rottswoe Battlescar Container 1": {
+"t": "f1",
+"i": 6935,
+"src": "container"
+},
+"Colony 9 Container 1": {
+"t": "f1",
+"i": 6943,
+"src": "container"
+},
+"Colony 9 Container 2": {
+"t": "f1",
+"i": 6944,
+"src": "container"
+},
+"Viliera Hill Container 1": {
+"t": "f1",
+"i": 6958,
+"src": "container"
+},
+"Viliera Hill Container 2": {
+"t": "f1",
+"i": 6959,
+"src": "container"
+},
+"Colony 9 Container 3": {
+"t": "f1",
+"i": 7063,
+"src": "container"
+},
+"Cloudkeep Container 1": {
+"t": "f1",
+"i": 7117,
+"src": "container"
+},
+"Cloudkeep Container 2": {
+"t": "f1",
+"i": 7118,
+"src": "container"
+},
+"Captocorn Peak Container 3": {
+"t": "f1",
+"i": 7188,
+"src": "container"
+},
+"Captocorn Peak Container 4": {
+"t": "f1",
+"i": 7189,
+"src": "container"
+},
+"Skyview Falls Container 1": {
+"t": "f1",
+"i": 7190,
+"src": "container"
+},
+"Svinne Cavity Container 1": {
+"t": "f1",
+"i": 7191,
+"src": "container"
+},
+"Svinne Cavity Container 2": {
+"t": "f1",
+"i": 7192,
+"src": "container"
+},
+"Yzana Plains Container 1": {
+"t": "f1",
+"i": 7193,
+"src": "container"
+},
+"Fuschian Fields Container 1": {
+"t": "f1",
+"i": 7194,
+"src": "container"
+},
+"Berje Belt Container 1": {
+"t": "f1",
+"i": 7195,
+"src": "container"
+},
+"Hermit's Alleyway Container 1": {
+"t": "f1",
+"i": 7196,
+"src": "container"
+},
+"Kilmarris Highland Container 1": {
+"t": "f1",
+"i": 7197,
+"src": "container"
+},
+"Viliera Hill Container 3": {
+"t": "f1",
+"i": 7198,
+"src": "container"
+},
+"Murmur Rise Container 1": {
+"t": "f1",
+"i": 7199,
+"src": "container"
+},
+"Transcendent Retreat Container 1": {
+"t": "f1",
+"i": 7200,
+"src": "container"
+},
+"Melnath's Pass, Upper Container 1": {
+"t": "f1",
+"i": 7201,
+"src": "container"
+},
+"Transcendent Retreat Container 2": {
+"t": "f1",
+"i": 7202,
+"src": "container"
+},
+"Tsang Road Container 1": {
+"t": "f1",
+"i": 7203,
+"src": "container"
+},
+"Ladras Way Container 1": {
+"t": "f1",
+"i": 7204,
+"src": "container"
+},
+"Nocclia Mire Container 1": {
+"t": "f1",
+"i": 7205,
+"src": "container"
+},
+"Transcendent Retreat Container 3": {
+"t": "f1",
+"i": 7206,
+"src": "container"
+},
+"Colony Gamma Container 1": {
+"t": "f1",
+"i": 7207,
+"src": "container"
+},
+"Colony Gamma Container 2": {
+"t": "f1",
+"i": 7208,
+"src": "container"
+},
+"Melnath's Shoulder Container 1": {
+"t": "f1",
+"i": 7209,
+"src": "container"
+},
+"Elgares Depths Container 1": {
+"t": "f1",
+"i": 7210,
+"src": "container"
+},
+"Elgares Depths Container 2": {
+"t": "f1",
+"i": 7211,
+"src": "container"
+},
+"Rottswoe Battlescar Container 2": {
+"t": "f1",
+"i": 7219,
+"src": "container"
+},
+"Rottswoe Battlescar Container 3": {
+"t": "f1",
+"i": 7220,
+"src": "container"
+},
+"Sonata Saddleback Container 1": {
+"t": "f1",
+"i": 7292,
+"src": "container"
+},
+"Sonata Saddleback Container 2": {
+"t": "f1",
+"i": 7293,
+"src": "container"
+},
+"Volff Lair Container 1": {
+"t": "f1",
+"i": 7294,
+"src": "container"
+},
+"Murmur Rise Container 2": {
+"t": "f1",
+"i": 7295,
+"src": "container"
+},
+"Murmur Rise Container 3": {
+"t": "f1",
+"i": 7296,
+"src": "container"
+},
+"Alfeto Valley Mouth Container 1": {
+"t": "f1",
+"i": 7297,
+"src": "container"
+},
+"Melnath's Pass, Lower Container 1": {
+"t": "f1",
+"i": 7298,
+"src": "container"
+},
+"Elgares Depths Container 3": {
+"t": "f1",
+"i": 7299,
+"src": "container"
+},
+"Reith Valley Container 1": {
+"t": "f1",
+"i": 7006,
+"src": "container"
+},
+"Eagus Wilderness Container 1": {
+"t": "f1",
+"i": 7007,
+"src": "container"
+},
+"Racine's Platter Container 1": {
+"t": "f1",
+"i": 7008,
+"src": "container"
+},
+"Bennel Cave Container 1": {
+"t": "f1",
+"i": 7009,
+"src": "container"
+},
+"Piento Basin Container 1": {
+"t": "f1",
+"i": 7010,
+"src": "container"
+},
+"Distant Fingertip Container 1": {
+"t": "f1",
+"i": 7011,
+"src": "container"
+},
+"Elaice Highway Container 1": {
+"t": "f1",
+"i": 7012,
+"src": "container"
+},
+"Galghour's Menhir Container 1": {
+"t": "f1",
+"i": 7013,
+"src": "container"
+},
+"Reith Valley Container 2": {
+"t": "f1",
+"i": 7014,
+"src": "container"
+},
+"Sparres Barr Container 1": {
+"t": "f1",
+"i": 7015,
+"src": "container"
+},
+"Tonic Waters Container 1": {
+"t": "f1",
+"i": 7016,
+"src": "container"
+},
+"Precipice of Judgment Container 1": {
+"t": "f1",
+"i": 7017,
+"src": "container"
+},
+"Caitlin Drum Container 1": {
+"t": "f1",
+"i": 7018,
+"src": "container"
+},
+"Sage's Balcony Container 1": {
+"t": "f1",
+"i": 7019,
+"src": "container"
+},
+"Tirkin Headquarters Container 1": {
+"t": "f1",
+"i": 7020,
+"src": "container"
+},
+"Laprel Knoll Container 1": {
+"t": "f1",
+"i": 7021,
+"src": "container"
+},
+"Terra Wastelands Container 1": {
+"t": "f1",
+"i": 7022,
+"src": "container"
+},
+"Dumas' Jaw Container 1": {
+"t": "f1",
+"i": 7023,
+"src": "container"
+},
+"Lisza Garden Container 1": {
+"t": "f1",
+"i": 7024,
+"src": "container"
+},
+"Lomi Hill Container 1": {
+"t": "f1",
+"i": 7025,
+"src": "container"
+},
+"Pinasa Highland Container 1": {
+"t": "f1",
+"i": 7026,
+"src": "container"
+},
+"The Lace Subterranean Container 1": {
+"t": "f1",
+"i": 7027,
+"src": "container"
+},
+"Isnie Ledge Container 1": {
+"t": "f1",
+"i": 7028,
+"src": "container"
+},
+"Nih'l Valley Container 1": {
+"t": "f1",
+"i": 7139,
+"src": "container"
+},
+"Piento Basin Container 2": {
+"t": "f1",
+"i": 7140,
+"src": "container"
+},
+"Carafe of Plenty Container 1": {
+"t": "f1",
+"i": 7141,
+"src": "container"
+},
+"Tepnos Heights Container 1": {
+"t": "f1",
+"i": 7146,
+"src": "container"
+},
+"Three Heroes Peak Container 1": {
+"t": "f1",
+"i": 7147,
+"src": "container"
+},
+"Great Liente Shelf Container 1": {
+"t": "f1",
+"i": 7148,
+"src": "container"
+},
+"Zain's Talon Container 1": {
+"t": "f1",
+"i": 7149,
+"src": "container"
+},
+"Hictern's Cleft Container 1": {
+"t": "f1",
+"i": 7150,
+"src": "container"
+},
+"Eagus Wilderness Container 2": {
+"t": "f1",
+"i": 7151,
+"src": "container"
+},
+"Elaice Highway Container 2": {
+"t": "f1",
+"i": 7152,
+"src": "container"
+},
+"Elaice Highway Container 3": {
+"t": "f1",
+"i": 7153,
+"src": "container"
+},
+"Yunnae's Rise Container 1": {
+"t": "f1",
+"i": 7154,
+"src": "container"
+},
+"Grun Slope Container 1": {
+"t": "f1",
+"i": 7158,
+"src": "container"
+},
+"Raptor Perch Container 1": {
+"t": "f1",
+"i": 7159,
+"src": "container"
+},
+"Limoux Hill Container 1": {
+"t": "f1",
+"i": 7160,
+"src": "container"
+},
+"Fetos Sandgarden Container 1": {
+"t": "f1",
+"i": 7161,
+"src": "container"
+},
+"Alefa Skysphere Container 1": {
+"t": "f1",
+"i": 7162,
+"src": "container"
+},
+"Colony 30 Maintenance Bay Container 1": {
+"t": "f1",
+"i": 7163,
+"src": "container"
+},
+"Sage's Domicile Container 1": {
+"t": "f1",
+"i": 7164,
+"src": "container"
+},
+"Limoux Hill Container 2": {
+"t": "f1",
+"i": 7165,
+"src": "container"
+},
+"Peshris Fountain Container 1": {
+"t": "f1",
+"i": 7166,
+"src": "container"
+},
+"Quicksand Basin Container 1": {
+"t": "f1",
+"i": 7167,
+"src": "container"
+},
+"Paltir Hillock Container 1": {
+"t": "f1",
+"i": 7168,
+"src": "container"
+},
+"Precipice of Judgment Container 2": {
+"t": "f1",
+"i": 7169,
+"src": "container"
+},
+"Isla Passerat Container 1": {
+"t": "f1",
+"i": 7170,
+"src": "container"
+},
+"Bittley Slope Container 1": {
+"t": "f1",
+"i": 7174,
+"src": "container"
+},
+"Bittley Slope Container 2": {
+"t": "f1",
+"i": 7175,
+"src": "container"
+},
+"Elsayer Cape Container 1": {
+"t": "f1",
+"i": 7176,
+"src": "container"
+},
+"Valley of Anguish Container 1": {
+"t": "f1",
+"i": 7177,
+"src": "container"
+},
+"Racine's Platter Container 2": {
+"t": "f1",
+"i": 7178,
+"src": "container"
+},
+"Colony 4 Container 1": {
+"t": "f1",
+"i": 7179,
+"src": "container"
+},
+"Colony 4 Container 2": {
+"t": "f1",
+"i": 7180,
+"src": "container"
+},
+"Racine's Platter Container 3": {
+"t": "f1",
+"i": 7181,
+"src": "container"
+},
+"Colony Iota Container 1": {
+"t": "f1",
+"i": 7182,
+"src": "container"
+},
+"Colony Iota Container 2": {
+"t": "f1",
+"i": 7183,
+"src": "container"
+},
+"Colony Iota Container 3": {
+"t": "f1",
+"i": 7184,
+"src": "container"
+},
+"Colony 30 Container 1": {
+"t": "f1",
+"i": 7185,
+"src": "container"
+},
+"Colony 30 Container 2": {
+"t": "f1",
+"i": 7186,
+"src": "container"
+},
+"Colony 30 Container 3": {
+"t": "f1",
+"i": 7187,
+"src": "container"
+},
+"The Blue Bluffs Container 1": {
+"t": "f1",
+"i": 7215,
+"src": "container"
+},
+"The Blue Bluffs Container 2": {
+"t": "f1",
+"i": 7216,
+"src": "container"
+},
+"Rutez Barr Container 1": {
+"t": "f1",
+"i": 7217,
+"src": "container"
+},
+"Rutez Barr Container 2": {
+"t": "f1",
+"i": 7218,
+"src": "container"
+},
+"Barren Knoll Container 1": {
+"t": "f1",
+"i": 7258,
+"src": "container"
+},
+"Mehnert Interdigit Container 1": {
+"t": "f1",
+"i": 7259,
+"src": "container"
+},
+"Great Liente Shelf Container 2": {
+"t": "f1",
+"i": 7260,
+"src": "container"
+},
+"Elaice Highway Container 4": {
+"t": "f1",
+"i": 7261,
+"src": "container"
+},
+"Yunnae's Rise Container 2": {
+"t": "f1",
+"i": 7262,
+"src": "container"
+},
+"Ypsil Hill Container 1": {
+"t": "f1",
+"i": 7263,
+"src": "container"
+},
+"Apex Wing Container 1": {
+"t": "f1",
+"i": 7264,
+"src": "container"
+},
+"Limoux Hill Container 3": {
+"t": "f1",
+"i": 7265,
+"src": "container"
+},
+"Limoux Hill Container 4": {
+"t": "f1",
+"i": 7266,
+"src": "container"
+},
+"Sparres Barr Container 2": {
+"t": "f1",
+"i": 7267,
+"src": "container"
+},
+"Grun Slope Container 2": {
+"t": "f1",
+"i": 7268,
+"src": "container"
+},
+"Lomi Hill Container 2": {
+"t": "f1",
+"i": 7269,
+"src": "container"
+},
+"Rae-Bel Tableland Container 1": {
+"t": "f1",
+"i": 7270,
+"src": "container"
+},
+"Isnie Ledge Container 2": {
+"t": "f1",
+"i": 7271,
+"src": "container"
+},
+"Tilpa Scree Container 1": {
+"t": "f1",
+"i": 7272,
+"src": "container"
+},
+"Elevator No. 1 Container 1": {
+"t": "f1",
+"i": 6960,
+"src": "container"
+},
+"Elevator No. 1 Container 2": {
+"t": "f1",
+"i": 6961,
+"src": "container"
+},
+"Ruins of Seebu Container 1": {
+"t": "f1",
+"i": 6962,
+"src": "container"
+},
+"Roaring Spring Container 1": {
+"t": "f1",
+"i": 6963,
+"src": "container"
+},
+"Elevator No. 2 Container 1": {
+"t": "f1",
+"i": 6964,
+"src": "container"
+},
+"Kachurichu Cavern Container 1": {
+"t": "f1",
+"i": 6965,
+"src": "container"
+},
+"Mine No. 3 Container 1": {
+"t": "f1",
+"i": 6966,
+"src": "container"
+},
+"Cave at Pira Bluffs Container 1": {
+"t": "f1",
+"i": 6967,
+"src": "container"
+},
+"Hidden Freshwater Inlet Container 1": {
+"t": "f1",
+"i": 6968,
+"src": "container"
+},
+"Second Cataract Container 1": {
+"t": "f1",
+"i": 6969,
+"src": "container"
+},
+"Cotte Trick Ruins Container 1": {
+"t": "f1",
+"i": 6970,
+"src": "container"
+},
+"Cotte Trick Ruins Container 2": {
+"t": "f1",
+"i": 6971,
+"src": "container"
+},
+"Spring of Rhonnar Container 1": {
+"t": "f1",
+"i": 6972,
+"src": "container"
+},
+"Spring of Quarquaka Container 1": {
+"t": "f1",
+"i": 6973,
+"src": "container"
+},
+"Cross-Maktha Elevator Container 1": {
+"t": "f1",
+"i": 6974,
+"src": "container"
+},
+"Yellowgrove Container 1": {
+"t": "f1",
+"i": 7029,
+"src": "container"
+},
+"The Tirkinhold Container 1": {
+"t": "f1",
+"i": 7030,
+"src": "container"
+},
+"Archaic Tower Container 1": {
+"t": "f1",
+"i": 7031,
+"src": "container"
+},
+"Archaic Tower Container 2": {
+"t": "f1",
+"i": 7032,
+"src": "container"
+},
+"Runo Ruins Container 1": {
+"t": "f1",
+"i": 7033,
+"src": "container"
+},
+"Engardo Pass Container 1": {
+"t": "f1",
+"i": 7088,
+"src": "container"
+},
+"Ancient Storehouse Container 1": {
+"t": "f1",
+"i": 7089,
+"src": "container"
+},
+"Gingin's Treehouse Container 1": {
+"t": "f1",
+"i": 7090,
+"src": "container"
+},
+"Colony Tau, Crop Fields Container 1": {
+"t": "f1",
+"i": 7091,
+"src": "container"
+},
+"Warning Tree Container 1": {
+"t": "f1",
+"i": 7092,
+"src": "container"
+},
+"Cavern of Oblivion Container 1": {
+"t": "f1",
+"i": 7093,
+"src": "container"
+},
+"Cavern of Oblivion Container 2": {
+"t": "f1",
+"i": 7094,
+"src": "container"
+},
+"Cavern of Oblivion Container 3": {
+"t": "f1",
+"i": 7095,
+"src": "container"
+},
+"Urayan Trail Container 1": {
+"t": "f1",
+"i": 7096,
+"src": "container"
+},
+"Mountain Front: Agnus Container 1": {
+"t": "f1",
+"i": 7097,
+"src": "container"
+},
+"Mountain Front: Keves Container 1": {
+"t": "f1",
+"i": 7098,
+"src": "container"
+},
+"Loska's Cavern Container 1": {
+"t": "f1",
+"i": 7099,
+"src": "container"
+},
+"Loska Plateau Container 1": {
+"t": "f1",
+"i": 7100,
+"src": "container"
+},
+"Colony Lambda Container 1": {
+"t": "f1",
+"i": 7101,
+"src": "container"
+},
+"Colony Lambda Container 2": {
+"t": "f1",
+"i": 7102,
+"src": "container"
+},
+"Colony Lambda Container 3": {
+"t": "f1",
+"i": 7103,
+"src": "container"
+},
+"Colony Lambda Container 4": {
+"t": "f1",
+"i": 7104,
+"src": "container"
+},
+"Colony Tau Container 1": {
+"t": "f1",
+"i": 7105,
+"src": "container"
+},
+"Colony Tau Container 2": {
+"t": "f1",
+"i": 7106,
+"src": "container"
+},
+"First Cataract Container 1": {
+"t": "f1",
+"i": 7221,
+"src": "container"
+},
+"First Cataract Container 2": {
+"t": "f1",
+"i": 7222,
+"src": "container"
+},
+"Pelza's Pass Container 1": {
+"t": "f1",
+"i": 7223,
+"src": "container"
+},
+"Pelza's Pass Container 2": {
+"t": "f1",
+"i": 7224,
+"src": "container"
+},
+"Mine No. 1 Container 1": {
+"t": "f1",
+"i": 7238,
+"src": "container"
+},
+"First Cataract Container 3": {
+"t": "f1",
+"i": 7239,
+"src": "container"
+},
+"Elevator No. 1 Container 3": {
+"t": "f1",
+"i": 7247,
+"src": "container"
+},
+"Elevator No. 2 Container 2": {
+"t": "f1",
+"i": 7248,
+"src": "container"
+},
+"Amoney's Hallows Container 1": {
+"t": "f1",
+"i": 7249,
+"src": "container"
+},
+"Engardo Pass Container 2": {
+"t": "f1",
+"i": 7250,
+"src": "container"
+},
+"Low Maktha Wildwood Container 1": {
+"t": "f1",
+"i": 7251,
+"src": "container"
+},
+"Myma Gate Container 1": {
+"t": "f1",
+"i": 7274,
+"src": "container"
+},
+"Mine No. 2 Container 1": {
+"t": "f1",
+"i": 7300,
+"src": "container"
+},
+"Cotte Trick Ruins Container 3": {
+"t": "f1",
+"i": 7301,
+"src": "container"
+},
+"Runo Ruins Container 2": {
+"t": "f1",
+"i": 7302,
+"src": "container"
+},
+"Urayan Trail Container 2": {
+"t": "f1",
+"i": 7303,
+"src": "container"
+},
+"Cross-Maktha Elevator Container 2": {
+"t": "f1",
+"i": 7307,
+"src": "container"
+},
+"Gingin's Treehouse Container 2": {
+"t": "f1",
+"i": 7308,
+"src": "container"
+},
+"First Ixia Bridge Container 1": {
+"t": "f1",
+"i": 6945,
+"src": "container"
+},
+"Penshia Portal Container 1": {
+"t": "f1",
+"i": 6946,
+"src": "container"
+},
+"Ekdaso Verge Container 1": {
+"t": "f1",
+"i": 6947,
+"src": "container"
+},
+"Fourth Ixia Bridge Container 1": {
+"t": "f1",
+"i": 6948,
+"src": "container"
+},
+"Hovering Reef 6 Container 1": {
+"t": "f1",
+"i": 6949,
+"src": "container"
+},
+"Hovering Reef 5 Container 1": {
+"t": "f1",
+"i": 6950,
+"src": "container"
+},
+"Hovering Reef 4 Container 1": {
+"t": "f1",
+"i": 6951,
+"src": "container"
+},
+"Hovering Reef 2 Container 1": {
+"t": "f1",
+"i": 6952,
+"src": "container"
+},
+"Hovering Reef 1 Container 1": {
+"t": "f1",
+"i": 6953,
+"src": "container"
+},
+"Hovering Reef 1 Container 2": {
+"t": "f1",
+"i": 6954,
+"src": "container"
+},
+"Hovering Reef 1 Container 3": {
+"t": "f1",
+"i": 6955,
+"src": "container"
+},
+"Hangar, Lower Level Container 1": {
+"t": "f1",
+"i": 6975,
+"src": "container"
+},
+"Hangar, Lower Level Container 2": {
+"t": "f1",
+"i": 6976,
+"src": "container"
+},
+"Hangar, Lower Level Container 3": {
+"t": "f1",
+"i": 6977,
+"src": "container"
+},
+"Hangar, Lower Level Container 4": {
+"t": "f1",
+"i": 6978,
+"src": "container"
+},
+"Hangar, Lower Level Container 5": {
+"t": "f1",
+"i": 6979,
+"src": "container"
+},
+"Hangar, Upper Level (Syra Hovering Reefs) Container 1": {
+"t": "f1",
+"i": 6980,
+"src": "container"
+},
+"Hangar, Upper Level (Syra Hovering Reefs) Container 2": {
+"t": "f1",
+"i": 6981,
+"src": "container"
+},
+"Standby Room #1 Container 1": {
+"t": "f1",
+"i": 6982,
+"src": "container"
+},
+"Equipment Storage Container 1": {
+"t": "f1",
+"i": 6983,
+"src": "container"
+},
+"Goods Transport Shaft Container 1": {
+"t": "f1",
+"i": 6984,
+"src": "container"
+},
+"Lower Drainage Container 1": {
+"t": "f1",
+"i": 6985,
+"src": "container"
+},
+"Gardin Defense Base Container 1": {
+"t": "f1",
+"i": 7107,
+"src": "container"
+},
+"Gardin Defense Base Container 2": {
+"t": "f1",
+"i": 7108,
+"src": "container"
+},
+"Colony 11 Container 1": {
+"t": "f1",
+"i": 7109,
+"src": "container"
+},
+"Colony 11 Container 2": {
+"t": "f1",
+"i": 7110,
+"src": "container"
+},
+"Colony 11 Container 3": {
+"t": "f1",
+"i": 7111,
+"src": "container"
+},
+"Fort O'Virbus Container 1": {
+"t": "f1",
+"i": 7112,
+"src": "container"
+},
+"Fort O'Virbus Container 2": {
+"t": "f1",
+"i": 7113,
+"src": "container"
+},
+"Fort O'Virbus Container 3": {
+"t": "f1",
+"i": 7114,
+"src": "container"
+},
+"Fort O'Virbus Container 4": {
+"t": "f1",
+"i": 7115,
+"src": "container"
+},
+"Grand Tower Skygarden Container 1": {
+"t": "f1",
+"i": 7116,
+"src": "container"
+},
+"Fort O'Virbus Container 5": {
+"t": "f1",
+"i": 7275,
+"src": "container"
+},
+"Fort O'Virbus Container 6": {
+"t": "f1",
+"i": 7276,
+"src": "container"
+},
+"Sturc Gully Gate Container 1": {
+"t": "f1",
+"i": 6986,
+"src": "container"
+},
+"N'ohm Wetlands Container 1": {
+"t": "f1",
+"i": 6987,
+"src": "container"
+},
+"N'ohm Wetlands Container 2": {
+"t": "f1",
+"i": 6988,
+"src": "container"
+},
+"Samon's Secret Storage Container 1": {
+"t": "f1",
+"i": 6989,
+"src": "container"
+},
+"Samon's Secret Storage Container 2": {
+"t": "f1",
+"i": 6990,
+"src": "container"
+},
+"Great Sword's Base Container 1": {
+"t": "f1",
+"i": 6991,
+"src": "container"
+},
+"Sentridge Harbor Container 1": {
+"t": "f1",
+"i": 6992,
+"src": "container"
+},
+"Cay of the Trick Grotto Container 1": {
+"t": "f1",
+"i": 6993,
+"src": "container"
+},
+"Cay of the Trick Grotto Container 2": {
+"t": "f1",
+"i": 6994,
+"src": "container"
+},
+"Corne Island Container 1": {
+"t": "f1",
+"i": 6995,
+"src": "container"
+},
+"Corne Island Container 2": {
+"t": "f1",
+"i": 6996,
+"src": "container"
+},
+"Daedal Isle Container 1": {
+"t": "f1",
+"i": 6997,
+"src": "container"
+},
+"Daedal Isle Container 2": {
+"t": "f1",
+"i": 6998,
+"src": "container"
+},
+"Daedal Isle Container 3": {
+"t": "f1",
+"i": 6999,
+"src": "container"
+},
+"Daedal Isle Container 4": {
+"t": "f1",
+"i": 7000,
+"src": "container"
+},
+"Thurbin Island Container 1": {
+"t": "f1",
+"i": 7001,
+"src": "container"
+},
+"Thurbin Island Container 2": {
+"t": "f1",
+"i": 7002,
+"src": "container"
+},
+"Anu Shoals Container 1": {
+"t": "f1",
+"i": 7003,
+"src": "container"
+},
+"Anu Shoals Container 2": {
+"t": "f1",
+"i": 7004,
+"src": "container"
+},
+"Anu Shoals Container 3": {
+"t": "f1",
+"i": 7005,
+"src": "container"
+},
+"Cape Arcaphor Container 1": {
+"t": "f1",
+"i": 7035,
+"src": "container"
+},
+"Cape Arcaphor Container 2": {
+"t": "f1",
+"i": 7036,
+"src": "container"
+},
+"Cape Arcaphor Container 3": {
+"t": "f1",
+"i": 7037,
+"src": "container"
+},
+"Lavi Sandbar Container 1": {
+"t": "f1",
+"i": 7038,
+"src": "container"
+},
+"Lavi Sandbar Container 2": {
+"t": "f1",
+"i": 7039,
+"src": "container"
+},
+"Lavi Sandbar Container 3": {
+"t": "f1",
+"i": 7040,
+"src": "container"
+},
+"Lavi Sandbar Container 4": {
+"t": "f1",
+"i": 7041,
+"src": "container"
+},
+"Place of Heroes Past Container 1": {
+"t": "f1",
+"i": 7042,
+"src": "container"
+},
+"Migrow's Rosary Container 1": {
+"t": "f1",
+"i": 7043,
+"src": "container"
+},
+"Colony Mu Container 1": {
+"t": "f1",
+"i": 7044,
+"src": "container"
+},
+"Migrow's Rosary Container 2": {
+"t": "f1",
+"i": 7045,
+"src": "container"
+},
+"Radial Outlook Container 1": {
+"t": "f1",
+"i": 7046,
+"src": "container"
+},
+"Needle Reef Beach Container 1": {
+"t": "f1",
+"i": 7047,
+"src": "container"
+},
+"Brasa Geothermal Belt Container 1": {
+"t": "f1",
+"i": 7048,
+"src": "container"
+},
+"Rebellion Cave Container 1": {
+"t": "f1",
+"i": 7049,
+"src": "container"
+},
+"Rebellion Cave Container 2": {
+"t": "f1",
+"i": 7050,
+"src": "container"
+},
+"Rebellion Cave Container 3": {
+"t": "f1",
+"i": 7051,
+"src": "container"
+},
+"Hargan Point Container 1": {
+"t": "f1",
+"i": 7052,
+"src": "container"
+},
+"Hargan Point Container 2": {
+"t": "f1",
+"i": 7053,
+"src": "container"
+},
+"Knife's Edge Pass Container 1": {
+"t": "f1",
+"i": 7054,
+"src": "container"
+},
+"Pedesto Valley Floor Container 1": {
+"t": "f1",
+"i": 7055,
+"src": "container"
+},
+"Farlaine Underpass Container 1": {
+"t": "f1",
+"i": 7056,
+"src": "container"
+},
+"Lost Colony Container 1": {
+"t": "f1",
+"i": 7057,
+"src": "container"
+},
+"Lost Colony Container 2": {
+"t": "f1",
+"i": 7058,
+"src": "container"
+},
+"Sea-Gnawed Cave Container 1": {
+"t": "f1",
+"i": 7059,
+"src": "container"
+},
+"Perimeter Woodland Container 1": {
+"t": "f1",
+"i": 7060,
+"src": "container"
+},
+"Levnis Workyard Container 1": {
+"t": "f1",
+"i": 7061,
+"src": "container"
+},
+"Patulia Bay Container 1": {
+"t": "f1",
+"i": 7062,
+"src": "container"
+},
+"N'ohm Wetlands Container 3": {
+"t": "f1",
+"i": 7068,
+"src": "container"
+},
+"Cay of the Trick Grotto Container 3": {
+"t": "f1",
+"i": 7069,
+"src": "container"
+},
+"Corne Island Container 3": {
+"t": "f1",
+"i": 7070,
+"src": "container"
+},
+"Daedal Isle Container 5": {
+"t": "f1",
+"i": 7071,
+"src": "container"
+},
+"Anu Shoals Container 4": {
+"t": "f1",
+"i": 7072,
+"src": "container"
+},
+"Anu Shoals Container 5": {
+"t": "f1",
+"i": 7073,
+"src": "container"
+},
+"Cape Arcaphor Container 4": {
+"t": "f1",
+"i": 7074,
+"src": "container"
+},
+"Lavi Sandbar Container 5": {
+"t": "f1",
+"i": 7075,
+"src": "container"
+},
+"Lavi Sandbar Container 6": {
+"t": "f1",
+"i": 7076,
+"src": "container"
+},
+"Colony Mu Container 2": {
+"t": "f1",
+"i": 7077,
+"src": "container"
+},
+"Brasa Spa Container 1": {
+"t": "f1",
+"i": 7078,
+"src": "container"
+},
+"Erythia Sea Container 1": {
+"t": "f1",
+"i": 7079,
+"src": "container"
+},
+"Rebellion Cave Container 4": {
+"t": "f1",
+"i": 7080,
+"src": "container"
+},
+"Hargan Point Container 3": {
+"t": "f1",
+"i": 7081,
+"src": "container"
+},
+"Pedesto Valley Floor Container 2": {
+"t": "f1",
+"i": 7082,
+"src": "container"
+},
+"Cradle Convoy Shelter Container 1": {
+"t": "f1",
+"i": 7083,
+"src": "container"
+},
+"Lost Colony Container 3": {
+"t": "f1",
+"i": 7084,
+"src": "container"
+},
+"Lost Colony Container 4": {
+"t": "f1",
+"i": 7085,
+"src": "container"
+},
+"Twinpalm Isle Container 1": {
+"t": "f1",
+"i": 7086,
+"src": "container"
+},
+"Twinpalm Isle Container 2": {
+"t": "f1",
+"i": 7087,
+"src": "container"
+},
+"Baldotas Atoll Container 1": {
+"t": "f1",
+"i": 7225,
+"src": "container"
+},
+"Baldotas Atoll Container 2": {
+"t": "f1",
+"i": 7226,
+"src": "container"
+},
+"Lavi Sandbar Container 7": {
+"t": "f1",
+"i": 7227,
+"src": "container"
+},
+"Lavi Sandbar Container 8": {
+"t": "f1",
+"i": 7228,
+"src": "container"
+},
+"Vinisog Holm Container 1": {
+"t": "f1",
+"i": 7240,
+"src": "container"
+},
+"Vinisog Holm Container 2": {
+"t": "f1",
+"i": 7241,
+"src": "container"
+},
+"Corne Island Container 4": {
+"t": "f1",
+"i": 7242,
+"src": "container"
+},
+"Brasa Geothermal Belt Container 2": {
+"t": "f1",
+"i": 7243,
+"src": "container"
+},
+"Lavi Sandbar Container 9": {
+"t": "f1",
+"i": 7244,
+"src": "container"
+},
+"Daedal Isle Container 6": {
+"t": "f1",
+"i": 7245,
+"src": "container"
+},
+"Ishan Isle Container 1": {
+"t": "f1",
+"i": 7246,
+"src": "container"
+},
+"Daedal Isle Container 7": {
+"t": "f1",
+"i": 7252,
+"src": "container"
+},
+"Central Cell Container 1": {
+"t": "f1",
+"i": 7287,
+"src": "container"
+},
+"Food Storage Container 1": {
+"t": "f1",
+"i": 7288,
+"src": "container"
+},
+"Guard Quarters Container 1": {
+"t": "f1",
+"i": 7289,
+"src": "container"
+},
+"Communal Cell Block Container 1": {
+"t": "f1",
+"i": 7290,
+"src": "container"
+},
+"Central Cell Container 2": {
+"t": "f1",
+"i": 7291,
+"src": "container"
+},
+"Thurbin Island Container 3": {
+"t": "f1",
+"i": 7304,
+"src": "container"
+},
+"Thurbin Island Container 4": {
+"t": "f1",
+"i": 7305,
+"src": "container"
+},
+"Rebellion Cave Container 5": {
+"t": "f1",
+"i": 7306,
+"src": "container"
+},
+"Colony Mu Container 3": {
+"t": "f1",
+"i": 7309,
+"src": "container"
+},
+"Ascension Grounds Container 1": {
+"t": "f1",
+"i": 7212,
+"src": "container"
+},
+"Ivory Gaol Container 1": {
+"t": "f1",
+"i": 7213,
+"src": "container"
+},
+"Agnus Castle Region Container 1": {
+"t": "f1",
+"i": 7214,
+"src": "container"
+},
+"Great Sword's Hilt Container 1": {
+"t": "f1",
+"i": 7229,
+"src": "container"
+},
+"Material Storage Warehouse (City) Container 1": {
+"t": "f1",
+"i": 7230,
+"src": "container"
+},
+"Airway Corridor (City) Container 1": {
+"t": "f1",
+"i": 7231,
+"src": "container"
+},
+"Mitia Lookout Container 1": {
+"t": "f1",
+"i": 7232,
+"src": "container"
+},
+"Ribelly Plaza Container 1": {
+"t": "f1",
+"i": 7233,
+"src": "container"
+},
+"Supply Stockpile Container 1": {
+"t": "f1",
+"i": 7234,
+"src": "container"
+},
+"Module Warehouse Container 1": {
+"t": "f1",
+"i": 7235,
+"src": "container"
+},
+"Module Warehouse Container 2": {
+"t": "f1",
+"i": 7236,
+"src": "container"
+},
+"Lost Numbers Dormitory Container 1": {
+"t": "f1",
+"i": 7237,
+"src": "container"
+},
+"Amplifier No. 1 Container 1": {
+"t": "f1",
+"i": 7119,
+"src": "container"
+},
+"Amplifier No. 1 Container 2": {
+"t": "f1",
+"i": 7120,
+"src": "container"
+},
+"Amplifier Section Container 1": {
+"t": "f1",
+"i": 7121,
+"src": "container"
+},
+"Amplifier No. 2 Container 1": {
+"t": "f1",
+"i": 7122,
+"src": "container"
+},
+"Amplifier No. 2 Container 2": {
+"t": "f1",
+"i": 7123,
+"src": "container"
+},
+"Ferronis Arsenal #1 Container 1": {
+"t": "f1",
+"i": 7124,
+"src": "container"
+},
+"Ferronis Arsenal #2 Container 1": {
+"t": "f1",
+"i": 7125,
+"src": "container"
+},
+"Ferronis Arsenal #2 Container 2": {
+"t": "f1",
+"i": 7126,
+"src": "container"
+},
+"Ferronis Arsenal #3 Container 1": {
+"t": "f1",
+"i": 7127,
+"src": "container"
+},
+"Ferronis Arsenal #3 Container 2": {
+"t": "f1",
+"i": 7128,
+"src": "container"
+},
+"Hangar, Upper Level (Origin) Container 1": {
+"t": "f1",
+"i": 7129,
+"src": "container"
+},
+"Hangar, Upper Level (Origin) Container 2": {
+"t": "f1",
+"i": 7130,
+"src": "container"
+},
+"Hangar, Upper Level (Origin) Container 3": {
+"t": "f1",
+"i": 7131,
+"src": "container"
+},
+"Hangar, Upper Level (Origin) Container 4": {
+"t": "f1",
+"i": 7132,
+"src": "container"
+},
+"Hangar Zone Container 1": {
+"t": "f1",
+"i": 7133,
+"src": "container"
+},
+"Hangar Zone Container 2": {
+"t": "f1",
+"i": 7134,
+"src": "container"
+},
+"Central Defense Container 1": {
+"t": "f1",
+"i": 7135,
+"src": "container"
+},
+"Central Defense Container 2": {
+"t": "f1",
+"i": 7136,
+"src": "container"
+},
+"Central Defense Container 3": {
+"t": "f1",
+"i": 7137,
+"src": "container"
+},
+"Central Defense Container 4": {
+"t": "f1",
+"i": 7138,
+"src": "container"
+},
+"The Cavity Container 1": {
+"t": "f1",
+"i": 7277,
+"src": "container"
+},
+"Airway Corridor (The Cavity) Container 1": {
+"t": "f1",
+"i": 7278,
+"src": "container"
+},
+"The Cavity Container 2": {
+"t": "f1",
+"i": 7279,
+"src": "container"
+},
+"The Cavity Container 3": {
+"t": "f1",
+"i": 7280,
+"src": "container"
+},
+"Airway Corridor (The Cavity) Container 2": {
+"t": "f1",
+"i": 7310,
+"src": "container"
+},
+"Material Storage Warehouse (The Cavity) Container 1": {
+"t": "f1",
+"i": 7311,
+"src": "container"
+},
+"Airway Corridor (The Cavity) Container 3": {
+"t": "f1",
+"i": 7312,
+"src": "container"
+}
+},
+"goals": {
+"Z\u221e (Lv. 75)": {
+"t": "f1",
+"i": 6879,
+"rise": true,
+"src": "game_clear flag rises after attach"
+}
+}
+}

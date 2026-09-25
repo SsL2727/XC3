@@ -1,0 +1,3929 @@
+{
+"items": {
+"Roc": {
+"t": "blade_crystal",
+"blade": 1008
+},
+"Aegaeon": {
+"t": "blade_crystal",
+"blade": 1014
+},
+"Wulfric": {
+"t": "blade_crystal",
+"blade": 1016
+},
+"Vale": {
+"t": "blade_crystal",
+"blade": 1018
+},
+"Agate": {
+"t": "blade_crystal",
+"blade": 1019
+},
+"Gorg": {
+"t": "blade_crystal",
+"blade": 1020
+},
+"Boreas": {
+"t": "blade_crystal",
+"blade": 1021
+},
+"Perun": {
+"t": "blade_crystal",
+"blade": 1026
+},
+"Kora": {
+"t": "blade_crystal",
+"blade": 1027
+},
+"Ursula": {
+"t": "blade_crystal",
+"blade": 1029
+},
+"Newt": {
+"t": "blade_crystal",
+"blade": 1030
+},
+"Nim": {
+"t": "blade_crystal",
+"blade": 1031
+},
+"Sheba": {
+"t": "blade_crystal",
+"blade": 1032
+},
+"Adenine": {
+"t": "blade_crystal",
+"blade": 1034
+},
+"Zenobia": {
+"t": "blade_crystal",
+"blade": 1036
+},
+"Floren": {
+"t": "blade_crystal",
+"blade": 1038
+},
+"KOS-MOS": {
+"t": "blade_crystal",
+"blade": 1039
+},
+"Herald": {
+"t": "blade_crystal",
+"blade": 1040
+},
+"Roc's Core Crystal": {
+"t": "blade_crystal",
+"blade": 1008
+},
+"Godfrey": {
+"t": "blade_crystal",
+"blade": 1015
+},
+"Perceval": {
+"t": "blade_crystal",
+"blade": 1017
+},
+"Kasandra": {
+"t": "blade_crystal",
+"blade": 1023
+},
+"Praxis": {
+"t": "blade_crystal",
+"blade": 1024
+},
+"Theory": {
+"t": "blade_crystal",
+"blade": 1025
+},
+"Azami": {
+"t": "blade_crystal",
+"blade": 1028
+},
+"Vess": {
+"t": "blade_crystal",
+"blade": 1033
+},
+"Electra": {
+"t": "blade_crystal",
+"blade": 1035
+},
+"Finch": {
+"t": "blade_crystal",
+"blade": 1037
+},
+"Dahlia": {
+"t": "blade_crystal",
+"blade": 1041
+},
+"T-elos": {
+"t": "blade_crystal",
+"blade": 1104
+},
+"Poppibuster": {
+"t": "blade_crystal",
+"blade": 1105
+},
+"Shulk": {
+"t": "blade_crystal",
+"blade": 1106
+},
+"Fiora": {
+"t": "blade_crystal",
+"blade": 1107
+},
+"Corvin": {
+"t": "blade_crystal",
+"blade": 1108
+},
+"Crossette": {
+"t": "blade_crystal",
+"blade": 1109
+},
+"Elma": {
+"t": "blade_crystal",
+"blade": 1111
+},
+"Progressive Blade Trust": {
+"t": "trust_cap",
+"blades": "all",
+"max": 4
+},
+"Roc Trust": {
+"t": "trust_cap",
+"blades": [
+1008
+],
+"max": 4
+},
+"Aegaeon Trust": {
+"t": "trust_cap",
+"blades": [
+1014
+],
+"max": 4
+},
+"Wulfric Trust": {
+"t": "trust_cap",
+"blades": [
+1016
+],
+"max": 4
+},
+"Vale Trust": {
+"t": "trust_cap",
+"blades": [
+1018
+],
+"max": 4
+},
+"Agate Trust": {
+"t": "trust_cap",
+"blades": [
+1019
+],
+"max": 4
+},
+"Gorg Trust": {
+"t": "trust_cap",
+"blades": [
+1020
+],
+"max": 4
+},
+"Boreas Trust": {
+"t": "trust_cap",
+"blades": [
+1021
+],
+"max": 4
+},
+"Perun Trust": {
+"t": "trust_cap",
+"blades": [
+1026
+],
+"max": 4
+},
+"Kora Trust": {
+"t": "trust_cap",
+"blades": [
+1027
+],
+"max": 4
+},
+"Ursula Trust": {
+"t": "trust_cap",
+"blades": [
+1029
+],
+"max": 4
+},
+"Newt Trust": {
+"t": "trust_cap",
+"blades": [
+1030
+],
+"max": 4
+},
+"Nim Trust": {
+"t": "trust_cap",
+"blades": [
+1031
+],
+"max": 4
+},
+"Sheba Trust": {
+"t": "trust_cap",
+"blades": [
+1032
+],
+"max": 4
+},
+"Adenine Trust": {
+"t": "trust_cap",
+"blades": [
+1034
+],
+"max": 4
+},
+"Zenobia Trust": {
+"t": "trust_cap",
+"blades": [
+1036
+],
+"max": 4
+},
+"Floren Trust": {
+"t": "trust_cap",
+"blades": [
+1038
+],
+"max": 4
+},
+"KOS-MOS Trust": {
+"t": "trust_cap",
+"blades": [
+1039
+],
+"max": 4
+},
+"Herald Trust": {
+"t": "trust_cap",
+"blades": [
+1040
+],
+"max": 4
+},
+"Pyra Trust": {
+"t": "trust_cap",
+"blades": [
+1001,
+1002
+],
+"max": 4
+},
+"Dromarch Trust": {
+"t": "trust_cap",
+"blades": [
+1004
+],
+"max": 4
+},
+"Poppi a Trust": {
+"t": "trust_cap",
+"blades": [
+1005
+],
+"max": 4
+},
+"Poppi QT Trust": {
+"t": "trust_cap",
+"blades": [
+1006
+],
+"max": 4
+},
+"Poppi QT Pi Trust": {
+"t": "trust_cap",
+"blades": [
+1007
+],
+"max": 4
+},
+"Pandoria Trust": {
+"t": "trust_cap",
+"blades": [
+1010
+],
+"max": 4
+},
+"Sever Trust": {
+"t": "trust_cap",
+"blades": [
+1042
+],
+"max": 4
+},
+"Dagas Trust": {
+"t": "trust_cap",
+"blades": [
+1022
+],
+"max": 4
+},
+"Godfrey Trust": {
+"t": "trust_cap",
+"blades": [
+1015
+],
+"max": 4
+},
+"Perceval Trust": {
+"t": "trust_cap",
+"blades": [
+1017
+],
+"max": 4
+},
+"Kasandra Trust": {
+"t": "trust_cap",
+"blades": [
+1023
+],
+"max": 4
+},
+"Praxis Trust": {
+"t": "trust_cap",
+"blades": [
+1024
+],
+"max": 4
+},
+"Theory Trust": {
+"t": "trust_cap",
+"blades": [
+1025
+],
+"max": 4
+},
+"Azami Trust": {
+"t": "trust_cap",
+"blades": [
+1028
+],
+"max": 4
+},
+"Vess Trust": {
+"t": "trust_cap",
+"blades": [
+1033
+],
+"max": 4
+},
+"Electra Trust": {
+"t": "trust_cap",
+"blades": [
+1035
+],
+"max": 4
+},
+"Finch Trust": {
+"t": "trust_cap",
+"blades": [
+1037
+],
+"max": 4
+},
+"Dahlia Trust": {
+"t": "trust_cap",
+"blades": [
+1041
+],
+"max": 4
+},
+"T-elos Trust": {
+"t": "trust_cap",
+"blades": [
+1104
+],
+"max": 4
+},
+"Poppibuster Trust": {
+"t": "trust_cap",
+"blades": [
+1105
+],
+"max": 4
+},
+"Shulk Trust": {
+"t": "trust_cap",
+"blades": [
+1106
+],
+"max": 4
+},
+"Fiora Trust": {
+"t": "trust_cap",
+"blades": [
+1107
+],
+"max": 4
+},
+"Corvin Trust": {
+"t": "trust_cap",
+"blades": [
+1108
+],
+"max": 4
+},
+"Crossette Trust": {
+"t": "trust_cap",
+"blades": [
+1109
+],
+"max": 4
+},
+"Elma Trust": {
+"t": "trust_cap",
+"blades": [
+1111
+],
+"max": 4
+},
+"Accessory: Abyss Vest": {
+"t": "give",
+"box": "accessory",
+"id": 1,
+"qty": 1
+},
+"Accessory: Gear Vest": {
+"t": "give",
+"box": "accessory",
+"id": 2,
+"qty": 1
+},
+"Accessory: Jade Vest": {
+"t": "give",
+"box": "accessory",
+"id": 3,
+"qty": 1
+},
+"Accessory: Titanium Vest": {
+"t": "give",
+"box": "accessory",
+"id": 4,
+"qty": 1
+},
+"Accessory: Steam Belt": {
+"t": "give",
+"box": "accessory",
+"id": 5,
+"qty": 1
+},
+"Accessory: Silver Belt": {
+"t": "give",
+"box": "accessory",
+"id": 6,
+"qty": 1
+},
+"Accessory: Ceramic Belt": {
+"t": "give",
+"box": "accessory",
+"id": 7,
+"qty": 1
+},
+"Accessory: Bolt Hat": {
+"t": "give",
+"box": "accessory",
+"id": 8,
+"qty": 1
+},
+"Accessory: Pearl Hat": {
+"t": "give",
+"box": "accessory",
+"id": 9,
+"qty": 1
+},
+"Accessory: Fiber Hat": {
+"t": "give",
+"box": "accessory",
+"id": 10,
+"qty": 1
+},
+"Accessory: Rainbow Gloves": {
+"t": "give",
+"box": "accessory",
+"id": 11,
+"qty": 1
+},
+"Accessory: Hero Gloves": {
+"t": "give",
+"box": "accessory",
+"id": 12,
+"qty": 1
+},
+"Accessory: Carbon Gloves": {
+"t": "give",
+"box": "accessory",
+"id": 13,
+"qty": 1
+},
+"Accessory: Shell Shoes": {
+"t": "give",
+"box": "accessory",
+"id": 14,
+"qty": 1
+},
+"Accessory: Assassin Shoes": {
+"t": "give",
+"box": "accessory",
+"id": 15,
+"qty": 1
+},
+"Accessory: Ester Shoes": {
+"t": "give",
+"box": "accessory",
+"id": 16,
+"qty": 1
+},
+"Accessory: Nacre Choker": {
+"t": "give",
+"box": "accessory",
+"id": 17,
+"qty": 1
+},
+"Accessory: Goddess Choker": {
+"t": "give",
+"box": "accessory",
+"id": 18,
+"qty": 1
+},
+"Accessory: Comet Choker": {
+"t": "give",
+"box": "accessory",
+"id": 19,
+"qty": 1
+},
+"Accessory: Rigid Vest": {
+"t": "give",
+"box": "accessory",
+"id": 20,
+"qty": 1
+},
+"Accessory: Infantry Vest": {
+"t": "give",
+"box": "accessory",
+"id": 21,
+"qty": 1
+},
+"Accessory: Muscle Belt": {
+"t": "give",
+"box": "accessory",
+"id": 22,
+"qty": 1
+},
+"Accessory: Champion Belt": {
+"t": "give",
+"box": "accessory",
+"id": 23,
+"qty": 1
+},
+"Accessory: Fluffy Hat": {
+"t": "give",
+"box": "accessory",
+"id": 24,
+"qty": 1
+},
+"Accessory: Fabulous Hat": {
+"t": "give",
+"box": "accessory",
+"id": 25,
+"qty": 1
+},
+"Accessory: Leather Gloves": {
+"t": "give",
+"box": "accessory",
+"id": 26,
+"qty": 1
+},
+"Accessory: Smithy Gloves": {
+"t": "give",
+"box": "accessory",
+"id": 27,
+"qty": 1
+},
+"Accessory: Wolf Shoes": {
+"t": "give",
+"box": "accessory",
+"id": 28,
+"qty": 1
+},
+"Accessory: Spring Shoes": {
+"t": "give",
+"box": "accessory",
+"id": 29,
+"qty": 1
+},
+"Accessory: Bunnit Choker": {
+"t": "give",
+"box": "accessory",
+"id": 30,
+"qty": 1
+},
+"Accessory: Gold Gear Choker": {
+"t": "give",
+"box": "accessory",
+"id": 31,
+"qty": 1
+},
+"Accessory: Garnet": {
+"t": "give",
+"box": "accessory",
+"id": 32,
+"qty": 1
+},
+"Accessory: Sapphire": {
+"t": "give",
+"box": "accessory",
+"id": 33,
+"qty": 1
+},
+"Accessory: Diamond": {
+"t": "give",
+"box": "accessory",
+"id": 34,
+"qty": 1
+},
+"Accessory: Classic Medal": {
+"t": "give",
+"box": "accessory",
+"id": 35,
+"qty": 1
+},
+"Accessory: Modern Medal": {
+"t": "give",
+"box": "accessory",
+"id": 36,
+"qty": 1
+},
+"Accessory: Avant-Garde Medal": {
+"t": "give",
+"box": "accessory",
+"id": 37,
+"qty": 1
+},
+"Accessory: Iron Headband": {
+"t": "give",
+"box": "accessory",
+"id": 38,
+"qty": 1
+},
+"Accessory: Ice Headband": {
+"t": "give",
+"box": "accessory",
+"id": 39,
+"qty": 1
+},
+"Accessory: Optical Headband": {
+"t": "give",
+"box": "accessory",
+"id": 40,
+"qty": 1
+},
+"Accessory: Moon Cube": {
+"t": "give",
+"box": "accessory",
+"id": 41,
+"qty": 1
+},
+"Accessory: Star Cube": {
+"t": "give",
+"box": "accessory",
+"id": 42,
+"qty": 1
+},
+"Accessory: Galaxy Cube": {
+"t": "give",
+"box": "accessory",
+"id": 43,
+"qty": 1
+},
+"Accessory: Mechanized Greaves": {
+"t": "give",
+"box": "accessory",
+"id": 44,
+"qty": 1
+},
+"Accessory: Crystal Greaves": {
+"t": "give",
+"box": "accessory",
+"id": 45,
+"qty": 1
+},
+"Accessory: Graphite Greaves": {
+"t": "give",
+"box": "accessory",
+"id": 46,
+"qty": 1
+},
+"Accessory: Swordfighting Banner": {
+"t": "give",
+"box": "accessory",
+"id": 47,
+"qty": 1
+},
+"Accessory: Goddess Banner": {
+"t": "give",
+"box": "accessory",
+"id": 48,
+"qty": 1
+},
+"Accessory: Ancient Banner": {
+"t": "give",
+"box": "accessory",
+"id": 49,
+"qty": 1
+},
+"Accessory: Spiked Pauldrons": {
+"t": "give",
+"box": "accessory",
+"id": 50,
+"qty": 1
+},
+"Accessory: Hero Pauldrons": {
+"t": "give",
+"box": "accessory",
+"id": 51,
+"qty": 1
+},
+"Accessory: Jet Pauldrons": {
+"t": "give",
+"box": "accessory",
+"id": 52,
+"qty": 1
+},
+"Accessory: Apprentice Vambraces": {
+"t": "give",
+"box": "accessory",
+"id": 53,
+"qty": 1
+},
+"Accessory: Boxer Vambraces": {
+"t": "give",
+"box": "accessory",
+"id": 54,
+"qty": 1
+},
+"Accessory: Hero Vambraces": {
+"t": "give",
+"box": "accessory",
+"id": 55,
+"qty": 1
+},
+"Accessory: Dark Orb": {
+"t": "give",
+"box": "accessory",
+"id": 56,
+"qty": 1
+},
+"Accessory: Eraser Orb": {
+"t": "give",
+"box": "accessory",
+"id": 57,
+"qty": 1
+},
+"Accessory: Bloody Orb": {
+"t": "give",
+"box": "accessory",
+"id": 58,
+"qty": 1
+},
+"Accessory: Chrome Scarf": {
+"t": "give",
+"box": "accessory",
+"id": 59,
+"qty": 1
+},
+"Accessory: Unicorn Scarf": {
+"t": "give",
+"box": "accessory",
+"id": 60,
+"qty": 1
+},
+"Accessory: Quantum Scarf": {
+"t": "give",
+"box": "accessory",
+"id": 61,
+"qty": 1
+},
+"Accessory: White Belt": {
+"t": "give",
+"box": "accessory",
+"id": 62,
+"qty": 1
+},
+"Accessory: Black Belt": {
+"t": "give",
+"box": "accessory",
+"id": 63,
+"qty": 1
+},
+"Accessory: Platinum Belt": {
+"t": "give",
+"box": "accessory",
+"id": 64,
+"qty": 1
+},
+"Accessory: Soldier Ring": {
+"t": "give",
+"box": "accessory",
+"id": 65,
+"qty": 1
+},
+"Accessory: Berserk Ring": {
+"t": "give",
+"box": "accessory",
+"id": 66,
+"qty": 1
+},
+"Accessory: Tyrant Ring": {
+"t": "give",
+"box": "accessory",
+"id": 67,
+"qty": 1
+},
+"Accessory: Attack Stone": {
+"t": "give",
+"box": "accessory",
+"id": 68,
+"qty": 1
+},
+"Accessory: Assault Stone": {
+"t": "give",
+"box": "accessory",
+"id": 69,
+"qty": 1
+},
+"Accessory: Break Stone": {
+"t": "give",
+"box": "accessory",
+"id": 70,
+"qty": 1
+},
+"Accessory: World Tree Drop": {
+"t": "give",
+"box": "accessory",
+"id": 71,
+"qty": 1
+},
+"Accessory: Male Loincloth": {
+"t": "give",
+"box": "accessory",
+"id": 72,
+"qty": 1
+},
+"Accessory: Charming Swimsuit": {
+"t": "give",
+"box": "accessory",
+"id": 73,
+"qty": 1
+},
+"Accessory: Alpha Scope": {
+"t": "give",
+"box": "accessory",
+"id": 74,
+"qty": 1
+},
+"Accessory: Gamma Scope": {
+"t": "give",
+"box": "accessory",
+"id": 75,
+"qty": 1
+},
+"Accessory: Beast Hood": {
+"t": "give",
+"box": "accessory",
+"id": 76,
+"qty": 1
+},
+"Accessory: Camo Hood": {
+"t": "give",
+"box": "accessory",
+"id": 77,
+"qty": 1
+},
+"Accessory: Skeleton Hood": {
+"t": "give",
+"box": "accessory",
+"id": 78,
+"qty": 1
+},
+"Accessory: Nopon Mask": {
+"t": "give",
+"box": "accessory",
+"id": 79,
+"qty": 1
+},
+"Accessory: Metal Nopon Mask": {
+"t": "give",
+"box": "accessory",
+"id": 80,
+"qty": 1
+},
+"Accessory: Gold Nopon Mask": {
+"t": "give",
+"box": "accessory",
+"id": 81,
+"qty": 1
+},
+"Accessory: Colorful Feather": {
+"t": "give",
+"box": "accessory",
+"id": 82,
+"qty": 1
+},
+"Accessory: Silver Feather": {
+"t": "give",
+"box": "accessory",
+"id": 83,
+"qty": 1
+},
+"Accessory: Phantom Feather": {
+"t": "give",
+"box": "accessory",
+"id": 84,
+"qty": 1
+},
+"Accessory: Grandarbor Ward": {
+"t": "give",
+"box": "accessory",
+"id": 85,
+"qty": 1
+},
+"Accessory: Spirit Tree Ward": {
+"t": "give",
+"box": "accessory",
+"id": 86,
+"qty": 1
+},
+"Accessory: World Tree Ward": {
+"t": "give",
+"box": "accessory",
+"id": 87,
+"qty": 1
+},
+"Accessory: Friendship Ring": {
+"t": "give",
+"box": "accessory",
+"id": 88,
+"qty": 1
+},
+"Accessory: Affection Ring": {
+"t": "give",
+"box": "accessory",
+"id": 89,
+"qty": 1
+},
+"Accessory: Promise Ring": {
+"t": "give",
+"box": "accessory",
+"id": 90,
+"qty": 1
+},
+"Accessory: Harvest Necklace": {
+"t": "give",
+"box": "accessory",
+"id": 91,
+"qty": 1
+},
+"Accessory: Affection Necklace": {
+"t": "give",
+"box": "accessory",
+"id": 92,
+"qty": 1
+},
+"Accessory: Holy Necklace": {
+"t": "give",
+"box": "accessory",
+"id": 93,
+"qty": 1
+},
+"Accessory: Shell Cameo": {
+"t": "give",
+"box": "accessory",
+"id": 94,
+"qty": 1
+},
+"Accessory: Chivalric Medal": {
+"t": "give",
+"box": "accessory",
+"id": 95,
+"qty": 1
+},
+"Accessory: Military Medal": {
+"t": "give",
+"box": "accessory",
+"id": 96,
+"qty": 1
+},
+"Accessory: Round Table Medal": {
+"t": "give",
+"box": "accessory",
+"id": 97,
+"qty": 1
+},
+"Accessory: Gauntlet": {
+"t": "give",
+"box": "accessory",
+"id": 98,
+"qty": 1
+},
+"Accessory: Bio Gauntlet": {
+"t": "give",
+"box": "accessory",
+"id": 99,
+"qty": 1
+},
+"Accessory: Nano-Metal Gauntlet": {
+"t": "give",
+"box": "accessory",
+"id": 100,
+"qty": 1
+},
+"Accessory: Eyepatch": {
+"t": "give",
+"box": "accessory",
+"id": 101,
+"qty": 1
+},
+"Accessory: Leader's Eyepatch": {
+"t": "give",
+"box": "accessory",
+"id": 102,
+"qty": 1
+},
+"Accessory: Hi-Tech Eyepatch": {
+"t": "give",
+"box": "accessory",
+"id": 103,
+"qty": 1
+},
+"Accessory: Revival Pod": {
+"t": "give",
+"box": "accessory",
+"id": 104,
+"qty": 1
+},
+"Accessory: 0-Battle Course": {
+"t": "give",
+"box": "accessory",
+"id": 105,
+"qty": 1
+},
+"Accessory: 0-Battle Course+": {
+"t": "give",
+"box": "accessory",
+"id": 106,
+"qty": 1
+},
+"Accessory: Alphabet Course": {
+"t": "give",
+"box": "accessory",
+"id": 107,
+"qty": 1
+},
+"Accessory: Alphabet Course+": {
+"t": "give",
+"box": "accessory",
+"id": 108,
+"qty": 1
+},
+"Accessory: Silver Earrings": {
+"t": "give",
+"box": "accessory",
+"id": 109,
+"qty": 1
+},
+"Accessory: Crystal Earrings": {
+"t": "give",
+"box": "accessory",
+"id": 110,
+"qty": 1
+},
+"Accessory: Omega Drive": {
+"t": "give",
+"box": "accessory",
+"id": 111,
+"qty": 1
+},
+"Accessory: Sigma Drive": {
+"t": "give",
+"box": "accessory",
+"id": 112,
+"qty": 1
+},
+"Accessory: Burst Symbol": {
+"t": "give",
+"box": "accessory",
+"id": 113,
+"qty": 1
+},
+"Accessory: Critical Symbol": {
+"t": "give",
+"box": "accessory",
+"id": 114,
+"qty": 1
+},
+"Accessory: Recovery Symbol": {
+"t": "give",
+"box": "accessory",
+"id": 115,
+"qty": 1
+},
+"Accessory: Resurrection Symbol": {
+"t": "give",
+"box": "accessory",
+"id": 116,
+"qty": 1
+},
+"Accessory: Infinity Symbol": {
+"t": "give",
+"box": "accessory",
+"id": 117,
+"qty": 1
+},
+"Accessory: Auto-Balancer": {
+"t": "give",
+"box": "accessory",
+"id": 118,
+"qty": 1
+},
+"Accessory: Sword Attachment": {
+"t": "give",
+"box": "accessory",
+"id": 119,
+"qty": 1
+},
+"Accessory: Scimitar Attachment": {
+"t": "give",
+"box": "accessory",
+"id": 120,
+"qty": 1
+},
+"Accessory: Ring Attachment": {
+"t": "give",
+"box": "accessory",
+"id": 121,
+"qty": 1
+},
+"Accessory: Shield Attachment": {
+"t": "give",
+"box": "accessory",
+"id": 122,
+"qty": 1
+},
+"Accessory: Arms Attachment": {
+"t": "give",
+"box": "accessory",
+"id": 123,
+"qty": 1
+},
+"Accessory: Saber Attachment": {
+"t": "give",
+"box": "accessory",
+"id": 124,
+"qty": 1
+},
+"Accessory: Whip Attachment": {
+"t": "give",
+"box": "accessory",
+"id": 125,
+"qty": 1
+},
+"Accessory: Edge Attachment": {
+"t": "give",
+"box": "accessory",
+"id": 126,
+"qty": 1
+},
+"Accessory: Scythe Attachment": {
+"t": "give",
+"box": "accessory",
+"id": 127,
+"qty": 1
+},
+"Accessory: Axe Attachment": {
+"t": "give",
+"box": "accessory",
+"id": 128,
+"qty": 1
+},
+"Accessory: Lance Attachment": {
+"t": "give",
+"box": "accessory",
+"id": 129,
+"qty": 1
+},
+"Accessory: Cannon Attachment": {
+"t": "give",
+"box": "accessory",
+"id": 130,
+"qty": 1
+},
+"Accessory: Hammer Attachment": {
+"t": "give",
+"box": "accessory",
+"id": 131,
+"qty": 1
+},
+"Accessory: Katana Attachment": {
+"t": "give",
+"box": "accessory",
+"id": 132,
+"qty": 1
+},
+"Accessory: Ball Attachment": {
+"t": "give",
+"box": "accessory",
+"id": 133,
+"qty": 1
+},
+"Accessory: Knuckle Attachment": {
+"t": "give",
+"box": "accessory",
+"id": 134,
+"qty": 1
+},
+"Accessory: Master Attachment": {
+"t": "give",
+"box": "accessory",
+"id": 135,
+"qty": 1
+},
+"Accessory: Memory Locket": {
+"t": "give",
+"box": "accessory",
+"id": 136,
+"qty": 1
+},
+"Accessory: Cheer Treat": {
+"t": "give",
+"box": "accessory",
+"id": 137,
+"qty": 1
+},
+"Accessory: Red Thread": {
+"t": "give",
+"box": "accessory",
+"id": 138,
+"qty": 1
+},
+"Accessory: Love Thread": {
+"t": "give",
+"box": "accessory",
+"id": 139,
+"qty": 1
+},
+"Accessory: Passion Thread": {
+"t": "give",
+"box": "accessory",
+"id": 140,
+"qty": 1
+},
+"Accessory: Activity Amulet": {
+"t": "give",
+"box": "accessory",
+"id": 141,
+"qty": 1
+},
+"Accessory: Healing Amulet": {
+"t": "give",
+"box": "accessory",
+"id": 142,
+"qty": 1
+},
+"Accessory: Rebirth Amulet": {
+"t": "give",
+"box": "accessory",
+"id": 143,
+"qty": 1
+},
+"Accessory: Beta Scope": {
+"t": "give",
+"box": "accessory",
+"id": 144,
+"qty": 1
+},
+"Accessory: Rush Hour": {
+"t": "give",
+"box": "accessory",
+"id": 145,
+"qty": 1
+},
+"Accessory: Appealing Lamp": {
+"t": "give",
+"box": "accessory",
+"id": 146,
+"qty": 1
+},
+"Accessory: Overclocking Bangle": {
+"t": "give",
+"box": "accessory",
+"id": 147,
+"qty": 1
+},
+"Accessory: Mint Potpourri": {
+"t": "give",
+"box": "accessory",
+"id": 148,
+"qty": 1
+},
+"Accessory: Lavender Potpourri": {
+"t": "give",
+"box": "accessory",
+"id": 149,
+"qty": 1
+},
+"Accessory: Priestess's Auspices": {
+"t": "give",
+"box": "accessory",
+"id": 150,
+"qty": 1
+},
+"Accessory: Sage's Auspices": {
+"t": "give",
+"box": "accessory",
+"id": 151,
+"qty": 1
+},
+"Accessory: Incense of Calm": {
+"t": "give",
+"box": "accessory",
+"id": 152,
+"qty": 1
+},
+"Accessory: Incense of Insight": {
+"t": "give",
+"box": "accessory",
+"id": 153,
+"qty": 1
+},
+"Accessory: Nopon Doll": {
+"t": "give",
+"box": "accessory",
+"id": 442,
+"qty": 1
+},
+"Accessory: Avian Totem Carving": {
+"t": "give",
+"box": "accessory",
+"id": 443,
+"qty": 1
+},
+"Pouch: Juicy Samod x5": {
+"t": "give",
+"box": "pouch",
+"id": 40001,
+"qty": 5
+},
+"Pouch: Lightly Fried Rice x5": {
+"t": "give",
+"box": "pouch",
+"id": 40002,
+"qty": 5
+},
+"Pouch: Argentum Noodle Soup x5": {
+"t": "give",
+"box": "pouch",
+"id": 40003,
+"qty": 5
+},
+"Pouch: Massive Mushroom Pie x5": {
+"t": "give",
+"box": "pouch",
+"id": 40004,
+"qty": 5
+},
+"Pouch: Bright Samod x5": {
+"t": "give",
+"box": "pouch",
+"id": 40005,
+"qty": 5
+},
+"Pouch: Tasty Kordeth Samod x5": {
+"t": "give",
+"box": "pouch",
+"id": 40006,
+"qty": 5
+},
+"Pouch: Grilled Anchortail x5": {
+"t": "give",
+"box": "pouch",
+"id": 40007,
+"qty": 5
+},
+"Pouch: Oyster Stir-Fry x5": {
+"t": "give",
+"box": "pouch",
+"id": 40008,
+"qty": 5
+},
+"Pouch: Marine Stir-Fry x5": {
+"t": "give",
+"box": "pouch",
+"id": 40009,
+"qty": 5
+},
+"Pouch: Melodious Melon Parfait x5": {
+"t": "give",
+"box": "pouch",
+"id": 40010,
+"qty": 5
+},
+"Pouch: Cinnopon Roll x5": {
+"t": "give",
+"box": "pouch",
+"id": 40011,
+"qty": 5
+},
+"Pouch: Sparklesugar x5": {
+"t": "give",
+"box": "pouch",
+"id": 40012,
+"qty": 5
+},
+"Pouch: Fruity Rice Ball x5": {
+"t": "give",
+"box": "pouch",
+"id": 40013,
+"qty": 5
+},
+"Pouch: Narcipear Jelly x5": {
+"t": "give",
+"box": "pouch",
+"id": 40014,
+"qty": 5
+},
+"Pouch: Twinklejuice x5": {
+"t": "give",
+"box": "pouch",
+"id": 40015,
+"qty": 5
+},
+"Pouch: Fizz Juice x5": {
+"t": "give",
+"box": "pouch",
+"id": 40016,
+"qty": 5
+},
+"Pouch: Chunky Juice x5": {
+"t": "give",
+"box": "pouch",
+"id": 40017,
+"qty": 5
+},
+"Pouch: Sappan Veg Juice x5": {
+"t": "give",
+"box": "pouch",
+"id": 40018,
+"qty": 5
+},
+"Pouch: Honey au Lait x5": {
+"t": "give",
+"box": "pouch",
+"id": 40019,
+"qty": 5
+},
+"Pouch: Crispy Blendshake x5": {
+"t": "give",
+"box": "pouch",
+"id": 40020,
+"qty": 5
+},
+"Pouch: Roly-Poly Maracas x5": {
+"t": "give",
+"box": "pouch",
+"id": 40021,
+"qty": 5
+},
+"Pouch: Nopolele x5": {
+"t": "give",
+"box": "pouch",
+"id": 40022,
+"qty": 5
+},
+"Pouch: Funky Conga x5": {
+"t": "give",
+"box": "pouch",
+"id": 40023,
+"qty": 5
+},
+"Pouch: Whispercorder x5": {
+"t": "give",
+"box": "pouch",
+"id": 40024,
+"qty": 5
+},
+"Pouch: Casta-Mutes x5": {
+"t": "give",
+"box": "pouch",
+"id": 40025,
+"qty": 5
+},
+"Pouch: Clicky-Clacks x5": {
+"t": "give",
+"box": "pouch",
+"id": 40026,
+"qty": 5
+},
+"Pouch: Salvaging Made Easy x5": {
+"t": "give",
+"box": "pouch",
+"id": 40027,
+"qty": 5
+},
+"Pouch: Yumyum's Golden Gun x5": {
+"t": "give",
+"box": "pouch",
+"id": 40028,
+"qty": 5
+},
+"Pouch: The Millenarian Titan x5": {
+"t": "give",
+"box": "pouch",
+"id": 40029,
+"qty": 5
+},
+"Pouch: Adventures of Myram x5": {
+"t": "give",
+"box": "pouch",
+"id": 40030,
+"qty": 5
+},
+"Pouch: Mumuni the Littlepon x5": {
+"t": "give",
+"box": "pouch",
+"id": 40031,
+"qty": 5
+},
+"Pouch: Clattertongue x5": {
+"t": "give",
+"box": "pouch",
+"id": 40032,
+"qty": 5
+},
+"Pouch: Nopon Chess Set x5": {
+"t": "give",
+"box": "pouch",
+"id": 40033,
+"qty": 5
+},
+"Pouch: Sneak-Thief King x5": {
+"t": "give",
+"box": "pouch",
+"id": 40034,
+"qty": 5
+},
+"Pouch: Tradeway 66 x5": {
+"t": "give",
+"box": "pouch",
+"id": 40035,
+"qty": 5
+},
+"Pouch: Coral Nopon Chess Set x5": {
+"t": "give",
+"box": "pouch",
+"id": 40036,
+"qty": 5
+},
+"Pouch: Leftherian Life x5": {
+"t": "give",
+"box": "pouch",
+"id": 40037,
+"qty": 5
+},
+"Pouch: Eau de Doux x5": {
+"t": "give",
+"box": "pouch",
+"id": 40038,
+"qty": 5
+},
+"Pouch: Elastifying Tonic x5": {
+"t": "give",
+"box": "pouch",
+"id": 40039,
+"qty": 5
+},
+"Pouch: Freshening Gel x5": {
+"t": "give",
+"box": "pouch",
+"id": 40040,
+"qty": 5
+},
+"Pouch: Curled Eyelashes x5": {
+"t": "give",
+"box": "pouch",
+"id": 40041,
+"qty": 5
+},
+"Pouch: Bubbly Mani-Pedi Kit x5": {
+"t": "give",
+"box": "pouch",
+"id": 40042,
+"qty": 5
+},
+"Pouch: Full Moon Eyeliner x5": {
+"t": "give",
+"box": "pouch",
+"id": 40043,
+"qty": 5
+},
+"Pouch: Ruska Dumplings x5": {
+"t": "give",
+"box": "pouch",
+"id": 40044,
+"qty": 5
+},
+"Pouch: Ruska Noodle Goulash x5": {
+"t": "give",
+"box": "pouch",
+"id": 40045,
+"qty": 5
+},
+"Pouch: Deluxe Ham Toastie x5": {
+"t": "give",
+"box": "pouch",
+"id": 40046,
+"qty": 5
+},
+"Pouch: Ruska Noodle Soup x5": {
+"t": "give",
+"box": "pouch",
+"id": 40047,
+"qty": 5
+},
+"Pouch: Beat Paste Paratha x5": {
+"t": "give",
+"box": "pouch",
+"id": 40048,
+"qty": 5
+},
+"Pouch: Crispy Sauté x5": {
+"t": "give",
+"box": "pouch",
+"id": 40049,
+"qty": 5
+},
+"Pouch: Torigoth Marinade x5": {
+"t": "give",
+"box": "pouch",
+"id": 40050,
+"qty": 5
+},
+"Pouch: Stuffed Meaty Carrot x5": {
+"t": "give",
+"box": "pouch",
+"id": 40051,
+"qty": 5
+},
+"Pouch: Puri Leaf Salad x5": {
+"t": "give",
+"box": "pouch",
+"id": 40052,
+"qty": 5
+},
+"Pouch: Snowy Dudleya Gelée x5": {
+"t": "give",
+"box": "pouch",
+"id": 40053,
+"qty": 5
+},
+"Pouch: Estral Steak x5": {
+"t": "give",
+"box": "pouch",
+"id": 40054,
+"qty": 5
+},
+"Pouch: Tasty Sausage x5": {
+"t": "give",
+"box": "pouch",
+"id": 40055,
+"qty": 5
+},
+"Pouch: Mince & Lentil Stir-Fry x5": {
+"t": "give",
+"box": "pouch",
+"id": 40056,
+"qty": 5
+},
+"Pouch: Mustard Kordeth x5": {
+"t": "give",
+"box": "pouch",
+"id": 40057,
+"qty": 5
+},
+"Pouch: Gormotti Fish Flakes x5": {
+"t": "give",
+"box": "pouch",
+"id": 40058,
+"qty": 5
+},
+"Pouch: Grass-Smoked Salmon x5": {
+"t": "give",
+"box": "pouch",
+"id": 40059,
+"qty": 5
+},
+"Pouch: Bipedal Crab Chili x5": {
+"t": "give",
+"box": "pouch",
+"id": 40060,
+"qty": 5
+},
+"Pouch: Lunana Smoothie x5": {
+"t": "give",
+"box": "pouch",
+"id": 40061,
+"qty": 5
+},
+"Pouch: Gormotti Honeytea x5": {
+"t": "give",
+"box": "pouch",
+"id": 40062,
+"qty": 5
+},
+"Pouch: Kukurel Springwater x5": {
+"t": "give",
+"box": "pouch",
+"id": 40063,
+"qty": 5
+},
+"Pouch: Passion Fruit Shake x5": {
+"t": "give",
+"box": "pouch",
+"id": 40064,
+"qty": 5
+},
+"Pouch: Victory Smoothie x5": {
+"t": "give",
+"box": "pouch",
+"id": 40065,
+"qty": 5
+},
+"Pouch: Torigonda x5": {
+"t": "give",
+"box": "pouch",
+"id": 40066,
+"qty": 5
+},
+"Pouch: Woodgrain Alphorn x5": {
+"t": "give",
+"box": "pouch",
+"id": 40067,
+"qty": 5
+},
+"Pouch: Cedarwood Koto x5": {
+"t": "give",
+"box": "pouch",
+"id": 40068,
+"qty": 5
+},
+"Pouch: Woodboard x5": {
+"t": "give",
+"box": "pouch",
+"id": 40069,
+"qty": 5
+},
+"Pouch: Coralline Marimba x5": {
+"t": "give",
+"box": "pouch",
+"id": 40070,
+"qty": 5
+},
+"Pouch: The Girl on the Hill x5": {
+"t": "give",
+"box": "pouch",
+"id": 40071,
+"qty": 5
+},
+"Pouch: Black Flower Field x5": {
+"t": "give",
+"box": "pouch",
+"id": 40072,
+"qty": 5
+},
+"Pouch: Woodcut Print of Bana x5": {
+"t": "give",
+"box": "pouch",
+"id": 40073,
+"qty": 5
+},
+"Pouch: Wood-Carven Queen x5": {
+"t": "give",
+"box": "pouch",
+"id": 40074,
+"qty": 5
+},
+"Pouch: Puffoundation x5": {
+"t": "give",
+"box": "pouch",
+"id": 40075,
+"qty": 5
+},
+"Pouch: Treesap Conditioner x5": {
+"t": "give",
+"box": "pouch",
+"id": 40076,
+"qty": 5
+},
+"Pouch: Flurrycomb x5": {
+"t": "give",
+"box": "pouch",
+"id": 40077,
+"qty": 5
+},
+"Pouch: Conch Hairpin x5": {
+"t": "give",
+"box": "pouch",
+"id": 40078,
+"qty": 5
+},
+"Pouch: Sparkly Snow Perfume x5": {
+"t": "give",
+"box": "pouch",
+"id": 40079,
+"qty": 5
+},
+"Pouch: Puzzletree Pouch x5": {
+"t": "give",
+"box": "pouch",
+"id": 40080,
+"qty": 5
+},
+"Pouch: Torigoth-Weave Mat x5": {
+"t": "give",
+"box": "pouch",
+"id": 40081,
+"qty": 5
+},
+"Pouch: Wood-Dye Waistcloth x5": {
+"t": "give",
+"box": "pouch",
+"id": 40082,
+"qty": 5
+},
+"Pouch: Sun-Dappled Curtains x5": {
+"t": "give",
+"box": "pouch",
+"id": 40083,
+"qty": 5
+},
+"Pouch: Leaf-Weave Cape x5": {
+"t": "give",
+"box": "pouch",
+"id": 40084,
+"qty": 5
+},
+"Pouch: Snowflake Scarf x5": {
+"t": "give",
+"box": "pouch",
+"id": 40085,
+"qty": 5
+},
+"Pouch: Wrapped Glarna Bake x5": {
+"t": "give",
+"box": "pouch",
+"id": 40086,
+"qty": 5
+},
+"Pouch: Three-Cheese Puran x5": {
+"t": "give",
+"box": "pouch",
+"id": 40087,
+"qty": 5
+},
+"Pouch: Glitterspud Puran x5": {
+"t": "give",
+"box": "pouch",
+"id": 40088,
+"qty": 5
+},
+"Pouch: Hearty Kordeth Puran x5": {
+"t": "give",
+"box": "pouch",
+"id": 40089,
+"qty": 5
+},
+"Pouch: Pomegranate Soup x5": {
+"t": "give",
+"box": "pouch",
+"id": 40090,
+"qty": 5
+},
+"Pouch: Sour-Spark-on-a-Stick x5": {
+"t": "give",
+"box": "pouch",
+"id": 40091,
+"qty": 5
+},
+"Pouch: Boiled Hustle Hyacinth x5": {
+"t": "give",
+"box": "pouch",
+"id": 40092,
+"qty": 5
+},
+"Pouch: Pickled Ice Cabbage x5": {
+"t": "give",
+"box": "pouch",
+"id": 40093,
+"qty": 5
+},
+"Pouch: Armu T-Bone Steak x5": {
+"t": "give",
+"box": "pouch",
+"id": 40094,
+"qty": 5
+},
+"Pouch: Mixed Meat Platter x5": {
+"t": "give",
+"box": "pouch",
+"id": 40095,
+"qty": 5
+},
+"Pouch: Hotplate Fry-Up x5": {
+"t": "give",
+"box": "pouch",
+"id": 40096,
+"qty": 5
+},
+"Pouch: Char-Grilled Grumbird x5": {
+"t": "give",
+"box": "pouch",
+"id": 40097,
+"qty": 5
+},
+"Pouch: Dried Sunfish x5": {
+"t": "give",
+"box": "pouch",
+"id": 40098,
+"qty": 5
+},
+"Pouch: Bullybelly Carpaccio x5": {
+"t": "give",
+"box": "pouch",
+"id": 40099,
+"qty": 5
+},
+"Pouch: Steamed Bluegill x5": {
+"t": "give",
+"box": "pouch",
+"id": 40100,
+"qty": 5
+},
+"Pouch: Whitebait With Seeds x5": {
+"t": "give",
+"box": "pouch",
+"id": 40101,
+"qty": 5
+},
+"Pouch: Rainbow Parfait x5": {
+"t": "give",
+"box": "pouch",
+"id": 40102,
+"qty": 5
+},
+"Pouch: Blossom Custard x5": {
+"t": "give",
+"box": "pouch",
+"id": 40103,
+"qty": 5
+},
+"Pouch: Plumage Peach Jelly x5": {
+"t": "give",
+"box": "pouch",
+"id": 40104,
+"qty": 5
+},
+"Pouch: Champ's Churros x5": {
+"t": "give",
+"box": "pouch",
+"id": 40105,
+"qty": 5
+},
+"Pouch: Snipe Flan x5": {
+"t": "give",
+"box": "pouch",
+"id": 40108,
+"qty": 5
+},
+"Pouch: Cherry Cheese Mousse x5": {
+"t": "give",
+"box": "pouch",
+"id": 40109,
+"qty": 5
+},
+"Pouch: Neon Grape Flan x5": {
+"t": "give",
+"box": "pouch",
+"id": 40110,
+"qty": 5
+},
+"Pouch: Black Roast Coffee x5": {
+"t": "give",
+"box": "pouch",
+"id": 40111,
+"qty": 5
+},
+"Pouch: Jenerossi Tea x5": {
+"t": "give",
+"box": "pouch",
+"id": 40112,
+"qty": 5
+},
+"Pouch: Fizzy Lassi x5": {
+"t": "give",
+"box": "pouch",
+"id": 40113,
+"qty": 5
+},
+"Pouch: Lentil Milkshake x5": {
+"t": "give",
+"box": "pouch",
+"id": 40114,
+"qty": 5
+},
+"Pouch: Scarlet Shamisen x5": {
+"t": "give",
+"box": "pouch",
+"id": 40115,
+"qty": 5
+},
+"Pouch: Fonsan Viola x5": {
+"t": "give",
+"box": "pouch",
+"id": 40116,
+"qty": 5
+},
+"Pouch: Hero's Harp x5": {
+"t": "give",
+"box": "pouch",
+"id": 40117,
+"qty": 5
+},
+"Pouch: Rumble Cello x5": {
+"t": "give",
+"box": "pouch",
+"id": 40118,
+"qty": 5
+},
+"Pouch: Cloudsnail Arpeggione x5": {
+"t": "give",
+"box": "pouch",
+"id": 40119,
+"qty": 5
+},
+"Pouch: Patron King's Carving x5": {
+"t": "give",
+"box": "pouch",
+"id": 40120,
+"qty": 5
+},
+"Pouch: Final Chorus x5": {
+"t": "give",
+"box": "pouch",
+"id": 40121,
+"qty": 5
+},
+"Pouch: Singing Maiden Statue x5": {
+"t": "give",
+"box": "pouch",
+"id": 40122,
+"qty": 5
+},
+"Pouch: Skywards by Titan x5": {
+"t": "give",
+"box": "pouch",
+"id": 40123,
+"qty": 5
+},
+"Pouch: The Alrestogony x5": {
+"t": "give",
+"box": "pouch",
+"id": 40124,
+"qty": 5
+},
+"Pouch: The Legacy of Selosia x5": {
+"t": "give",
+"box": "pouch",
+"id": 40125,
+"qty": 5
+},
+"Pouch: Masterpieces of Alrest x5": {
+"t": "give",
+"box": "pouch",
+"id": 40126,
+"qty": 5
+},
+"Pouch: Addam's Love and War x5": {
+"t": "give",
+"box": "pouch",
+"id": 40127,
+"qty": 5
+},
+"Pouch: Castle Poker x5": {
+"t": "give",
+"box": "pouch",
+"id": 40128,
+"qty": 5
+},
+"Pouch: Gladiator Wrestling x5": {
+"t": "give",
+"box": "pouch",
+"id": 40129,
+"qty": 5
+},
+"Pouch: Coral Reversi x5": {
+"t": "give",
+"box": "pouch",
+"id": 40130,
+"qty": 5
+},
+"Pouch: Duel Line x5": {
+"t": "give",
+"box": "pouch",
+"id": 40131,
+"qty": 5
+},
+"Pouch: Nopopo Yard x5": {
+"t": "give",
+"box": "pouch",
+"id": 40132,
+"qty": 5
+},
+"Pouch: Coral Casino x5": {
+"t": "give",
+"box": "pouch",
+"id": 40133,
+"qty": 5
+},
+"Pouch: Red Opal Lipstick x5": {
+"t": "give",
+"box": "pouch",
+"id": 40134,
+"qty": 5
+},
+"Pouch: Titan-Oil Hand Cream x5": {
+"t": "give",
+"box": "pouch",
+"id": 40135,
+"qty": 5
+},
+"Pouch: Golden Mascara x5": {
+"t": "give",
+"box": "pouch",
+"id": 40136,
+"qty": 5
+},
+"Pouch: Gorgeous Blusher x5": {
+"t": "give",
+"box": "pouch",
+"id": 40137,
+"qty": 5
+},
+"Pouch: Fonsett-Rouge Lipgloss x5": {
+"t": "give",
+"box": "pouch",
+"id": 40138,
+"qty": 5
+},
+"Pouch: Sanar-Knit Headband x5": {
+"t": "give",
+"box": "pouch",
+"id": 40139,
+"qty": 5
+},
+"Pouch: Armu-Skin Gladiator x5": {
+"t": "give",
+"box": "pouch",
+"id": 40140,
+"qty": 5
+},
+"Pouch: Coralweave Towel x5": {
+"t": "give",
+"box": "pouch",
+"id": 40141,
+"qty": 5
+},
+"Pouch: Dazzling Handkerchief x5": {
+"t": "give",
+"box": "pouch",
+"id": 40142,
+"qty": 5
+},
+"Pouch: Gormotti Woodwing x5": {
+"t": "give",
+"box": "pouch",
+"id": 40143,
+"qty": 5
+},
+"Pouch: Sanar-Knit Blanket x5": {
+"t": "give",
+"box": "pouch",
+"id": 40144,
+"qty": 5
+},
+"Pouch: Dolphin Carrot Sliders x5": {
+"t": "give",
+"box": "pouch",
+"id": 40145,
+"qty": 5
+},
+"Pouch: Campfire Skewers x5": {
+"t": "give",
+"box": "pouch",
+"id": 40146,
+"qty": 5
+},
+"Pouch: Crispy Vegetable Salad x5": {
+"t": "give",
+"box": "pouch",
+"id": 40147,
+"qty": 5
+},
+"Pouch: Steamflake Tabbouleh x5": {
+"t": "give",
+"box": "pouch",
+"id": 40148,
+"qty": 5
+},
+"Pouch: Meat & Lentil Skewer x5": {
+"t": "give",
+"box": "pouch",
+"id": 40149,
+"qty": 5
+},
+"Pouch: Herbal Tartare Kascha x5": {
+"t": "give",
+"box": "pouch",
+"id": 40150,
+"qty": 5
+},
+"Pouch: Grumbird Casserole x5": {
+"t": "give",
+"box": "pouch",
+"id": 40151,
+"qty": 5
+},
+"Pouch: Estral Quotelettas x5": {
+"t": "give",
+"box": "pouch",
+"id": 40152,
+"qty": 5
+},
+"Pouch: Armu & Bean Stew x5": {
+"t": "give",
+"box": "pouch",
+"id": 40153,
+"qty": 5
+},
+"Pouch: Grilled Salmon in Herbs x5": {
+"t": "give",
+"box": "pouch",
+"id": 40154,
+"qty": 5
+},
+"Pouch: Cloud Sea Crab Sticks x5": {
+"t": "give",
+"box": "pouch",
+"id": 40155,
+"qty": 5
+},
+"Pouch: Sand Salmon Ceviche x5": {
+"t": "give",
+"box": "pouch",
+"id": 40156,
+"qty": 5
+},
+"Pouch: Fish and Herb Broth x5": {
+"t": "give",
+"box": "pouch",
+"id": 40157,
+"qty": 5
+},
+"Pouch: Steamed Milk Brioche x5": {
+"t": "give",
+"box": "pouch",
+"id": 40158,
+"qty": 5
+},
+"Pouch: Steam-Gel Ice Cream x5": {
+"t": "give",
+"box": "pouch",
+"id": 40159,
+"qty": 5
+},
+"Pouch: Sweet Lentil Bun x5": {
+"t": "give",
+"box": "pouch",
+"id": 40160,
+"qty": 5
+},
+"Pouch: Sky-Jewel Tart x5": {
+"t": "give",
+"box": "pouch",
+"id": 40161,
+"qty": 5
+},
+"Pouch: Odifa Gelée Tart x5": {
+"t": "give",
+"box": "pouch",
+"id": 40162,
+"qty": 5
+},
+"Pouch: Hot Ruby Steamed Bun x5": {
+"t": "give",
+"box": "pouch",
+"id": 40163,
+"qty": 5
+},
+"Pouch: Pipe Trumpet x5": {
+"t": "give",
+"box": "pouch",
+"id": 40164,
+"qty": 5
+},
+"Pouch: Steamwork Organ x5": {
+"t": "give",
+"box": "pouch",
+"id": 40165,
+"qty": 5
+},
+"Pouch: Army-Issue Violin x5": {
+"t": "give",
+"box": "pouch",
+"id": 40166,
+"qty": 5
+},
+"Pouch: Hammerplate Snare x5": {
+"t": "give",
+"box": "pouch",
+"id": 40167,
+"qty": 5
+},
+"Pouch: Tube Xylophone x5": {
+"t": "give",
+"box": "pouch",
+"id": 40168,
+"qty": 5
+},
+"Pouch: Icicle Marimba x5": {
+"t": "give",
+"box": "pouch",
+"id": 40169,
+"qty": 5
+},
+"Pouch: Punk Doll x5": {
+"t": "give",
+"box": "pouch",
+"id": 40170,
+"qty": 5
+},
+"Pouch: Copper Ephem Statue x5": {
+"t": "give",
+"box": "pouch",
+"id": 40171,
+"qty": 5
+},
+"Pouch: Felmeri Fairy Statue x5": {
+"t": "give",
+"box": "pouch",
+"id": 40172,
+"qty": 5
+},
+"Pouch: Conch Music Box x5": {
+"t": "give",
+"box": "pouch",
+"id": 40173,
+"qty": 5
+},
+"Pouch: Ardainian Arms Album x5": {
+"t": "give",
+"box": "pouch",
+"id": 40174,
+"qty": 5
+},
+"Pouch: Emperor Ephem's War x5": {
+"t": "give",
+"box": "pouch",
+"id": 40175,
+"qty": 5
+},
+"Pouch: Imperial Secret Escapes x5": {
+"t": "give",
+"box": "pouch",
+"id": 40176,
+"qty": 5
+},
+"Pouch: Les Awfuls x5": {
+"t": "give",
+"box": "pouch",
+"id": 40177,
+"qty": 5
+},
+"Pouch: How Wars Profit Nopon x5": {
+"t": "give",
+"box": "pouch",
+"id": 40178,
+"qty": 5
+},
+"Pouch: Love Beyond the Clouds x5": {
+"t": "give",
+"box": "pouch",
+"id": 40179,
+"qty": 5
+},
+"Pouch: Army Field Manual x5": {
+"t": "give",
+"box": "pouch",
+"id": 40180,
+"qty": 5
+},
+"Pouch: Chooby Tubes x5": {
+"t": "give",
+"box": "pouch",
+"id": 40181,
+"qty": 5
+},
+"Pouch: Secret Trials x5": {
+"t": "give",
+"box": "pouch",
+"id": 40182,
+"qty": 5
+},
+"Pouch: Dueling Kingdoms x5": {
+"t": "give",
+"box": "pouch",
+"id": 40183,
+"qty": 5
+},
+"Pouch: Dealing Kingdoms x5": {
+"t": "give",
+"box": "pouch",
+"id": 40184,
+"qty": 5
+},
+"Pouch: Plumber Escape Game x5": {
+"t": "give",
+"box": "pouch",
+"id": 40185,
+"qty": 5
+},
+"Pouch: Lybarian Chowder x5": {
+"t": "give",
+"box": "pouch",
+"id": 40186,
+"qty": 5
+},
+"Pouch: Green Cheese Salad x5": {
+"t": "give",
+"box": "pouch",
+"id": 40187,
+"qty": 5
+},
+"Pouch: Vegetable Mille-Feuille x5": {
+"t": "give",
+"box": "pouch",
+"id": 40188,
+"qty": 5
+},
+"Pouch: Veg & Oyster Aspic x5": {
+"t": "give",
+"box": "pouch",
+"id": 40189,
+"qty": 5
+},
+"Pouch: Snowbaby Potato Salad x5": {
+"t": "give",
+"box": "pouch",
+"id": 40190,
+"qty": 5
+},
+"Pouch: Pastel Camill x5": {
+"t": "give",
+"box": "pouch",
+"id": 40191,
+"qty": 5
+},
+"Pouch: Albacon Frystack x5": {
+"t": "give",
+"box": "pouch",
+"id": 40192,
+"qty": 5
+},
+"Pouch: Sweet Armu Belly Stew x5": {
+"t": "give",
+"box": "pouch",
+"id": 40193,
+"qty": 5
+},
+"Pouch: Zaproast Power Bowl x5": {
+"t": "give",
+"box": "pouch",
+"id": 40194,
+"qty": 5
+},
+"Pouch: Fragrant Samod Stralu x5": {
+"t": "give",
+"box": "pouch",
+"id": 40195,
+"qty": 5
+},
+"Pouch: Glarna Stir-Fry x5": {
+"t": "give",
+"box": "pouch",
+"id": 40196,
+"qty": 5
+},
+"Pouch: Broiled Pinfin x5": {
+"t": "give",
+"box": "pouch",
+"id": 40197,
+"qty": 5
+},
+"Pouch: Sautéed Beat Shrimps x5": {
+"t": "give",
+"box": "pouch",
+"id": 40198,
+"qty": 5
+},
+"Pouch: Braised Cloud Sea Shark x5": {
+"t": "give",
+"box": "pouch",
+"id": 40199,
+"qty": 5
+},
+"Pouch: Smoke-Braised Killifish x5": {
+"t": "give",
+"box": "pouch",
+"id": 40200,
+"qty": 5
+},
+"Pouch: Seared Whitebait x5": {
+"t": "give",
+"box": "pouch",
+"id": 40201,
+"qty": 5
+},
+"Pouch: Odifa x5": {
+"t": "give",
+"box": "pouch",
+"id": 40202,
+"qty": 5
+},
+"Pouch: Indoline Tea x5": {
+"t": "give",
+"box": "pouch",
+"id": 40203,
+"qty": 5
+},
+"Pouch: Frozen Odifa x5": {
+"t": "give",
+"box": "pouch",
+"id": 40204,
+"qty": 5
+},
+"Pouch: Pipestraw Smoothie x5": {
+"t": "give",
+"box": "pouch",
+"id": 40205,
+"qty": 5
+},
+"Pouch: Armu Milk Earl Grey x5": {
+"t": "give",
+"box": "pouch",
+"id": 40206,
+"qty": 5
+},
+"Pouch: Luna Lizard Wreath x5": {
+"t": "give",
+"box": "pouch",
+"id": 40207,
+"qty": 5
+},
+"Pouch: Montecoran Doll x5": {
+"t": "give",
+"box": "pouch",
+"id": 40208,
+"qty": 5
+},
+"Pouch: Steel Pipe Lexos x5": {
+"t": "give",
+"box": "pouch",
+"id": 40209,
+"qty": 5
+},
+"Pouch: Lush Moonbeam Mask x5": {
+"t": "give",
+"box": "pouch",
+"id": 40210,
+"qty": 5
+},
+"Pouch: Jellyfish Balsam Rug x5": {
+"t": "give",
+"box": "pouch",
+"id": 40211,
+"qty": 5
+},
+"Pouch: Codweave Shop Curtain x5": {
+"t": "give",
+"box": "pouch",
+"id": 40212,
+"qty": 5
+},
+"Pouch: Codweave Safety Blanky x5": {
+"t": "give",
+"box": "pouch",
+"id": 40213,
+"qty": 5
+},
+"Pouch: Silken Stool x5": {
+"t": "give",
+"box": "pouch",
+"id": 40214,
+"qty": 5
+},
+"Pouch: Noponcho x5": {
+"t": "give",
+"box": "pouch",
+"id": 40215,
+"qty": 5
+},
+"Pouch: Prismatic Headband x5": {
+"t": "give",
+"box": "pouch",
+"id": 40216,
+"qty": 5
+},
+"Pouch: Fondant Rice Cake x5": {
+"t": "give",
+"box": "pouch",
+"id": 40217,
+"qty": 5
+},
+"Pouch: Tantalese Porridge x5": {
+"t": "give",
+"box": "pouch",
+"id": 40218,
+"qty": 5
+},
+"Pouch: Poached Fruit Samod x5": {
+"t": "give",
+"box": "pouch",
+"id": 40219,
+"qty": 5
+},
+"Pouch: Grumbird Rice Bowl x5": {
+"t": "give",
+"box": "pouch",
+"id": 40220,
+"qty": 5
+},
+"Pouch: Steamed Veg Stralu x5": {
+"t": "give",
+"box": "pouch",
+"id": 40221,
+"qty": 5
+},
+"Pouch: Addam's Embercakes x5": {
+"t": "give",
+"box": "pouch",
+"id": 40222,
+"qty": 5
+},
+"Pouch: Vinaigrette Ice Cabbage x5": {
+"t": "give",
+"box": "pouch",
+"id": 40223,
+"qty": 5
+},
+"Pouch: Prickly Snowpickle x5": {
+"t": "give",
+"box": "pouch",
+"id": 40224,
+"qty": 5
+},
+"Pouch: Aromalocaris Sauté x5": {
+"t": "give",
+"box": "pouch",
+"id": 40225,
+"qty": 5
+},
+"Pouch: Abyssturgeon Medallion x5": {
+"t": "give",
+"box": "pouch",
+"id": 40226,
+"qty": 5
+},
+"Pouch: Bagna Oyster Roll x5": {
+"t": "give",
+"box": "pouch",
+"id": 40227,
+"qty": 5
+},
+"Pouch: Whitebait-Samod Hotpot x5": {
+"t": "give",
+"box": "pouch",
+"id": 40228,
+"qty": 5
+},
+"Pouch: Airy Snowflake Sherbet x5": {
+"t": "give",
+"box": "pouch",
+"id": 40229,
+"qty": 5
+},
+"Pouch: Thawing Mille-Feuille x5": {
+"t": "give",
+"box": "pouch",
+"id": 40230,
+"qty": 5
+},
+"Pouch: Baked Narcipear x5": {
+"t": "give",
+"box": "pouch",
+"id": 40231,
+"qty": 5
+},
+"Pouch: Sno-Bake Cheesecake x5": {
+"t": "give",
+"box": "pouch",
+"id": 40232,
+"qty": 5
+},
+"Pouch: Odifa Punch x5": {
+"t": "give",
+"box": "pouch",
+"id": 40233,
+"qty": 5
+},
+"Pouch: Snow Dumplings x5": {
+"t": "give",
+"box": "pouch",
+"id": 40234,
+"qty": 5
+},
+"Pouch: Ancient King’s Portrait x5": {
+"t": "give",
+"box": "pouch",
+"id": 40235,
+"qty": 5
+},
+"Pouch: Snow-Crystal Vase x5": {
+"t": "give",
+"box": "pouch",
+"id": 40236,
+"qty": 5
+},
+"Pouch: Portrait of Ger the Hero x5": {
+"t": "give",
+"box": "pouch",
+"id": 40237,
+"qty": 5
+},
+"Pouch: Prideful Walking x5": {
+"t": "give",
+"box": "pouch",
+"id": 40238,
+"qty": 5
+},
+"Pouch: The Armu Who Loved x5": {
+"t": "give",
+"box": "pouch",
+"id": 40239,
+"qty": 5
+},
+"Pouch: Witness the Crustip x5": {
+"t": "give",
+"box": "pouch",
+"id": 40240,
+"qty": 5
+},
+"Pouch: The Annals of Addam x5": {
+"t": "give",
+"box": "pouch",
+"id": 40241,
+"qty": 5
+},
+"Pouch: The Blizzard Choir x5": {
+"t": "give",
+"box": "pouch",
+"id": 40242,
+"qty": 5
+},
+"Pouch: Astrology Made Simple x5": {
+"t": "give",
+"box": "pouch",
+"id": 40243,
+"qty": 5
+},
+"Pouch: Don't Feed the Armu x5": {
+"t": "give",
+"box": "pouch",
+"id": 40244,
+"qty": 5
+},
+"Pouch: Bluff Knight x5": {
+"t": "give",
+"box": "pouch",
+"id": 40245,
+"qty": 5
+},
+"Pouch: Money-Bye-Bye x5": {
+"t": "give",
+"box": "pouch",
+"id": 40246,
+"qty": 5
+},
+"Pouch: Smack-A-Nopon x5": {
+"t": "give",
+"box": "pouch",
+"id": 40247,
+"qty": 5
+},
+"Pouch: Jeweled Billiard Balls x5": {
+"t": "give",
+"box": "pouch",
+"id": 40248,
+"qty": 5
+},
+"Pouch: Steamy Oil x5": {
+"t": "give",
+"box": "pouch",
+"id": 40249,
+"qty": 5
+},
+"Pouch: Chocolate Shadow x5": {
+"t": "give",
+"box": "pouch",
+"id": 40250,
+"qty": 5
+},
+"Pouch: Moonstar Lipstick x5": {
+"t": "give",
+"box": "pouch",
+"id": 40251,
+"qty": 5
+},
+"Pouch: Noponic Nails x5": {
+"t": "give",
+"box": "pouch",
+"id": 40252,
+"qty": 5
+},
+"Pouch: Steam Powder x5": {
+"t": "give",
+"box": "pouch",
+"id": 40253,
+"qty": 5
+},
+"Pouch: Tantalese Velvet x5": {
+"t": "give",
+"box": "pouch",
+"id": 40254,
+"qty": 5
+},
+"Pouch: Snowflake-Weave Sole x5": {
+"t": "give",
+"box": "pouch",
+"id": 40255,
+"qty": 5
+},
+"Pouch: Genbu-Weave Cloth x5": {
+"t": "give",
+"box": "pouch",
+"id": 40256,
+"qty": 5
+},
+"Pouch: Heatstripe x5": {
+"t": "give",
+"box": "pouch",
+"id": 40257,
+"qty": 5
+},
+"Pouch: Musical Hair Clasp x5": {
+"t": "give",
+"box": "pouch",
+"id": 40258,
+"qty": 5
+},
+"Pouch: Torigoth Snowpouch x5": {
+"t": "give",
+"box": "pouch",
+"id": 40259,
+"qty": 5
+},
+"Pouch: Glitterbake x5": {
+"t": "give",
+"box": "pouch",
+"id": 40260,
+"qty": 5
+},
+"Pouch: Tricolor Bowl x5": {
+"t": "give",
+"box": "pouch",
+"id": 40261,
+"qty": 5
+},
+"Pouch: Hot Moonbeam Salad x5": {
+"t": "give",
+"box": "pouch",
+"id": 40262,
+"qty": 5
+},
+"Pouch: Addam's Supercakes x5": {
+"t": "give",
+"box": "pouch",
+"id": 40263,
+"qty": 5
+},
+"Pouch: Meatball Pot-au-Feu x5": {
+"t": "give",
+"box": "pouch",
+"id": 40264,
+"qty": 5
+},
+"Pouch: Pan-Fried Tartari x5": {
+"t": "give",
+"box": "pouch",
+"id": 40265,
+"qty": 5
+},
+"Pouch: Roast Meat Tagliata x5": {
+"t": "give",
+"box": "pouch",
+"id": 40266,
+"qty": 5
+},
+"Pouch: Sunshine Pie x5": {
+"t": "give",
+"box": "pouch",
+"id": 40267,
+"qty": 5
+},
+"Pouch: Acqua Pearl Pazza x5": {
+"t": "give",
+"box": "pouch",
+"id": 40268,
+"qty": 5
+},
+"Pouch: Vess’s Dumplings x5": {
+"t": "give",
+"box": "pouch",
+"id": 40269,
+"qty": 5
+},
+"Pouch: Rainbow Dumplings x5": {
+"t": "give",
+"box": "pouch",
+"id": 40270,
+"qty": 5
+},
+"Pouch: Gromrice Dumplings x5": {
+"t": "give",
+"box": "pouch",
+"id": 40271,
+"qty": 5
+},
+"Pouch: Puri Leaf Dumplings x5": {
+"t": "give",
+"box": "pouch",
+"id": 40272,
+"qty": 5
+},
+"Pouch: Spicy Stralu x5": {
+"t": "give",
+"box": "pouch",
+"id": 40273,
+"qty": 5
+},
+"Pouch: Molten Salsa x5": {
+"t": "give",
+"box": "pouch",
+"id": 40274,
+"qty": 5
+},
+"Pouch: Blazing Quoteletta x5": {
+"t": "give",
+"box": "pouch",
+"id": 40275,
+"qty": 5
+},
+"Pouch: Brimstone Tartari x5": {
+"t": "give",
+"box": "pouch",
+"id": 40276,
+"qty": 5
+},
+"Pouch: White-Hot Eggy Curry x5": {
+"t": "give",
+"box": "pouch",
+"id": 40277,
+"qty": 5
+},
+"Pouch: Lovemerry Cake x5": {
+"t": "give",
+"box": "pouch",
+"id": 40278,
+"qty": 5
+},
+"Pouch: Pyra's Acqua Pazza x5": {
+"t": "give",
+"box": "pouch",
+"id": 40279,
+"qty": 5
+},
+"Pouch: Neon Cookies x5": {
+"t": "give",
+"box": "pouch",
+"id": 40281,
+"qty": 5
+},
+"Pouch: Bitter Choclit x5": {
+"t": "give",
+"box": "pouch",
+"id": 40283,
+"qty": 5
+},
+"Pouch: Bitlip Drink x5": {
+"t": "give",
+"box": "pouch",
+"id": 40286,
+"qty": 5
+},
+"Pouch: Pucklip Drink x5": {
+"t": "give",
+"box": "pouch",
+"id": 40287,
+"qty": 5
+},
+"Pouch: Tinglip Drink x5": {
+"t": "give",
+"box": "pouch",
+"id": 40288,
+"qty": 5
+},
+"Pouch: Sourlip Drink x5": {
+"t": "give",
+"box": "pouch",
+"id": 40289,
+"qty": 5
+},
+"Pouch: Tricolor Ice Floe x5": {
+"t": "give",
+"box": "pouch",
+"id": 40290,
+"qty": 5
+},
+"Pouch: Sparkling Snowglobe x5": {
+"t": "give",
+"box": "pouch",
+"id": 40291,
+"qty": 5
+},
+"Pouch: Rainbow Scope x5": {
+"t": "give",
+"box": "pouch",
+"id": 40292,
+"qty": 5
+},
+"Pouch: Tantal Icecube x5": {
+"t": "give",
+"box": "pouch",
+"id": 40293,
+"qty": 5
+},
+"Pouch: Titan Illuminations x5": {
+"t": "give",
+"box": "pouch",
+"id": 40294,
+"qty": 5
+},
+"Pouch: Salted Brog Sauté x5": {
+"t": "give",
+"box": "pouch",
+"id": 40295,
+"qty": 5
+},
+"Pouch: Cream Orange Paratha x5": {
+"t": "give",
+"box": "pouch",
+"id": 40296,
+"qty": 5
+},
+"Pouch: The Flora of Alrest x5": {
+"t": "give",
+"box": "pouch",
+"id": 40297,
+"qty": 5
+},
+"Pouch: Gentlemen: A Study x5": {
+"t": "give",
+"box": "pouch",
+"id": 40298,
+"qty": 5
+},
+"Pouch: Quoteletta x5": {
+"t": "give",
+"box": "pouch",
+"id": 40299,
+"qty": 5
+},
+"Pouch: Fried Octomayo x5": {
+"t": "give",
+"box": "pouch",
+"id": 40301,
+"qty": 5
+},
+"Pouch: Ardainian Bear Carving x5": {
+"t": "give",
+"box": "pouch",
+"id": 40302,
+"qty": 5
+},
+"Pouch: Master's Curry x5": {
+"t": "give",
+"box": "pouch",
+"id": 40303,
+"qty": 5
+},
+"Pouch: Lucky Dawn Bread x5": {
+"t": "give",
+"box": "pouch",
+"id": 40304,
+"qty": 5
+},
+"Pouch: Choclit Dumplings x5": {
+"t": "give",
+"box": "pouch",
+"id": 40305,
+"qty": 5
+},
+"Pouch: Heart Cookies x5": {
+"t": "give",
+"box": "pouch",
+"id": 40306,
+"qty": 5
+},
+"Pouch: Rizzente Mantle x5": {
+"t": "give",
+"box": "pouch",
+"id": 40307,
+"qty": 5
+},
+"Pouch: Felt Cushioning x5": {
+"t": "give",
+"box": "pouch",
+"id": 40308,
+"qty": 5
+},
+"Pouch: Brut Silk x5": {
+"t": "give",
+"box": "pouch",
+"id": 40309,
+"qty": 5
+},
+"Pouch: Shelton Broadcloth x5": {
+"t": "give",
+"box": "pouch",
+"id": 40310,
+"qty": 5
+},
+"Pouch: Crinkly Wool x5": {
+"t": "give",
+"box": "pouch",
+"id": 40311,
+"qty": 5
+},
+"Pouch: Pyra's Baked Redfish x5": {
+"t": "give",
+"box": "pouch",
+"id": 40312,
+"qty": 5
+},
+"Pouch: Fabulously Fierce Hat x5": {
+"t": "give",
+"box": "pouch",
+"id": 40313,
+"qty": 5
+},
+"Pouch: Love Source x5": {
+"t": "give",
+"box": "pouch",
+"id": 40314,
+"qty": 5
+},
+"Pouch: Cotton Charm x5": {
+"t": "give",
+"box": "pouch",
+"id": 40315,
+"qty": 5
+},
+"Pouch: Organic Charm x5": {
+"t": "give",
+"box": "pouch",
+"id": 40316,
+"qty": 5
+},
+"Pouch: Traveler's Charm x5": {
+"t": "give",
+"box": "pouch",
+"id": 40317,
+"qty": 5
+},
+"Pouch: Batwing Charm x5": {
+"t": "give",
+"box": "pouch",
+"id": 40318,
+"qty": 5
+},
+"Pouch: Burly Charm x5": {
+"t": "give",
+"box": "pouch",
+"id": 40319,
+"qty": 5
+},
+"Pouch: Sword Charm x5": {
+"t": "give",
+"box": "pouch",
+"id": 40320,
+"qty": 5
+},
+"Pouch: Mechanical Charm x5": {
+"t": "give",
+"box": "pouch",
+"id": 40321,
+"qty": 5
+},
+"Pouch: Rynea's Charm x5": {
+"t": "give",
+"box": "pouch",
+"id": 40322,
+"qty": 5
+},
+"Pouch: Hollow Charm x5": {
+"t": "give",
+"box": "pouch",
+"id": 40323,
+"qty": 5
+},
+"Pouch: Galaxy Charm x5": {
+"t": "give",
+"box": "pouch",
+"id": 40324,
+"qty": 5
+},
+"Pouch: Deviled Baguette x5": {
+"t": "give",
+"box": "pouch",
+"id": 40325,
+"qty": 5
+},
+"Pouch: Survivalist's Sandwich x5": {
+"t": "give",
+"box": "pouch",
+"id": 40326,
+"qty": 5
+},
+"Pouch: Lucky Colorful Salad x5": {
+"t": "give",
+"box": "pouch",
+"id": 40327,
+"qty": 5
+},
+"Pouch: Feris Quotelettas x5": {
+"t": "give",
+"box": "pouch",
+"id": 40328,
+"qty": 5
+},
+"Pouch: Ruby-Stew Buloofo x5": {
+"t": "give",
+"box": "pouch",
+"id": 40330,
+"qty": 5
+},
+"Pouch: Trout Stralu x5": {
+"t": "give",
+"box": "pouch",
+"id": 40331,
+"qty": 5
+},
+"Pouch: Rich Platinum Bonbon x5": {
+"t": "give",
+"box": "pouch",
+"id": 40332,
+"qty": 5
+},
+"Pouch: Energy Stir-Fry x5": {
+"t": "give",
+"box": "pouch",
+"id": 40333,
+"qty": 5
+},
+"Pouch: Wildflower Salad x5": {
+"t": "give",
+"box": "pouch",
+"id": 40334,
+"qty": 5
+},
+"Pouch: XL Magma Sauté x5": {
+"t": "give",
+"box": "pouch",
+"id": 40335,
+"qty": 5
+},
+"Pouch: Bunnit-Stuffed Peppers x5": {
+"t": "give",
+"box": "pouch",
+"id": 40336,
+"qty": 5
+},
+"Pouch: Fried Tartari à la Jin x5": {
+"t": "give",
+"box": "pouch",
+"id": 40337,
+"qty": 5
+},
+"Pouch: Chilsainian Kascha x5": {
+"t": "give",
+"box": "pouch",
+"id": 40338,
+"qty": 5
+},
+"Pouch: Wingberry Cake x5": {
+"t": "give",
+"box": "pouch",
+"id": 40339,
+"qty": 5
+},
+"Pouch: Soothing Talisman x5": {
+"t": "give",
+"box": "pouch",
+"id": 40340,
+"qty": 5
+},
+"Pouch: Bright Talisman x5": {
+"t": "give",
+"box": "pouch",
+"id": 40341,
+"qty": 5
+},
+"Pouch: Unforgettable Talisman x5": {
+"t": "give",
+"box": "pouch",
+"id": 40342,
+"qty": 5
+},
+"Pouch: Mystery Talisman x5": {
+"t": "give",
+"box": "pouch",
+"id": 40343,
+"qty": 5
+},
+"Pouch: Exorcising Talisman x5": {
+"t": "give",
+"box": "pouch",
+"id": 40344,
+"qty": 5
+},
+"Pouch: Fierce Talisman x5": {
+"t": "give",
+"box": "pouch",
+"id": 40345,
+"qty": 5
+},
+"Pouch: Farsighted Talisman x5": {
+"t": "give",
+"box": "pouch",
+"id": 40346,
+"qty": 5
+},
+"Pouch: Swordstrike Talisman x5": {
+"t": "give",
+"box": "pouch",
+"id": 40347,
+"qty": 5
+},
+"Pouch: Unbreakable Talisman x5": {
+"t": "give",
+"box": "pouch",
+"id": 40348,
+"qty": 5
+},
+"Pouch: Golden Land Talisman x5": {
+"t": "give",
+"box": "pouch",
+"id": 40349,
+"qty": 5
+},
+"Pouch: fav_cap_036 x5": {
+"t": "give",
+"box": "pouch",
+"id": 40350,
+"qty": 5
+},
+"Pouch: fav_cap_037 x5": {
+"t": "give",
+"box": "pouch",
+"id": 40351,
+"qty": 5
+},
+"Pouch: fav_cap_038 x5": {
+"t": "give",
+"box": "pouch",
+"id": 40352,
+"qty": 5
+},
+"Pouch: fav_cap_039 x5": {
+"t": "give",
+"box": "pouch",
+"id": 40353,
+"qty": 5
+},
+"Pouch: fav_cap_040 x5": {
+"t": "give",
+"box": "pouch",
+"id": 40354,
+"qty": 5
+},
+"Pouch: fav_cap_041 x5": {
+"t": "give",
+"box": "pouch",
+"id": 40355,
+"qty": 5
+},
+"Pouch: fav_cap_042 x5": {
+"t": "give",
+"box": "pouch",
+"id": 40356,
+"qty": 5
+},
+"Pouch: fav_cap_043 x5": {
+"t": "give",
+"box": "pouch",
+"id": 40357,
+"qty": 5
+},
+"Pouch: fav_cap_044 x5": {
+"t": "give",
+"box": "pouch",
+"id": 40358,
+"qty": 5
+},
+"Pouch: fav_cap_045 x5": {
+"t": "give",
+"box": "pouch",
+"id": 40359,
+"qty": 5
+},
+"Pouch: fav_cap_046 x5": {
+"t": "give",
+"box": "pouch",
+"id": 40360,
+"qty": 5
+},
+"Pouch: fav_cap_047 x5": {
+"t": "give",
+"box": "pouch",
+"id": 40361,
+"qty": 5
+},
+"Pouch: fav_cap_048 x5": {
+"t": "give",
+"box": "pouch",
+"id": 40362,
+"qty": 5
+},
+"Pouch: fav_cap_049 x5": {
+"t": "give",
+"box": "pouch",
+"id": 40363,
+"qty": 5
+},
+"Pouch: Whole Upa in a Bun x5": {
+"t": "give",
+"box": "pouch",
+"id": 40364,
+"qty": 5
+},
+"Pouch: Sweet Feris Dumplings x5": {
+"t": "give",
+"box": "pouch",
+"id": 40365,
+"qty": 5
+},
+"Pouch: Chaos Stralu x5": {
+"t": "give",
+"box": "pouch",
+"id": 40366,
+"qty": 5
+},
+"Pouch: Puréed Sculpin Parfait x5": {
+"t": "give",
+"box": "pouch",
+"id": 40367,
+"qty": 5
+},
+"Pouch: Spicy Scorpion Cookie x5": {
+"t": "give",
+"box": "pouch",
+"id": 40368,
+"qty": 5
+},
+"Pouch: Inconceivable Pudding x5": {
+"t": "give",
+"box": "pouch",
+"id": 40369,
+"qty": 5
+},
+"Pouch: Grisly Mille-Feuille x5": {
+"t": "give",
+"box": "pouch",
+"id": 40370,
+"qty": 5
+},
+"Pouch: Moisturizing Bagel x5": {
+"t": "give",
+"box": "pouch",
+"id": 40371,
+"qty": 5
+},
+"Pouch: Chilsainian Kascha DX x5": {
+"t": "give",
+"box": "pouch",
+"id": 40372,
+"qty": 5
+},
+"Pouch: Ruby-Stew Buloofo DX x5": {
+"t": "give",
+"box": "pouch",
+"id": 40373,
+"qty": 5
+},
+"Pouch: Love-Hate Sausage x5": {
+"t": "give",
+"box": "pouch",
+"id": 40374,
+"qty": 5
+},
+"Pouch: Caramelized Seafood x5": {
+"t": "give",
+"box": "pouch",
+"id": 40375,
+"qty": 5
+},
+"Pouch: Ascension Waffles x5": {
+"t": "give",
+"box": "pouch",
+"id": 40376,
+"qty": 5
+},
+"Pouch: Literally Killer Tart x5": {
+"t": "give",
+"box": "pouch",
+"id": 40377,
+"qty": 5
+},
+"Pouch: Miracle Parfait x5": {
+"t": "give",
+"box": "pouch",
+"id": 40378,
+"qty": 5
+},
+"Pouch: A Happy Encounter x5": {
+"t": "give",
+"box": "pouch",
+"id": 40379,
+"qty": 5
+},
+"Pouch: Beyond Endless Dunes x5": {
+"t": "give",
+"box": "pouch",
+"id": 40380,
+"qty": 5
+},
+"Pouch: The Quaestor x5": {
+"t": "give",
+"box": "pouch",
+"id": 40381,
+"qty": 5
+},
+"Pouch: The Capital Under Fire x5": {
+"t": "give",
+"box": "pouch",
+"id": 40382,
+"qty": 5
+},
+"Pouch: The Knight of Torna x5": {
+"t": "give",
+"box": "pouch",
+"id": 40383,
+"qty": 5
+},
+"Pouch: Preparing for the Worst x5": {
+"t": "give",
+"box": "pouch",
+"id": 40384,
+"qty": 5
+},
+"Pouch: What You Must Protect x5": {
+"t": "give",
+"box": "pouch",
+"id": 40385,
+"qty": 5
+},
+"Pouch: The Aegis x5": {
+"t": "give",
+"box": "pouch",
+"id": 40386,
+"qty": 5
+},
+"Pouch: fav_cap_073 x5": {
+"t": "give",
+"box": "pouch",
+"id": 40387,
+"qty": 5
+},
+"Pouch: Community Spirit x5": {
+"t": "give",
+"box": "pouch",
+"id": 40388,
+"qty": 5
+},
+"Pouch: fav_cap_075 x5": {
+"t": "give",
+"box": "pouch",
+"id": 40389,
+"qty": 5
+},
+"Pouch: fav_cap_076 x5": {
+"t": "give",
+"box": "pouch",
+"id": 40390,
+"qty": 5
+},
+"Pouch: fav_cap_077 x5": {
+"t": "give",
+"box": "pouch",
+"id": 40391,
+"qty": 5
+},
+"Pouch: fav_cap_078 x5": {
+"t": "give",
+"box": "pouch",
+"id": 40392,
+"qty": 5
+},
+"Pouch: fav_cap_079 x5": {
+"t": "give",
+"box": "pouch",
+"id": 40393,
+"qty": 5
+},
+"Pouch: fav_cap_080 x5": {
+"t": "give",
+"box": "pouch",
+"id": 40394,
+"qty": 5
+},
+"Pouch: fav_cap_081 x5": {
+"t": "give",
+"box": "pouch",
+"id": 40395,
+"qty": 5
+},
+"Pouch: fav_cap_082 x5": {
+"t": "give",
+"box": "pouch",
+"id": 40396,
+"qty": 5
+},
+"Pouch: fav_cap_083 x5": {
+"t": "give",
+"box": "pouch",
+"id": 40397,
+"qty": 5
+},
+"Pouch: fav_cap_084 x5": {
+"t": "give",
+"box": "pouch",
+"id": 40398,
+"qty": 5
+},
+"Pouch: fav_cap_085 x5": {
+"t": "give",
+"box": "pouch",
+"id": 40399,
+"qty": 5
+},
+"Pouch: fav_cap_086 x5": {
+"t": "give",
+"box": "pouch",
+"id": 40400,
+"qty": 5
+},
+"Pouch: fav_cap_087 x5": {
+"t": "give",
+"box": "pouch",
+"id": 40401,
+"qty": 5
+},
+"Pouch: fav_cap_088 x5": {
+"t": "give",
+"box": "pouch",
+"id": 40402,
+"qty": 5
+},
+"Pouch: Winterwind Perfume x5": {
+"t": "give",
+"box": "pouch",
+"id": 40403,
+"qty": 5
+},
+"Pouch: Spring Revival Perfume x5": {
+"t": "give",
+"box": "pouch",
+"id": 40404,
+"qty": 5
+},
+"Pouch: Dignified Perfume x5": {
+"t": "give",
+"box": "pouch",
+"id": 40405,
+"qty": 5
+},
+"Pouch: Evilbane Perfume x5": {
+"t": "give",
+"box": "pouch",
+"id": 40406,
+"qty": 5
+},
+"Pouch: Hopeful Perfume x5": {
+"t": "give",
+"box": "pouch",
+"id": 40407,
+"qty": 5
+},
+"Pouch: Resurrection Perfume x5": {
+"t": "give",
+"box": "pouch",
+"id": 40408,
+"qty": 5
+},
+"Pouch: Serenity Perfume x5": {
+"t": "give",
+"box": "pouch",
+"id": 40409,
+"qty": 5
+},
+"Pouch: Exquisite Perfume x5": {
+"t": "give",
+"box": "pouch",
+"id": 40410,
+"qty": 5
+},
+"Pouch: Pestronella Oil x5": {
+"t": "give",
+"box": "pouch",
+"id": 40411,
+"qty": 5
+},
+"Pouch: Eternity Perfume x5": {
+"t": "give",
+"box": "pouch",
+"id": 40412,
+"qty": 5
+},
+"Pouch: Ruska Dumpling Soup x5": {
+"t": "give",
+"box": "pouch",
+"id": 40413,
+"qty": 5
+},
+"Pouch: Ruska Veggie Hot-Pot x5": {
+"t": "give",
+"box": "pouch",
+"id": 40414,
+"qty": 5
+},
+"Pouch: Pickled Purses x5": {
+"t": "give",
+"box": "pouch",
+"id": 40415,
+"qty": 5
+},
+"Pouch: Rhogul à la Ardainaise x5": {
+"t": "give",
+"box": "pouch",
+"id": 40416,
+"qty": 5
+},
+"Pouch: Sweet-Stewed Sculpin x5": {
+"t": "give",
+"box": "pouch",
+"id": 40417,
+"qty": 5
+},
+"Pouch: Gormotti Sashimi Plate x5": {
+"t": "give",
+"box": "pouch",
+"id": 40418,
+"qty": 5
+},
+"Pouch: Deep-Fried Tornan Fish x5": {
+"t": "give",
+"box": "pouch",
+"id": 40419,
+"qty": 5
+},
+"Pouch: Plain Boiled Crab x5": {
+"t": "give",
+"box": "pouch",
+"id": 40420,
+"qty": 5
+},
+"Pouch: Coeian-Style Fry-Up x5": {
+"t": "give",
+"box": "pouch",
+"id": 40421,
+"qty": 5
+},
+"Pouch: Sumpkin Griddle Cakes x5": {
+"t": "give",
+"box": "pouch",
+"id": 40422,
+"qty": 5
+},
+"Pouch: Hyber Meatball Stew x5": {
+"t": "give",
+"box": "pouch",
+"id": 40423,
+"qty": 5
+},
+"Pouch: Hustle Marinade x5": {
+"t": "give",
+"box": "pouch",
+"id": 40424,
+"qty": 5
+},
+"Pouch: Bonytongue Casserole x5": {
+"t": "give",
+"box": "pouch",
+"id": 40425,
+"qty": 5
+},
+"Pouch: Steel Salmon Tempura x5": {
+"t": "give",
+"box": "pouch",
+"id": 40426,
+"qty": 5
+},
+"Pouch: Fisherman's Feast x5": {
+"t": "give",
+"box": "pouch",
+"id": 40427,
+"qty": 5
+},
+"Pouch: Love Doughnut x5": {
+"t": "give",
+"box": "pouch",
+"id": 40428,
+"qty": 5
+}
+},
+"vanilla_crystals": {
+"1023": 45002,
+"1032": 45003,
+"1040": 45004,
+"1014": 45005,
+"1024": 45006,
+"1025": 45007,
+"1033": 45008,
+"1008": 45009,
+"1016": 45016,
+"1108": 45056,
+"1109": 45057
+},
+"story_blades": {
+"Pyra": 1001,
+"Aegis True Form": 1002,
+"Dromarch": 1004,
+"Poppi a": 1005,
+"Poppi QT": 1006,
+"Poppi QT Pi": 1007,
+"Pandoria": 1010,
+"Sever": 1042,
+"Dagas": 1022
+}
+}

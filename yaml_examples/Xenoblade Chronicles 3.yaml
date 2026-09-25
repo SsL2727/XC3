@@ -1,0 +1,12 @@
+# Xenoblade Chronicles 3 - example player options (generated from the world data)
+name: YourSlotName
+game: Xenoblade Chronicles 3
+
+requires:
+  version: 0.6.0
+
+Xenoblade Chronicles 3:
+  # Percentage of filler items replaced by trap items (0-100)
+  filler_traps: 0
+  # Multiplies experience-type gains (EXP, WP/SP, class points) while you play so runs go faster: 1 = normal, up to 50
+  experience_multiplier: 1

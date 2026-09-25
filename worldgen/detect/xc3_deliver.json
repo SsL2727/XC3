@@ -1,0 +1,6242 @@
+{
+"items": {
+"Swordfighter Outfit - Eunie": {
+"t": "flag2",
+"i": 6394,
+"grant": 1,
+"also": [
+"Swordfighter - Eunie"
+]
+},
+"Swordfighter Outfit - Lanz": {
+"t": "flag2",
+"i": 6496,
+"grant": 1,
+"also": [
+"Swordfighter - Lanz"
+]
+},
+"Swordfighter Outfit - Taion": {
+"t": "flag2",
+"i": 6445,
+"grant": 1,
+"also": [
+"Swordfighter - Taion"
+]
+},
+"Swordfighter Outfit - Sena": {
+"t": "flag2",
+"i": 6547,
+"grant": 1,
+"also": [
+"Swordfighter - Sena"
+]
+},
+"Zephyr Outfit - Eunie": {
+"t": "flag2",
+"i": 6395,
+"grant": 1,
+"also": [
+"Zephyr - Eunie"
+]
+},
+"Zephyr Outfit - Lanz": {
+"t": "flag2",
+"i": 6497,
+"grant": 1
+},
+"Zephyr Outfit - Taion": {
+"t": "flag2",
+"i": 6446,
+"grant": 1,
+"also": [
+"Zephyr - Taion"
+]
+},
+"Zephyr Outfit - Sena": {
+"t": "flag2",
+"i": 6548,
+"grant": 1,
+"also": [
+"Zephyr - Sena"
+]
+},
+"Medic Gunner Outfit - Noah": {
+"t": "flag2",
+"i": 6294,
+"grant": 1,
+"also": [
+"Medic Gunner - Noah"
+]
+},
+"Medic Gunner Outfit - Lanz": {
+"t": "flag2",
+"i": 6498,
+"grant": 1,
+"also": [
+"Medic Gunner - Lanz"
+]
+},
+"Medic Gunner Outfit - Mio": {
+"t": "flag2",
+"i": 6345,
+"grant": 1,
+"also": [
+"Medic Gunner - Mio"
+]
+},
+"Medic Gunner Outfit - Sena": {
+"t": "flag2",
+"i": 6549,
+"grant": 1,
+"also": [
+"Medic Gunner - Sena"
+]
+},
+"Tactician Outfit - Noah": {
+"t": "flag2",
+"i": 6295,
+"grant": 1,
+"also": [
+"Tactician - Noah"
+]
+},
+"Tactician Outfit - Lanz": {
+"t": "flag2",
+"i": 6499,
+"grant": 1,
+"also": [
+"Tactician - Lanz"
+]
+},
+"Tactician Outfit - Mio": {
+"t": "flag2",
+"i": 6346,
+"grant": 1
+},
+"Tactician Outfit - Sena": {
+"t": "flag2",
+"i": 6550,
+"grant": 1,
+"also": [
+"Tactician - Sena"
+]
+},
+"Heavy Guard Outfit - Noah": {
+"t": "flag2",
+"i": 6296,
+"grant": 1,
+"also": [
+"Heavy Guard - Noah"
+]
+},
+"Ogre Outfit - Noah": {
+"t": "flag2",
+"i": 6297,
+"grant": 1,
+"also": [
+"Ogre - Noah"
+]
+},
+"Ogre Outfit - Eunie": {
+"t": "flag2",
+"i": 6399,
+"grant": 1
+},
+"Ogre Outfit - Mio": {
+"t": "flag2",
+"i": 6348,
+"grant": 1,
+"also": [
+"Ogre - Mio"
+]
+},
+"Ogre Outfit - Taion": {
+"t": "flag2",
+"i": 6450,
+"grant": 1,
+"also": [
+"Ogre - Taion"
+]
+},
+"Flash Fencer Outfit - Lanz": {
+"t": "flag2",
+"i": 6502,
+"grant": 1,
+"also": [
+"Flash Fencer - Lanz"
+]
+},
+"Flash Fencer Outfit - Eunie": {
+"t": "flag2",
+"i": 6400,
+"grant": 1,
+"also": [
+"Flash Fencer - Eunie"
+]
+},
+"Flash Fencer Outfit - Mio": {
+"t": "flag2",
+"i": 6349,
+"grant": 1,
+"also": [
+"Flash Fencer - Mio"
+]
+},
+"Flash Fencer Outfit - Taion": {
+"t": "flag2",
+"i": 6451,
+"grant": 1,
+"also": [
+"Flash Fencer - Taion"
+]
+},
+"Flash Fencer Outfit - Sena": {
+"t": "flag2",
+"i": 6553,
+"grant": 1,
+"also": [
+"Flash Fencer - Sena"
+]
+},
+"War Medic Outfit - Noah": {
+"t": "flag2",
+"i": 6304,
+"grant": 1,
+"also": [
+"War Medic - Noah"
+]
+},
+"War Medic Outfit - Eunie": {
+"t": "flag2",
+"i": 6406,
+"grant": 1
+},
+"War Medic Outfit - Mio": {
+"t": "flag2",
+"i": 6355,
+"grant": 1,
+"also": [
+"War Medic - Mio"
+]
+},
+"War Medic Outfit - Taion": {
+"t": "flag2",
+"i": 6457,
+"grant": 1,
+"also": [
+"War Medic - Taion"
+]
+},
+"War Medic Outfit - Sena": {
+"t": "flag2",
+"i": 6559,
+"grant": 1,
+"also": [
+"War Medic - Sena"
+]
+},
+"Guardian Commander Outfit - Eunie": {
+"t": "flag2",
+"i": 6407,
+"grant": 1,
+"also": [
+"Guardian Commander - Eunie"
+]
+},
+"Guardian Commander Outfit - Lanz": {
+"t": "flag2",
+"i": 6509,
+"grant": 1,
+"also": [
+"Guardian Commander - Lanz"
+]
+},
+"Guardian Commander Outfit - Mio": {
+"t": "flag2",
+"i": 6356,
+"grant": 1,
+"also": [
+"Guardian Commander - Mio"
+]
+},
+"Guardian Commander Outfit - Taion": {
+"t": "flag2",
+"i": 6458,
+"grant": 1,
+"also": [
+"Guardian Commander - Taion"
+]
+},
+"Guardian Commander Outfit - Sena": {
+"t": "flag2",
+"i": 6560,
+"grant": 1,
+"also": [
+"Guardian Commander - Sena"
+]
+},
+"Thaumaturge Outfit - Noah": {
+"t": "flag2",
+"i": 6306,
+"grant": 1,
+"also": [
+"Thaumaturge - Noah"
+]
+},
+"Thaumaturge Outfit - Lanz": {
+"t": "flag2",
+"i": 6510,
+"grant": 1,
+"also": [
+"Thaumaturge - Lanz"
+]
+},
+"Thaumaturge Outfit - Eunie": {
+"t": "flag2",
+"i": 6408,
+"grant": 1,
+"also": [
+"Thaumaturge - Eunie"
+]
+},
+"Thaumaturge Outfit - Taion": {
+"t": "flag2",
+"i": 6459,
+"grant": 1,
+"also": [
+"Thaumaturge - Taion"
+]
+},
+"Thaumaturge Outfit - Sena": {
+"t": "flag2",
+"i": 6561,
+"grant": 1,
+"also": [
+"Thaumaturge - Sena"
+]
+},
+"Yumsmith Outfit - Noah": {
+"t": "flag2",
+"i": 6299,
+"grant": 1,
+"also": [
+"Yumsmith - Noah"
+]
+},
+"Yumsmith Outfit - Lanz": {
+"t": "flag2",
+"i": 6503,
+"grant": 1,
+"also": [
+"Yumsmith - Lanz"
+]
+},
+"Yumsmith Outfit - Eunie": {
+"t": "flag2",
+"i": 6401,
+"grant": 1,
+"also": [
+"Yumsmith - Eunie"
+]
+},
+"Yumsmith Outfit - Mio": {
+"t": "flag2",
+"i": 6350,
+"grant": 1,
+"also": [
+"Yumsmith - Mio"
+]
+},
+"Yumsmith Outfit - Taion": {
+"t": "flag2",
+"i": 6452,
+"grant": 1,
+"also": [
+"Yumsmith - Taion"
+]
+},
+"Full Metal Jaguar Outfit - Noah": {
+"t": "flag2",
+"i": 6314,
+"grant": 1,
+"also": [
+"Full Metal Jaguar - Noah"
+]
+},
+"Full Metal Jaguar Outfit - Lanz": {
+"t": "flag2",
+"i": 6518,
+"grant": 1,
+"also": [
+"Full Metal Jaguar - Lanz"
+]
+},
+"Full Metal Jaguar Outfit - Mio": {
+"t": "flag2",
+"i": 6365,
+"grant": 1,
+"also": [
+"Full Metal Jaguar - Mio"
+]
+},
+"Full Metal Jaguar Outfit - Taion": {
+"t": "flag2",
+"i": 6467,
+"grant": 1,
+"also": [
+"Full Metal Jaguar - Taion"
+]
+},
+"Full Metal Jaguar Outfit - Sena": {
+"t": "flag2",
+"i": 6569,
+"grant": 1,
+"also": [
+"Full Metal Jaguar - Sena"
+]
+},
+"Strategos Outfit - Noah": {
+"t": "flag2",
+"i": 6300,
+"grant": 1,
+"also": [
+"Strategos - Noah"
+]
+},
+"Strategos Outfit - Lanz": {
+"t": "flag2",
+"i": 6504,
+"grant": 1,
+"also": [
+"Strategos - Lanz"
+]
+},
+"Strategos Outfit - Eunie": {
+"t": "flag2",
+"i": 6402,
+"grant": 1,
+"also": [
+"Strategos - Eunie"
+]
+},
+"Strategos Outfit - Mio": {
+"t": "flag2",
+"i": 6351,
+"grant": 1,
+"also": [
+"Strategos - Mio"
+]
+},
+"Strategos Outfit - Sena": {
+"t": "flag2",
+"i": 6555,
+"grant": 1,
+"also": [
+"Strategos - Sena"
+]
+},
+"Stalker Outfit - Lanz": {
+"t": "flag2",
+"i": 6512,
+"grant": 1,
+"also": [
+"Stalker - Lanz"
+]
+},
+"Stalker Outfit - Eunie": {
+"t": "flag2",
+"i": 6410,
+"grant": 1,
+"also": [
+"Stalker - Eunie"
+]
+},
+"Stalker Outfit - Mio": {
+"t": "flag2",
+"i": 6359,
+"grant": 1,
+"also": [
+"Stalker - Mio"
+]
+},
+"Stalker Outfit - Taion": {
+"t": "flag2",
+"i": 6461,
+"grant": 1,
+"also": [
+"Stalker - Taion"
+]
+},
+"Stalker Outfit - Sena": {
+"t": "flag2",
+"i": 6563,
+"grant": 1,
+"also": [
+"Stalker - Sena"
+]
+},
+"Lone Exile Outfit - Noah": {
+"t": "flag2",
+"i": 6309,
+"grant": 1,
+"also": [
+"Lone Exile - Noah"
+]
+},
+"Lone Exile Outfit - Lanz": {
+"t": "flag2",
+"i": 6513,
+"grant": 1,
+"also": [
+"Lone Exile - Lanz"
+]
+},
+"Lone Exile Outfit - Mio": {
+"t": "flag2",
+"i": 6360,
+"grant": 1,
+"also": [
+"Lone Exile - Mio"
+]
+},
+"Lone Exile Outfit - Taion": {
+"t": "flag2",
+"i": 6462,
+"grant": 1,
+"also": [
+"Lone Exile - Taion"
+]
+},
+"Lone Exile Outfit - Sena": {
+"t": "flag2",
+"i": 6564,
+"grant": 1,
+"also": [
+"Lone Exile - Sena"
+]
+},
+"Incursor Outfit - Noah": {
+"t": "flag2",
+"i": 6307,
+"grant": 1,
+"also": [
+"Incursor - Noah"
+]
+},
+"Incursor Outfit - Lanz": {
+"t": "flag2",
+"i": 6511,
+"grant": 1,
+"also": [
+"Incursor - Lanz"
+]
+},
+"Incursor Outfit - Eunie": {
+"t": "flag2",
+"i": 6409,
+"grant": 1,
+"also": [
+"Incursor - Eunie"
+]
+},
+"Incursor Outfit - Mio": {
+"t": "flag2",
+"i": 6358,
+"grant": 1,
+"also": [
+"Incursor - Mio"
+]
+},
+"Incursor Outfit - Sena": {
+"t": "flag2",
+"i": 6562,
+"grant": 1,
+"also": [
+"Incursor - Sena"
+]
+},
+"Lost Vanguard Outfit - Noah": {
+"t": "flag2",
+"i": 6303,
+"grant": 1,
+"also": [
+"Lost Vanguard - Noah"
+]
+},
+"Lost Vanguard Outfit - Lanz": {
+"t": "flag2",
+"i": 6507,
+"grant": 1,
+"also": [
+"Lost Vanguard - Lanz"
+]
+},
+"Lost Vanguard Outfit - Mio": {
+"t": "flag2",
+"i": 6354,
+"grant": 1,
+"also": [
+"Lost Vanguard - Mio"
+]
+},
+"Lost Vanguard Outfit - Taion": {
+"t": "flag2",
+"i": 6456,
+"grant": 1,
+"also": [
+"Lost Vanguard - Taion"
+]
+},
+"Lost Vanguard Outfit - Sena": {
+"t": "flag2",
+"i": 6558,
+"grant": 1,
+"also": [
+"Lost Vanguard - Sena"
+]
+},
+"Signifer Outfit - Noah": {
+"t": "flag2",
+"i": 6311,
+"grant": 1,
+"also": [
+"Signifer - Noah"
+]
+},
+"Signifer Outfit - Eunie": {
+"t": "flag2",
+"i": 6413,
+"grant": 1,
+"also": [
+"Signifer - Eunie"
+]
+},
+"Signifer Outfit - Mio": {
+"t": "flag2",
+"i": 6362,
+"grant": 1,
+"also": [
+"Signifer - Mio"
+]
+},
+"Signifer Outfit - Taion": {
+"t": "flag2",
+"i": 6464,
+"grant": 1,
+"also": [
+"Signifer - Taion"
+]
+},
+"Signifer Outfit - Sena": {
+"t": "flag2",
+"i": 6566,
+"grant": 1,
+"also": [
+"Signifer - Sena"
+]
+},
+"Soulhacker Outfit - Noah": {
+"t": "flag2",
+"i": 6310,
+"grant": 1,
+"also": [
+"Soulhacker - Noah"
+]
+},
+"Soulhacker Outfit - Eunie": {
+"t": "flag2",
+"i": 6412,
+"grant": 1,
+"also": [
+"Soulhacker - Eunie"
+]
+},
+"Soulhacker Outfit - Mio": {
+"t": "flag2",
+"i": 6361,
+"grant": 1,
+"also": [
+"Soulhacker - Mio"
+]
+},
+"Soulhacker Outfit - Taion": {
+"t": "flag2",
+"i": 6463,
+"grant": 1
+},
+"Soulhacker Outfit - Sena": {
+"t": "flag2",
+"i": 6565,
+"grant": 1,
+"also": [
+"Soulhacker - Sena"
+]
+},
+"Martial Artist Outfit - Noah": {
+"t": "flag2",
+"i": 6313,
+"grant": 1,
+"also": [
+"Martial Artist - Noah"
+]
+},
+"Martial Artist Outfit - Lanz": {
+"t": "flag2",
+"i": 6517,
+"grant": 1,
+"also": [
+"Martial Artist - Lanz"
+]
+},
+"Martial Artist Outfit - Eunie": {
+"t": "flag2",
+"i": 6415,
+"grant": 1,
+"also": [
+"Martial Artist - Eunie"
+]
+},
+"Martial Artist Outfit - Mio": {
+"t": "flag2",
+"i": 6364,
+"grant": 1,
+"also": [
+"Martial Artist - Mio"
+]
+},
+"Martial Artist Outfit - Taion": {
+"t": "flag2",
+"i": 6466,
+"grant": 1,
+"also": [
+"Martial Artist - Taion"
+]
+},
+"Troubadour Outfit - Noah": {
+"t": "flag2",
+"i": 6301,
+"grant": 1,
+"also": [
+"Troubadour - Noah"
+]
+},
+"Troubadour Outfit - Lanz": {
+"t": "flag2",
+"i": 6505,
+"grant": 1,
+"also": [
+"Troubadour - Lanz"
+]
+},
+"Troubadour Outfit - Eunie": {
+"t": "flag2",
+"i": 6403,
+"grant": 1,
+"also": [
+"Troubadour - Eunie"
+]
+},
+"Troubadour Outfit - Taion": {
+"t": "flag2",
+"i": 6454,
+"grant": 1,
+"also": [
+"Troubadour - Taion"
+]
+},
+"Troubadour Outfit - Sena": {
+"t": "flag2",
+"i": 6556,
+"grant": 1,
+"also": [
+"Troubadour - Sena"
+]
+},
+"Seraph Outfit - Noah": {
+"t": "flag2",
+"i": 6302,
+"grant": 1,
+"also": [
+"Seraph - Noah"
+]
+},
+"Seraph Outfit - Lanz": {
+"t": "flag2",
+"i": 6506,
+"grant": 1,
+"also": [
+"Seraph - Lanz"
+]
+},
+"Seraph Outfit - Eunie": {
+"t": "flag2",
+"i": 6404,
+"grant": 1,
+"also": [
+"Seraph - Eunie"
+]
+},
+"Seraph Outfit - Mio": {
+"t": "flag2",
+"i": 6353,
+"grant": 1,
+"also": [
+"Seraph - Mio"
+]
+},
+"Seraph Outfit - Sena": {
+"t": "flag2",
+"i": 6557,
+"grant": 1,
+"also": [
+"Seraph - Sena"
+]
+},
+"Machine Assassin Outfit - Noah": {
+"t": "flag2",
+"i": 6312,
+"grant": 1,
+"also": [
+"Machine Assassin - Noah"
+]
+},
+"Machine Assassin Outfit - Lanz": {
+"t": "flag2",
+"i": 6516,
+"grant": 1,
+"also": [
+"Machine Assassin - Lanz"
+]
+},
+"Machine Assassin Outfit - Eunie": {
+"t": "flag2",
+"i": 6414,
+"grant": 1,
+"also": [
+"Machine Assassin - Eunie"
+]
+},
+"Machine Assassin Outfit - Mio": {
+"t": "flag2",
+"i": 6363,
+"grant": 1,
+"also": [
+"Machine Assassin - Mio"
+]
+},
+"Machine Assassin Outfit - Taion": {
+"t": "flag2",
+"i": 6465,
+"grant": 1,
+"also": [
+"Machine Assassin - Taion"
+]
+},
+"Abandoned Resources": {
+"t": "give",
+"kind": "precious",
+"id": 16059,
+"qty": 1
+},
+"Levnite for Export": {
+"t": "give",
+"kind": "precious",
+"id": 16120,
+"qty": 1
+},
+"Ancient Taos Fossil": {
+"t": "give",
+"kind": "precious",
+"id": 16040,
+"qty": 1
+},
+"Ardun Psychology": {
+"t": "give",
+"kind": "precious",
+"id": 16021,
+"qty": 1
+},
+"Armu Psychology": {
+"t": "give",
+"kind": "precious",
+"id": 16020,
+"qty": 1
+},
+"Beat-Up Shoe": {
+"t": "give",
+"kind": "precious",
+"id": 16024,
+"qty": 1
+},
+"Bewitching Thread": {
+"t": "give",
+"kind": "precious",
+"id": 16045,
+"qty": 1
+},
+"Blue Nopon Pebble": {
+"t": "give",
+"kind": "precious",
+"id": 16095,
+"qty": 1
+},
+"Boxy's Soyprimo Sauce": {
+"t": "give",
+"kind": "precious",
+"id": 16055,
+"qty": 1
+},
+"Broken Instrument": {
+"t": "give",
+"kind": "precious",
+"id": 16012,
+"qty": 1
+},
+"Broken Pendant": {
+"t": "give",
+"kind": "precious",
+"id": 16025,
+"qty": 1
+},
+"Clammoth": {
+"t": "give",
+"kind": "precious",
+"id": 16022,
+"qty": 1
+},
+"Consolation Prize": {
+"t": "give",
+"kind": "precious",
+"id": 16060,
+"qty": 1
+},
+"Coralie's Ring": {
+"t": "give",
+"kind": "precious",
+"id": 16023,
+"qty": 1
+},
+"Cross-Stamped Box": {
+"t": "give",
+"kind": "precious",
+"id": 16067,
+"qty": 1
+},
+"Emetater from Kite": {
+"t": "give",
+"kind": "precious",
+"id": 16053,
+"qty": 1
+},
+"Extra Provisions": {
+"t": "give",
+"kind": "precious",
+"id": 16065,
+"qty": 1
+},
+"Fermenting Bug Juices": {
+"t": "give",
+"kind": "precious",
+"id": 16049,
+"qty": 1
+},
+"Fortifying Gold Soup": {
+"t": "give",
+"kind": "precious",
+"id": 16078,
+"qty": 1
+},
+"Founders' Tale, Latest Vol.": {
+"t": "give",
+"kind": "precious",
+"id": 16076,
+"qty": 1
+},
+"Front Gate Key": {
+"t": "give",
+"kind": "precious",
+"id": 16124,
+"qty": 1
+},
+"Giant Feris Horns": {
+"t": "give",
+"kind": "precious",
+"id": 16010,
+"qty": 1
+},
+"Goods for the City": {
+"t": "give",
+"kind": "precious",
+"id": 16026,
+"qty": 1
+},
+"Graceful Pelt": {
+"t": "give",
+"kind": "precious",
+"id": 16046,
+"qty": 1
+},
+"Grimy Identification": {
+"t": "give",
+"kind": "precious",
+"id": 16075,
+"qty": 1
+},
+"Grubby Painting": {
+"t": "give",
+"kind": "precious",
+"id": 16016,
+"qty": 1
+},
+"Harvest Day Tiara": {
+"t": "give",
+"kind": "precious",
+"id": 16066,
+"qty": 1
+},
+"Heewa's Belongings": {
+"t": "give",
+"kind": "precious",
+"id": 16036,
+"qty": 1
+},
+"Homecomers' Key": {
+"t": "give",
+"kind": "precious",
+"id": 16099,
+"qty": 1
+},
+"Irma's Key": {
+"t": "give",
+"kind": "precious",
+"id": 16027,
+"qty": 1
+},
+"Jeweled Pebble": {
+"t": "give",
+"kind": "precious",
+"id": 16070,
+"qty": 1
+},
+"K's Portrait": {
+"t": "give",
+"kind": "precious",
+"id": 16121,
+"qty": 1
+},
+"Keen Beak": {
+"t": "give",
+"kind": "precious",
+"id": 16044,
+"qty": 1
+},
+"Kevesi Infantry Exosuit": {
+"t": "give",
+"kind": "precious",
+"id": 16057,
+"qty": 1
+},
+"Leathery Wing Fossil": {
+"t": "give",
+"kind": "precious",
+"id": 16071,
+"qty": 1
+},
+"Levnis Auxiliary CPU": {
+"t": "give",
+"kind": "precious",
+"id": 16033,
+"qty": 1
+},
+"Levnis Drivetrain Part": {
+"t": "give",
+"kind": "precious",
+"id": 16043,
+"qty": 1
+},
+"Levnis Endoskeleton": {
+"t": "give",
+"kind": "precious",
+"id": 16031,
+"qty": 1
+},
+"Levnis Lamellar Armor": {
+"t": "give",
+"kind": "precious",
+"id": 16056,
+"qty": 1
+},
+"Levnis Self-Charger": {
+"t": "give",
+"kind": "precious",
+"id": 16032,
+"qty": 1
+},
+"Luscious Fillet": {
+"t": "give",
+"kind": "precious",
+"id": 16005,
+"qty": 1
+},
+"Manana's Nibblekibble": {
+"t": "give",
+"kind": "precious",
+"id": 16050,
+"qty": 1
+},
+"Medica Pippito Claw": {
+"t": "give",
+"kind": "precious",
+"id": 16077,
+"qty": 1
+},
+"Medical Supplies": {
+"t": "give",
+"kind": "precious",
+"id": 16052,
+"qty": 1
+},
+"Metessia Resin": {
+"t": "give",
+"kind": "precious",
+"id": 16014,
+"qty": 1
+},
+"Millennial Tree Amber": {
+"t": "give",
+"kind": "precious",
+"id": 16041,
+"qty": 1
+},
+"Mysterious Keycard": {
+"t": "give",
+"kind": "precious",
+"id": 16061,
+"qty": 1
+},
+"No. 9's Instrument": {
+"t": "give",
+"kind": "precious",
+"id": 16013,
+"qty": 1
+},
+"North Gate Key": {
+"t": "give",
+"kind": "precious",
+"id": 16123,
+"qty": 1
+},
+"Onigiri": {
+"t": "give",
+"kind": "precious",
+"id": 16038,
+"qty": 1
+},
+"Origin Metal": {
+"t": "give",
+"kind": "precious",
+"id": 16001,
+"qty": 1
+},
+"Photonic Condenser": {
+"t": "give",
+"kind": "precious",
+"id": 16047,
+"qty": 1
+},
+"Point Card": {
+"t": "give",
+"kind": "precious",
+"id": 16018,
+"qty": 1
+},
+"Point Sticker": {
+"t": "give",
+"kind": "precious",
+"id": 16019,
+"qty": 1
+},
+"Rations": {
+"t": "give",
+"kind": "precious",
+"id": 16058,
+"qty": 1
+},
+"Red Nopon Pebble": {
+"t": "give",
+"kind": "precious",
+"id": 16093,
+"qty": 1
+},
+"Relay Base Key": {
+"t": "give",
+"kind": "precious",
+"id": 16125,
+"qty": 1
+},
+"Rich Serprond Collar-Cut": {
+"t": "give",
+"kind": "precious",
+"id": 16017,
+"qty": 1
+},
+"Roccodori Root": {
+"t": "give",
+"kind": "precious",
+"id": 16096,
+"qty": 1
+},
+"Rusted Pressure Helm": {
+"t": "give",
+"kind": "precious",
+"id": 16072,
+"qty": 1
+},
+"Sack of Dark Grapes": {
+"t": "give",
+"kind": "precious",
+"id": 16069,
+"qty": 1
+},
+"Sage Shroom": {
+"t": "give",
+"kind": "precious",
+"id": 16051,
+"qty": 1
+},
+"Samon's Thing": {
+"t": "give",
+"kind": "precious",
+"id": 16029,
+"qty": 1
+},
+"Secret Storage Key": {
+"t": "give",
+"kind": "precious",
+"id": 16101,
+"qty": 1
+},
+"Seven Shards": {
+"t": "give",
+"kind": "precious",
+"id": 16100,
+"qty": 1
+},
+"Seven-Hue Seashell": {
+"t": "give",
+"kind": "precious",
+"id": 16015,
+"qty": 1
+},
+"Shiny Hexagonal Chip": {
+"t": "give",
+"kind": "precious",
+"id": 16074,
+"qty": 1
+},
+"Sinister Faceplate": {
+"t": "give",
+"kind": "precious",
+"id": 16073,
+"qty": 1
+},
+"Snow-White Mythrice": {
+"t": "give",
+"kind": "precious",
+"id": 16037,
+"qty": 1
+},
+"Sodie Stone": {
+"t": "give",
+"kind": "precious",
+"id": 16064,
+"qty": 1
+},
+"Sophora's Leaf": {
+"t": "give",
+"kind": "precious",
+"id": 16097,
+"qty": 1
+},
+"South Gate Key": {
+"t": "give",
+"kind": "precious",
+"id": 16122,
+"qty": 1
+},
+"Springroot": {
+"t": "give",
+"kind": "precious",
+"id": 16030,
+"qty": 1
+},
+"Stavepetal": {
+"t": "give",
+"kind": "precious",
+"id": 16062,
+"qty": 1
+},
+"Tempapa's Memo": {
+"t": "give",
+"kind": "precious",
+"id": 16028,
+"qty": 1
+},
+"Thank-You Card": {
+"t": "give",
+"kind": "precious",
+"id": 16098,
+"qty": 1
+},
+"The Art of Flow": {
+"t": "give",
+"kind": "precious",
+"id": 16119,
+"qty": 1
+},
+"Titanic Bee Hive": {
+"t": "give",
+"kind": "precious",
+"id": 16063,
+"qty": 1
+},
+"Torpedo Wrap": {
+"t": "give",
+"kind": "precious",
+"id": 16068,
+"qty": 1
+},
+"Twineturf": {
+"t": "give",
+"kind": "precious",
+"id": 16042,
+"qty": 1
+},
+"Ultimate Hammer": {
+"t": "give",
+"kind": "precious",
+"id": 16092,
+"qty": 1
+},
+"Url's Special Fertilizer": {
+"t": "give",
+"kind": "precious",
+"id": 16054,
+"qty": 1
+},
+"Wheelideeli's Abacus": {
+"t": "give",
+"kind": "precious",
+"id": 16011,
+"qty": 1
+},
+"Yellow Nopon Pebble": {
+"t": "give",
+"kind": "precious",
+"id": 16094,
+"qty": 1
+},
+"Yew's Belongings": {
+"t": "give",
+"kind": "precious",
+"id": 16035,
+"qty": 1
+},
+"Yum-Yum Coconut": {
+"t": "give",
+"kind": "precious",
+"id": 16039,
+"qty": 1
+},
+"Zuo's Belongings": {
+"t": "give",
+"kind": "precious",
+"id": 16034,
+"qty": 1
+},
+"Medic Gunner - Noah": {
+"t": "flag2",
+"i": 6294,
+"grant": 1,
+"also": [
+"Medic Gunner Outfit - Noah"
+]
+},
+"Tactician - Noah": {
+"t": "flag2",
+"i": 6295,
+"grant": 1,
+"also": [
+"Tactician Outfit - Noah"
+]
+},
+"Heavy Guard - Noah": {
+"t": "flag2",
+"i": 6296,
+"grant": 1,
+"also": [
+"Heavy Guard Outfit - Noah"
+]
+},
+"Ogre - Noah": {
+"t": "flag2",
+"i": 6297,
+"grant": 1,
+"also": [
+"Ogre Outfit - Noah"
+]
+},
+"War Medic - Noah": {
+"t": "flag2",
+"i": 6304,
+"grant": 1,
+"also": [
+"War Medic Outfit - Noah"
+]
+},
+"Thaumaturge - Noah": {
+"t": "flag2",
+"i": 6306,
+"grant": 1,
+"also": [
+"Thaumaturge Outfit - Noah"
+]
+},
+"Yumsmith - Noah": {
+"t": "flag2",
+"i": 6299,
+"grant": 1,
+"also": [
+"Yumsmith Outfit - Noah"
+]
+},
+"Full Metal Jaguar - Noah": {
+"t": "flag2",
+"i": 6314,
+"grant": 1,
+"also": [
+"Full Metal Jaguar Outfit - Noah"
+]
+},
+"Strategos - Noah": {
+"t": "flag2",
+"i": 6300,
+"grant": 1,
+"also": [
+"Strategos Outfit - Noah"
+]
+},
+"Lone Exile - Noah": {
+"t": "flag2",
+"i": 6309,
+"grant": 1,
+"also": [
+"Lone Exile Outfit - Noah"
+]
+},
+"Incursor - Noah": {
+"t": "flag2",
+"i": 6307,
+"grant": 1,
+"also": [
+"Incursor Outfit - Noah"
+]
+},
+"Lost Vanguard - Noah": {
+"t": "flag2",
+"i": 6303,
+"grant": 1,
+"also": [
+"Lost Vanguard Outfit - Noah"
+]
+},
+"Signifer - Noah": {
+"t": "flag2",
+"i": 6311,
+"grant": 1,
+"also": [
+"Signifer Outfit - Noah"
+]
+},
+"Soulhacker - Noah": {
+"t": "flag2",
+"i": 6310,
+"grant": 1,
+"also": [
+"Soulhacker Outfit - Noah"
+]
+},
+"Martial Artist - Noah": {
+"t": "flag2",
+"i": 6313,
+"grant": 1,
+"also": [
+"Martial Artist Outfit - Noah"
+]
+},
+"Troubadour - Noah": {
+"t": "flag2",
+"i": 6301,
+"grant": 1,
+"also": [
+"Troubadour Outfit - Noah"
+]
+},
+"Seraph - Noah": {
+"t": "flag2",
+"i": 6302,
+"grant": 1,
+"also": [
+"Seraph Outfit - Noah"
+]
+},
+"Machine Assassin - Noah": {
+"t": "flag2",
+"i": 6312,
+"grant": 1,
+"also": [
+"Machine Assassin Outfit - Noah"
+]
+},
+"Swordfighter - Lanz": {
+"t": "flag2",
+"i": 6496,
+"grant": 1,
+"also": [
+"Swordfighter Outfit - Lanz"
+]
+},
+"Medic Gunner - Lanz": {
+"t": "flag2",
+"i": 6498,
+"grant": 1,
+"also": [
+"Medic Gunner Outfit - Lanz"
+]
+},
+"Tactician - Lanz": {
+"t": "flag2",
+"i": 6499,
+"grant": 1,
+"also": [
+"Tactician Outfit - Lanz"
+]
+},
+"Flash Fencer - Lanz": {
+"t": "flag2",
+"i": 6502,
+"grant": 1,
+"also": [
+"Flash Fencer Outfit - Lanz"
+]
+},
+"Guardian Commander - Lanz": {
+"t": "flag2",
+"i": 6509,
+"grant": 1,
+"also": [
+"Guardian Commander Outfit - Lanz"
+]
+},
+"Thaumaturge - Lanz": {
+"t": "flag2",
+"i": 6510,
+"grant": 1,
+"also": [
+"Thaumaturge Outfit - Lanz"
+]
+},
+"Yumsmith - Lanz": {
+"t": "flag2",
+"i": 6503,
+"grant": 1,
+"also": [
+"Yumsmith Outfit - Lanz"
+]
+},
+"Full Metal Jaguar - Lanz": {
+"t": "flag2",
+"i": 6518,
+"grant": 1,
+"also": [
+"Full Metal Jaguar Outfit - Lanz"
+]
+},
+"Strategos - Lanz": {
+"t": "flag2",
+"i": 6504,
+"grant": 1,
+"also": [
+"Strategos Outfit - Lanz"
+]
+},
+"Stalker - Lanz": {
+"t": "flag2",
+"i": 6512,
+"grant": 1,
+"also": [
+"Stalker Outfit - Lanz"
+]
+},
+"Lone Exile - Lanz": {
+"t": "flag2",
+"i": 6513,
+"grant": 1,
+"also": [
+"Lone Exile Outfit - Lanz"
+]
+},
+"Incursor - Lanz": {
+"t": "flag2",
+"i": 6511,
+"grant": 1,
+"also": [
+"Incursor Outfit - Lanz"
+]
+},
+"Lost Vanguard - Lanz": {
+"t": "flag2",
+"i": 6507,
+"grant": 1,
+"also": [
+"Lost Vanguard Outfit - Lanz"
+]
+},
+"Martial Artist - Lanz": {
+"t": "flag2",
+"i": 6517,
+"grant": 1,
+"also": [
+"Martial Artist Outfit - Lanz"
+]
+},
+"Troubadour - Lanz": {
+"t": "flag2",
+"i": 6505,
+"grant": 1,
+"also": [
+"Troubadour Outfit - Lanz"
+]
+},
+"Seraph - Lanz": {
+"t": "flag2",
+"i": 6506,
+"grant": 1,
+"also": [
+"Seraph Outfit - Lanz"
+]
+},
+"Machine Assassin - Lanz": {
+"t": "flag2",
+"i": 6516,
+"grant": 1,
+"also": [
+"Machine Assassin Outfit - Lanz"
+]
+},
+"Swordfighter - Eunie": {
+"t": "flag2",
+"i": 6394,
+"grant": 1,
+"also": [
+"Swordfighter Outfit - Eunie"
+]
+},
+"Zephyr - Eunie": {
+"t": "flag2",
+"i": 6395,
+"grant": 1,
+"also": [
+"Zephyr Outfit - Eunie"
+]
+},
+"Heavy Guard - Eunie": {
+"t": "flag2",
+"i": 6398,
+"grant": 1,
+"also": []
+},
+"Flash Fencer - Eunie": {
+"t": "flag2",
+"i": 6400,
+"grant": 1,
+"also": [
+"Flash Fencer Outfit - Eunie"
+]
+},
+"Guardian Commander - Eunie": {
+"t": "flag2",
+"i": 6407,
+"grant": 1,
+"also": [
+"Guardian Commander Outfit - Eunie"
+]
+},
+"Thaumaturge - Eunie": {
+"t": "flag2",
+"i": 6408,
+"grant": 1,
+"also": [
+"Thaumaturge Outfit - Eunie"
+]
+},
+"Yumsmith - Eunie": {
+"t": "flag2",
+"i": 6401,
+"grant": 1,
+"also": [
+"Yumsmith Outfit - Eunie"
+]
+},
+"Strategos - Eunie": {
+"t": "flag2",
+"i": 6402,
+"grant": 1,
+"also": [
+"Strategos Outfit - Eunie"
+]
+},
+"Stalker - Eunie": {
+"t": "flag2",
+"i": 6410,
+"grant": 1,
+"also": [
+"Stalker Outfit - Eunie"
+]
+},
+"Incursor - Eunie": {
+"t": "flag2",
+"i": 6409,
+"grant": 1,
+"also": [
+"Incursor Outfit - Eunie"
+]
+},
+"Signifer - Eunie": {
+"t": "flag2",
+"i": 6413,
+"grant": 1,
+"also": [
+"Signifer Outfit - Eunie"
+]
+},
+"Soulhacker - Eunie": {
+"t": "flag2",
+"i": 6412,
+"grant": 1,
+"also": [
+"Soulhacker Outfit - Eunie"
+]
+},
+"Martial Artist - Eunie": {
+"t": "flag2",
+"i": 6415,
+"grant": 1,
+"also": [
+"Martial Artist Outfit - Eunie"
+]
+},
+"Troubadour - Eunie": {
+"t": "flag2",
+"i": 6403,
+"grant": 1,
+"also": [
+"Troubadour Outfit - Eunie"
+]
+},
+"Seraph - Eunie": {
+"t": "flag2",
+"i": 6404,
+"grant": 1,
+"also": [
+"Seraph Outfit - Eunie"
+]
+},
+"Machine Assassin - Eunie": {
+"t": "flag2",
+"i": 6414,
+"grant": 1,
+"also": [
+"Machine Assassin Outfit - Eunie"
+]
+},
+"Medic Gunner - Mio": {
+"t": "flag2",
+"i": 6345,
+"grant": 1,
+"also": [
+"Medic Gunner Outfit - Mio"
+]
+},
+"Heavy Guard - Mio": {
+"t": "flag2",
+"i": 6347,
+"grant": 1,
+"also": []
+},
+"Ogre - Mio": {
+"t": "flag2",
+"i": 6348,
+"grant": 1,
+"also": [
+"Ogre Outfit - Mio"
+]
+},
+"Flash Fencer - Mio": {
+"t": "flag2",
+"i": 6349,
+"grant": 1,
+"also": [
+"Flash Fencer Outfit - Mio"
+]
+},
+"War Medic - Mio": {
+"t": "flag2",
+"i": 6355,
+"grant": 1,
+"also": [
+"War Medic Outfit - Mio"
+]
+},
+"Guardian Commander - Mio": {
+"t": "flag2",
+"i": 6356,
+"grant": 1,
+"also": [
+"Guardian Commander Outfit - Mio"
+]
+},
+"Yumsmith - Mio": {
+"t": "flag2",
+"i": 6350,
+"grant": 1,
+"also": [
+"Yumsmith Outfit - Mio"
+]
+},
+"Full Metal Jaguar - Mio": {
+"t": "flag2",
+"i": 6365,
+"grant": 1,
+"also": [
+"Full Metal Jaguar Outfit - Mio"
+]
+},
+"Strategos - Mio": {
+"t": "flag2",
+"i": 6351,
+"grant": 1,
+"also": [
+"Strategos Outfit - Mio"
+]
+},
+"Stalker - Mio": {
+"t": "flag2",
+"i": 6359,
+"grant": 1,
+"also": [
+"Stalker Outfit - Mio"
+]
+},
+"Lone Exile - Mio": {
+"t": "flag2",
+"i": 6360,
+"grant": 1,
+"also": [
+"Lone Exile Outfit - Mio"
+]
+},
+"Incursor - Mio": {
+"t": "flag2",
+"i": 6358,
+"grant": 1,
+"also": [
+"Incursor Outfit - Mio"
+]
+},
+"Lost Vanguard - Mio": {
+"t": "flag2",
+"i": 6354,
+"grant": 1,
+"also": [
+"Lost Vanguard Outfit - Mio"
+]
+},
+"Signifer - Mio": {
+"t": "flag2",
+"i": 6362,
+"grant": 1,
+"also": [
+"Signifer Outfit - Mio"
+]
+},
+"Soulhacker - Mio": {
+"t": "flag2",
+"i": 6361,
+"grant": 1,
+"also": [
+"Soulhacker Outfit - Mio"
+]
+},
+"Martial Artist - Mio": {
+"t": "flag2",
+"i": 6364,
+"grant": 1,
+"also": [
+"Martial Artist Outfit - Mio"
+]
+},
+"Seraph - Mio": {
+"t": "flag2",
+"i": 6353,
+"grant": 1,
+"also": [
+"Seraph Outfit - Mio"
+]
+},
+"Machine Assassin - Mio": {
+"t": "flag2",
+"i": 6363,
+"grant": 1,
+"also": [
+"Machine Assassin Outfit - Mio"
+]
+},
+"Swordfighter - Taion": {
+"t": "flag2",
+"i": 6445,
+"grant": 1,
+"also": [
+"Swordfighter Outfit - Taion"
+]
+},
+"Zephyr - Taion": {
+"t": "flag2",
+"i": 6446,
+"grant": 1,
+"also": [
+"Zephyr Outfit - Taion"
+]
+},
+"Heavy Guard - Taion": {
+"t": "flag2",
+"i": 6449,
+"grant": 1,
+"also": []
+},
+"Ogre - Taion": {
+"t": "flag2",
+"i": 6450,
+"grant": 1,
+"also": [
+"Ogre Outfit - Taion"
+]
+},
+"Flash Fencer - Taion": {
+"t": "flag2",
+"i": 6451,
+"grant": 1,
+"also": [
+"Flash Fencer Outfit - Taion"
+]
+},
+"War Medic - Taion": {
+"t": "flag2",
+"i": 6457,
+"grant": 1,
+"also": [
+"War Medic Outfit - Taion"
+]
+},
+"Guardian Commander - Taion": {
+"t": "flag2",
+"i": 6458,
+"grant": 1,
+"also": [
+"Guardian Commander Outfit - Taion"
+]
+},
+"Thaumaturge - Taion": {
+"t": "flag2",
+"i": 6459,
+"grant": 1,
+"also": [
+"Thaumaturge Outfit - Taion"
+]
+},
+"Yumsmith - Taion": {
+"t": "flag2",
+"i": 6452,
+"grant": 1,
+"also": [
+"Yumsmith Outfit - Taion"
+]
+},
+"Full Metal Jaguar - Taion": {
+"t": "flag2",
+"i": 6467,
+"grant": 1,
+"also": [
+"Full Metal Jaguar Outfit - Taion"
+]
+},
+"Stalker - Taion": {
+"t": "flag2",
+"i": 6461,
+"grant": 1,
+"also": [
+"Stalker Outfit - Taion"
+]
+},
+"Lone Exile - Taion": {
+"t": "flag2",
+"i": 6462,
+"grant": 1,
+"also": [
+"Lone Exile Outfit - Taion"
+]
+},
+"Lost Vanguard - Taion": {
+"t": "flag2",
+"i": 6456,
+"grant": 1,
+"also": [
+"Lost Vanguard Outfit - Taion"
+]
+},
+"Signifer - Taion": {
+"t": "flag2",
+"i": 6464,
+"grant": 1,
+"also": [
+"Signifer Outfit - Taion"
+]
+},
+"Martial Artist - Taion": {
+"t": "flag2",
+"i": 6466,
+"grant": 1,
+"also": [
+"Martial Artist Outfit - Taion"
+]
+},
+"Troubadour - Taion": {
+"t": "flag2",
+"i": 6454,
+"grant": 1,
+"also": [
+"Troubadour Outfit - Taion"
+]
+},
+"Machine Assassin - Taion": {
+"t": "flag2",
+"i": 6465,
+"grant": 1,
+"also": [
+"Machine Assassin Outfit - Taion"
+]
+},
+"Swordfighter - Sena": {
+"t": "flag2",
+"i": 6547,
+"grant": 1,
+"also": [
+"Swordfighter Outfit - Sena"
+]
+},
+"Zephyr - Sena": {
+"t": "flag2",
+"i": 6548,
+"grant": 1,
+"also": [
+"Zephyr Outfit - Sena"
+]
+},
+"Medic Gunner - Sena": {
+"t": "flag2",
+"i": 6549,
+"grant": 1,
+"also": [
+"Medic Gunner Outfit - Sena"
+]
+},
+"Tactician - Sena": {
+"t": "flag2",
+"i": 6550,
+"grant": 1,
+"also": [
+"Tactician Outfit - Sena"
+]
+},
+"Flash Fencer - Sena": {
+"t": "flag2",
+"i": 6553,
+"grant": 1,
+"also": [
+"Flash Fencer Outfit - Sena"
+]
+},
+"War Medic - Sena": {
+"t": "flag2",
+"i": 6559,
+"grant": 1,
+"also": [
+"War Medic Outfit - Sena"
+]
+},
+"Guardian Commander - Sena": {
+"t": "flag2",
+"i": 6560,
+"grant": 1,
+"also": [
+"Guardian Commander Outfit - Sena"
+]
+},
+"Thaumaturge - Sena": {
+"t": "flag2",
+"i": 6561,
+"grant": 1,
+"also": [
+"Thaumaturge Outfit - Sena"
+]
+},
+"Full Metal Jaguar - Sena": {
+"t": "flag2",
+"i": 6569,
+"grant": 1,
+"also": [
+"Full Metal Jaguar Outfit - Sena"
+]
+},
+"Strategos - Sena": {
+"t": "flag2",
+"i": 6555,
+"grant": 1,
+"also": [
+"Strategos Outfit - Sena"
+]
+},
+"Stalker - Sena": {
+"t": "flag2",
+"i": 6563,
+"grant": 1,
+"also": [
+"Stalker Outfit - Sena"
+]
+},
+"Lone Exile - Sena": {
+"t": "flag2",
+"i": 6564,
+"grant": 1,
+"also": [
+"Lone Exile Outfit - Sena"
+]
+},
+"Incursor - Sena": {
+"t": "flag2",
+"i": 6562,
+"grant": 1,
+"also": [
+"Incursor Outfit - Sena"
+]
+},
+"Lost Vanguard - Sena": {
+"t": "flag2",
+"i": 6558,
+"grant": 1,
+"also": [
+"Lost Vanguard Outfit - Sena"
+]
+},
+"Signifer - Sena": {
+"t": "flag2",
+"i": 6566,
+"grant": 1,
+"also": [
+"Signifer Outfit - Sena"
+]
+},
+"Soulhacker - Sena": {
+"t": "flag2",
+"i": 6565,
+"grant": 1,
+"also": [
+"Soulhacker Outfit - Sena"
+]
+},
+"Troubadour - Sena": {
+"t": "flag2",
+"i": 6556,
+"grant": 1,
+"also": [
+"Troubadour Outfit - Sena"
+]
+},
+"Seraph - Sena": {
+"t": "flag2",
+"i": 6557,
+"grant": 1,
+"also": [
+"Seraph Outfit - Sena"
+]
+},
+"Manana's Battle Soup Recipe": {
+"t": "flag1",
+"i": 23853
+},
+"Manana's Miso Soup Recipe": {
+"t": "flag1",
+"i": 23854
+},
+"Kerfluffled Torpedo Wrap Recipe": {
+"t": "flag1",
+"i": 23855
+},
+"Brisky-Breezy Toastie Recipe": {
+"t": "flag1",
+"i": 23856
+},
+"Feisty-Spicy Zestbeans Recipe": {
+"t": "flag1",
+"i": 23858
+},
+"Stringy-Wingy Veggie Leclati Recipe": {
+"t": "flag1",
+"i": 23859
+},
+"Squishy-Fishy Grillwrap Recipe": {
+"t": "flag1",
+"i": 23860
+},
+"Well-Dressed Maktha Salad Recipe": {
+"t": "flag1",
+"i": 23861
+},
+"Mild Sizzle-Fizzle Stew Recipe": {
+"t": "flag1",
+"i": 23862
+},
+"Cerise-Caprice Acqua Pazza Recipe": {
+"t": "flag1",
+"i": 23863
+},
+"Saucy-Glossy Gem Lobster Recipe": {
+"t": "flag1",
+"i": 23864
+},
+"Creamy-Dreamy Fish Pie Recipe": {
+"t": "flag1",
+"i": 23865
+},
+"Ritzy-Glitzy Saucy Vizzard Recipe": {
+"t": "flag1",
+"i": 23866
+},
+"Crumblecrunch Block Bar Recipe": {
+"t": "flag1",
+"i": 23867
+},
+"Gem: Ironclad I": {
+"t": "give",
+"kind": "gem",
+"id": 12001,
+"qty": 1
+},
+"Gem: Ironclad II": {
+"t": "give",
+"kind": "gem",
+"id": 12002,
+"qty": 1
+},
+"Gem: Ironclad III": {
+"t": "give",
+"kind": "gem",
+"id": 12003,
+"qty": 1
+},
+"Gem: Ironclad IV": {
+"t": "give",
+"kind": "gem",
+"id": 12004,
+"qty": 1
+},
+"Gem: Ironclad V": {
+"t": "give",
+"kind": "gem",
+"id": 12005,
+"qty": 1
+},
+"Gem: Ironclad VI": {
+"t": "give",
+"kind": "gem",
+"id": 12006,
+"qty": 1
+},
+"Gem: Ironclad VII": {
+"t": "give",
+"kind": "gem",
+"id": 12007,
+"qty": 1
+},
+"Gem: Ironclad VIII": {
+"t": "give",
+"kind": "gem",
+"id": 12008,
+"qty": 1
+},
+"Gem: Ironclad IX": {
+"t": "give",
+"kind": "gem",
+"id": 12009,
+"qty": 1
+},
+"Gem: Ironclad X": {
+"t": "give",
+"kind": "gem",
+"id": 12010,
+"qty": 1
+},
+"Gem: Steady Striker I": {
+"t": "give",
+"kind": "gem",
+"id": 12011,
+"qty": 1
+},
+"Gem: Steady Striker II": {
+"t": "give",
+"kind": "gem",
+"id": 12012,
+"qty": 1
+},
+"Gem: Steady Striker III": {
+"t": "give",
+"kind": "gem",
+"id": 12013,
+"qty": 1
+},
+"Gem: Steady Striker IV": {
+"t": "give",
+"kind": "gem",
+"id": 12014,
+"qty": 1
+},
+"Gem: Steady Striker V": {
+"t": "give",
+"kind": "gem",
+"id": 12015,
+"qty": 1
+},
+"Gem: Steady Striker VI": {
+"t": "give",
+"kind": "gem",
+"id": 12016,
+"qty": 1
+},
+"Gem: Steady Striker VII": {
+"t": "give",
+"kind": "gem",
+"id": 12017,
+"qty": 1
+},
+"Gem: Steady Striker VIII": {
+"t": "give",
+"kind": "gem",
+"id": 12018,
+"qty": 1
+},
+"Gem: Steady Striker IX": {
+"t": "give",
+"kind": "gem",
+"id": 12019,
+"qty": 1
+},
+"Gem: Steady Striker X": {
+"t": "give",
+"kind": "gem",
+"id": 12020,
+"qty": 1
+},
+"Gem: Doublestrike I": {
+"t": "give",
+"kind": "gem",
+"id": 12021,
+"qty": 1
+},
+"Gem: Doublestrike II": {
+"t": "give",
+"kind": "gem",
+"id": 12022,
+"qty": 1
+},
+"Gem: Doublestrike III": {
+"t": "give",
+"kind": "gem",
+"id": 12023,
+"qty": 1
+},
+"Gem: Doublestrike IV": {
+"t": "give",
+"kind": "gem",
+"id": 12024,
+"qty": 1
+},
+"Gem: Doublestrike V": {
+"t": "give",
+"kind": "gem",
+"id": 12025,
+"qty": 1
+},
+"Gem: Doublestrike VI": {
+"t": "give",
+"kind": "gem",
+"id": 12026,
+"qty": 1
+},
+"Gem: Doublestrike VII": {
+"t": "give",
+"kind": "gem",
+"id": 12027,
+"qty": 1
+},
+"Gem: Doublestrike VIII": {
+"t": "give",
+"kind": "gem",
+"id": 12028,
+"qty": 1
+},
+"Gem: Doublestrike IX": {
+"t": "give",
+"kind": "gem",
+"id": 12029,
+"qty": 1
+},
+"Gem: Doublestrike X": {
+"t": "give",
+"kind": "gem",
+"id": 12030,
+"qty": 1
+},
+"Gem: Empowered Combo I": {
+"t": "give",
+"kind": "gem",
+"id": 12031,
+"qty": 1
+},
+"Gem: Empowered Combo II": {
+"t": "give",
+"kind": "gem",
+"id": 12032,
+"qty": 1
+},
+"Gem: Empowered Combo III": {
+"t": "give",
+"kind": "gem",
+"id": 12033,
+"qty": 1
+},
+"Gem: Empowered Combo IV": {
+"t": "give",
+"kind": "gem",
+"id": 12034,
+"qty": 1
+},
+"Gem: Empowered Combo V": {
+"t": "give",
+"kind": "gem",
+"id": 12035,
+"qty": 1
+},
+"Gem: Empowered Combo VI": {
+"t": "give",
+"kind": "gem",
+"id": 12036,
+"qty": 1
+},
+"Gem: Empowered Combo VII": {
+"t": "give",
+"kind": "gem",
+"id": 12037,
+"qty": 1
+},
+"Gem: Empowered Combo VIII": {
+"t": "give",
+"kind": "gem",
+"id": 12038,
+"qty": 1
+},
+"Gem: Empowered Combo IX": {
+"t": "give",
+"kind": "gem",
+"id": 12039,
+"qty": 1
+},
+"Gem: Empowered Combo X": {
+"t": "give",
+"kind": "gem",
+"id": 12040,
+"qty": 1
+},
+"Gem: Disperse Bloodlust I": {
+"t": "give",
+"kind": "gem",
+"id": 12041,
+"qty": 1
+},
+"Gem: Disperse Bloodlust II": {
+"t": "give",
+"kind": "gem",
+"id": 12042,
+"qty": 1
+},
+"Gem: Disperse Bloodlust III": {
+"t": "give",
+"kind": "gem",
+"id": 12043,
+"qty": 1
+},
+"Gem: Disperse Bloodlust IV": {
+"t": "give",
+"kind": "gem",
+"id": 12044,
+"qty": 1
+},
+"Gem: Disperse Bloodlust V": {
+"t": "give",
+"kind": "gem",
+"id": 12045,
+"qty": 1
+},
+"Gem: Disperse Bloodlust VI": {
+"t": "give",
+"kind": "gem",
+"id": 12046,
+"qty": 1
+},
+"Gem: Disperse Bloodlust VII": {
+"t": "give",
+"kind": "gem",
+"id": 12047,
+"qty": 1
+},
+"Gem: Disperse Bloodlust VIII": {
+"t": "give",
+"kind": "gem",
+"id": 12048,
+"qty": 1
+},
+"Gem: Disperse Bloodlust IX": {
+"t": "give",
+"kind": "gem",
+"id": 12049,
+"qty": 1
+},
+"Gem: Disperse Bloodlust X": {
+"t": "give",
+"kind": "gem",
+"id": 12050,
+"qty": 1
+},
+"Gem: Steelcleaver I": {
+"t": "give",
+"kind": "gem",
+"id": 12051,
+"qty": 1
+},
+"Gem: Steelcleaver II": {
+"t": "give",
+"kind": "gem",
+"id": 12052,
+"qty": 1
+},
+"Gem: Steelcleaver III": {
+"t": "give",
+"kind": "gem",
+"id": 12053,
+"qty": 1
+},
+"Gem: Steelcleaver IV": {
+"t": "give",
+"kind": "gem",
+"id": 12054,
+"qty": 1
+},
+"Gem: Steelcleaver V": {
+"t": "give",
+"kind": "gem",
+"id": 12055,
+"qty": 1
+},
+"Gem: Steelcleaver VI": {
+"t": "give",
+"kind": "gem",
+"id": 12056,
+"qty": 1
+},
+"Gem: Steelcleaver VII": {
+"t": "give",
+"kind": "gem",
+"id": 12057,
+"qty": 1
+},
+"Gem: Steelcleaver VIII": {
+"t": "give",
+"kind": "gem",
+"id": 12058,
+"qty": 1
+},
+"Gem: Steelcleaver IX": {
+"t": "give",
+"kind": "gem",
+"id": 12059,
+"qty": 1
+},
+"Gem: Steelcleaver X": {
+"t": "give",
+"kind": "gem",
+"id": 12060,
+"qty": 1
+},
+"Gem: Accurate Grace I": {
+"t": "give",
+"kind": "gem",
+"id": 12061,
+"qty": 1
+},
+"Gem: Accurate Grace II": {
+"t": "give",
+"kind": "gem",
+"id": 12062,
+"qty": 1
+},
+"Gem: Accurate Grace III": {
+"t": "give",
+"kind": "gem",
+"id": 12063,
+"qty": 1
+},
+"Gem: Accurate Grace IV": {
+"t": "give",
+"kind": "gem",
+"id": 12064,
+"qty": 1
+},
+"Gem: Accurate Grace V": {
+"t": "give",
+"kind": "gem",
+"id": 12065,
+"qty": 1
+},
+"Gem: Accurate Grace VI": {
+"t": "give",
+"kind": "gem",
+"id": 12066,
+"qty": 1
+},
+"Gem: Accurate Grace VII": {
+"t": "give",
+"kind": "gem",
+"id": 12067,
+"qty": 1
+},
+"Gem: Accurate Grace VIII": {
+"t": "give",
+"kind": "gem",
+"id": 12068,
+"qty": 1
+},
+"Gem: Accurate Grace IX": {
+"t": "give",
+"kind": "gem",
+"id": 12069,
+"qty": 1
+},
+"Gem: Accurate Grace X": {
+"t": "give",
+"kind": "gem",
+"id": 12070,
+"qty": 1
+},
+"Gem: Analyze Weakness I": {
+"t": "give",
+"kind": "gem",
+"id": 12071,
+"qty": 1
+},
+"Gem: Analyze Weakness II": {
+"t": "give",
+"kind": "gem",
+"id": 12072,
+"qty": 1
+},
+"Gem: Analyze Weakness III": {
+"t": "give",
+"kind": "gem",
+"id": 12073,
+"qty": 1
+},
+"Gem: Analyze Weakness IV": {
+"t": "give",
+"kind": "gem",
+"id": 12074,
+"qty": 1
+},
+"Gem: Analyze Weakness V": {
+"t": "give",
+"kind": "gem",
+"id": 12075,
+"qty": 1
+},
+"Gem: Analyze Weakness VI": {
+"t": "give",
+"kind": "gem",
+"id": 12076,
+"qty": 1
+},
+"Gem: Analyze Weakness VII": {
+"t": "give",
+"kind": "gem",
+"id": 12077,
+"qty": 1
+},
+"Gem: Analyze Weakness VIII": {
+"t": "give",
+"kind": "gem",
+"id": 12078,
+"qty": 1
+},
+"Gem: Analyze Weakness IX": {
+"t": "give",
+"kind": "gem",
+"id": 12079,
+"qty": 1
+},
+"Gem: Analyze Weakness X": {
+"t": "give",
+"kind": "gem",
+"id": 12080,
+"qty": 1
+},
+"Gem: Swelling Scourge I": {
+"t": "give",
+"kind": "gem",
+"id": 12081,
+"qty": 1
+},
+"Gem: Swelling Scourge II": {
+"t": "give",
+"kind": "gem",
+"id": 12082,
+"qty": 1
+},
+"Gem: Swelling Scourge III": {
+"t": "give",
+"kind": "gem",
+"id": 12083,
+"qty": 1
+},
+"Gem: Swelling Scourge IV": {
+"t": "give",
+"kind": "gem",
+"id": 12084,
+"qty": 1
+},
+"Gem: Swelling Scourge V": {
+"t": "give",
+"kind": "gem",
+"id": 12085,
+"qty": 1
+},
+"Gem: Swelling Scourge VI": {
+"t": "give",
+"kind": "gem",
+"id": 12086,
+"qty": 1
+},
+"Gem: Swelling Scourge VII": {
+"t": "give",
+"kind": "gem",
+"id": 12087,
+"qty": 1
+},
+"Gem: Swelling Scourge VIII": {
+"t": "give",
+"kind": "gem",
+"id": 12088,
+"qty": 1
+},
+"Gem: Swelling Scourge IX": {
+"t": "give",
+"kind": "gem",
+"id": 12089,
+"qty": 1
+},
+"Gem: Swelling Scourge X": {
+"t": "give",
+"kind": "gem",
+"id": 12090,
+"qty": 1
+},
+"Gem: Refined Incantation I": {
+"t": "give",
+"kind": "gem",
+"id": 12091,
+"qty": 1
+},
+"Gem: Refined Incantation II": {
+"t": "give",
+"kind": "gem",
+"id": 12092,
+"qty": 1
+},
+"Gem: Refined Incantation III": {
+"t": "give",
+"kind": "gem",
+"id": 12093,
+"qty": 1
+},
+"Gem: Refined Incantation IV": {
+"t": "give",
+"kind": "gem",
+"id": 12094,
+"qty": 1
+},
+"Gem: Refined Incantation V": {
+"t": "give",
+"kind": "gem",
+"id": 12095,
+"qty": 1
+},
+"Gem: Refined Incantation VI": {
+"t": "give",
+"kind": "gem",
+"id": 12096,
+"qty": 1
+},
+"Gem: Refined Incantation VII": {
+"t": "give",
+"kind": "gem",
+"id": 12097,
+"qty": 1
+},
+"Gem: Refined Incantation VIII": {
+"t": "give",
+"kind": "gem",
+"id": 12098,
+"qty": 1
+},
+"Gem: Refined Incantation IX": {
+"t": "give",
+"kind": "gem",
+"id": 12099,
+"qty": 1
+},
+"Gem: Refined Incantation X": {
+"t": "give",
+"kind": "gem",
+"id": 12100,
+"qty": 1
+},
+"Gem: Tailwind I": {
+"t": "give",
+"kind": "gem",
+"id": 12101,
+"qty": 1
+},
+"Gem: Tailwind II": {
+"t": "give",
+"kind": "gem",
+"id": 12102,
+"qty": 1
+},
+"Gem: Tailwind III": {
+"t": "give",
+"kind": "gem",
+"id": 12103,
+"qty": 1
+},
+"Gem: Tailwind IV": {
+"t": "give",
+"kind": "gem",
+"id": 12104,
+"qty": 1
+},
+"Gem: Tailwind V": {
+"t": "give",
+"kind": "gem",
+"id": 12105,
+"qty": 1
+},
+"Gem: Tailwind VI": {
+"t": "give",
+"kind": "gem",
+"id": 12106,
+"qty": 1
+},
+"Gem: Tailwind VII": {
+"t": "give",
+"kind": "gem",
+"id": 12107,
+"qty": 1
+},
+"Gem: Tailwind VIII": {
+"t": "give",
+"kind": "gem",
+"id": 12108,
+"qty": 1
+},
+"Gem: Tailwind IX": {
+"t": "give",
+"kind": "gem",
+"id": 12109,
+"qty": 1
+},
+"Gem: Tailwind X": {
+"t": "give",
+"kind": "gem",
+"id": 12110,
+"qty": 1
+},
+"Gem: Steel Protection I": {
+"t": "give",
+"kind": "gem",
+"id": 12111,
+"qty": 1
+},
+"Gem: Steel Protection II": {
+"t": "give",
+"kind": "gem",
+"id": 12112,
+"qty": 1
+},
+"Gem: Steel Protection III": {
+"t": "give",
+"kind": "gem",
+"id": 12113,
+"qty": 1
+},
+"Gem: Steel Protection IV": {
+"t": "give",
+"kind": "gem",
+"id": 12114,
+"qty": 1
+},
+"Gem: Steel Protection V": {
+"t": "give",
+"kind": "gem",
+"id": 12115,
+"qty": 1
+},
+"Gem: Steel Protection VI": {
+"t": "give",
+"kind": "gem",
+"id": 12116,
+"qty": 1
+},
+"Gem: Steel Protection VII": {
+"t": "give",
+"kind": "gem",
+"id": 12117,
+"qty": 1
+},
+"Gem: Steel Protection VIII": {
+"t": "give",
+"kind": "gem",
+"id": 12118,
+"qty": 1
+},
+"Gem: Steel Protection IX": {
+"t": "give",
+"kind": "gem",
+"id": 12119,
+"qty": 1
+},
+"Gem: Steel Protection X": {
+"t": "give",
+"kind": "gem",
+"id": 12120,
+"qty": 1
+},
+"Gem: Ultimate Counter I": {
+"t": "give",
+"kind": "gem",
+"id": 12121,
+"qty": 1
+},
+"Gem: Ultimate Counter II": {
+"t": "give",
+"kind": "gem",
+"id": 12122,
+"qty": 1
+},
+"Gem: Ultimate Counter III": {
+"t": "give",
+"kind": "gem",
+"id": 12123,
+"qty": 1
+},
+"Gem: Ultimate Counter IV": {
+"t": "give",
+"kind": "gem",
+"id": 12124,
+"qty": 1
+},
+"Gem: Ultimate Counter V": {
+"t": "give",
+"kind": "gem",
+"id": 12125,
+"qty": 1
+},
+"Gem: Ultimate Counter VI": {
+"t": "give",
+"kind": "gem",
+"id": 12126,
+"qty": 1
+},
+"Gem: Ultimate Counter VII": {
+"t": "give",
+"kind": "gem",
+"id": 12127,
+"qty": 1
+},
+"Gem: Ultimate Counter VIII": {
+"t": "give",
+"kind": "gem",
+"id": 12128,
+"qty": 1
+},
+"Gem: Ultimate Counter IX": {
+"t": "give",
+"kind": "gem",
+"id": 12129,
+"qty": 1
+},
+"Gem: Ultimate Counter X": {
+"t": "give",
+"kind": "gem",
+"id": 12130,
+"qty": 1
+},
+"Gem: Brimming Spirit I": {
+"t": "give",
+"kind": "gem",
+"id": 12131,
+"qty": 1
+},
+"Gem: Brimming Spirit II": {
+"t": "give",
+"kind": "gem",
+"id": 12132,
+"qty": 1
+},
+"Gem: Brimming Spirit III": {
+"t": "give",
+"kind": "gem",
+"id": 12133,
+"qty": 1
+},
+"Gem: Brimming Spirit IV": {
+"t": "give",
+"kind": "gem",
+"id": 12134,
+"qty": 1
+},
+"Gem: Brimming Spirit V": {
+"t": "give",
+"kind": "gem",
+"id": 12135,
+"qty": 1
+},
+"Gem: Brimming Spirit VI": {
+"t": "give",
+"kind": "gem",
+"id": 12136,
+"qty": 1
+},
+"Gem: Brimming Spirit VII": {
+"t": "give",
+"kind": "gem",
+"id": 12137,
+"qty": 1
+},
+"Gem: Brimming Spirit VIII": {
+"t": "give",
+"kind": "gem",
+"id": 12138,
+"qty": 1
+},
+"Gem: Brimming Spirit IX": {
+"t": "give",
+"kind": "gem",
+"id": 12139,
+"qty": 1
+},
+"Gem: Brimming Spirit X": {
+"t": "give",
+"kind": "gem",
+"id": 12140,
+"qty": 1
+},
+"Gem: Perilous Presence I": {
+"t": "give",
+"kind": "gem",
+"id": 12141,
+"qty": 1
+},
+"Gem: Perilous Presence II": {
+"t": "give",
+"kind": "gem",
+"id": 12142,
+"qty": 1
+},
+"Gem: Perilous Presence III": {
+"t": "give",
+"kind": "gem",
+"id": 12143,
+"qty": 1
+},
+"Gem: Perilous Presence IV": {
+"t": "give",
+"kind": "gem",
+"id": 12144,
+"qty": 1
+},
+"Gem: Perilous Presence V": {
+"t": "give",
+"kind": "gem",
+"id": 12145,
+"qty": 1
+},
+"Gem: Perilous Presence VI": {
+"t": "give",
+"kind": "gem",
+"id": 12146,
+"qty": 1
+},
+"Gem: Perilous Presence VII": {
+"t": "give",
+"kind": "gem",
+"id": 12147,
+"qty": 1
+},
+"Gem: Perilous Presence VIII": {
+"t": "give",
+"kind": "gem",
+"id": 12148,
+"qty": 1
+},
+"Gem: Perilous Presence IX": {
+"t": "give",
+"kind": "gem",
+"id": 12149,
+"qty": 1
+},
+"Gem: Perilous Presence X": {
+"t": "give",
+"kind": "gem",
+"id": 12150,
+"qty": 1
+},
+"Gem: Lifebearer I": {
+"t": "give",
+"kind": "gem",
+"id": 12151,
+"qty": 1
+},
+"Gem: Lifebearer II": {
+"t": "give",
+"kind": "gem",
+"id": 12152,
+"qty": 1
+},
+"Gem: Lifebearer III": {
+"t": "give",
+"kind": "gem",
+"id": 12153,
+"qty": 1
+},
+"Gem: Lifebearer IV": {
+"t": "give",
+"kind": "gem",
+"id": 12154,
+"qty": 1
+},
+"Gem: Lifebearer V": {
+"t": "give",
+"kind": "gem",
+"id": 12155,
+"qty": 1
+},
+"Gem: Lifebearer VI": {
+"t": "give",
+"kind": "gem",
+"id": 12156,
+"qty": 1
+},
+"Gem: Lifebearer VII": {
+"t": "give",
+"kind": "gem",
+"id": 12157,
+"qty": 1
+},
+"Gem: Lifebearer VIII": {
+"t": "give",
+"kind": "gem",
+"id": 12158,
+"qty": 1
+},
+"Gem: Lifebearer IX": {
+"t": "give",
+"kind": "gem",
+"id": 12159,
+"qty": 1
+},
+"Gem: Lifebearer X": {
+"t": "give",
+"kind": "gem",
+"id": 12160,
+"qty": 1
+},
+"Gem: Soothing Breath I": {
+"t": "give",
+"kind": "gem",
+"id": 12161,
+"qty": 1
+},
+"Gem: Soothing Breath II": {
+"t": "give",
+"kind": "gem",
+"id": 12162,
+"qty": 1
+},
+"Gem: Soothing Breath III": {
+"t": "give",
+"kind": "gem",
+"id": 12163,
+"qty": 1
+},
+"Gem: Soothing Breath IV": {
+"t": "give",
+"kind": "gem",
+"id": 12164,
+"qty": 1
+},
+"Gem: Soothing Breath V": {
+"t": "give",
+"kind": "gem",
+"id": 12165,
+"qty": 1
+},
+"Gem: Soothing Breath VI": {
+"t": "give",
+"kind": "gem",
+"id": 12166,
+"qty": 1
+},
+"Gem: Soothing Breath VII": {
+"t": "give",
+"kind": "gem",
+"id": 12167,
+"qty": 1
+},
+"Gem: Soothing Breath VIII": {
+"t": "give",
+"kind": "gem",
+"id": 12168,
+"qty": 1
+},
+"Gem: Soothing Breath IX": {
+"t": "give",
+"kind": "gem",
+"id": 12169,
+"qty": 1
+},
+"Gem: Soothing Breath X": {
+"t": "give",
+"kind": "gem",
+"id": 12170,
+"qty": 1
+},
+"Gem: Lifesaving Expertise I": {
+"t": "give",
+"kind": "gem",
+"id": 12171,
+"qty": 1
+},
+"Gem: Lifesaving Expertise II": {
+"t": "give",
+"kind": "gem",
+"id": 12172,
+"qty": 1
+},
+"Gem: Lifesaving Expertise III": {
+"t": "give",
+"kind": "gem",
+"id": 12173,
+"qty": 1
+},
+"Gem: Lifesaving Expertise IV": {
+"t": "give",
+"kind": "gem",
+"id": 12174,
+"qty": 1
+},
+"Gem: Lifesaving Expertise V": {
+"t": "give",
+"kind": "gem",
+"id": 12175,
+"qty": 1
+},
+"Gem: Lifesaving Expertise VI": {
+"t": "give",
+"kind": "gem",
+"id": 12176,
+"qty": 1
+},
+"Gem: Lifesaving Expertise VII": {
+"t": "give",
+"kind": "gem",
+"id": 12177,
+"qty": 1
+},
+"Gem: Lifesaving Expertise VIII": {
+"t": "give",
+"kind": "gem",
+"id": 12178,
+"qty": 1
+},
+"Gem: Lifesaving Expertise IX": {
+"t": "give",
+"kind": "gem",
+"id": 12179,
+"qty": 1
+},
+"Gem: Lifesaving Expertise X": {
+"t": "give",
+"kind": "gem",
+"id": 12180,
+"qty": 1
+},
+"Gem: Swelling Blessing I": {
+"t": "give",
+"kind": "gem",
+"id": 12181,
+"qty": 1
+},
+"Gem: Swelling Blessing II": {
+"t": "give",
+"kind": "gem",
+"id": 12182,
+"qty": 1
+},
+"Gem: Swelling Blessing III": {
+"t": "give",
+"kind": "gem",
+"id": 12183,
+"qty": 1
+},
+"Gem: Swelling Blessing IV": {
+"t": "give",
+"kind": "gem",
+"id": 12184,
+"qty": 1
+},
+"Gem: Swelling Blessing V": {
+"t": "give",
+"kind": "gem",
+"id": 12185,
+"qty": 1
+},
+"Gem: Swelling Blessing VI": {
+"t": "give",
+"kind": "gem",
+"id": 12186,
+"qty": 1
+},
+"Gem: Swelling Blessing VII": {
+"t": "give",
+"kind": "gem",
+"id": 12187,
+"qty": 1
+},
+"Gem: Swelling Blessing VIII": {
+"t": "give",
+"kind": "gem",
+"id": 12188,
+"qty": 1
+},
+"Gem: Swelling Blessing IX": {
+"t": "give",
+"kind": "gem",
+"id": 12189,
+"qty": 1
+},
+"Gem: Swelling Blessing X": {
+"t": "give",
+"kind": "gem",
+"id": 12190,
+"qty": 1
+},
+"Gem: Refined Blessing I": {
+"t": "give",
+"kind": "gem",
+"id": 12191,
+"qty": 1
+},
+"Gem: Refined Blessing II": {
+"t": "give",
+"kind": "gem",
+"id": 12192,
+"qty": 1
+},
+"Gem: Refined Blessing III": {
+"t": "give",
+"kind": "gem",
+"id": 12193,
+"qty": 1
+},
+"Gem: Refined Blessing IV": {
+"t": "give",
+"kind": "gem",
+"id": 12194,
+"qty": 1
+},
+"Gem: Refined Blessing V": {
+"t": "give",
+"kind": "gem",
+"id": 12195,
+"qty": 1
+},
+"Gem: Refined Blessing VI": {
+"t": "give",
+"kind": "gem",
+"id": 12196,
+"qty": 1
+},
+"Gem: Refined Blessing VII": {
+"t": "give",
+"kind": "gem",
+"id": 12197,
+"qty": 1
+},
+"Gem: Refined Blessing VIII": {
+"t": "give",
+"kind": "gem",
+"id": 12198,
+"qty": 1
+},
+"Gem: Refined Blessing IX": {
+"t": "give",
+"kind": "gem",
+"id": 12199,
+"qty": 1
+},
+"Gem: Refined Blessing X": {
+"t": "give",
+"kind": "gem",
+"id": 12200,
+"qty": 1
+},
+"Accessory: Bronze Temple Guard": {
+"t": "give",
+"kind": "accessory",
+"id": 1,
+"qty": 1
+},
+"Accessory: Iron Temple Guard": {
+"t": "give",
+"kind": "accessory",
+"id": 2,
+"qty": 1
+},
+"Accessory: Titanium Temple Guard": {
+"t": "give",
+"kind": "accessory",
+"id": 3,
+"qty": 1
+},
+"Accessory: Circlet of Intellect": {
+"t": "give",
+"kind": "accessory",
+"id": 4,
+"qty": 1
+},
+"Accessory: Circlet of Wisdom": {
+"t": "give",
+"kind": "accessory",
+"id": 5,
+"qty": 1
+},
+"Accessory: Circlet of Enlightenment": {
+"t": "give",
+"kind": "accessory",
+"id": 6,
+"qty": 1
+},
+"Accessory: Search Headgear": {
+"t": "give",
+"kind": "accessory",
+"id": 7,
+"qty": 1
+},
+"Accessory: Detector Headgear": {
+"t": "give",
+"kind": "accessory",
+"id": 8,
+"qty": 1
+},
+"Accessory: Thermo Headgear": {
+"t": "give",
+"kind": "accessory",
+"id": 9,
+"qty": 1
+},
+"Accessory: Black Mask": {
+"t": "give",
+"kind": "accessory",
+"id": 10,
+"qty": 1
+},
+"Accessory: Shadow Mask": {
+"t": "give",
+"kind": "accessory",
+"id": 11,
+"qty": 1
+},
+"Accessory: Hermit Mask": {
+"t": "give",
+"kind": "accessory",
+"id": 12,
+"qty": 1
+},
+"Accessory: Soldier's Headband": {
+"t": "give",
+"kind": "accessory",
+"id": 13,
+"qty": 1
+},
+"Accessory: Sergeant's Headband": {
+"t": "give",
+"kind": "accessory",
+"id": 14,
+"qty": 1
+},
+"Accessory: Feather Band": {
+"t": "give",
+"kind": "accessory",
+"id": 15,
+"qty": 1
+},
+"Accessory: Black Feather Band": {
+"t": "give",
+"kind": "accessory",
+"id": 16,
+"qty": 1
+},
+"Accessory: Rainbow Feather Band": {
+"t": "give",
+"kind": "accessory",
+"id": 17,
+"qty": 1
+},
+"Accessory: Divining Hairgrip": {
+"t": "give",
+"kind": "accessory",
+"id": 18,
+"qty": 1
+},
+"Accessory: Four Sea Hairgrip": {
+"t": "give",
+"kind": "accessory",
+"id": 19,
+"qty": 1
+},
+"Accessory: Pale Memory": {
+"t": "give",
+"kind": "accessory",
+"id": 20,
+"qty": 1
+},
+"Accessory: Light Memory": {
+"t": "give",
+"kind": "accessory",
+"id": 21,
+"qty": 1
+},
+"Accessory: Boost Memory": {
+"t": "give",
+"kind": "accessory",
+"id": 22,
+"qty": 1
+},
+"Accessory: Luminous Memory": {
+"t": "give",
+"kind": "accessory",
+"id": 23,
+"qty": 1
+},
+"Accessory: Expanding Memory": {
+"t": "give",
+"kind": "accessory",
+"id": 24,
+"qty": 1
+},
+"Accessory: Brute Memory": {
+"t": "give",
+"kind": "accessory",
+"id": 25,
+"qty": 1
+},
+"Accessory: Chaotic Memory": {
+"t": "give",
+"kind": "accessory",
+"id": 26,
+"qty": 1
+},
+"Accessory: Long-Range Memory": {
+"t": "give",
+"kind": "accessory",
+"id": 27,
+"qty": 1
+},
+"Accessory: Ice Headband": {
+"t": "give",
+"kind": "accessory",
+"id": 28,
+"qty": 1
+},
+"Accessory: Optical Headband": {
+"t": "give",
+"kind": "accessory",
+"id": 29,
+"qty": 1
+},
+"Accessory: Crimson Headband": {
+"t": "give",
+"kind": "accessory",
+"id": 30,
+"qty": 1
+},
+"Accessory: Beast Mask": {
+"t": "give",
+"kind": "accessory",
+"id": 31,
+"qty": 1
+},
+"Accessory: Ghillie Mask": {
+"t": "give",
+"kind": "accessory",
+"id": 32,
+"qty": 1
+},
+"Accessory: Scale Mask": {
+"t": "give",
+"kind": "accessory",
+"id": 33,
+"qty": 1
+},
+"Accessory: Aural Enhance Sensor": {
+"t": "give",
+"kind": "accessory",
+"id": 34,
+"qty": 1
+},
+"Accessory: Ultra Aural Sensor": {
+"t": "give",
+"kind": "accessory",
+"id": 35,
+"qty": 1
+},
+"Accessory: Sonic Sensor": {
+"t": "give",
+"kind": "accessory",
+"id": 36,
+"qty": 1
+},
+"Accessory: Nopon Seven-Star Medal": {
+"t": "give",
+"kind": "accessory",
+"id": 37,
+"qty": 1
+},
+"Accessory: Iron Headband": {
+"t": "give",
+"kind": "accessory",
+"id": 40,
+"qty": 1
+},
+"Accessory: Lazure Headband": {
+"t": "give",
+"kind": "accessory",
+"id": 41,
+"qty": 1
+},
+"Accessory: Golden Headband": {
+"t": "give",
+"kind": "accessory",
+"id": 42,
+"qty": 1
+},
+"Accessory: Fiber Underguard": {
+"t": "give",
+"kind": "accessory",
+"id": 43,
+"qty": 1
+},
+"Accessory: Ceramic Underguard": {
+"t": "give",
+"kind": "accessory",
+"id": 44,
+"qty": 1
+},
+"Accessory: Warrior's Armor Vest": {
+"t": "give",
+"kind": "accessory",
+"id": 45,
+"qty": 1
+},
+"Accessory: Fierce Armor Vest": {
+"t": "give",
+"kind": "accessory",
+"id": 46,
+"qty": 1
+},
+"Accessory: Berserker's Armor Vest": {
+"t": "give",
+"kind": "accessory",
+"id": 47,
+"qty": 1
+},
+"Accessory: Armored Lining": {
+"t": "give",
+"kind": "accessory",
+"id": 48,
+"qty": 1
+},
+"Accessory: Shell Lining": {
+"t": "give",
+"kind": "accessory",
+"id": 49,
+"qty": 1
+},
+"Accessory: Asylum Lining": {
+"t": "give",
+"kind": "accessory",
+"id": 50,
+"qty": 1
+},
+"Accessory: Swimmer's Chemise": {
+"t": "give",
+"kind": "accessory",
+"id": 51,
+"qty": 1
+},
+"Accessory: Crystalline Chemise": {
+"t": "give",
+"kind": "accessory",
+"id": 52,
+"qty": 1
+},
+"Accessory: Gear Support": {
+"t": "give",
+"kind": "accessory",
+"id": 53,
+"qty": 1
+},
+"Accessory: Jade Support": {
+"t": "give",
+"kind": "accessory",
+"id": 54,
+"qty": 1
+},
+"Accessory: Titanium Support": {
+"t": "give",
+"kind": "accessory",
+"id": 55,
+"qty": 1
+},
+"Accessory: Spiked Pauldrons": {
+"t": "give",
+"kind": "accessory",
+"id": 56,
+"qty": 1
+},
+"Accessory: Jet Pauldrons": {
+"t": "give",
+"kind": "accessory",
+"id": 57,
+"qty": 1
+},
+"Accessory: Hero Pauldrons": {
+"t": "give",
+"kind": "accessory",
+"id": 58,
+"qty": 1
+},
+"Accessory: Power Bangle": {
+"t": "give",
+"kind": "accessory",
+"id": 59,
+"qty": 1
+},
+"Accessory: Strike Bangle": {
+"t": "give",
+"kind": "accessory",
+"id": 60,
+"qty": 1
+},
+"Accessory: Induction Bangle": {
+"t": "give",
+"kind": "accessory",
+"id": 61,
+"qty": 1
+},
+"Accessory: Fire Bangle": {
+"t": "give",
+"kind": "accessory",
+"id": 62,
+"qty": 1
+},
+"Accessory: Flame Bangle": {
+"t": "give",
+"kind": "accessory",
+"id": 63,
+"qty": 1
+},
+"Accessory: White Wraps": {
+"t": "give",
+"kind": "accessory",
+"id": 64,
+"qty": 1
+},
+"Accessory: Leather Wraps": {
+"t": "give",
+"kind": "accessory",
+"id": 65,
+"qty": 1
+},
+"Accessory: Fiber Wraps": {
+"t": "give",
+"kind": "accessory",
+"id": 66,
+"qty": 1
+},
+"Accessory: Work Gloves": {
+"t": "give",
+"kind": "accessory",
+"id": 67,
+"qty": 1
+},
+"Accessory: Engineer Gloves": {
+"t": "give",
+"kind": "accessory",
+"id": 68,
+"qty": 1
+},
+"Accessory: Tactical Gloves": {
+"t": "give",
+"kind": "accessory",
+"id": 69,
+"qty": 1
+},
+"Accessory: Challenger Gauntlet": {
+"t": "give",
+"kind": "accessory",
+"id": 71,
+"qty": 1
+},
+"Accessory: Victor Gauntlet": {
+"t": "give",
+"kind": "accessory",
+"id": 72,
+"qty": 1
+},
+"Accessory: Bronze Gauntlet": {
+"t": "give",
+"kind": "accessory",
+"id": 73,
+"qty": 1
+},
+"Accessory: Adamantine Gauntlet": {
+"t": "give",
+"kind": "accessory",
+"id": 74,
+"qty": 1
+},
+"Accessory: Jewel Beetle Gauntlet": {
+"t": "give",
+"kind": "accessory",
+"id": 75,
+"qty": 1
+},
+"Accessory: Rainbow Gloves": {
+"t": "give",
+"kind": "accessory",
+"id": 76,
+"qty": 1
+},
+"Accessory: Hero Gloves": {
+"t": "give",
+"kind": "accessory",
+"id": 77,
+"qty": 1
+},
+"Accessory: Carbon Gloves": {
+"t": "give",
+"kind": "accessory",
+"id": 78,
+"qty": 1
+},
+"Accessory: Leather Gloves": {
+"t": "give",
+"kind": "accessory",
+"id": 79,
+"qty": 1
+},
+"Accessory: Smithy Gloves": {
+"t": "give",
+"kind": "accessory",
+"id": 80,
+"qty": 1
+},
+"Accessory: Apprentice Vambraces": {
+"t": "give",
+"kind": "accessory",
+"id": 81,
+"qty": 1
+},
+"Accessory: Warrior's Armlet": {
+"t": "give",
+"kind": "accessory",
+"id": 82,
+"qty": 1
+},
+"Accessory: Hero Vambraces": {
+"t": "give",
+"kind": "accessory",
+"id": 83,
+"qty": 1
+},
+"Accessory: Black Steel Band": {
+"t": "give",
+"kind": "accessory",
+"id": 84,
+"qty": 1
+},
+"Accessory: Lazure Vambraces": {
+"t": "give",
+"kind": "accessory",
+"id": 85,
+"qty": 1
+},
+"Accessory: Misanga": {
+"t": "give",
+"kind": "accessory",
+"id": 86,
+"qty": 1
+},
+"Accessory: Iron Misanga": {
+"t": "give",
+"kind": "accessory",
+"id": 87,
+"qty": 1
+},
+"Accessory: Feather Misanga": {
+"t": "give",
+"kind": "accessory",
+"id": 88,
+"qty": 1
+},
+"Accessory: Charm Bangle": {
+"t": "give",
+"kind": "accessory",
+"id": 89,
+"qty": 1
+},
+"Accessory: Belemnite Bangle": {
+"t": "give",
+"kind": "accessory",
+"id": 90,
+"qty": 1
+},
+"Accessory: Bronze Choker": {
+"t": "give",
+"kind": "accessory",
+"id": 91,
+"qty": 1
+},
+"Accessory: Silver Choker": {
+"t": "give",
+"kind": "accessory",
+"id": 92,
+"qty": 1
+},
+"Accessory: Gold Choker": {
+"t": "give",
+"kind": "accessory",
+"id": 93,
+"qty": 1
+},
+"Accessory: Silver Necklace": {
+"t": "give",
+"kind": "accessory",
+"id": 94,
+"qty": 1
+},
+"Accessory: Gold Necklace": {
+"t": "give",
+"kind": "accessory",
+"id": 95,
+"qty": 1
+},
+"Accessory: Star Necklace": {
+"t": "give",
+"kind": "accessory",
+"id": 96,
+"qty": 1
+},
+"Accessory: Moon Necklace": {
+"t": "give",
+"kind": "accessory",
+"id": 97,
+"qty": 1
+},
+"Accessory: Prayer Necklace": {
+"t": "give",
+"kind": "accessory",
+"id": 98,
+"qty": 1
+},
+"Accessory: Beastfang Necklace": {
+"t": "give",
+"kind": "accessory",
+"id": 99,
+"qty": 1
+},
+"Accessory: Sharpfang Necklace": {
+"t": "give",
+"kind": "accessory",
+"id": 100,
+"qty": 1
+},
+"Accessory: Dragonfang Necklace": {
+"t": "give",
+"kind": "accessory",
+"id": 101,
+"qty": 1
+},
+"Accessory: Whirlwind Necklace": {
+"t": "give",
+"kind": "accessory",
+"id": 102,
+"qty": 1
+},
+"Accessory: Buffeting Necklace": {
+"t": "give",
+"kind": "accessory",
+"id": 103,
+"qty": 1
+},
+"Accessory: Storm Necklace": {
+"t": "give",
+"kind": "accessory",
+"id": 104,
+"qty": 1
+},
+"Accessory: Nacre Choker": {
+"t": "give",
+"kind": "accessory",
+"id": 105,
+"qty": 1
+},
+"Accessory: Comet Choker": {
+"t": "give",
+"kind": "accessory",
+"id": 106,
+"qty": 1
+},
+"Accessory: Sunlight Choker": {
+"t": "give",
+"kind": "accessory",
+"id": 107,
+"qty": 1
+},
+"Accessory: Bunnit Choker": {
+"t": "give",
+"kind": "accessory",
+"id": 108,
+"qty": 1
+},
+"Accessory: Gold Gear Choker": {
+"t": "give",
+"kind": "accessory",
+"id": 109,
+"qty": 1
+},
+"Accessory: Chrome Scarf": {
+"t": "give",
+"kind": "accessory",
+"id": 110,
+"qty": 1
+},
+"Accessory: Unicorn Scarf": {
+"t": "give",
+"kind": "accessory",
+"id": 111,
+"qty": 1
+},
+"Accessory: Quantum Scarf": {
+"t": "give",
+"kind": "accessory",
+"id": 112,
+"qty": 1
+},
+"Accessory: Harvest Necklace": {
+"t": "give",
+"kind": "accessory",
+"id": 113,
+"qty": 1
+},
+"Accessory: Affection Necklace": {
+"t": "give",
+"kind": "accessory",
+"id": 114,
+"qty": 1
+},
+"Accessory: Immaculate Necklace": {
+"t": "give",
+"kind": "accessory",
+"id": 115,
+"qty": 1
+},
+"Accessory: Memory Locket": {
+"t": "give",
+"kind": "accessory",
+"id": 116,
+"qty": 1
+},
+"Accessory: Learned Amulet": {
+"t": "give",
+"kind": "accessory",
+"id": 117,
+"qty": 1
+},
+"Accessory: Sage's Auspices": {
+"t": "give",
+"kind": "accessory",
+"id": 118,
+"qty": 1
+},
+"Accessory: Plate Belt": {
+"t": "give",
+"kind": "accessory",
+"id": 119,
+"qty": 1
+},
+"Accessory: Shield Belt": {
+"t": "give",
+"kind": "accessory",
+"id": 120,
+"qty": 1
+},
+"Accessory: Tool Belt": {
+"t": "give",
+"kind": "accessory",
+"id": 121,
+"qty": 1
+},
+"Accessory: Work Belt": {
+"t": "give",
+"kind": "accessory",
+"id": 122,
+"qty": 1
+},
+"Accessory: Fiber Belt": {
+"t": "give",
+"kind": "accessory",
+"id": 123,
+"qty": 1
+},
+"Accessory: Braided Belt": {
+"t": "give",
+"kind": "accessory",
+"id": 124,
+"qty": 1
+},
+"Accessory: Silver Braided Belt": {
+"t": "give",
+"kind": "accessory",
+"id": 125,
+"qty": 1
+},
+"Accessory: Slashing Weapon Belt": {
+"t": "give",
+"kind": "accessory",
+"id": 126,
+"qty": 1
+},
+"Accessory: Firearm Belt": {
+"t": "give",
+"kind": "accessory",
+"id": 127,
+"qty": 1
+},
+"Accessory: Crushing Weapon Belt": {
+"t": "give",
+"kind": "accessory",
+"id": 128,
+"qty": 1
+},
+"Accessory: Assist Belt": {
+"t": "give",
+"kind": "accessory",
+"id": 129,
+"qty": 1
+},
+"Accessory: Harness Belt": {
+"t": "give",
+"kind": "accessory",
+"id": 130,
+"qty": 1
+},
+"Accessory: Survival Belt": {
+"t": "give",
+"kind": "accessory",
+"id": 131,
+"qty": 1
+},
+"Accessory: Strung Amber": {
+"t": "give",
+"kind": "accessory",
+"id": 132,
+"qty": 1
+},
+"Accessory: Strung Jade": {
+"t": "give",
+"kind": "accessory",
+"id": 133,
+"qty": 1
+},
+"Accessory: Strung Lapis Lazuli": {
+"t": "give",
+"kind": "accessory",
+"id": 134,
+"qty": 1
+},
+"Accessory: Stone Belt": {
+"t": "give",
+"kind": "accessory",
+"id": 135,
+"qty": 1
+},
+"Accessory: Iron Sash": {
+"t": "give",
+"kind": "accessory",
+"id": 136,
+"qty": 1
+},
+"Accessory: Power Belt": {
+"t": "give",
+"kind": "accessory",
+"id": 137,
+"qty": 1
+},
+"Accessory: Steam Belt": {
+"t": "give",
+"kind": "accessory",
+"id": 138,
+"qty": 1
+},
+"Accessory: Silver Belt": {
+"t": "give",
+"kind": "accessory",
+"id": 139,
+"qty": 1
+},
+"Accessory: Ceramic Belt": {
+"t": "give",
+"kind": "accessory",
+"id": 140,
+"qty": 1
+},
+"Accessory: Beast-Hide Vest": {
+"t": "give",
+"kind": "accessory",
+"id": 141,
+"qty": 1
+},
+"Accessory: Muscle Belt": {
+"t": "give",
+"kind": "accessory",
+"id": 142,
+"qty": 1
+},
+"Accessory: Champion Belt": {
+"t": "give",
+"kind": "accessory",
+"id": 143,
+"qty": 1
+},
+"Accessory: White Belt": {
+"t": "give",
+"kind": "accessory",
+"id": 144,
+"qty": 1
+},
+"Accessory: Black Belt": {
+"t": "give",
+"kind": "accessory",
+"id": 145,
+"qty": 1
+},
+"Accessory: Platinum Belt": {
+"t": "give",
+"kind": "accessory",
+"id": 146,
+"qty": 1
+},
+"Accessory: Foot Protector": {
+"t": "give",
+"kind": "accessory",
+"id": 147,
+"qty": 1
+},
+"Accessory: Heavy Foot Protector": {
+"t": "give",
+"kind": "accessory",
+"id": 148,
+"qty": 1
+},
+"Accessory: Metal Foot Protector": {
+"t": "give",
+"kind": "accessory",
+"id": 149,
+"qty": 1
+},
+"Accessory: Soft Foot Wraps": {
+"t": "give",
+"kind": "accessory",
+"id": 150,
+"qty": 1
+},
+"Accessory: Strong Foot Wraps": {
+"t": "give",
+"kind": "accessory",
+"id": 151,
+"qty": 1
+},
+"Accessory: Special Foot Wraps": {
+"t": "give",
+"kind": "accessory",
+"id": 152,
+"qty": 1
+},
+"Accessory: Light Weak Guard": {
+"t": "give",
+"kind": "accessory",
+"id": 153,
+"qty": 1
+},
+"Accessory: Heavy Weak Guard": {
+"t": "give",
+"kind": "accessory",
+"id": 154,
+"qty": 1
+},
+"Accessory: Solid Weak Guard": {
+"t": "give",
+"kind": "accessory",
+"id": 155,
+"qty": 1
+},
+"Accessory: Fur Socks": {
+"t": "give",
+"kind": "accessory",
+"id": 156,
+"qty": 1
+},
+"Accessory: Solid Socks": {
+"t": "give",
+"kind": "accessory",
+"id": 157,
+"qty": 1
+},
+"Accessory: Flood Socks": {
+"t": "give",
+"kind": "accessory",
+"id": 158,
+"qty": 1
+},
+"Accessory: Star Anklets": {
+"t": "give",
+"kind": "accessory",
+"id": 159,
+"qty": 1
+},
+"Accessory: Moon Anklets": {
+"t": "give",
+"kind": "accessory",
+"id": 160,
+"qty": 1
+},
+"Accessory: Cosmos Anklets": {
+"t": "give",
+"kind": "accessory",
+"id": 161,
+"qty": 1
+},
+"Accessory: Wind Leg Frame": {
+"t": "give",
+"kind": "accessory",
+"id": 162,
+"qty": 1
+},
+"Accessory: Gale Leg Frame": {
+"t": "give",
+"kind": "accessory",
+"id": 163,
+"qty": 1
+},
+"Accessory: Cyrus Leg Frame": {
+"t": "give",
+"kind": "accessory",
+"id": 164,
+"qty": 1
+},
+"Accessory: Sturdy Anklets": {
+"t": "give",
+"kind": "accessory",
+"id": 165,
+"qty": 1
+},
+"Accessory: Vigorous Anklets": {
+"t": "give",
+"kind": "accessory",
+"id": 166,
+"qty": 1
+},
+"Accessory: Shell Protector": {
+"t": "give",
+"kind": "accessory",
+"id": 167,
+"qty": 1
+},
+"Accessory: Smart Protector": {
+"t": "give",
+"kind": "accessory",
+"id": 168,
+"qty": 1
+},
+"Accessory: Hyper Protector": {
+"t": "give",
+"kind": "accessory",
+"id": 169,
+"qty": 1
+},
+"Accessory: Silver Anklets": {
+"t": "give",
+"kind": "accessory",
+"id": 170,
+"qty": 1
+},
+"Accessory: Golden Anklets": {
+"t": "give",
+"kind": "accessory",
+"id": 171,
+"qty": 1
+},
+"Accessory: Platinum Anklets": {
+"t": "give",
+"kind": "accessory",
+"id": 172,
+"qty": 1
+},
+"Accessory: Crystal Anklets": {
+"t": "give",
+"kind": "accessory",
+"id": 173,
+"qty": 1
+},
+"Accessory: Herald's Kneeguard": {
+"t": "give",
+"kind": "accessory",
+"id": 174,
+"qty": 1
+},
+"Accessory: Scout's Kneeguard": {
+"t": "give",
+"kind": "accessory",
+"id": 175,
+"qty": 1
+},
+"Accessory: Survivor Kneeguard": {
+"t": "give",
+"kind": "accessory",
+"id": 176,
+"qty": 1
+},
+"Accessory: Graphite Kneeguard": {
+"t": "give",
+"kind": "accessory",
+"id": 177,
+"qty": 1
+},
+"Accessory: Lead Kneeguard": {
+"t": "give",
+"kind": "accessory",
+"id": 178,
+"qty": 1
+},
+"Accessory: Metallic Kneeguard": {
+"t": "give",
+"kind": "accessory",
+"id": 179,
+"qty": 1
+},
+"Accessory: Defense Cuffs": {
+"t": "give",
+"kind": "accessory",
+"id": 180,
+"qty": 1
+},
+"Accessory: Repulsor Cuffs": {
+"t": "give",
+"kind": "accessory",
+"id": 181,
+"qty": 1
+},
+"Accessory: Tear Amulet": {
+"t": "give",
+"kind": "accessory",
+"id": 182,
+"qty": 1
+},
+"Accessory: Rage Amulet": {
+"t": "give",
+"kind": "accessory",
+"id": 183,
+"qty": 1
+},
+"Accessory: Flame Amulet": {
+"t": "give",
+"kind": "accessory",
+"id": 184,
+"qty": 1
+},
+"Accessory: Hellfire Amulet": {
+"t": "give",
+"kind": "accessory",
+"id": 185,
+"qty": 1
+},
+"Accessory: Signet Ring": {
+"t": "give",
+"kind": "accessory",
+"id": 186,
+"qty": 1
+},
+"Accessory: Champion Ring": {
+"t": "give",
+"kind": "accessory",
+"id": 187,
+"qty": 1
+},
+"Accessory: Gold Cube": {
+"t": "give",
+"kind": "accessory",
+"id": 188,
+"qty": 1
+},
+"Accessory: Platinum Cube": {
+"t": "give",
+"kind": "accessory",
+"id": 189,
+"qty": 1
+},
+"Accessory: Garnet": {
+"t": "give",
+"kind": "accessory",
+"id": 190,
+"qty": 1
+},
+"Accessory: Sapphire": {
+"t": "give",
+"kind": "accessory",
+"id": 191,
+"qty": 1
+},
+"Accessory: Diamond": {
+"t": "give",
+"kind": "accessory",
+"id": 192,
+"qty": 1
+},
+"Accessory: Dark Orb": {
+"t": "give",
+"kind": "accessory",
+"id": 193,
+"qty": 1
+},
+"Accessory: Eraser Orb": {
+"t": "give",
+"kind": "accessory",
+"id": 194,
+"qty": 1
+},
+"Accessory: Bloody Orb": {
+"t": "give",
+"kind": "accessory",
+"id": 195,
+"qty": 1
+},
+"Accessory: Soldier Ring": {
+"t": "give",
+"kind": "accessory",
+"id": 196,
+"qty": 1
+},
+"Accessory: Berserk Ring": {
+"t": "give",
+"kind": "accessory",
+"id": 197,
+"qty": 1
+},
+"Accessory: Tyrant Ring": {
+"t": "give",
+"kind": "accessory",
+"id": 198,
+"qty": 1
+},
+"Accessory: Attack Stone": {
+"t": "give",
+"kind": "accessory",
+"id": 199,
+"qty": 1
+},
+"Accessory: Assault Stone": {
+"t": "give",
+"kind": "accessory",
+"id": 200,
+"qty": 1
+},
+"Accessory: Violent Stone": {
+"t": "give",
+"kind": "accessory",
+"id": 201,
+"qty": 1
+},
+"Accessory: Friendship Ring": {
+"t": "give",
+"kind": "accessory",
+"id": 202,
+"qty": 1
+},
+"Accessory: Affection Ring": {
+"t": "give",
+"kind": "accessory",
+"id": 203,
+"qty": 1
+},
+"Accessory: Silver Earrings": {
+"t": "give",
+"kind": "accessory",
+"id": 204,
+"qty": 1
+},
+"Accessory: Crystal Earrings": {
+"t": "give",
+"kind": "accessory",
+"id": 205,
+"qty": 1
+},
+"Accessory: Activity Amulet": {
+"t": "give",
+"kind": "accessory",
+"id": 206,
+"qty": 1
+},
+"Accessory: Healing Amulet": {
+"t": "give",
+"kind": "accessory",
+"id": 207,
+"qty": 1
+},
+"Accessory: Friendship Badge": {
+"t": "give",
+"kind": "accessory",
+"id": 208,
+"qty": 1
+},
+"Accessory: Fraternal Badge": {
+"t": "give",
+"kind": "accessory",
+"id": 209,
+"qty": 1
+},
+"Accessory: Silver Brooch": {
+"t": "give",
+"kind": "accessory",
+"id": 210,
+"qty": 1
+},
+"Accessory: Gold Brooch": {
+"t": "give",
+"kind": "accessory",
+"id": 211,
+"qty": 1
+},
+"Accessory: Platinum Brooch": {
+"t": "give",
+"kind": "accessory",
+"id": 212,
+"qty": 1
+},
+"Accessory: Break Brooch": {
+"t": "give",
+"kind": "accessory",
+"id": 213,
+"qty": 1
+},
+"Accessory: Cracked Crystal": {
+"t": "give",
+"kind": "accessory",
+"id": 217,
+"qty": 1
+},
+"Accessory: Warped Crystal": {
+"t": "give",
+"kind": "accessory",
+"id": 218,
+"qty": 1
+},
+"Accessory: Beautiful Crystal": {
+"t": "give",
+"kind": "accessory",
+"id": 219,
+"qty": 1
+},
+"Accessory: Glowing Medal": {
+"t": "give",
+"kind": "accessory",
+"id": 220,
+"qty": 1
+},
+"Accessory: Gleaming Medal": {
+"t": "give",
+"kind": "accessory",
+"id": 221,
+"qty": 1
+},
+"Accessory: Glistening Medal": {
+"t": "give",
+"kind": "accessory",
+"id": 222,
+"qty": 1
+},
+"Accessory: Colorful Feather": {
+"t": "give",
+"kind": "accessory",
+"id": 223,
+"qty": 1
+},
+"Accessory: Silver Feather": {
+"t": "give",
+"kind": "accessory",
+"id": 224,
+"qty": 1
+},
+"Accessory: Phantom Feather": {
+"t": "give",
+"kind": "accessory",
+"id": 225,
+"qty": 1
+},
+"Accessory: Shell Cameo": {
+"t": "give",
+"kind": "accessory",
+"id": 226,
+"qty": 1
+},
+"Accessory: Vibrant Armring": {
+"t": "give",
+"kind": "accessory",
+"id": 227,
+"qty": 1
+},
+"Accessory: Florid Armring": {
+"t": "give",
+"kind": "accessory",
+"id": 228,
+"qty": 1
+},
+"Accessory: Lustrous Armring": {
+"t": "give",
+"kind": "accessory",
+"id": 229,
+"qty": 1
+},
+"Accessory: Chain Ring": {
+"t": "give",
+"kind": "accessory",
+"id": 230,
+"qty": 1
+},
+"Accessory: Shackle Ring": {
+"t": "give",
+"kind": "accessory",
+"id": 231,
+"qty": 1
+},
+"Accessory: Chipped White Brooch": {
+"t": "give",
+"kind": "accessory",
+"id": 232,
+"qty": 1
+},
+"Accessory: Warped White Brooch": {
+"t": "give",
+"kind": "accessory",
+"id": 233,
+"qty": 1
+},
+"Accessory: Chipped Black Brooch": {
+"t": "give",
+"kind": "accessory",
+"id": 234,
+"qty": 1
+},
+"Accessory: Warped Black Brooch": {
+"t": "give",
+"kind": "accessory",
+"id": 235,
+"qty": 1
+},
+"Accessory: Mint Potpourri": {
+"t": "give",
+"kind": "accessory",
+"id": 236,
+"qty": 1
+},
+"Accessory: Lavender Potpourri": {
+"t": "give",
+"kind": "accessory",
+"id": 237,
+"qty": 1
+},
+"Accessory: Incense of Calm": {
+"t": "give",
+"kind": "accessory",
+"id": 238,
+"qty": 1
+},
+"Accessory: Incense of Elegance": {
+"t": "give",
+"kind": "accessory",
+"id": 239,
+"qty": 1
+},
+"Accessory: Nopon Doll": {
+"t": "give",
+"kind": "accessory",
+"id": 240,
+"qty": 1
+},
+"Accessory: Auto-Balancer": {
+"t": "give",
+"kind": "accessory",
+"id": 241,
+"qty": 1
+},
+"Accessory: Legendary Biter": {
+"t": "give",
+"kind": "accessory",
+"id": 242,
+"qty": 1
+},
+"Accessory: Mercy Earring": {
+"t": "give",
+"kind": "accessory",
+"id": 272,
+"qty": 1
+},
+"Accessory: Fighting Headband": {
+"t": "give",
+"kind": "accessory",
+"id": 273,
+"qty": 1
+},
+"Accessory: Glass Memory": {
+"t": "give",
+"kind": "accessory",
+"id": 274,
+"qty": 1
+},
+"Accessory: Emergency Bandana": {
+"t": "give",
+"kind": "accessory",
+"id": 275,
+"qty": 1
+},
+"Accessory: Rigid Support": {
+"t": "give",
+"kind": "accessory",
+"id": 276,
+"qty": 1
+},
+"Accessory: Expansion Holder": {
+"t": "give",
+"kind": "accessory",
+"id": 277,
+"qty": 1
+},
+"Accessory: Shell Necklace": {
+"t": "give",
+"kind": "accessory",
+"id": 278,
+"qty": 1
+},
+"Accessory: Nopon Strap": {
+"t": "give",
+"kind": "accessory",
+"id": 279,
+"qty": 1
+},
+"Accessory: Bond Fragment": {
+"t": "give",
+"kind": "accessory",
+"id": 746,
+"qty": 1
+},
+"Accessory: Bond Crystal": {
+"t": "give",
+"kind": "accessory",
+"id": 749,
+"qty": 1
+},
+"Accessory: Wing Necklace": {
+"t": "give",
+"kind": "accessory",
+"id": 752,
+"qty": 1
+},
+"Accessory: Devotional Necklace": {
+"t": "give",
+"kind": "accessory",
+"id": 755,
+"qty": 1
+},
+"Accessory: Wind Bracelet": {
+"t": "give",
+"kind": "accessory",
+"id": 758,
+"qty": 1
+},
+"Accessory: Gust Bracelet": {
+"t": "give",
+"kind": "accessory",
+"id": 761,
+"qty": 1
+},
+"Accessory: Scholar Necklace": {
+"t": "give",
+"kind": "accessory",
+"id": 764,
+"qty": 1
+},
+"Accessory: Mastery Necklace": {
+"t": "give",
+"kind": "accessory",
+"id": 765,
+"qty": 1
+},
+"Accessory: Monastic Necklace": {
+"t": "give",
+"kind": "accessory",
+"id": 766,
+"qty": 1
+},
+"Accessory: Analyzer Scope": {
+"t": "give",
+"kind": "accessory",
+"id": 767,
+"qty": 1
+},
+"Accessory: Lunae Rings": {
+"t": "give",
+"kind": "accessory",
+"id": 768,
+"qty": 1
+},
+"Accessory: Martis Rings": {
+"t": "give",
+"kind": "accessory",
+"id": 769,
+"qty": 1
+},
+"Accessory: Mercurii Rings": {
+"t": "give",
+"kind": "accessory",
+"id": 770,
+"qty": 1
+},
+"Accessory: Iovis Rings": {
+"t": "give",
+"kind": "accessory",
+"id": 771,
+"qty": 1
+},
+"Accessory: Veneris Rings": {
+"t": "give",
+"kind": "accessory",
+"id": 772,
+"qty": 1
+},
+"Accessory: Saturni Rings": {
+"t": "give",
+"kind": "accessory",
+"id": 773,
+"qty": 1
+},
+"Accessory: Solis Rings": {
+"t": "give",
+"kind": "accessory",
+"id": 774,
+"qty": 1
+},
+"Progressive Affinity: Colony 9": {
+"t": "affinity_cap",
+"flag": 1913,
+"levels": [
+100,
+1000,
+2000,
+4000,
+8000
+]
+},
+"Progressive Affinity: Colony Gamma": {
+"t": "affinity_cap",
+"flag": 1914,
+"levels": [
+100,
+1000,
+2000,
+4000,
+8000
+]
+},
+"Progressive Affinity: Colony 0": {
+"t": "affinity_cap",
+"flag": 1915,
+"levels": [
+100,
+1000,
+2000,
+4000,
+8000
+]
+},
+"Progressive Affinity: Colony 4": {
+"t": "affinity_cap",
+"flag": 1916,
+"levels": [
+10,
+1000,
+2000,
+4000,
+8000
+]
+},
+"Progressive Affinity: Colony 30": {
+"t": "affinity_cap",
+"flag": 1917,
+"levels": [
+100,
+1000,
+2000,
+4000,
+8000
+]
+},
+"Progressive Affinity: Colony Iota": {
+"t": "affinity_cap",
+"flag": 1918,
+"levels": [
+100,
+1000,
+2000,
+4000,
+8000
+]
+},
+"Progressive Affinity: Colony Lambda": {
+"t": "affinity_cap",
+"flag": 1919,
+"levels": [
+100,
+1000,
+2000,
+4000,
+8000
+]
+},
+"Progressive Affinity: Colony Tau": {
+"t": "affinity_cap",
+"flag": 1920,
+"levels": [
+100,
+1000,
+2000,
+4000,
+8000
+]
+},
+"Progressive Affinity: Colony 11": {
+"t": "affinity_cap",
+"flag": 1921,
+"levels": [
+100,
+1000,
+2000,
+4000,
+8000
+]
+},
+"Progressive Affinity: Keves Castle": {
+"t": "affinity_cap",
+"flag": 1922,
+"levels": [
+100,
+1000,
+2000,
+4000,
+8000
+]
+},
+"Progressive Affinity: Colony 15": {
+"t": "affinity_cap",
+"flag": 1923,
+"levels": [
+100,
+1000,
+2000,
+4000,
+8000
+]
+},
+"Progressive Affinity: Colony Mu": {
+"t": "affinity_cap",
+"flag": 1924,
+"levels": [
+100,
+1000,
+2000,
+4000,
+8000
+]
+},
+"Progressive Affinity: Agnus Castle": {
+"t": "affinity_cap",
+"flag": 1925,
+"levels": [
+100,
+1000,
+2000,
+4000,
+8000
+]
+},
+"Progressive Affinity: City": {
+"t": "affinity_cap",
+"flag": 1926,
+"levels": [
+100,
+1000,
+2000,
+4000,
+8000
+]
+},
+"Progressive Affinity: Nopon Caravans": {
+"t": "affinity_cap",
+"flag": 1927,
+"levels": [
+100,
+1000,
+2000,
+4000,
+8000
+]
+},
+"Progressive Story Quest": {
+"t": "story_gate",
+"beats": [
+{
+"chapter": 1,
+"task": 5,
+"flag_type": 1,
+"flag_id": 1,
+"label": "Chapter 1 Story Beat 5"
+},
+{
+"chapter": 1,
+"task": 6,
+"flag_type": 2,
+"flag_id": 34,
+"label": "Chapter 1 Story Beat 6"
+},
+{
+"chapter": 1,
+"task": 7,
+"flag_type": 2,
+"flag_id": 36,
+"label": "Chapter 1 Story Beat 7"
+},
+{
+"chapter": 1,
+"task": 8,
+"flag_type": 2,
+"flag_id": 39,
+"label": "Chapter 1 Story Beat 8"
+},
+{
+"chapter": 1,
+"task": 9,
+"flag_type": 2,
+"flag_id": 40,
+"label": "Chapter 1 Story Beat 9"
+},
+{
+"chapter": 1,
+"task": 10,
+"flag_type": 2,
+"flag_id": 41,
+"label": "Chapter 1 Story Beat 10"
+},
+{
+"chapter": 1,
+"task": 12,
+"flag_type": 2,
+"flag_id": 43,
+"label": "Chapter 1 Story Beat 12"
+},
+{
+"chapter": 1,
+"task": 14,
+"flag_type": 2,
+"flag_id": 46,
+"label": "Chapter 1 Story Beat 14"
+},
+{
+"chapter": 1,
+"task": 15,
+"flag_type": 2,
+"flag_id": 47,
+"label": "Chapter 1 Story Beat 15"
+},
+{
+"chapter": 1,
+"task": 16,
+"flag_type": 2,
+"flag_id": 49,
+"label": "Chapter 1 Story Beat 16"
+},
+{
+"chapter": 1,
+"task": 17,
+"flag_type": 2,
+"flag_id": 51,
+"label": "Chapter 1 Story Beat 17"
+},
+{
+"chapter": 1,
+"task": 18,
+"flag_type": 2,
+"flag_id": 53,
+"label": "Chapter 1 Story Beat 18"
+},
+{
+"chapter": 1,
+"task": 19,
+"flag_type": 2,
+"flag_id": 54,
+"label": "Chapter 1 Story Beat 19"
+},
+{
+"chapter": 1,
+"task": 20,
+"flag_type": 2,
+"flag_id": 55,
+"label": "Chapter 1 Story Beat 20"
+},
+{
+"chapter": 1,
+"task": 21,
+"flag_type": 2,
+"flag_id": 57,
+"label": "Chapter 1 Story Beat 21"
+},
+{
+"chapter": 1,
+"task": 22,
+"flag_type": 2,
+"flag_id": 59,
+"label": "Chapter 1 Story Beat 22"
+},
+{
+"chapter": 1,
+"task": 24,
+"flag_type": 2,
+"flag_id": 65,
+"label": "Chapter 1 Story Beat 24"
+},
+{
+"chapter": 1,
+"task": 25,
+"flag_type": 2,
+"flag_id": 67,
+"label": "Chapter 1 Story Beat 25"
+},
+{
+"chapter": 1,
+"task": 27,
+"flag_type": 2,
+"flag_id": 69,
+"label": "Chapter 1 Story Beat 27"
+},
+{
+"chapter": 1,
+"task": 28,
+"flag_type": 2,
+"flag_id": 70,
+"label": "Chapter 1 Story Beat 28"
+},
+{
+"chapter": 1,
+"task": 29,
+"flag_type": 2,
+"flag_id": 203,
+"label": "Chapter 1 Story Beat 29"
+},
+{
+"chapter": 1,
+"task": 30,
+"flag_type": 2,
+"flag_id": 205,
+"label": "Chapter 1 Story Beat 30"
+},
+{
+"chapter": 1,
+"task": 31,
+"flag_type": 2,
+"flag_id": 206,
+"label": "Chapter 1 Story Beat 31"
+},
+{
+"chapter": 1,
+"task": 32,
+"flag_type": 2,
+"flag_id": 207,
+"label": "Chapter 1 Story Beat 32"
+},
+{
+"chapter": 1,
+"task": 33,
+"flag_type": 2,
+"flag_id": 210,
+"label": "Chapter 1 Story Beat 33"
+},
+{
+"chapter": 1,
+"task": 35,
+"flag_type": 2,
+"flag_id": 75,
+"label": "Chapter 1 Story Beat 35"
+},
+{
+"chapter": 1,
+"task": 36,
+"flag_type": 2,
+"flag_id": 76,
+"label": "Chapter 1 Story Beat 36"
+},
+{
+"chapter": 2,
+"task": 37,
+"flag_type": 2,
+"flag_id": 77,
+"label": "Chapter 2 Story Beat 37"
+},
+{
+"chapter": 2,
+"task": 38,
+"flag_type": 2,
+"flag_id": 79,
+"label": "Chapter 2 Story Beat 38"
+},
+{
+"chapter": 2,
+"task": 42,
+"flag_type": 2,
+"flag_id": 83,
+"label": "Chapter 2 Story Beat 42"
+},
+{
+"chapter": 2,
+"task": 43,
+"flag_type": 2,
+"flag_id": 87,
+"label": "Chapter 2 Story Beat 43"
+},
+{
+"chapter": 2,
+"task": 44,
+"flag_type": 2,
+"flag_id": 88,
+"label": "Chapter 2 Story Beat 44"
+},
+{
+"chapter": 2,
+"task": 45,
+"flag_type": 2,
+"flag_id": 89,
+"label": "Chapter 2 Story Beat 45"
+},
+{
+"chapter": 2,
+"task": 47,
+"flag_type": 2,
+"flag_id": 95,
+"label": "Chapter 2 Story Beat 47"
+},
+{
+"chapter": 2,
+"task": 48,
+"flag_type": 2,
+"flag_id": 96,
+"label": "Chapter 2 Story Beat 48"
+},
+{
+"chapter": 2,
+"task": 49,
+"flag_type": 2,
+"flag_id": 98,
+"label": "Chapter 2 Story Beat 49"
+},
+{
+"chapter": 2,
+"task": 51,
+"flag_type": 1,
+"flag_id": 13972,
+"label": "Chapter 2 Story Beat 51"
+},
+{
+"chapter": 2,
+"task": 52,
+"flag_type": 2,
+"flag_id": 100,
+"label": "Chapter 2 Story Beat 52"
+},
+{
+"chapter": 2,
+"task": 53,
+"flag_type": 2,
+"flag_id": 102,
+"label": "Chapter 2 Story Beat 53"
+},
+{
+"chapter": 2,
+"task": 54,
+"flag_type": 2,
+"flag_id": 103,
+"label": "Chapter 2 Story Beat 54"
+},
+{
+"chapter": 2,
+"task": 55,
+"flag_type": 2,
+"flag_id": 104,
+"label": "Chapter 2 Story Beat 55"
+},
+{
+"chapter": 2,
+"task": 56,
+"flag_type": 2,
+"flag_id": 105,
+"label": "Chapter 2 Story Beat 56"
+},
+{
+"chapter": 3,
+"task": 57,
+"flag_type": 2,
+"flag_id": 107,
+"label": "Chapter 3 Story Beat 57"
+},
+{
+"chapter": 3,
+"task": 58,
+"flag_type": 2,
+"flag_id": 108,
+"label": "Chapter 3 Story Beat 58"
+},
+{
+"chapter": 3,
+"task": 63,
+"flag_type": 2,
+"flag_id": 119,
+"label": "Chapter 3 Story Beat 63"
+},
+{
+"chapter": 3,
+"task": 64,
+"flag_type": 2,
+"flag_id": 120,
+"label": "Chapter 3 Story Beat 64"
+},
+{
+"chapter": 3,
+"task": 65,
+"flag_type": 2,
+"flag_id": 121,
+"label": "Chapter 3 Story Beat 65"
+},
+{
+"chapter": 3,
+"task": 67,
+"flag_type": 2,
+"flag_id": 124,
+"label": "Chapter 3 Story Beat 67"
+},
+{
+"chapter": 3,
+"task": 68,
+"flag_type": 2,
+"flag_id": 129,
+"label": "Chapter 3 Story Beat 68"
+},
+{
+"chapter": 3,
+"task": 69,
+"flag_type": 2,
+"flag_id": 130,
+"label": "Chapter 3 Story Beat 69"
+},
+{
+"chapter": 3,
+"task": 70,
+"flag_type": 2,
+"flag_id": 131,
+"label": "Chapter 3 Story Beat 70"
+},
+{
+"chapter": 3,
+"task": 71,
+"flag_type": 2,
+"flag_id": 132,
+"label": "Chapter 3 Story Beat 71"
+},
+{
+"chapter": 3,
+"task": 73,
+"flag_type": 2,
+"flag_id": 135,
+"label": "Chapter 3 Story Beat 73"
+},
+{
+"chapter": 3,
+"task": 74,
+"flag_type": 2,
+"flag_id": 136,
+"label": "Chapter 3 Story Beat 74"
+},
+{
+"chapter": 3,
+"task": 75,
+"flag_type": 2,
+"flag_id": 137,
+"label": "Chapter 3 Story Beat 75"
+},
+{
+"chapter": 3,
+"task": 77,
+"flag_type": 2,
+"flag_id": 139,
+"label": "Chapter 3 Story Beat 77"
+},
+{
+"chapter": 3,
+"task": 78,
+"flag_type": 2,
+"flag_id": 140,
+"label": "Chapter 3 Story Beat 78"
+},
+{
+"chapter": 3,
+"task": 79,
+"flag_type": 2,
+"flag_id": 141,
+"label": "Chapter 3 Story Beat 79"
+},
+{
+"chapter": 3,
+"task": 80,
+"flag_type": 2,
+"flag_id": 143,
+"label": "Chapter 3 Story Beat 80"
+},
+{
+"chapter": 3,
+"task": 81,
+"flag_type": 2,
+"flag_id": 144,
+"label": "Chapter 3 Story Beat 81"
+},
+{
+"chapter": 3,
+"task": 82,
+"flag_type": 2,
+"flag_id": 199,
+"label": "Chapter 3 Story Beat 82"
+},
+{
+"chapter": 3,
+"task": 83,
+"flag_type": 2,
+"flag_id": 202,
+"label": "Chapter 3 Story Beat 83"
+},
+{
+"chapter": 3,
+"task": 84,
+"flag_type": 2,
+"flag_id": 213,
+"label": "Chapter 3 Story Beat 84"
+},
+{
+"chapter": 4,
+"task": 87,
+"flag_type": 2,
+"flag_id": 198,
+"label": "Chapter 4 Story Beat 87"
+},
+{
+"chapter": 4,
+"task": 88,
+"flag_type": 2,
+"flag_id": 200,
+"label": "Chapter 4 Story Beat 88"
+},
+{
+"chapter": 4,
+"task": 90,
+"flag_type": 2,
+"flag_id": 151,
+"label": "Chapter 4 Story Beat 90"
+},
+{
+"chapter": 4,
+"task": 91,
+"flag_type": 2,
+"flag_id": 152,
+"label": "Chapter 4 Story Beat 91"
+},
+{
+"chapter": 4,
+"task": 92,
+"flag_type": 2,
+"flag_id": 153,
+"label": "Chapter 4 Story Beat 92"
+},
+{
+"chapter": 4,
+"task": 93,
+"flag_type": 2,
+"flag_id": 154,
+"label": "Chapter 4 Story Beat 93"
+},
+{
+"chapter": 4,
+"task": 97,
+"flag_type": 2,
+"flag_id": 156,
+"label": "Chapter 4 Story Beat 97"
+},
+{
+"chapter": 4,
+"task": 100,
+"flag_type": 2,
+"flag_id": 212,
+"label": "Chapter 4 Story Beat 100"
+},
+{
+"chapter": 4,
+"task": 101,
+"flag_type": 2,
+"flag_id": 216,
+"label": "Chapter 4 Story Beat 101"
+},
+{
+"chapter": 4,
+"task": 102,
+"flag_type": 2,
+"flag_id": 218,
+"label": "Chapter 4 Story Beat 102"
+},
+{
+"chapter": 4,
+"task": 103,
+"flag_type": 2,
+"flag_id": 221,
+"label": "Chapter 4 Story Beat 103"
+},
+{
+"chapter": 4,
+"task": 104,
+"flag_type": 2,
+"flag_id": 223,
+"label": "Chapter 4 Story Beat 104"
+},
+{
+"chapter": 4,
+"task": 105,
+"flag_type": 2,
+"flag_id": 192,
+"label": "Chapter 4 Story Beat 105"
+},
+{
+"chapter": 4,
+"task": 106,
+"flag_type": 2,
+"flag_id": 193,
+"label": "Chapter 4 Story Beat 106"
+},
+{
+"chapter": 4,
+"task": 107,
+"flag_type": 2,
+"flag_id": 194,
+"label": "Chapter 4 Story Beat 107"
+},
+{
+"chapter": 4,
+"task": 108,
+"flag_type": 2,
+"flag_id": 195,
+"label": "Chapter 4 Story Beat 108"
+},
+{
+"chapter": 4,
+"task": 109,
+"flag_type": 1,
+"flag_id": 5368,
+"label": "Chapter 4 Story Beat 109"
+},
+{
+"chapter": 4,
+"task": 110,
+"flag_type": 1,
+"flag_id": 23894,
+"label": "Chapter 4 Story Beat 110"
+},
+{
+"chapter": 4,
+"task": 111,
+"flag_type": 1,
+"flag_id": 23894,
+"label": "Chapter 4 Story Beat 111"
+},
+{
+"chapter": 4,
+"task": 112,
+"flag_type": 1,
+"flag_id": 23894,
+"label": "Chapter 4 Story Beat 112"
+},
+{
+"chapter": 4,
+"task": 113,
+"flag_type": 1,
+"flag_id": 23894,
+"label": "Chapter 4 Story Beat 113"
+},
+{
+"chapter": 4,
+"task": 114,
+"flag_type": 1,
+"flag_id": 2,
+"label": "Chapter 4 Story Beat 114"
+},
+{
+"chapter": 4,
+"task": 115,
+"flag_type": 1,
+"flag_id": 21588,
+"label": "Chapter 4 Story Beat 115"
+},
+{
+"chapter": 4,
+"task": 116,
+"flag_type": 1,
+"flag_id": 3613,
+"label": "Chapter 4 Story Beat 116"
+},
+{
+"chapter": 5,
+"task": 117,
+"flag_type": 1,
+"flag_id": 3614,
+"label": "Chapter 5 Story Beat 117"
+},
+{
+"chapter": 5,
+"task": 118,
+"flag_type": 1,
+"flag_id": 3615,
+"label": "Chapter 5 Story Beat 118"
+},
+{
+"chapter": 5,
+"task": 119,
+"flag_type": 1,
+"flag_id": 3616,
+"label": "Chapter 5 Story Beat 119"
+},
+{
+"chapter": 5,
+"task": 120,
+"flag_type": 1,
+"flag_id": 3617,
+"label": "Chapter 5 Story Beat 120"
+},
+{
+"chapter": 5,
+"task": 121,
+"flag_type": 1,
+"flag_id": 3618,
+"label": "Chapter 5 Story Beat 121"
+},
+{
+"chapter": 5,
+"task": 122,
+"flag_type": 1,
+"flag_id": 3619,
+"label": "Chapter 5 Story Beat 122"
+},
+{
+"chapter": 5,
+"task": 123,
+"flag_type": 1,
+"flag_id": 3620,
+"label": "Chapter 5 Story Beat 123"
+},
+{
+"chapter": 5,
+"task": 124,
+"flag_type": 1,
+"flag_id": 3621,
+"label": "Chapter 5 Story Beat 124"
+},
+{
+"chapter": 5,
+"task": 125,
+"flag_type": 1,
+"flag_id": 3622,
+"label": "Chapter 5 Story Beat 125"
+},
+{
+"chapter": 5,
+"task": 126,
+"flag_type": 1,
+"flag_id": 3623,
+"label": "Chapter 5 Story Beat 126"
+},
+{
+"chapter": 5,
+"task": 127,
+"flag_type": 1,
+"flag_id": 3624,
+"label": "Chapter 5 Story Beat 127"
+},
+{
+"chapter": 5,
+"task": 128,
+"flag_type": 1,
+"flag_id": 3625,
+"label": "Chapter 5 Story Beat 128"
+},
+{
+"chapter": 5,
+"task": 129,
+"flag_type": 1,
+"flag_id": 3626,
+"label": "Chapter 5 Story Beat 129"
+},
+{
+"chapter": 5,
+"task": 131,
+"flag_type": 1,
+"flag_id": 3628,
+"label": "Chapter 5 Story Beat 131"
+},
+{
+"chapter": 5,
+"task": 133,
+"flag_type": 1,
+"flag_id": 3630,
+"label": "Chapter 5 Story Beat 133"
+},
+{
+"chapter": 5,
+"task": 134,
+"flag_type": 1,
+"flag_id": 3631,
+"label": "Chapter 5 Story Beat 134"
+},
+{
+"chapter": 5,
+"task": 137,
+"flag_type": 1,
+"flag_id": 3634,
+"label": "Chapter 5 Story Beat 137"
+},
+{
+"chapter": 5,
+"task": 138,
+"flag_type": 1,
+"flag_id": 3635,
+"label": "Chapter 5 Story Beat 138"
+},
+{
+"chapter": 5,
+"task": 139,
+"flag_type": 1,
+"flag_id": 3636,
+"label": "Chapter 5 Story Beat 139"
+},
+{
+"chapter": 5,
+"task": 140,
+"flag_type": 1,
+"flag_id": 3637,
+"label": "Chapter 5 Story Beat 140"
+},
+{
+"chapter": 5,
+"task": 144,
+"flag_type": 1,
+"flag_id": 3641,
+"label": "Chapter 5 Story Beat 144"
+},
+{
+"chapter": 5,
+"task": 147,
+"flag_type": 1,
+"flag_id": 3644,
+"label": "Chapter 5 Story Beat 147"
+},
+{
+"chapter": 5,
+"task": 151,
+"flag_type": 1,
+"flag_id": 3648,
+"label": "Chapter 5 Story Beat 151"
+},
+{
+"chapter": 5,
+"task": 153,
+"flag_type": 1,
+"flag_id": 3646,
+"label": "Chapter 5 Story Beat 153"
+},
+{
+"chapter": 5,
+"task": 155,
+"flag_type": 1,
+"flag_id": 3648,
+"label": "Chapter 5 Story Beat 155"
+},
+{
+"chapter": 5,
+"task": 156,
+"flag_type": 1,
+"flag_id": 3632,
+"label": "Chapter 5 Story Beat 156"
+},
+{
+"chapter": 5,
+"task": 157,
+"flag_type": 1,
+"flag_id": 3633,
+"label": "Chapter 5 Story Beat 157"
+},
+{
+"chapter": 5,
+"task": 158,
+"flag_type": 1,
+"flag_id": 3649,
+"label": "Chapter 5 Story Beat 158"
+},
+{
+"chapter": 5,
+"task": 159,
+"flag_type": 1,
+"flag_id": 3650,
+"label": "Chapter 5 Story Beat 159"
+},
+{
+"chapter": 5,
+"task": 160,
+"flag_type": 1,
+"flag_id": 3651,
+"label": "Chapter 5 Story Beat 160"
+},
+{
+"chapter": 5,
+"task": 161,
+"flag_type": 1,
+"flag_id": 3652,
+"label": "Chapter 5 Story Beat 161"
+},
+{
+"chapter": 5,
+"task": 162,
+"flag_type": 1,
+"flag_id": 3653,
+"label": "Chapter 5 Story Beat 162"
+},
+{
+"chapter": 5,
+"task": 238,
+"flag_type": 1,
+"flag_id": 13940,
+"label": "Chapter 5 Story Beat 238"
+},
+{
+"chapter": 6,
+"task": 163,
+"flag_type": 1,
+"flag_id": 3654,
+"label": "Chapter 6 Story Beat 163"
+},
+{
+"chapter": 6,
+"task": 164,
+"flag_type": 1,
+"flag_id": 3655,
+"label": "Chapter 6 Story Beat 164"
+},
+{
+"chapter": 6,
+"task": 165,
+"flag_type": 1,
+"flag_id": 3653,
+"label": "Chapter 6 Story Beat 165"
+},
+{
+"chapter": 6,
+"task": 166,
+"flag_type": 1,
+"flag_id": 3654,
+"label": "Chapter 6 Story Beat 166"
+},
+{
+"chapter": 6,
+"task": 167,
+"flag_type": 1,
+"flag_id": 3655,
+"label": "Chapter 6 Story Beat 167"
+},
+{
+"chapter": 6,
+"task": 168,
+"flag_type": 1,
+"flag_id": 3656,
+"label": "Chapter 6 Story Beat 168"
+},
+{
+"chapter": 6,
+"task": 169,
+"flag_type": 1,
+"flag_id": 3657,
+"label": "Chapter 6 Story Beat 169"
+},
+{
+"chapter": 6,
+"task": 170,
+"flag_type": 1,
+"flag_id": 3658,
+"label": "Chapter 6 Story Beat 170"
+},
+{
+"chapter": 6,
+"task": 171,
+"flag_type": 1,
+"flag_id": 3657,
+"label": "Chapter 6 Story Beat 171"
+},
+{
+"chapter": 6,
+"task": 173,
+"flag_type": 1,
+"flag_id": 3659,
+"label": "Chapter 6 Story Beat 173"
+},
+{
+"chapter": 6,
+"task": 174,
+"flag_type": 1,
+"flag_id": 3660,
+"label": "Chapter 6 Story Beat 174"
+},
+{
+"chapter": 6,
+"task": 179,
+"flag_type": 2,
+"flag_id": 3947,
+"label": "Chapter 6 Story Beat 179"
+},
+{
+"chapter": 6,
+"task": 180,
+"flag_type": 2,
+"flag_id": 3947,
+"label": "Chapter 6 Story Beat 180"
+},
+{
+"chapter": 7,
+"task": 181,
+"flag_type": 1,
+"flag_id": 3661,
+"label": "Chapter 7 Story Beat 181"
+},
+{
+"chapter": 7,
+"task": 188,
+"flag_type": 1,
+"flag_id": 3663,
+"label": "Chapter 7 Story Beat 188"
+},
+{
+"chapter": 7,
+"task": 189,
+"flag_type": 1,
+"flag_id": 3912,
+"label": "Chapter 7 Story Beat 189"
+},
+{
+"chapter": 7,
+"task": 190,
+"flag_type": 1,
+"flag_id": 3912,
+"label": "Chapter 7 Story Beat 190"
+},
+{
+"chapter": 7,
+"task": 191,
+"flag_type": 1,
+"flag_id": 3664,
+"label": "Chapter 7 Story Beat 191"
+},
+{
+"chapter": 7,
+"task": 193,
+"flag_type": 1,
+"flag_id": 3665,
+"label": "Chapter 7 Story Beat 193"
+},
+{
+"chapter": 7,
+"task": 195,
+"flag_type": 1,
+"flag_id": 3650,
+"label": "Chapter 7 Story Beat 195"
+},
+{
+"chapter": 7,
+"task": 196,
+"flag_type": 1,
+"flag_id": 3651,
+"label": "Chapter 7 Story Beat 196"
+}
+]
+},
+"Zeon": {
+"t": "give",
+"kind": "precious",
+"id": 16150,
+"qty": 1
+},
+"Gray": {
+"t": "give",
+"kind": "precious",
+"id": 16151,
+"qty": 1
+},
+"Riku & Manana": {
+"t": "give",
+"kind": "precious",
+"id": 16152,
+"qty": 1
+},
+"Teach": {
+"t": "give",
+"kind": "precious",
+"id": 16153,
+"qty": 1
+},
+"Isurd": {
+"t": "give",
+"kind": "precious",
+"id": 16154,
+"qty": 1
+},
+"Ashera": {
+"t": "give",
+"kind": "precious",
+"id": 16155,
+"qty": 1
+},
+"Monica": {
+"t": "give",
+"kind": "precious",
+"id": 16156,
+"qty": 1
+},
+"Miyabi": {
+"t": "give",
+"kind": "precious",
+"id": 16157,
+"qty": 1
+},
+"Valdi": {
+"t": "give",
+"kind": "precious",
+"id": 16158,
+"qty": 1
+},
+"Alexandria": {
+"t": "give",
+"kind": "precious",
+"id": 16159,
+"qty": 1
+},
+"Fiona": {
+"t": "give",
+"kind": "precious",
+"id": 16160,
+"qty": 1
+},
+"Ghondor": {
+"t": "give",
+"kind": "precious",
+"id": 16161,
+"qty": 1
+},
+"Triton": {
+"t": "give",
+"kind": "precious",
+"id": 16162,
+"qty": 1
+}
+}
+}

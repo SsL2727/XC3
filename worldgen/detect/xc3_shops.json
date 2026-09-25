@@ -1,0 +1,1471 @@
+{
+"placeholder_base": 777,
+"shops": [
+{
+"table": 2,
+"name": "Colony 9 Commissary",
+"region": "Yzana Plains",
+"slots": [
+{
+"col": "ShopItem2",
+"orig": 20,
+"n": 0
+},
+{
+"col": "ShopItem3",
+"orig": 76,
+"n": 1
+},
+{
+"col": "ShopItem4",
+"orig": 84,
+"n": 2
+},
+{
+"col": "ShopItem5",
+"orig": 94,
+"n": 3
+},
+{
+"col": "ShopItem6",
+"orig": 98,
+"n": 4
+},
+{
+"col": "ShopItem7",
+"orig": 110,
+"n": 5
+},
+{
+"col": "ShopItem8",
+"orig": 153,
+"n": 6
+},
+{
+"col": "ShopItem9",
+"orig": 226,
+"n": 7
+}
+]
+},
+{
+"table": 3,
+"name": "Colony 9 Commissary (2)",
+"region": "Yzana Plains",
+"slots": [
+{
+"col": "ShopItem2",
+"orig": 20,
+"n": 8
+},
+{
+"col": "ShopItem3",
+"orig": 76,
+"n": 9
+},
+{
+"col": "ShopItem4",
+"orig": 84,
+"n": 10
+},
+{
+"col": "ShopItem5",
+"orig": 94,
+"n": 11
+},
+{
+"col": "ShopItem6",
+"orig": 98,
+"n": 12
+},
+{
+"col": "ShopItem7",
+"orig": 110,
+"n": 13
+},
+{
+"col": "ShopItem8",
+"orig": 153,
+"n": 14
+},
+{
+"col": "ShopItem9",
+"orig": 226,
+"n": 15
+}
+]
+},
+{
+"table": 4,
+"name": "Colony 9 Caravan",
+"region": "Yzana Plains",
+"slots": [
+{
+"col": "ShopItem1",
+"orig": 2006,
+"n": 16
+},
+{
+"col": "ShopItem2",
+"orig": 2007,
+"n": 17
+},
+{
+"col": "ShopItem3",
+"orig": 2011,
+"n": 18
+},
+{
+"col": "ShopItem4",
+"orig": 2031,
+"n": 19
+},
+{
+"col": "ShopItem5",
+"orig": 2033,
+"n": 20
+},
+{
+"col": "ShopItem6",
+"orig": 2015,
+"n": 21
+},
+{
+"col": "ShopItem7",
+"orig": 2014,
+"n": 22
+}
+]
+},
+{
+"table": 5,
+"name": "Gamma Commissary",
+"region": "Alfeto Valley",
+"slots": [
+{
+"col": "ShopItem2",
+"orig": 48,
+"n": 23
+},
+{
+"col": "ShopItem3",
+"orig": 144,
+"n": 24
+},
+{
+"col": "ShopItem4",
+"orig": 162,
+"n": 25
+},
+{
+"col": "ShopItem5",
+"orig": 227,
+"n": 26
+}
+]
+},
+{
+"table": 6,
+"name": "Colony Gamma Caravan",
+"region": "Alfeto Valley",
+"slots": [
+{
+"col": "ShopItem1",
+"orig": 2035,
+"n": 27
+},
+{
+"col": "ShopItem2",
+"orig": 2008,
+"n": 28
+},
+{
+"col": "ShopItem3",
+"orig": 2019,
+"n": 29
+},
+{
+"col": "ShopItem4",
+"orig": 2016,
+"n": 30
+},
+{
+"col": "ShopItem5",
+"orig": 2039,
+"n": 31
+},
+{
+"col": "ShopItem6",
+"orig": 2023,
+"n": 32
+}
+]
+},
+{
+"table": 8,
+"name": "Hilltop Caravan",
+"region": "Alfeto Valley",
+"slots": [
+{
+"col": "ShopItem2",
+"orig": 51,
+"n": 33
+},
+{
+"col": "ShopItem3",
+"orig": 108,
+"n": 34
+},
+{
+"col": "ShopItem4",
+"orig": 113,
+"n": 35
+},
+{
+"col": "ShopItem5",
+"orig": 180,
+"n": 36
+},
+{
+"col": "ShopItem6",
+"orig": 202,
+"n": 37
+},
+{
+"col": "ShopItem7",
+"orig": 223,
+"n": 38
+},
+{
+"col": "ShopItem8",
+"orig": 752,
+"n": 39
+}
+]
+},
+{
+"table": 9,
+"name": "Battlescar Caravan",
+"region": "Everblight Plain",
+"slots": [
+{
+"col": "ShopItem2",
+"orig": 30,
+"n": 40
+},
+{
+"col": "ShopItem3",
+"orig": 47,
+"n": 41
+},
+{
+"col": "ShopItem4",
+"orig": 55,
+"n": 42
+},
+{
+"col": "ShopItem5",
+"orig": 118,
+"n": 43
+},
+{
+"col": "ShopItem6",
+"orig": 130,
+"n": 44
+},
+{
+"col": "ShopItem7",
+"orig": 140,
+"n": 45
+},
+{
+"col": "ShopItem8",
+"orig": 237,
+"n": 46
+},
+{
+"col": "ShopItem9",
+"orig": 239,
+"n": 47
+}
+]
+},
+{
+"table": 49,
+"name": "Peak Caravan",
+"region": "Captocorn Peak",
+"slots": [
+{
+"col": "ShopItem2",
+"orig": 14,
+"n": 48
+},
+{
+"col": "ShopItem3",
+"orig": 60,
+"n": 49
+},
+{
+"col": "ShopItem4",
+"orig": 69,
+"n": 50
+},
+{
+"col": "ShopItem5",
+"orig": 104,
+"n": 51
+},
+{
+"col": "ShopItem6",
+"orig": 115,
+"n": 52
+},
+{
+"col": "ShopItem7",
+"orig": 169,
+"n": 53
+},
+{
+"col": "ShopItem8",
+"orig": 179,
+"n": 54
+},
+{
+"col": "ShopItem9",
+"orig": 187,
+"n": 55
+},
+{
+"col": "ShopItem10",
+"orig": 225,
+"n": 56
+}
+]
+},
+{
+"table": 11,
+"name": "Colony 4 Commissary",
+"region": "Eagus Wilderness",
+"slots": [
+{
+"col": "ShopItem1",
+"orig": 21,
+"n": 57
+},
+{
+"col": "ShopItem2",
+"orig": 28,
+"n": 58
+},
+{
+"col": "ShopItem3",
+"orig": 53,
+"n": 59
+},
+{
+"col": "ShopItem4",
+"orig": 77,
+"n": 60
+},
+{
+"col": "ShopItem5",
+"orig": 138,
+"n": 61
+}
+]
+},
+{
+"table": 12,
+"name": "Colony 4 Caravan",
+"region": "Eagus Wilderness",
+"slots": [
+{
+"col": "ShopItem1",
+"orig": 2077,
+"n": 62
+},
+{
+"col": "ShopItem2",
+"orig": 2098,
+"n": 63
+},
+{
+"col": "ShopItem3",
+"orig": 2105,
+"n": 64
+},
+{
+"col": "ShopItem4",
+"orig": 2108,
+"n": 65
+},
+{
+"col": "ShopItem5",
+"orig": 2112,
+"n": 66
+},
+{
+"col": "ShopItem6",
+"orig": 2118,
+"n": 67
+}
+]
+},
+{
+"table": 13,
+"name": "Colony 30 Commissary",
+"region": "Ribbi Flats",
+"slots": [
+{
+"col": "ShopItem2",
+"orig": 45,
+"n": 68
+},
+{
+"col": "ShopItem3",
+"orig": 111,
+"n": 69
+},
+{
+"col": "ShopItem4",
+"orig": 141,
+"n": 70
+},
+{
+"col": "ShopItem5",
+"orig": 154,
+"n": 71
+}
+]
+},
+{
+"table": 14,
+"name": "Colony 30 Caravan",
+"region": "Ribbi Flats",
+"slots": [
+{
+"col": "ShopItem1",
+"orig": 2078,
+"n": 72
+},
+{
+"col": "ShopItem2",
+"orig": 2088,
+"n": 73
+},
+{
+"col": "ShopItem3",
+"orig": 2107,
+"n": 74
+},
+{
+"col": "ShopItem4",
+"orig": 2100,
+"n": 75
+},
+{
+"col": "ShopItem5",
+"orig": 2111,
+"n": 76
+},
+{
+"col": "ShopItem6",
+"orig": 2101,
+"n": 77
+}
+]
+},
+{
+"table": 15,
+"name": "Colony Iota Commissary",
+"region": "Elaice Highway",
+"slots": [
+{
+"col": "ShopItem1",
+"orig": 59,
+"n": 78
+},
+{
+"col": "ShopItem2",
+"orig": 73,
+"n": 79
+},
+{
+"col": "ShopItem3",
+"orig": 100,
+"n": 80
+},
+{
+"col": "ShopItem4",
+"orig": 191,
+"n": 81
+},
+{
+"col": "ShopItem5",
+"orig": 196,
+"n": 82
+},
+{
+"col": "ShopItem6",
+"orig": 220,
+"n": 83
+}
+]
+},
+{
+"table": 16,
+"name": "Colony Iota Caravan",
+"region": "Elaice Highway",
+"slots": [
+{
+"col": "ShopItem1",
+"orig": 2102,
+"n": 84
+},
+{
+"col": "ShopItem2",
+"orig": 2103,
+"n": 85
+},
+{
+"col": "ShopItem3",
+"orig": 2096,
+"n": 86
+},
+{
+"col": "ShopItem4",
+"orig": 2106,
+"n": 87
+},
+{
+"col": "ShopItem5",
+"orig": 2109,
+"n": 88
+}
+]
+},
+{
+"table": 17,
+"name": "Tableland Caravan",
+"region": "Rae-Bel Tableland",
+"slots": [
+{
+"col": "ShopItem1",
+"orig": 122,
+"n": 89
+},
+{
+"col": "ShopItem2",
+"orig": 127,
+"n": 90
+},
+{
+"col": "ShopItem3",
+"orig": 208,
+"n": 91
+},
+{
+"col": "ShopItem4",
+"orig": 174,
+"n": 92
+},
+{
+"col": "ShopItem5",
+"orig": 217,
+"n": 93
+}
+]
+},
+{
+"table": 18,
+"name": "Desert Caravan",
+"region": "Dannagh Desert",
+"slots": [
+{
+"col": "ShopItem2",
+"orig": 16,
+"n": 94
+},
+{
+"col": "ShopItem3",
+"orig": 79,
+"n": 95
+},
+{
+"col": "ShopItem4",
+"orig": 147,
+"n": 96
+},
+{
+"col": "ShopItem5",
+"orig": 200,
+"n": 97
+}
+]
+},
+{
+"table": 19,
+"name": "Wilderness Caravan",
+"region": "Eagus Wilderness",
+"slots": [
+{
+"col": "ShopItem1",
+"orig": 67,
+"n": 98
+},
+{
+"col": "ShopItem2",
+"orig": 99,
+"n": 99
+},
+{
+"col": "ShopItem3",
+"orig": 102,
+"n": 100
+},
+{
+"col": "ShopItem4",
+"orig": 167,
+"n": 101
+},
+{
+"col": "ShopItem5",
+"orig": 177,
+"n": 102
+},
+{
+"col": "ShopItem6",
+"orig": 190,
+"n": 103
+}
+]
+},
+{
+"table": 20,
+"name": "Wilderness Caravan (2)",
+"region": "Eagus Wilderness",
+"slots": [
+{
+"col": "ShopItem1",
+"orig": 67,
+"n": 104
+},
+{
+"col": "ShopItem2",
+"orig": 99,
+"n": 105
+},
+{
+"col": "ShopItem3",
+"orig": 102,
+"n": 106
+},
+{
+"col": "ShopItem4",
+"orig": 167,
+"n": 107
+},
+{
+"col": "ShopItem5",
+"orig": 177,
+"n": 108
+},
+{
+"col": "ShopItem6",
+"orig": 190,
+"n": 109
+}
+]
+},
+{
+"table": 23,
+"name": "Lambda Commissary",
+"region": "Great Cotte Falls",
+"slots": [
+{
+"col": "ShopItem2",
+"orig": 64,
+"n": 110
+},
+{
+"col": "ShopItem3",
+"orig": 85,
+"n": 111
+},
+{
+"col": "ShopItem4",
+"orig": 95,
+"n": 112
+},
+{
+"col": "ShopItem5",
+"orig": 114,
+"n": 113
+},
+{
+"col": "ShopItem6",
+"orig": 132,
+"n": 114
+}
+]
+},
+{
+"table": 24,
+"name": "Colony Lambda Caravan",
+"region": "Great Cotte Falls",
+"slots": [
+{
+"col": "ShopItem1",
+"orig": 2161,
+"n": 115
+},
+{
+"col": "ShopItem2",
+"orig": 2162,
+"n": 116
+},
+{
+"col": "ShopItem3",
+"orig": 2172,
+"n": 117
+},
+{
+"col": "ShopItem4",
+"orig": 2186,
+"n": 118
+},
+{
+"col": "ShopItem5",
+"orig": 2182,
+"n": 119
+},
+{
+"col": "ShopItem6",
+"orig": 2187,
+"n": 120
+}
+]
+},
+{
+"table": 25,
+"name": "Colony Tau Commissary",
+"region": "High Maktha Wildwood",
+"slots": [
+{
+"col": "ShopItem1",
+"orig": 13,
+"n": 121
+},
+{
+"col": "ShopItem2",
+"orig": 52,
+"n": 122
+},
+{
+"col": "ShopItem3",
+"orig": 68,
+"n": 123
+},
+{
+"col": "ShopItem4",
+"orig": 168,
+"n": 124
+},
+{
+"col": "ShopItem5",
+"orig": 203,
+"n": 125
+},
+{
+"col": "ShopItem6",
+"orig": 224,
+"n": 126
+}
+]
+},
+{
+"table": 26,
+"name": "Colony Tau Caravan",
+"region": "High Maktha Wildwood",
+"slots": [
+{
+"col": "ShopItem1",
+"orig": 2167,
+"n": 127
+},
+{
+"col": "ShopItem2",
+"orig": 2168,
+"n": 128
+},
+{
+"col": "ShopItem3",
+"orig": 2177,
+"n": 129
+},
+{
+"col": "ShopItem4",
+"orig": 2163,
+"n": 130
+},
+{
+"col": "ShopItem5",
+"orig": 2197,
+"n": 131
+},
+{
+"col": "ShopItem6",
+"orig": 2188,
+"n": 132
+}
+]
+},
+{
+"table": 28,
+"name": "Cascade Caravan",
+"region": "Great Cotte Falls",
+"slots": [
+{
+"col": "ShopItem1",
+"orig": 35,
+"n": 133
+},
+{
+"col": "ShopItem2",
+"orig": 150,
+"n": 134
+},
+{
+"col": "ShopItem3",
+"orig": 82,
+"n": 135
+},
+{
+"col": "ShopItem4",
+"orig": 232,
+"n": 136
+},
+{
+"col": "ShopItem5",
+"orig": 87,
+"n": 137
+}
+]
+},
+{
+"table": 30,
+"name": "Clifftop Caravan",
+"region": "Urayan Trail",
+"slots": [
+{
+"col": "ShopItem1",
+"orig": 211,
+"n": 138
+},
+{
+"col": "ShopItem2",
+"orig": 105,
+"n": 139
+},
+{
+"col": "ShopItem3",
+"orig": 194,
+"n": 140
+},
+{
+"col": "ShopItem4",
+"orig": 234,
+"n": 141
+},
+{
+"col": "ShopItem5",
+"orig": 27,
+"n": 142
+}
+]
+},
+{
+"table": 32,
+"name": "Colony 11 Commissary",
+"region": "Syra Hovering Reefs",
+"slots": [
+{
+"col": "ShopItem1",
+"orig": 56,
+"n": 143
+},
+{
+"col": "ShopItem2",
+"orig": 103,
+"n": 144
+},
+{
+"col": "ShopItem3",
+"orig": 178,
+"n": 145
+},
+{
+"col": "ShopItem4",
+"orig": 181,
+"n": 146
+},
+{
+"col": "ShopItem5",
+"orig": 186,
+"n": 147
+},
+{
+"col": "ShopItem6",
+"orig": 755,
+"n": 148
+}
+]
+},
+{
+"table": 33,
+"name": "Colony 11 Caravan",
+"region": "Syra Hovering Reefs",
+"slots": [
+{
+"col": "ShopItem1",
+"orig": 2222,
+"n": 149
+},
+{
+"col": "ShopItem2",
+"orig": 2225,
+"n": 150
+},
+{
+"col": "ShopItem3",
+"orig": 2226,
+"n": 151
+},
+{
+"col": "ShopItem4",
+"orig": 2223,
+"n": 152
+},
+{
+"col": "ShopItem5",
+"orig": 2224,
+"n": 153
+}
+]
+},
+{
+"table": 34,
+"name": "O'Virbus Commissary",
+"region": "Erythia Sea",
+"slots": [
+{
+"col": "ShopItem1",
+"orig": 50,
+"n": 154
+},
+{
+"col": "ShopItem2",
+"orig": 72,
+"n": 155
+},
+{
+"col": "ShopItem3",
+"orig": 120,
+"n": 156
+},
+{
+"col": "ShopItem4",
+"orig": 229,
+"n": 157
+},
+{
+"col": "ShopItem5",
+"orig": 32,
+"n": 158
+},
+{
+"col": "ShopItem6",
+"orig": 143,
+"n": 159
+},
+{
+"col": "ShopItem7",
+"orig": 146,
+"n": 160
+},
+{
+"col": "ShopItem8",
+"orig": 160,
+"n": 161
+}
+]
+},
+{
+"table": 35,
+"name": "O'Virbus Caravan",
+"region": "Erythia Sea",
+"slots": [
+{
+"col": "ShopItem1",
+"orig": 2022,
+"n": 162
+},
+{
+"col": "ShopItem2",
+"orig": 2291,
+"n": 163
+},
+{
+"col": "ShopItem3",
+"orig": 2309,
+"n": 164
+},
+{
+"col": "ShopItem4",
+"orig": 2341,
+"n": 165
+},
+{
+"col": "ShopItem5",
+"orig": 2343,
+"n": 166
+}
+]
+},
+{
+"table": 37,
+"name": "Colony Mu Commissary",
+"region": "Erythia Sea",
+"slots": [
+{
+"col": "ShopItem2",
+"orig": 43,
+"n": 167
+},
+{
+"col": "ShopItem3",
+"orig": 49,
+"n": 168
+},
+{
+"col": "ShopItem4",
+"orig": 112,
+"n": 169
+},
+{
+"col": "ShopItem5",
+"orig": 117,
+"n": 170
+},
+{
+"col": "ShopItem6",
+"orig": 119,
+"n": 171
+},
+{
+"col": "ShopItem7",
+"orig": 155,
+"n": 172
+},
+{
+"col": "ShopItem8",
+"orig": 228,
+"n": 173
+},
+{
+"col": "ShopItem9",
+"orig": 236,
+"n": 174
+}
+]
+},
+{
+"table": 38,
+"name": "Colony Mu Caravan",
+"region": "Erythia Sea",
+"slots": [
+{
+"col": "ShopItem1",
+"orig": 2259,
+"n": 175
+},
+{
+"col": "ShopItem2",
+"orig": 2256,
+"n": 176
+},
+{
+"col": "ShopItem3",
+"orig": 2277,
+"n": 177
+},
+{
+"col": "ShopItem4",
+"orig": 2283,
+"n": 178
+},
+{
+"col": "ShopItem5",
+"orig": 2293,
+"n": 179
+},
+{
+"col": "ShopItem6",
+"orig": 2290,
+"n": 180
+}
+]
+},
+{
+"table": 39,
+"name": "Korresia's Shop",
+"region": "Erythia Sea",
+"slots": [
+{
+"col": "ShopItem1",
+"orig": 133,
+"n": 181
+},
+{
+"col": "ShopItem2",
+"orig": 57,
+"n": 182
+},
+{
+"col": "ShopItem3",
+"orig": 65,
+"n": 183
+},
+{
+"col": "ShopItem4",
+"orig": 197,
+"n": 184
+},
+{
+"col": "ShopItem5",
+"orig": 221,
+"n": 185
+},
+{
+"col": "ShopItem6",
+"orig": 101,
+"n": 186
+},
+{
+"col": "ShopItem7",
+"orig": 192,
+"n": 187
+},
+{
+"col": "ShopItem8",
+"orig": 74,
+"n": 188
+},
+{
+"col": "ShopItem9",
+"orig": 89,
+"n": 189
+},
+{
+"col": "ShopItem10",
+"orig": 96,
+"n": 190
+}
+]
+},
+{
+"table": 40,
+"name": "Handypon",
+"region": "Erythia Sea",
+"slots": [
+{
+"col": "ShopItem2",
+"orig": 30,
+"n": 191
+},
+{
+"col": "ShopItem3",
+"orig": 32,
+"n": 192
+},
+{
+"col": "ShopItem4",
+"orig": 47,
+"n": 193
+},
+{
+"col": "ShopItem5",
+"orig": 50,
+"n": 194
+},
+{
+"col": "ShopItem6",
+"orig": 55,
+"n": 195
+},
+{
+"col": "ShopItem7",
+"orig": 72,
+"n": 196
+},
+{
+"col": "ShopItem8",
+"orig": 120,
+"n": 197
+},
+{
+"col": "ShopItem9",
+"orig": 140,
+"n": 198
+},
+{
+"col": "ShopItem10",
+"orig": 229,
+"n": 199
+}
+]
+},
+{
+"table": 41,
+"name": "Atoll Caravan",
+"region": "Erythia Sea",
+"slots": [
+{
+"col": "ShopItem1",
+"orig": 83,
+"n": 200
+},
+{
+"col": "ShopItem2",
+"orig": 88,
+"n": 201
+},
+{
+"col": "ShopItem3",
+"orig": 195,
+"n": 202
+},
+{
+"col": "ShopItem4",
+"orig": 206,
+"n": 203
+},
+{
+"col": "ShopItem5",
+"orig": 233,
+"n": 204
+},
+{
+"col": "ShopItem6",
+"orig": 235,
+"n": 205
+}
+]
+},
+{
+"table": 44,
+"name": "Illicit Caravan",
+"region": "Erythia Sea",
+"slots": [
+{
+"col": "ShopItem1",
+"orig": 22,
+"n": 206
+},
+{
+"col": "ShopItem2",
+"orig": 31,
+"n": 207
+},
+{
+"col": "ShopItem3",
+"orig": 142,
+"n": 208
+},
+{
+"col": "ShopItem4",
+"orig": 145,
+"n": 209
+},
+{
+"col": "ShopItem5",
+"orig": 159,
+"n": 210
+},
+{
+"col": "ShopItem6",
+"orig": 163,
+"n": 211
+},
+{
+"col": "ShopItem7",
+"orig": 173,
+"n": 212
+}
+]
+},
+{
+"table": 45,
+"name": "Sandbar Caravan",
+"region": "Erythia Sea",
+"slots": [
+{
+"col": "ShopItem1",
+"orig": 80,
+"n": 213
+},
+{
+"col": "ShopItem2",
+"orig": 149,
+"n": 214
+},
+{
+"col": "ShopItem3",
+"orig": 166,
+"n": 215
+},
+{
+"col": "ShopItem4",
+"orig": 176,
+"n": 216
+},
+{
+"col": "ShopItem5",
+"orig": 219,
+"n": 217
+}
+]
+},
+{
+"table": 46,
+"name": "Drahaga Store",
+"region": "Erythia Sea",
+"slots": [
+{
+"col": "ShopItem2",
+"orig": 29,
+"n": 218
+},
+{
+"col": "ShopItem3",
+"orig": 46,
+"n": 219
+},
+{
+"col": "ShopItem4",
+"orig": 54,
+"n": 220
+},
+{
+"col": "ShopItem5",
+"orig": 71,
+"n": 221
+},
+{
+"col": "ShopItem6",
+"orig": 78,
+"n": 222
+},
+{
+"col": "ShopItem7",
+"orig": 109,
+"n": 223
+},
+{
+"col": "ShopItem8",
+"orig": 129,
+"n": 224
+},
+{
+"col": "ShopItem9",
+"orig": 139,
+"n": 225
+},
+{
+"col": "ShopItem10",
+"orig": 238,
+"n": 226
+}
+]
+},
+{
+"table": 47,
+"name": "City Caravan",
+"region": "City",
+"slots": [
+{
+"col": "ShopItem1",
+"orig": 2281,
+"n": 227
+},
+{
+"col": "ShopItem2",
+"orig": 2294,
+"n": 228
+},
+{
+"col": "ShopItem3",
+"orig": 2355,
+"n": 229
+},
+{
+"col": "ShopItem4",
+"orig": 2351,
+"n": 230
+},
+{
+"col": "ShopItem5",
+"orig": 2287,
+"n": 231
+},
+{
+"col": "ShopItem6",
+"orig": 2288,
+"n": 232
+},
+{
+"col": "ShopItem7",
+"orig": 3303,
+"n": 233
+}
+]
+},
+{
+"table": 50,
+"name": "Ascension Caravan",
+"region": "Keves Castle",
+"slots": [
+{
+"col": "ShopItem1",
+"orig": 2266,
+"n": 234
+},
+{
+"col": "ShopItem2",
+"orig": 2271,
+"n": 235
+},
+{
+"col": "ShopItem3",
+"orig": 2279,
+"n": 236
+},
+{
+"col": "ShopItem4",
+"orig": 2289,
+"n": 237
+},
+{
+"col": "ShopItem5",
+"orig": 2293,
+"n": 238
+},
+{
+"col": "ShopItem6",
+"orig": 2295,
+"n": 239
+}
+]
+}
+]
+}

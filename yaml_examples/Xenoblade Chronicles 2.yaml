@@ -1,0 +1,31 @@
+# Xenoblade Chronicles 2 - example player options (generated from the world data)
+name: YourSlotName
+game: Xenoblade Chronicles 2
+
+requires:
+  version: 0.6.0
+
+Xenoblade Chronicles 2:
+  # Goal (victory condition): clear_chapter_5, collect_elysium_fragments, clear_chapter_10
+  goal: clear_chapter_10
+  # Percentage of filler items replaced by trap items (0-100)
+  filler_traps: 0
+  # Multiplies experience-type gains (EXP, WP/SP, class points) while you play so runs go faster: 1 = normal, up to 50
+  experience_multiplier: 1
+  # Send / receive DeathLinks (use /die in the client)
+  death_link: false
+  # Wether checks are included that require a blade not from the main story
+  enable_unrequiredblades: false
+  # Amount of Elysium Fragments required for the fragment goal.
+  #   range 5..400
+  fragments_required: 20
+  # Amount of Elysium Fragments placed in the multiworld (fragment goal only).
+  #   range 5..400
+  total_fragments: 30
+
+  # Location / item groups - switch groups off to shorten your world
+  enable_locations: true    # Location Checks
+  enable_landmarks: true    # Landmark Checks
+  enable_heart_to_hearts: true    # Heart-to-Hearts
+  enable_chest_checks: true    # Chestsanity
+  enable_post_chp5: true    # Post-Chapter-5 Checks

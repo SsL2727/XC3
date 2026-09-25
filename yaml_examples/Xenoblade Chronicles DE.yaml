@@ -1,0 +1,46 @@
+# Xenoblade Chronicles DE - example player options (generated from the world data)
+name: YourSlotName
+game: Xenoblade Chronicles DE
+
+requires:
+  version: 0.6.0
+
+Xenoblade Chronicles DE:
+  # Goal (victory condition): zanza_the_divine, sightseer, collector_goal, monster_hunter_goal, super_monster_hunter_goal, ngp_champion, ngp_grand_champion
+  goal: zanza_the_divine
+  # Percentage of filler items replaced by trap items (0-100)
+  filler_traps: 0
+  # Send / receive DeathLinks (use /die in the client)
+  death_link: false
+  # This option changes certain logic and items based on the version of the game. Definitive Edition/Switch 2 Version changes some Achievement logic due to Expert Mode The Switch 2 version adds the Ether Jet item and Nopon Grand Prix locations
+  #   choices: wii_wii_u_new_3ds, definitive_edition, switch_2_version
+  GameVersion: definitive_edition
+  # This option changes the names of Locations and Items in regards to Seven Option is considerate of other players in the Multiworld Default is No Spoilers
+  Spoilers: false
+  # This option allows you to specify how much additional danger you can potentially be required to face before advancing to the next area of the game The level thresholds generally match those of the bosses at or near the end of each area, with interpolations for areas lacking bosses Example: If you se
+  #   range -10..119
+  Danger_Tolerance: 0
+  # This option allows you to specify how many areas have keys that are placed local/early in the Multiworld. Default is Tephra Cave, Minimum is Colony 9 only, Maximum is Satorl Marsh
+  #   range 0..5
+  Key_Leniency: 1
+
+  # Location / item groups - switch groups off to shorten your world
+  locations: true    # Location Discovery Checks
+  landmarks: true    # Landmark Checks
+  StoryQuests: true    # Story Quests
+  MonsterQuests: true    # Monster Quests
+  CollectionQuests: true    # Collection Quests
+  SearchQuests: true    # Search Quests
+  ChallengeQuests: true    # Challenge Quests
+  AffinityQuests: true    # Affinity Quests
+  MaterialQuests: true    # Material Quests
+  UniqueMonsters: true    # Unique Monsters
+  SuperBosses: true    # Super Bosses
+  Collectopaedia: true    # Collectopaedia
+  HeartToHearts: true    # Heart-to-Hearts
+  AffinityChart: true    # Affinity Chart
+  Achievements: true    # Achievements
+  DevelopmentLevels: true    # Colony 6 Development Levels
+  Artsanity: true    # Artsanity (Art Books as items)
+  collectopaediasanity: true    # Collectopaediasanity
+  NoponGrandPrix: true    # Nopon Grand Prix

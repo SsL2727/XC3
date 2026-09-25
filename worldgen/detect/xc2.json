@@ -1,0 +1,2399 @@
+{
+"locations": {
+"Goldmouth Return Port": {
+"t": "f1",
+"i": 14146,
+"src": "landmark:ma02a:exact"
+},
+"Cental Exchange": {
+"t": "f1",
+"i": 14147,
+"src": "landmark:ma02a:fuzzy"
+},
+"Goldmouth Warehouse": {
+"t": "f1",
+"i": 14150,
+"src": "landmark:ma02a:exact"
+},
+"Argentum Bazaar": {
+"t": "f1",
+"i": 14152,
+"src": "landmark:ma02a:exact"
+},
+"Chairmans Room": {
+"t": "f1",
+"i": 14153,
+"src": "landmark:ma02a:exact"
+},
+"Bana's Bedroom": {
+"t": "f1",
+"i": 14162,
+"src": "landmark:ma02a:exact"
+},
+"Bower Lounge": {
+"t": "f1",
+"i": 14157,
+"src": "landmark:ma02a:exact"
+},
+"Goldmouth Rooftop": {
+"t": "f1",
+"i": 14163,
+"src": "landmark:ma02a:exact"
+},
+"Goldmouth Flight Deck": {
+"t": "f1",
+"i": 14149,
+"src": "landmark:ma02a:exact"
+},
+"Rumbletum Canteen": {
+"t": "f1",
+"i": 14158,
+"src": "landmark:ma02a:exact"
+},
+"Goldmouth Exit Dock": {
+"t": "f1",
+"i": 14155,
+"src": "landmark:ma02a:exact"
+},
+"Lemour Inn": {
+"t": "f1",
+"i": 14148,
+"src": "landmark:ma02a:exact"
+},
+"Maelstrom Interior": {
+"t": "f1",
+"i": 14246,
+"src": "landmark:ma03a:exact"
+},
+"Maelstrom Deck": {
+"t": "f1",
+"i": 14247,
+"src": "landmark:ma03a:exact"
+},
+"Ancient Ship, Deck": {
+"t": "f1",
+"i": 14346,
+"src": "landmark:ma04a:exact"
+},
+"AS - Entrance": {
+"t": "f1",
+"i": 14350,
+"src": "landmark:ma04a:fuzzy"
+},
+"Ship Helm": {
+"t": "f1",
+"i": 14351,
+"src": "landmark:ma04a:exact"
+},
+"Hold 1": {
+"t": "f1",
+"i": 14352,
+"src": "landmark:ma04a:exact"
+},
+"Hold 2": {
+"t": "f1",
+"i": 14353,
+"src": "landmark:ma04a:exact"
+},
+"Loading Bay": {
+"t": "f1",
+"i": 14354,
+"src": "landmark:ma04a:exact"
+},
+"Fuel Tank 2": {
+"t": "f1",
+"i": 14355,
+"src": "landmark:ma04a:exact"
+},
+"System Control Room": {
+"t": "f1",
+"i": 14348,
+"src": "landmark:ma04a:exact"
+},
+"Ship Bridge, Mid-Deck": {
+"t": "f1",
+"i": 14347,
+"src": "landmark:ma04a:exact"
+},
+"Forgotten Waste": {
+"t": "f1",
+"i": 14446,
+"src": "landmark:ma05a:exact"
+},
+"Maelstrom": {
+"t": "f1",
+"i": 14156,
+"src": "landmark:ma02a:exact"
+},
+"Wrecc Marshland": {
+"t": "f1",
+"i": 14461,
+"src": "landmark:ma05a:exact"
+},
+"Old Ghostwood Road": {
+"t": "f1",
+"i": 14447,
+"src": "landmark:ma05a:exact"
+},
+"Masrah Spring": {
+"t": "f1",
+"i": 14463,
+"src": "landmark:ma05a:exact"
+},
+"Outlook Knoll": {
+"t": "f1",
+"i": 14448,
+"src": "landmark:ma05a:exact"
+},
+"Restful Waters": {
+"t": "f1",
+"i": 14465,
+"src": "landmark:ma05a:exact"
+},
+"Garanti Plain": {
+"t": "f1",
+"i": 14466,
+"src": "landmark:ma05a:exact"
+},
+"Twin Trunks hill": {
+"t": "f1",
+"i": 14471,
+"src": "landmark:ma05a:exact"
+},
+"Waytree": {
+"t": "f1",
+"i": 14451,
+"src": "landmark:ma05a:exact"
+},
+"Plains of Evening Calm": {
+"t": "f1",
+"i": 14467,
+"src": "landmark:ma05a:exact"
+},
+"Saets Lumber Co": {
+"t": "f1",
+"i": 14489,
+"src": "landmark:ma05a:exact"
+},
+"Torigoth Arch": {
+"t": "f1",
+"i": 14484,
+"src": "landmark:ma05a:exact"
+},
+"Disused Processing Plant": {
+"t": "f1",
+"i": 14814,
+"src": "landmark:ma08a:exact"
+},
+"Toras House": {
+"t": "f1",
+"i": 14488,
+"src": "landmark:ma05a:exact"
+},
+"Galad Residential Zone": {
+"t": "f1",
+"i": 14493,
+"src": "landmark:ma05a:exact"
+},
+"Tretl Windmill Plaza": {
+"t": "f1",
+"i": 14498,
+"src": "landmark:ma05a:exact"
+},
+"Abbles Fountain": {
+"t": "f1",
+"i": 14485,
+"src": "landmark:ma05a:exact"
+},
+"Artifical Blade Adjustment": {
+"t": "f1",
+"i": 14813,
+"src": "landmark:ma08a:fuzzy"
+},
+"Lascham Island": {
+"t": "f1",
+"i": 14450,
+"src": "landmark:ma05a:exact"
+},
+"Boreas the Gourmand": {
+"t": "f2",
+"i": 63,
+"v": 2,
+"src": "kizuna"
+},
+"Treetop Path": {
+"t": "f1",
+"i": 14523,
+"src": "landmark:ma05a:exact"
+},
+"Ballast Disposal Chute": {
+"t": "f1",
+"i": 14499,
+"src": "landmark:ma05a:exact"
+},
+"Cloud Tank Chamber": {
+"t": "f1",
+"i": 14506,
+"src": "landmark:ma05a:exact"
+},
+"Port-side Walkway": {
+"t": "f1",
+"i": 14500,
+"src": "landmark:ma05a:exact"
+},
+"Engine Room(TB)": {
+"t": "f1",
+"i": 14357,
+"src": "landmark:ma04a:fuzzy"
+},
+"Solitary Block 1": {
+"t": "f1",
+"i": 14507,
+"src": "landmark:ma05a:exact"
+},
+"Solitary Block 2": {
+"t": "f1",
+"i": 14512,
+"src": "landmark:ma05a:exact"
+},
+"Mid-ship Walkway Door": {
+"t": "f1",
+"i": 14501,
+"src": "landmark:ma05a:exact"
+},
+"Olnos Mess Hall": {
+"t": "f1",
+"i": 14510,
+"src": "landmark:ma05a:exact"
+},
+"Kitchen": {
+"t": "f1",
+"i": 14511,
+"src": "landmark:ma05a:exact"
+},
+"Living Quarters": {
+"t": "f1",
+"i": 14509,
+"src": "landmark:ma05a:exact"
+},
+"Sickbay": {
+"t": "f1",
+"i": 14503,
+"src": "landmark:ma05a:exact"
+},
+"Quality Control Tower": {
+"t": "f1",
+"i": 14806,
+"src": "landmark:ma08a:exact"
+},
+"Armory": {
+"t": "f1",
+"i": 14502,
+"src": "landmark:ma05a:exact"
+},
+"Armory 2nd Floor": {
+"t": "f1",
+"i": 14519,
+"src": "landmark:ma05a:exact"
+},
+"Bridge": {
+"t": "f1",
+"i": 14504,
+"src": "landmark:ma05a:exact"
+},
+"Starboard Deck": {
+"t": "f1",
+"i": 14515,
+"src": "landmark:ma05a:exact"
+},
+"Port Deck": {
+"t": "f1",
+"i": 14514,
+"src": "landmark:ma05a:exact"
+},
+"Port Balcony": {
+"t": "f1",
+"i": 14520,
+"src": "landmark:ma05a:exact"
+},
+"Starboard Balcony": {
+"t": "f1",
+"i": 14505,
+"src": "landmark:ma05a:exact"
+},
+"Hangar Passage": {
+"t": "f1",
+"i": 14518,
+"src": "landmark:ma05a:exact"
+},
+"Guardroom": {
+"t": "f1",
+"i": 14517,
+"src": "landmark:ma05a:exact"
+},
+"Birds Eye View": {
+"t": "f2",
+"i": 78,
+"v": 2,
+"src": "kizuna"
+},
+"Ardainian Technology": {
+"t": "f2",
+"i": 13,
+"v": 2,
+"src": "kizuna"
+},
+"Battle Command": {
+"t": "f1",
+"i": 14516,
+"src": "landmark:ma05a:exact"
+},
+"Brigands Hideout": {
+"t": "f1",
+"i": 14477,
+"src": "landmark:ma05a:exact"
+},
+"Cape Springbreeze": {
+"t": "f1",
+"i": 14468,
+"src": "landmark:ma05a:fuzzy"
+},
+"Colley Lake": {
+"t": "f1",
+"i": 14469,
+"src": "landmark:ma05a:fuzzy"
+},
+"Dewmist Crag": {
+"t": "f1",
+"i": 14464,
+"src": "landmark:ma05a:exact"
+},
+"Varnaxs Plunge": {
+"t": "f1",
+"i": 14455,
+"src": "landmark:ma05a:exact"
+},
+"Grodd Residental Zone": {
+"t": "f1",
+"i": 14494,
+"src": "landmark:ma05a:fuzzy"
+},
+"Hermits Hollow": {
+"t": "f1",
+"i": 14480,
+"src": "landmark:ma05a:exact"
+},
+"Honeypot Grotto": {
+"t": "f1",
+"i": 14476,
+"src": "landmark:ma05a:exact"
+},
+"Hushview Bridge": {
+"t": "f1",
+"i": 14474,
+"src": "landmark:ma05a:exact"
+},
+"Kloom Farm": {
+"t": "f1",
+"i": 14496,
+"src": "landmark:ma05a:exact"
+},
+"Melnaths Shoulder": {
+"t": "f1",
+"i": 14483,
+"src": "landmark:ma05a:exact"
+},
+"Mor Ardain Consulate": {
+"t": "f1",
+"i": 14495,
+"src": "landmark:ma05a:exact"
+},
+"Nocclia Woods": {
+"t": "f1",
+"i": 14475,
+"src": "landmark:ma05a:exact"
+},
+"Nopon Camp": {
+"t": "f1",
+"i": 14479,
+"src": "landmark:ma05a:exact"
+},
+"Obra Street": {
+"t": "f1",
+"i": 14492,
+"src": "landmark:ma05a:exact"
+},
+"Saets Chiefs Residence": {
+"t": "f1",
+"i": 14491,
+"src": "landmark:ma05a:exact"
+},
+"Sauross Bed": {
+"t": "f1",
+"i": 14473,
+"src": "landmark:ma05a:exact"
+},
+"Seigle Fell": {
+"t": "f1",
+"i": 14470,
+"src": "landmark:ma05a:exact"
+},
+"Tirkin Turf": {
+"t": "f1",
+"i": 14472,
+"src": "landmark:ma05a:exact"
+},
+"Torigoth Market": {
+"t": "f1",
+"i": 14490,
+"src": "landmark:ma05a:exact"
+},
+"Torigoth Relay Base": {
+"t": "f1",
+"i": 14497,
+"src": "landmark:ma05a:exact"
+},
+"Trailblazers bridge": {
+"t": "f1",
+"i": 14462,
+"src": "landmark:ma05a:exact"
+},
+"Verdant Plateau": {
+"t": "f1",
+"i": 14478,
+"src": "landmark:ma05a:exact"
+},
+"Greatmaw Rapids": {
+"t": "f1",
+"i": 14646,
+"src": "landmark:ma07a:exact"
+},
+"Windpipe Deeps": {
+"t": "f1",
+"i": 14660,
+"src": "landmark:ma07a:exact"
+},
+"Acid Gullet": {
+"t": "f1",
+"i": 14679,
+"src": "landmark:ma07a:exact"
+},
+"Gullet Pass": {
+"t": "f1",
+"i": 14647,
+"src": "landmark:ma07a:exact"
+},
+"Jebbas Cavern": {
+"t": "f1",
+"i": 14661,
+"src": "landmark:ma07a:exact"
+},
+"Jelidorend Highlands": {
+"t": "f1",
+"i": 14758,
+"src": "landmark:ma08a:exact"
+},
+"Garfont Town Gate": {
+"t": "f1",
+"i": 14684,
+"src": "landmark:ma07a:exact"
+},
+"Garfont Rear Gate": {
+"t": "f1",
+"i": 14686,
+"src": "landmark:ma07a:exact"
+},
+"Mercenary HQ": {
+"t": "f1",
+"i": 14685,
+"src": "landmark:ma07a:exact"
+},
+"Plaza of Reprieve": {
+"t": "f1",
+"i": 14687,
+"src": "landmark:ma07a:exact"
+},
+"Blushy-Crushy": {
+"t": "f2",
+"i": 18,
+"v": 2,
+"src": "kizuna"
+},
+"Waypoint Market": {
+"t": "f1",
+"i": 14689,
+"src": "landmark:ma07a:exact"
+},
+"Cleansing Spring": {
+"t": "f1",
+"i": 14662,
+"src": "landmark:ma07a:exact"
+},
+"Jebbas Outlook": {
+"t": "f1",
+"i": 14663,
+"src": "landmark:ma07a:exact"
+},
+"Sternum Arch": {
+"t": "f1",
+"i": 14648,
+"src": "landmark:ma07a:exact"
+},
+"Lake Varna": {
+"t": "f1",
+"i": 14665,
+"src": "landmark:ma07a:exact"
+},
+"Cobalt Cliffs": {
+"t": "f1",
+"i": 14650,
+"src": "landmark:ma07a:exact"
+},
+"Minnet Terrace": {
+"t": "f1",
+"i": 14668,
+"src": "landmark:ma07a:exact"
+},
+"Farlaine Wells": {
+"t": "f1",
+"i": 14667,
+"src": "landmark:ma07a:exact"
+},
+"Farlaine Central Pools": {
+"t": "f1",
+"i": 14669,
+"src": "landmark:ma07a:exact"
+},
+"Yurna the Elderwood": {
+"t": "f1",
+"i": 14653,
+"src": "landmark:ma07a:exact"
+},
+"Burgeoning Curiosity": {
+"t": "f2",
+"i": 6,
+"v": 2,
+"src": "kizuna"
+},
+"Hard Life": {
+"t": "f2",
+"i": 11,
+"v": 2,
+"src": "kizuna"
+},
+"Poppi's Remodel": {
+"t": "f2",
+"i": 10,
+"v": 2,
+"src": "kizuna"
+},
+"Reunion": {
+"t": "f2",
+"i": 74,
+"v": 2,
+"src": "kizuna"
+},
+"Sisterly Love": {
+"t": "f2",
+"i": 65,
+"v": 2,
+"src": "kizuna"
+},
+"The Purest Beauty": {
+"t": "f2",
+"i": 83,
+"v": 2,
+"src": "kizuna"
+},
+"The Real Gramps": {
+"t": "f2",
+"i": 7,
+"v": 2,
+"src": "kizuna"
+},
+"Drillbore Bridge": {
+"t": "f1",
+"i": 14671,
+"src": "landmark:ma07a:exact"
+},
+"Badfella's Cave Fort": {
+"t": "f1",
+"i": 14673,
+"src": "landmark:ma07a:exact"
+},
+"Fonsa Myma Gate": {
+"t": "f1",
+"i": 14695,
+"src": "landmark:ma07a:exact"
+},
+"Holy Gate of Fontana": {
+"t": "f1",
+"i": 14697,
+"src": "landmark:ma07a:exact"
+},
+"Fonsa Myma Port": {
+"t": "f1",
+"i": 14698,
+"src": "landmark:ma07a:exact"
+},
+"Gwendle Repair Dock": {
+"t": "f1",
+"i": 14701,
+"src": "landmark:ma07a:exact"
+},
+"Gwenith Paddies": {
+"t": "f1",
+"i": 14700,
+"src": "landmark:ma07a:exact"
+},
+"Commercial District": {
+"t": "f1",
+"i": 14702,
+"src": "landmark:ma07a:exact"
+},
+"Mymoma Playhouse": {
+"t": "f1",
+"i": 14696,
+"src": "landmark:ma07a:exact"
+},
+"Entertainment District": {
+"t": "f1",
+"i": 14703,
+"src": "landmark:ma07a:exact"
+},
+"Great Stairway": {
+"t": "f1",
+"i": 14680,
+"src": "landmark:ma07a:exact"
+},
+"A Tora and Poppi Production": {
+"t": "f2",
+"i": 21,
+"v": 2,
+"src": "kizuna"
+},
+"Shrine of Light": {
+"t": "f1",
+"i": 14692,
+"src": "landmark:ma07a:exact"
+},
+"Training Ground": {
+"t": "f1",
+"i": 14688,
+"src": "landmark:ma07a:exact"
+},
+"Shrine of Offering": {
+"t": "f1",
+"i": 14693,
+"src": "landmark:ma07a:exact"
+},
+"Fusty Fungus Caves": {
+"t": "f1",
+"i": 14691,
+"src": "landmark:ma07a:exact"
+},
+"Old Valantia": {
+"t": "f1",
+"i": 14690,
+"src": "landmark:ma07a:exact"
+},
+"Cataracts of Rujah": {
+"t": "f1",
+"i": 14652,
+"src": "landmark:ma07a:exact"
+},
+"Soulcrown Summit": {
+"t": "f1",
+"i": 14649,
+"src": "landmark:ma07a:exact"
+},
+"Dragon's Whiskers": {
+"t": "f1",
+"i": 14658,
+"src": "landmark:ma07a:exact"
+},
+"Dragon's Stomach": {
+"t": "f1",
+"i": 14682,
+"src": "landmark:ma07a:exact"
+},
+"Great Blowhole": {
+"t": "f1",
+"i": 14664,
+"src": "landmark:ma07a:exact"
+},
+"Eight-Rock Skip": {
+"t": "f1",
+"i": 14651,
+"src": "landmark:ma07a:exact"
+},
+"Tardy Gate": {
+"t": "f1",
+"i": 14654,
+"src": "landmark:ma07a:exact"
+},
+"Stone Gate Ruins": {
+"t": "f1",
+"i": 14655,
+"src": "landmark:ma07a:exact"
+},
+"Ruins of Fountain Park": {
+"t": "f1",
+"i": 14699,
+"src": "landmark:ma07a:exact"
+},
+"Crown of Sanctuary": {
+"t": "f1",
+"i": 14657,
+"src": "landmark:ma07a:exact"
+},
+"Raqura Aquagardens": {
+"t": "f1",
+"i": 14659,
+"src": "landmark:ma07a:exact"
+},
+"Bluestep Ditch": {
+"t": "f1",
+"i": 14666,
+"src": "landmark:ma07a:exact"
+},
+"Old Quarry": {
+"t": "f1",
+"i": 14675,
+"src": "landmark:ma07a:exact"
+},
+"Pleza's Sluice": {
+"t": "f1",
+"i": 14683,
+"src": "landmark:ma07a:fuzzy"
+},
+"Loska's Gap": {
+"t": "f1",
+"i": 14674,
+"src": "landmark:ma07a:exact"
+},
+"Wyrmtears": {
+"t": "f1",
+"i": 14670,
+"src": "landmark:ma07a:exact"
+},
+"Funnystone Highway": {
+"t": "f1",
+"i": 14672,
+"src": "landmark:ma07a:exact"
+},
+"Coralline Sanctum": {
+"t": "f1",
+"i": 14678,
+"src": "landmark:ma07a:exact"
+},
+"Fonsa Myma Waters": {
+"t": "f1",
+"i": 14676,
+"src": "landmark:ma07a:exact"
+},
+"Old Pilgrims Road": {
+"t": "f1",
+"i": 14706,
+"src": "landmark:ma07a:exact"
+},
+"Land of the Beaten": {
+"t": "f1",
+"i": 14677,
+"src": "landmark:ma07a:exact"
+},
+"Olethro Playhouse": {
+"t": "f1",
+"i": 14656,
+"src": "landmark:ma07a:exact"
+},
+"Olethro Ruins": {
+"t": "f1",
+"i": 14681,
+"src": "landmark:ma07a:exact"
+},
+"Torika Alley": {
+"t": "f1",
+"i": 14704,
+"src": "landmark:ma07a:exact"
+},
+"Uraya Merc Barracks": {
+"t": "f1",
+"i": 14708,
+"src": "landmark:ma07a:exact"
+},
+"Sevind Palace Plaza": {
+"t": "f1",
+"i": 14705,
+"src": "landmark:ma07a:exact"
+},
+"Royal Guard Barracks": {
+"t": "f1",
+"i": 14709,
+"src": "landmark:ma07a:exact"
+},
+"Bloomshade Cliff": {
+"t": "f1",
+"i": 14707,
+"src": "landmark:ma07a:fuzzy"
+},
+"Girl Power": {
+"t": "f2",
+"i": 68,
+"v": 2,
+"src": "kizuna"
+},
+"Pandoria's Troubles": {
+"t": "f2",
+"i": 16,
+"v": 2,
+"src": "kizuna"
+},
+"Life Goes On": {
+"t": "f2",
+"i": 19,
+"v": 2,
+"src": "kizuna"
+},
+"Not Quite Comfortable Yet": {
+"t": "f2",
+"i": 70,
+"v": 2,
+"src": "kizuna"
+},
+"Port Anangham": {
+"t": "f1",
+"i": 14785,
+"src": "landmark:ma08a:exact"
+},
+"Valdorm's Mound": {
+"t": "f1",
+"i": 14775,
+"src": "landmark:ma08a:exact"
+},
+"Anangham #2 Dock": {
+"t": "f1",
+"i": 14777,
+"src": "landmark:ma08a:exact"
+},
+"Abandoned Excavation": {
+"t": "f1",
+"i": 14754,
+"src": "landmark:ma08a:exact"
+},
+"Bellyfull Canteen": {
+"t": "f1",
+"i": 14764,
+"src": "landmark:ma08a:exact"
+},
+"Vale's Weakness": {
+"t": "f2",
+"i": 81,
+"v": 2,
+"src": "kizuna"
+},
+"Fourth Ridge Entrance": {
+"t": "f1",
+"i": 14752,
+"src": "landmark:ma08a:exact"
+},
+"Hot Pipe District, 1F": {
+"t": "f1",
+"i": 14751,
+"src": "landmark:ma08a:exact"
+},
+"Fief of Forgetfulness": {
+"t": "f1",
+"i": 14755,
+"src": "landmark:ma08a:exact"
+},
+"Old Plumbing Entrance": {
+"t": "f1",
+"i": 14753,
+"src": "landmark:ma08a:exact"
+},
+"Eggle Jetty (Abandoned)": {
+"t": "f1",
+"i": 14772,
+"src": "landmark:ma08a:exact"
+},
+"Bold Adventures": {
+"t": "f2",
+"i": 22,
+"v": 2,
+"src": "kizuna"
+},
+"Cargo Transportation Zone": {
+"t": "f1",
+"i": 14757,
+"src": "landmark:ma08a:exact"
+},
+"Ayvill Shopping District": {
+"t": "f1",
+"i": 14786,
+"src": "landmark:ma08a:exact"
+},
+"Beraf Industry Ward": {
+"t": "f1",
+"i": 14788,
+"src": "landmark:ma08a:exact"
+},
+"Admar Storage Zone": {
+"t": "f1",
+"i": 14787,
+"src": "landmark:ma08a:exact"
+},
+"Nharil Central Plaza": {
+"t": "f1",
+"i": 14781,
+"src": "landmark:ma08a:exact"
+},
+"Ayvill Shopping Dist., Roof": {
+"t": "f1",
+"i": 14815,
+"src": "landmark:ma08a:exact"
+},
+"Jackolo's Inn": {
+"t": "f1",
+"i": 14780,
+"src": "landmark:ma08a:fuzzy"
+},
+"Dromarch's Wisdom": {
+"t": "f2",
+"i": 5,
+"v": 2,
+"src": "kizuna"
+},
+"Midorl Bridge": {
+"t": "f1",
+"i": 14779,
+"src": "landmark:ma08a:exact"
+},
+"Unforgiving Terrain": {
+"t": "f2",
+"i": 32,
+"v": 2,
+"src": "kizuna"
+},
+"Old Industrial District": {
+"t": "f1",
+"i": 14749,
+"src": "landmark:ma08a:exact"
+},
+"Hardhaigh Palace": {
+"t": "f1",
+"i": 14790,
+"src": "landmark:ma08a:exact"
+},
+"Grain, Wing Area #2": {
+"t": "f1",
+"i": 14792,
+"src": "landmark:ma08a:fuzzy"
+},
+"Throne Room": {
+"t": "f1",
+"i": 14793,
+"src": "landmark:ma08a:exact"
+},
+"Mad About Titan Weapons": {
+"t": "f2",
+"i": 71,
+"v": 2,
+"src": "kizuna"
+},
+"Jarlin Wing Area #1": {
+"t": "f1",
+"i": 14791,
+"src": "landmark:ma08a:exact"
+},
+"Hardhaigh Gate": {
+"t": "f1",
+"i": 14782,
+"src": "landmark:ma08a:exact"
+},
+"Hardhaigh Dock Lv. 2": {
+"t": "f1",
+"i": 14783,
+"src": "landmark:ma08a:exact"
+},
+"Mine Elevator": {
+"t": "f1",
+"i": 14746,
+"src": "landmark:ma08a:exact"
+},
+"Mine No.2 Entrance": {
+"t": "f1",
+"i": 14748,
+"src": "landmark:ma08a:exact"
+},
+"Ruined Laborers' Bridge": {
+"t": "f1",
+"i": 14750,
+"src": "landmark:ma08a:exact"
+},
+"Geothermal Plant Lobby": {
+"t": "f1",
+"i": 14747,
+"src": "landmark:ma08a:exact"
+},
+"Geothermal Mining Plant": {
+"t": "f1",
+"i": 14762,
+"src": "landmark:ma08a:exact"
+},
+"Turbine Tower": {
+"t": "f1",
+"i": 14759,
+"src": "landmark:ma08a:exact"
+},
+"Smuide Hot Spring": {
+"t": "f1",
+"i": 14789,
+"src": "landmark:ma08a:fuzzy"
+},
+"Smuide Mountain": {
+"t": "f1",
+"i": 14816,
+"src": "landmark:ma08a:fuzzy"
+},
+"Great Heat Extraction Duct": {
+"t": "f1",
+"i": 14761,
+"src": "landmark:ma08a:exact"
+},
+"Hat Material Refinery": {
+"t": "f1",
+"i": 14766,
+"src": "landmark:ma08a:fuzzy"
+},
+"Chansagh Wasts": {
+"t": "f1",
+"i": 14773,
+"src": "landmark:ma08a:fuzzy"
+},
+"Geothermal Processor": {
+"t": "f1",
+"i": 14763,
+"src": "landmark:ma08a:exact"
+},
+"Storage Warehouse": {
+"t": "f1",
+"i": 14768,
+"src": "landmark:ma08a:exact"
+},
+"Thermal Exhaust Fork": {
+"t": "f1",
+"i": 14776,
+"src": "landmark:ma08a:exact"
+},
+"Nopon Pioneers' Spring": {
+"t": "f1",
+"i": 14756,
+"src": "landmark:ma08a:exact"
+},
+"Old Pipe Junction Corridor": {
+"t": "f1",
+"i": 14769,
+"src": "landmark:ma08a:exact"
+},
+"Junction Control Room": {
+"t": "f1",
+"i": 14770,
+"src": "landmark:ma08a:exact"
+},
+"Old City of Teddim": {
+"t": "f1",
+"i": 14771,
+"src": "landmark:ma08a:exact"
+},
+"Bronac Occupied Zone": {
+"t": "f1",
+"i": 14774,
+"src": "landmark:ma08a:fuzzy"
+},
+"Pipe Maintenance Office": {
+"t": "f1",
+"i": 14760,
+"src": "landmark:ma08a:exact"
+},
+"Office Corridor": {
+"t": "f1",
+"i": 14765,
+"src": "landmark:ma08a:exact"
+},
+"Factory Catwalk": {
+"t": "f1",
+"i": 14794,
+"src": "landmark:ma08a:exact"
+},
+"Old Factory Warehouse": {
+"t": "f1",
+"i": 14802,
+"src": "landmark:ma08a:exact"
+},
+"Delize's Infirmary": {
+"t": "f1",
+"i": 14767,
+"src": "landmark:ma08a:fuzzy"
+},
+"Industrial Zone, Upper Duct": {
+"t": "f1",
+"i": 14795,
+"src": "landmark:ma08a:exact"
+},
+"Central Control Room": {
+"t": "f1",
+"i": 14803,
+"src": "landmark:ma08a:exact"
+},
+"Central Bulkhead": {
+"t": "f1",
+"i": 14808,
+"src": "landmark:ma08a:exact"
+},
+"Main Ventilation Duct": {
+"t": "f1",
+"i": 14796,
+"src": "landmark:ma08a:exact"
+},
+"Production Admin Office": {
+"t": "f1",
+"i": 14800,
+"src": "landmark:ma08a:exact"
+},
+"Ether Refinery Corridor": {
+"t": "f1",
+"i": 14797,
+"src": "landmark:ma08a:exact"
+},
+"Ether Control Center": {
+"t": "f1",
+"i": 14804,
+"src": "landmark:ma08a:fuzzy"
+},
+"Ether Control Tower": {
+"t": "f1",
+"i": 14804,
+"src": "landmark:ma08a:exact"
+},
+"Bulge Harbor": {
+"t": "f1",
+"i": 14799,
+"src": "landmark:ma08a:exact"
+},
+"Suspended Pathway": {
+"t": "f1",
+"i": 14801,
+"src": "landmark:ma08a:exact"
+},
+"Ether Seperation Tanks": {
+"t": "f1",
+"i": 14805,
+"src": "landmark:ma08a:fuzzy"
+},
+"Heat Stroage": {
+"t": "f1",
+"i": 14810,
+"src": "landmark:ma08a:fuzzy"
+},
+"Niranira's Panic Room": {
+"t": "f1",
+"i": 14812,
+"src": "landmark:ma08a:exact"
+},
+"Nopon Workers' Quarters": {
+"t": "f1",
+"i": 14807,
+"src": "landmark:ma08a:exact"
+},
+"Work Observation Tower": {
+"t": "f1",
+"i": 14811,
+"src": "landmark:ma08a:exact"
+},
+"Waste Incineration Line": {
+"t": "f1",
+"i": 14809,
+"src": "landmark:ma08a:exact"
+},
+"Central Corridor": {
+"t": "f1",
+"i": 14798,
+"src": "landmark:ma08a:exact"
+},
+"Sheba's Dream": {
+"t": "f2",
+"i": 73,
+"v": 2,
+"src": "kizuna"
+},
+"Rigitte Harbor": {
+"t": "f1",
+"i": 15446,
+"src": "landmark:ma15a:exact"
+},
+"Orl Cloudway: Rigitte": {
+"t": "f1",
+"i": 15449,
+"src": "landmark:ma15a:exact"
+},
+"Orl Cloudway: Fonsett": {
+"t": "f1",
+"i": 15450,
+"src": "landmark:ma15a:exact"
+},
+"Blue Blood": {
+"t": "f2",
+"i": 61,
+"v": 2,
+"src": "kizuna"
+},
+"Lud Cloudway: Rigitte": {
+"t": "f1",
+"i": 15452,
+"src": "landmark:ma15a:exact"
+},
+"Lud Cloudway: Fonsett": {
+"t": "f1",
+"i": 15453,
+"src": "landmark:ma15a:exact"
+},
+"Godsford Isle": {
+"t": "f1",
+"i": 15454,
+"src": "landmark:ma15a:exact"
+},
+"Ansel Hatchery": {
+"t": "f1",
+"i": 15456,
+"src": "landmark:ma15a:exact"
+},
+"Growing Up": {
+"t": "f2",
+"i": 31,
+"v": 2,
+"src": "kizuna"
+},
+"Isle of Terminomni": {
+"t": "f1",
+"i": 15463,
+"src": "landmark:ma15a:exact"
+},
+"Metro Island": {
+"t": "f1",
+"i": 15461,
+"src": "landmark:ma15a:fuzzy"
+},
+"Isle of Urchon": {
+"t": "f1",
+"i": 15459,
+"src": "landmark:ma15a:exact"
+},
+"Island Base Lindwurm": {
+"t": "f1",
+"i": 15458,
+"src": "landmark:ma15a:exact"
+},
+"Red Room": {
+"t": "f1",
+"i": 15464,
+"src": "landmark:ma15a:exact"
+},
+"Baldotas Isle": {
+"t": "f1",
+"i": 15447,
+"src": "landmark:ma15a:exact"
+},
+"Isle of Sleeping Remains": {
+"t": "f1",
+"i": 15451,
+"src": "landmark:ma15a:exact"
+},
+"Merclibay Islet": {
+"t": "f1",
+"i": 15462,
+"src": "landmark:ma15a:exact"
+},
+"Daridan's Stack": {
+"t": "f1",
+"i": 15457,
+"src": "landmark:ma15a:exact"
+},
+"Little Garden of Tradition": {
+"t": "f1",
+"i": 15460,
+"src": "landmark:ma15a:exact"
+},
+"Daram Isle": {
+"t": "f1",
+"i": 15448,
+"src": "landmark:ma15a:exact"
+},
+"Fonsette Arch": {
+"t": "f1",
+"i": 15465,
+"src": "landmark:ma15a:fuzzy"
+},
+"Fonsette Residential Area": {
+"t": "f1",
+"i": 15474,
+"src": "landmark:ma15a:fuzzy"
+},
+"Verde Carpentry Workshop": {
+"t": "f1",
+"i": 15473,
+"src": "landmark:ma15a:exact"
+},
+"Messet Point": {
+"t": "f1",
+"i": 15470,
+"src": "landmark:ma15a:exact"
+},
+"Oratory Knoll Cemetery": {
+"t": "f1",
+"i": 15469,
+"src": "landmark:ma15a:exact"
+},
+"By the Graveside": {
+"t": "f2",
+"i": 2,
+"v": 2,
+"src": "kizuna"
+},
+"Corinne's House": {
+"t": "f1",
+"i": 15466,
+"src": "landmark:ma15a:exact"
+},
+"A Moment's Peace": {
+"t": "f2",
+"i": 35,
+"v": 2,
+"src": "kizuna"
+},
+"Little Rex": {
+"t": "f2",
+"i": 34,
+"v": 2,
+"src": "kizuna"
+},
+"Rex's Secret Base": {
+"t": "f1",
+"i": 15471,
+"src": "landmark:ma15a:exact"
+},
+"Old Man Caskel's Tree": {
+"t": "f1",
+"i": 15472,
+"src": "landmark:ma15a:exact"
+},
+"The Kindness of Blades": {
+"t": "f2",
+"i": 58,
+"v": 2,
+"src": "kizuna"
+},
+"Merto Island": {
+"t": "f1",
+"i": 15461,
+"src": "landmark:ma15a:exact"
+},
+"Ysheva Harbor": {
+"t": "f1",
+"i": 15455,
+"src": "landmark:ma15a:exact"
+},
+"Village Guardian": {
+"t": "f1",
+"i": 15467,
+"src": "landmark:ma15a:exact"
+},
+"Poldis Circle": {
+"t": "f1",
+"i": 15053,
+"src": "landmark:ma11a:exact"
+},
+"Refugee Campground": {
+"t": "f1",
+"i": 15059,
+"src": "landmark:ma11a:exact"
+},
+"Fount of Holy Light": {
+"t": "f1",
+"i": 15050,
+"src": "landmark:ma11a:exact"
+},
+"Seoris Plaza": {
+"t": "f1",
+"i": 15054,
+"src": "landmark:ma11a:exact"
+},
+"Seoris Plaza West Gate": {
+"t": "f1",
+"i": 15048,
+"src": "landmark:ma11a:exact"
+},
+"Great Creation Cloister": {
+"t": "f1",
+"i": 15049,
+"src": "landmark:ma11a:exact"
+},
+"Indoline Sanctum": {
+"t": "f1",
+"i": 15055,
+"src": "landmark:ma11a:exact"
+},
+"Audience Chamber": {
+"t": "f1",
+"i": 15056,
+"src": "landmark:ma11a:exact"
+},
+"Praetor's Study": {
+"t": "f1",
+"i": 15057,
+"src": "landmark:ma11a:exact"
+},
+"Battlescar Cove": {
+"t": "f1",
+"i": 14946,
+"src": "landmark:ma10a:exact"
+},
+"Lost Capital Judicium": {
+"t": "f1",
+"i": 14956,
+"src": "landmark:ma10a:exact"
+},
+"Titan Weapon Digsite": {
+"t": "f1",
+"i": 14968,
+"src": "landmark:ma10a:exact"
+},
+"Bardina Plateau": {
+"t": "f1",
+"i": 14957,
+"src": "landmark:ma10a:exact"
+},
+"Overlook Hill": {
+"t": "f1",
+"i": 14947,
+"src": "landmark:ma10a:exact"
+},
+"Haggle's Swordtip": {
+"t": "f1",
+"i": 14948,
+"src": "landmark:ma10a:exact"
+},
+"Ancient Wall": {
+"t": "f1",
+"i": 14949,
+"src": "landmark:ma10a:exact"
+},
+"Toxbloom Spring": {
+"t": "f1",
+"i": 14950,
+"src": "landmark:ma10a:exact"
+},
+"Leaning Tower of Dorrick": {
+"t": "f1",
+"i": 14951,
+"src": "landmark:ma10a:exact"
+},
+"The Great Archway": {
+"t": "f1",
+"i": 14952,
+"src": "landmark:ma10a:exact"
+},
+"Ardainian Garrison": {
+"t": "f1",
+"i": 14954,
+"src": "landmark:ma10a:exact"
+},
+"Nim-Speak": {
+"t": "f2",
+"i": 72,
+"v": 2,
+"src": "kizuna"
+},
+"Reconciliation": {
+"t": "f2",
+"i": 20,
+"v": 2,
+"src": "kizuna"
+},
+"Dalnes Stone": {
+"t": "f1",
+"i": 14955,
+"src": "landmark:ma10a:exact"
+},
+"Profaned Place": {
+"t": "f1",
+"i": 14953,
+"src": "landmark:ma10a:exact"
+},
+"Titan Weapon Remains": {
+"t": "f1",
+"i": 14958,
+"src": "landmark:ma10a:exact"
+},
+"Aegishammer": {
+"t": "f1",
+"i": 14959,
+"src": "landmark:ma10a:exact"
+},
+"Ruined Chapel of Danafas": {
+"t": "f1",
+"i": 14960,
+"src": "landmark:ma10a:exact"
+},
+"Bastion of Varrac": {
+"t": "f1",
+"i": 14961,
+"src": "landmark:ma10a:exact"
+},
+"Jagron's Citadel": {
+"t": "f1",
+"i": 14964,
+"src": "landmark:ma10a:exact"
+},
+"Malignant Gorge": {
+"t": "f1",
+"i": 14963,
+"src": "landmark:ma10a:exact"
+},
+"Desta Plains": {
+"t": "f1",
+"i": 14962,
+"src": "landmark:ma10a:exact"
+},
+"Xataris Spring": {
+"t": "f1",
+"i": 14965,
+"src": "landmark:ma10a:exact"
+},
+"Triedge Isle": {
+"t": "f1",
+"i": 14966,
+"src": "landmark:ma10a:exact"
+},
+"Blackday Peninsula": {
+"t": "f1",
+"i": 14967,
+"src": "landmark:ma10a:exact"
+},
+"Geotuis Wharf #1": {
+"t": "f1",
+"i": 15046,
+"src": "landmark:ma11a:fuzzy"
+},
+"Yannath Main Gate": {
+"t": "f1",
+"i": 15047,
+"src": "landmark:ma11a:exact"
+},
+"Geotuis Port": {
+"t": "f1",
+"i": 15052,
+"src": "landmark:ma11a:fuzzy"
+},
+"Quattor Street": {
+"t": "f1",
+"i": 15058,
+"src": "landmark:ma11a:exact"
+},
+"Geotuis Wharf #2": {
+"t": "f1",
+"i": 15060,
+"src": "landmark:ma11a:fuzzy"
+},
+"Milama Viewpoint": {
+"t": "f1",
+"i": 15051,
+"src": "landmark:ma11a:exact"
+},
+"At the Seat of Power": {
+"t": "f2",
+"i": 56,
+"v": 2,
+"src": "kizuna"
+},
+"Genbu Port": {
+"t": "f1",
+"i": 15246,
+"src": "landmark:ma13a:exact"
+},
+"Memorial Ruins": {
+"t": "f1",
+"i": 15272,
+"src": "landmark:ma13a:exact"
+},
+"Addam's Appetite": {
+"t": "f2",
+"i": 33,
+"v": 2,
+"src": "kizuna"
+},
+"Open Your Eyes": {
+"t": "f2",
+"i": 43,
+"v": 2,
+"src": "kizuna"
+},
+"Litharia Snowfield": {
+"t": "f1",
+"i": 15259,
+"src": "landmark:ma13a:exact"
+},
+"Little Banerro Ruins": {
+"t": "f1",
+"i": 15247,
+"src": "landmark:ma13a:exact"
+},
+"Fable Rock": {
+"t": "f1",
+"i": 15260,
+"src": "landmark:ma13a:exact"
+},
+"Hope's Horizon": {
+"t": "f1",
+"i": 15250,
+"src": "landmark:ma13a:exact"
+},
+"Curse of the Zekenator": {
+"t": "f2",
+"i": 38,
+"v": 2,
+"src": "kizuna"
+},
+"Three-Vein Crossroads": {
+"t": "f1",
+"i": 15248,
+"src": "landmark:ma13a:exact"
+},
+"Capital Approach": {
+"t": "f1",
+"i": 15261,
+"src": "landmark:ma13a:exact"
+},
+"Theosoir Main Gate": {
+"t": "f1",
+"i": 15279,
+"src": "landmark:ma13a:exact"
+},
+"Soprac Old Market": {
+"t": "f1",
+"i": 15291,
+"src": "landmark:ma13a:exact"
+},
+"Elmos Square": {
+"t": "f1",
+"i": 15285,
+"src": "landmark:ma13a:exact"
+},
+"Library Philosofia": {
+"t": "f1",
+"i": 15296,
+"src": "landmark:ma13a:exact"
+},
+"Anastatia's": {
+"t": "f1",
+"i": 15283,
+"src": "landmark:ma13a:exact"
+},
+"Sweet Strategy": {
+"t": "f2",
+"i": 60,
+"v": 2,
+"src": "kizuna"
+},
+"Theoscaldia Palace": {
+"t": "f1",
+"i": 15280,
+"src": "landmark:ma13a:exact"
+},
+"Royal Audience Hall": {
+"t": "f1",
+"i": 15286,
+"src": "landmark:ma13a:exact"
+},
+"Reliquary of Tantal": {
+"t": "f1",
+"i": 15295,
+"src": "landmark:ma13a:exact"
+},
+"Storage Room": {
+"t": "f1",
+"i": 15294,
+"src": "landmark:ma13a:exact"
+},
+"Hall of Plenty": {
+"t": "f1",
+"i": 15287,
+"src": "landmark:ma13a:exact"
+},
+"Hall of Reception": {
+"t": "f1",
+"i": 15281,
+"src": "landmark:ma13a:exact"
+},
+"Hall of Mystery": {
+"t": "f1",
+"i": 15297,
+"src": "landmark:ma13a:exact"
+},
+"Silvergleam Terrace": {
+"t": "f1",
+"i": 15288,
+"src": "landmark:ma13a:exact"
+},
+"Hall of Virtue": {
+"t": "f1",
+"i": 15289,
+"src": "landmark:ma13a:exact"
+},
+"Puresnow Passage": {
+"t": "f1",
+"i": 15282,
+"src": "landmark:ma13a:exact"
+},
+"Hall of Honor": {
+"t": "f1",
+"i": 15290,
+"src": "landmark:ma13a:exact"
+},
+"Tending to Turters": {
+"t": "f2",
+"i": 41,
+"v": 2,
+"src": "kizuna"
+},
+"What's in a Name": {
+"t": "f2",
+"i": 45,
+"v": 2,
+"src": "kizuna"
+},
+"Theospiti Temple Ruins": {
+"t": "f1",
+"i": 15292,
+"src": "landmark:ma13a:exact"
+},
+"Theosoir Rear Gate": {
+"t": "f1",
+"i": 15284,
+"src": "landmark:ma13a:exact"
+},
+"Amphoret Pillar": {
+"t": "f1",
+"i": 15262,
+"src": "landmark:ma13a:exact"
+},
+"Twin Pillars": {
+"t": "f1",
+"i": 15263,
+"src": "landmark:ma13a:exact"
+},
+"Sekis Pillar": {
+"t": "f1",
+"i": 15264,
+"src": "landmark:ma13a:exact"
+},
+"Lumos Pillar": {
+"t": "f1",
+"i": 15265,
+"src": "landmark:ma13a:exact"
+},
+"Gates of Ulcaria": {
+"t": "f1",
+"i": 15251,
+"src": "landmark:ma13a:exact"
+},
+"Central Ether Boulder": {
+"t": "f1",
+"i": 15252,
+"src": "landmark:ma13a:exact"
+},
+"Pippito's Haunt": {
+"t": "f1",
+"i": 15276,
+"src": "landmark:ma13a:exact"
+},
+"Yolmunder's Crevasse": {
+"t": "f1",
+"i": 15275,
+"src": "landmark:ma13a:exact"
+},
+"Tirkinlandia": {
+"t": "f1",
+"i": 15271,
+"src": "landmark:ma13a:exact"
+},
+"Heimos's Crevasse": {
+"t": "f1",
+"i": 15269,
+"src": "landmark:ma13a:exact"
+},
+"Zalmor's Crevice": {
+"t": "f1",
+"i": 15273,
+"src": "landmark:ma13a:exact"
+},
+"Old Gelgemos Gate": {
+"t": "f1",
+"i": 15277,
+"src": "landmark:ma13a:exact"
+},
+"Declessa Altar Hill": {
+"t": "f1",
+"i": 15274,
+"src": "landmark:ma13a:exact"
+},
+"Argan Iceblooms": {
+"t": "f1",
+"i": 15268,
+"src": "landmark:ma13a:exact"
+},
+"Sanguinous Grotto": {
+"t": "f1",
+"i": 15270,
+"src": "landmark:ma13a:exact"
+},
+"Pillar City Ruins": {
+"t": "f1",
+"i": 15266,
+"src": "landmark:ma13a:exact"
+},
+"Airborne Throne": {
+"t": "f1",
+"i": 15258,
+"src": "landmark:ma13a:exact"
+},
+"Sealed Quarry": {
+"t": "f1",
+"i": 15278,
+"src": "landmark:ma13a:exact"
+},
+"Lumos Pedestal": {
+"t": "f1",
+"i": 15253,
+"src": "landmark:ma13a:exact"
+},
+"Sacred Grove": {
+"t": "f1",
+"i": 15256,
+"src": "landmark:ma13a:exact"
+},
+"Sacred Ice Caverns": {
+"t": "f1",
+"i": 15249,
+"src": "landmark:ma13a:exact"
+},
+"Genbu Drifts": {
+"t": "f1",
+"i": 15267,
+"src": "landmark:ma13a:exact"
+},
+"Great Pillar Passage": {
+"t": "f1",
+"i": 15255,
+"src": "landmark:ma13a:exact"
+},
+"Tamie Pillars": {
+"t": "f1",
+"i": 15254,
+"src": "landmark:ma13a:exact"
+},
+"Genbu Crown": {
+"t": "f1",
+"i": 15257,
+"src": "landmark:ma13a:exact"
+},
+"Spirit Crucible Entrance": {
+"t": "f1",
+"i": 15546,
+"src": "landmark:ma16a:exact"
+},
+"Bone Road": {
+"t": "f1",
+"i": 15547,
+"src": "landmark:ma16a:exact"
+},
+"Canyon of Husks": {
+"t": "f1",
+"i": 15554,
+"src": "landmark:ma16a:exact"
+},
+"Five Centuries of Memory": {
+"t": "f2",
+"i": 25,
+"v": 2,
+"src": "kizuna"
+},
+"Underground River Lavi": {
+"t": "f1",
+"i": 15555,
+"src": "landmark:ma16a:exact"
+},
+"Grave Robbers' Haunt": {
+"t": "f1",
+"i": 15556,
+"src": "landmark:ma16a:exact"
+},
+"Wonder Spring Plaza Ruins": {
+"t": "f1",
+"i": 15548,
+"src": "landmark:ma16a:exact"
+},
+"Helical Cloister": {
+"t": "f1",
+"i": 15557,
+"src": "landmark:ma16a:exact"
+},
+"Elpys Great Hall": {
+"t": "f1",
+"i": 15549,
+"src": "landmark:ma16a:exact"
+},
+"Cenotaph Bridge": {
+"t": "f1",
+"i": 15562,
+"src": "landmark:ma16a:exact"
+},
+"Middle Worm-Ridden Cave": {
+"t": "f1",
+"i": 15550,
+"src": "landmark:ma16a:exact"
+},
+"Penitents' Spring": {
+"t": "f1",
+"i": 15558,
+"src": "landmark:ma16a:exact"
+},
+"Subterranean Lake Galantia": {
+"t": "f1",
+"i": 15553,
+"src": "landmark:ma16a:exact"
+},
+"Chamber of Offering": {
+"t": "f1",
+"i": 15559,
+"src": "landmark:ma16a:exact"
+},
+"Chamber of Pillars": {
+"t": "f1",
+"i": 15560,
+"src": "landmark:ma16a:exact"
+},
+"Stele of Judgment": {
+"t": "f1",
+"i": 15551,
+"src": "landmark:ma16a:exact"
+},
+"Indomitable Will": {
+"t": "f2",
+"i": 67,
+"v": 2,
+"src": "kizuna"
+},
+"Portal of the Hero": {
+"t": "f1",
+"i": 15552,
+"src": "landmark:ma16a:exact"
+},
+"Vault of Heroes": {
+"t": "f1",
+"i": 15561,
+"src": "landmark:ma16a:exact"
+},
+"Eternal Rest": {
+"t": "f2",
+"i": 37,
+"v": 2,
+"src": "kizuna"
+},
+"Cliffs of Morytha Inlet": {
+"t": "f1",
+"i": 15646,
+"src": "landmark:ma17a:exact"
+},
+"Chehn Slope": {
+"t": "f1",
+"i": 15651,
+"src": "landmark:ma17a:exact"
+},
+"Morytha Falls": {
+"t": "f1",
+"i": 15652,
+"src": "landmark:ma17a:exact"
+},
+"Linka Hive": {
+"t": "f1",
+"i": 15659,
+"src": "landmark:ma17a:exact"
+},
+"Idora Cave": {
+"t": "f1",
+"i": 15653,
+"src": "landmark:ma17a:exact"
+},
+"Runo Cave-in": {
+"t": "f1",
+"i": 15649,
+"src": "landmark:ma17a:exact"
+},
+"Constants": {
+"t": "f2",
+"i": 46,
+"v": 2,
+"src": "kizuna"
+},
+"Path of the Believer": {
+"t": "f1",
+"i": 15654,
+"src": "landmark:ma17a:exact"
+},
+"Fallen-Down Pilgrim's Way": {
+"t": "f1",
+"i": 15655,
+"src": "landmark:ma17a:exact"
+},
+"Balquors Ruins": {
+"t": "f1",
+"i": 15647,
+"src": "landmark:ma17a:exact"
+},
+"Cape O-uru": {
+"t": "f1",
+"i": 15656,
+"src": "landmark:ma17a:exact"
+},
+"Way of the Practitioner": {
+"t": "f1",
+"i": 15650,
+"src": "landmark:ma17a:exact"
+},
+"Hallowed Godswood Shrine": {
+"t": "f1",
+"i": 15657,
+"src": "landmark:ma17a:exact"
+},
+"Forward-Looking Woman": {
+"t": "f2",
+"i": 62,
+"v": 2,
+"src": "kizuna"
+},
+"Gotrock Oracle Ruins": {
+"t": "f1",
+"i": 15658,
+"src": "landmark:ma17a:exact"
+},
+"Jubilee Gate": {
+"t": "f1",
+"i": 15648,
+"src": "landmark:ma17a:exact"
+},
+"Ancient People's Driftland": {
+"t": "f1",
+"i": 15746,
+"src": "landmark:ma18a:exact"
+},
+"Family Ties": {
+"t": "f2",
+"i": 26,
+"v": 2,
+"src": "kizuna"
+},
+"Blocked Road": {
+"t": "f1",
+"i": 15763,
+"src": "landmark:ma18a:exact"
+},
+"Fallen Skyscraper": {
+"t": "f1",
+"i": 15747,
+"src": "landmark:ma18a:exact"
+},
+"Morytha the Unknown": {
+"t": "f2",
+"i": 48,
+"v": 2,
+"src": "kizuna"
+},
+"Mythra Vs. Brighid": {
+"t": "f2",
+"i": 27,
+"v": 2,
+"src": "kizuna"
+},
+"Evacuation Center": {
+"t": "f1",
+"i": 15754,
+"src": "landmark:ma18a:exact"
+},
+"Collapsed Rpadway": {
+"t": "f1",
+"i": 15753,
+"src": "landmark:ma18a:fuzzy"
+},
+"Great Wall Tunnel No. 8": {
+"t": "f1",
+"i": 15748,
+"src": "landmark:ma18a:exact"
+},
+"Womb Hollow": {
+"t": "f1",
+"i": 15749,
+"src": "landmark:ma18a:exact"
+},
+"Central Pathway": {
+"t": "f1",
+"i": 15750,
+"src": "landmark:ma18a:exact"
+},
+"Stronger than Light": {
+"t": "f2",
+"i": 77,
+"v": 2,
+"src": "kizuna"
+},
+"World Tree Root": {
+"t": "f1",
+"i": 15757,
+"src": "landmark:ma18a:exact"
+},
+"View of a Lost Time": {
+"t": "f1",
+"i": 15752,
+"src": "landmark:ma18a:exact"
+},
+"Highway 8": {
+"t": "f1",
+"i": 15759,
+"src": "landmark:ma18a:exact"
+},
+"Genome Center": {
+"t": "f1",
+"i": 15760,
+"src": "landmark:ma18a:exact"
+},
+"Wastes of Hubris": {
+"t": "f1",
+"i": 15755,
+"src": "landmark:ma18a:exact"
+},
+"Wall Power Control Room": {
+"t": "f1",
+"i": 15761,
+"src": "landmark:ma18a:exact"
+},
+"7th Division": {
+"t": "f1",
+"i": 15762,
+"src": "landmark:ma18a:exact"
+},
+"Megaflote Base": {
+"t": "f1",
+"i": 15751,
+"src": "landmark:ma18a:exact"
+},
+"Good Habits": {
+"t": "f2",
+"i": 42,
+"v": 2,
+"src": "kizuna"
+},
+"Benetnash, Elevator #6": {
+"t": "f1",
+"i": 15946,
+"src": "landmark:ma20a:exact"
+},
+"Lv. 2, Mizar: Mid Floor": {
+"t": "f1",
+"i": 15957,
+"src": "landmark:ma20a:exact"
+},
+"Lv. 2, Mizar: Lower Deck": {
+"t": "f1",
+"i": 15947,
+"src": "landmark:ma20a:exact"
+},
+"Mizar, Elevator #8": {
+"t": "f1",
+"i": 15948,
+"src": "landmark:ma20a:exact"
+},
+"7th Perimeter Entrance": {
+"t": "f1",
+"i": 15951,
+"src": "landmark:ma20a:exact"
+},
+"Lv.3 Alioth": {
+"t": "f1",
+"i": 15955,
+"src": "landmark:ma20a:exact"
+},
+"Waste Store": {
+"t": "f1",
+"i": 15958,
+"src": "landmark:ma20a:exact"
+},
+"Impassioned Thoughts": {
+"t": "f2",
+"i": 82,
+"v": 2,
+"src": "kizuna"
+},
+"Lv. 2, Mizar: Central Deck": {
+"t": "f1",
+"i": 15949,
+"src": "landmark:ma20a:exact"
+},
+"Legendary Land": {
+"t": "f2",
+"i": 44,
+"v": 2,
+"src": "kizuna"
+},
+"Nuclear Dump Facility": {
+"t": "f1",
+"i": 15959,
+"src": "landmark:ma20a:exact"
+},
+"Control Room": {
+"t": "f1",
+"i": 15960,
+"src": "landmark:ma20a:exact"
+},
+"Sky Bridge": {
+"t": "f1",
+"i": 15950,
+"src": "landmark:ma20a:exact"
+},
+"Data Processing Room": {
+"t": "f1",
+"i": 15961,
+"src": "landmark:ma20a:exact"
+},
+"Mizar, Elevator #20": {
+"t": "f1",
+"i": 15962,
+"src": "landmark:ma20a:exact"
+},
+"Roadway to 7th Perimeter": {
+"t": "f1",
+"i": 15963,
+"src": "landmark:ma20a:exact"
+},
+"7th Perimeter Center Floor": {
+"t": "f1",
+"i": 15952,
+"src": "landmark:ma20a:exact"
+},
+"Mizar Thoroughfare": {
+"t": "f1",
+"i": 15964,
+"src": "landmark:ma20a:exact"
+},
+"Mizar, Elevator #5": {
+"t": "f1",
+"i": 15953,
+"src": "landmark:ma20a:exact"
+},
+"7th Perimeter Defense Post": {
+"t": "f1",
+"i": 15965,
+"src": "landmark:ma20a:exact"
+},
+"7th Perimeter Skyport": {
+"t": "f1",
+"i": 15954,
+"src": "landmark:ma20a:exact"
+},
+"Alioth, Elevator #3": {
+"t": "f1",
+"i": 15967,
+"src": "landmark:ma20a:exact"
+},
+"Megrez Gateway": {
+"t": "f1",
+"i": 15956,
+"src": "landmark:ma20a:exact"
+},
+"Lv. 4, Megrez": {
+"t": "f1",
+"i": 15968,
+"src": "landmark:ma20a:exact"
+},
+"Megrez, Elevator #1": {
+"t": "f1",
+"i": 15969,
+"src": "landmark:ma20a:exact"
+},
+"Rhadamanthus Portal": {
+"t": "f1",
+"i": 16046,
+"src": "landmark:ma21a:exact"
+},
+"Top of the World": {
+"t": "f2",
+"i": 40,
+"v": 2,
+"src": "kizuna"
+},
+"Daybreak": {
+"t": "f2",
+"i": 79,
+"v": 2,
+"src": "kizuna"
+},
+"Desolate Land": {
+"t": "f2",
+"i": 64,
+"v": 2,
+"src": "kizuna"
+},
+"Elysium": {
+"t": "f1",
+"i": 16054,
+"src": "landmark:ma21a:exact"
+},
+"Hill Overlooking Elysium": {
+"t": "f1",
+"i": 16050,
+"src": "landmark:ma21a:exact"
+},
+"Old Temple": {
+"t": "f1",
+"i": 16047,
+"src": "landmark:ma21a:exact"
+},
+"Architect's Room": {
+"t": "f1",
+"i": 16048,
+"src": "landmark:ma21a:exact"
+},
+"Storage Area Entrance": {
+"t": "f1",
+"i": 16053,
+"src": "landmark:ma21a:exact"
+},
+"Colossus Hangar": {
+"t": "f1",
+"i": 16051,
+"src": "landmark:ma21a:exact"
+},
+"Before the Storm": {
+"t": "f2",
+"i": 4,
+"v": 2,
+"src": "kizuna"
+}
+},
+"goals": {
+"Clear Chapter 10": {
+"t": "x",
+"k": "clear_count",
+"src": "GameClearCount rises after the ending"
+}
+}
+}
