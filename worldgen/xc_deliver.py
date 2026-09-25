@@ -453,6 +453,27 @@ class XC3GainMultiplier(GainMultiplier):
         return out
 
 
+class _WriteBudget:
+    """Caps how many memory writes one apply() call may make. Live-confirmed 2026-09-25: a client attaching to an
+    already-progressed multiworld (hundreds of items already received) applied its entire backlog - outfits, gems,
+    story/container gate unlocks - in one uninterrupted burst, and since apply() writes every live save copy
+    (4 copies seen live), the same backlog was written 3-4x over in well under a second. That flood of memory writes
+    is what froze then crashed the emulator; xc3_layout_ok (see apply()) only gates *when* delivery may start, not
+    how much it does once started. A shared budget spent across every writer in one apply() call bounds each poll
+    tick to a small number of writes regardless of backlog size or copy count, so a large backlog trickles in over
+    many 1.5s ticks instead of landing all at once."""
+    __slots__ = ("left",)
+
+    def __init__(self, n: int):
+        self.left = n
+
+    def take(self) -> bool:
+        if self.left <= 0:
+            return False
+        self.left -= 1
+        return True
+
+
 class XC3Deliverer:
     """XC3 items applied through the live 2-bit flag array (save struct + 0x2710).  Outfits: 0 = hidden in the Clothing list,
     1 = unlocked (NEW dot), 2 = unlocked and seen (live-verified).  Received -> raised to 1 if 0; not received -> forced to 0.
@@ -461,6 +482,7 @@ class XC3Deliverer:
     Manana's Menu recipes, whose own BDAT row (FLD_MealRecipe.OpenFlag) names the flag directly."""
     FLAG2_BASE = 0x2710
     FLAG1_BASE = 0x710
+    MAX_WRITES_PER_POLL = 3        # small and adjustable; see _WriteBudget for why this exists
 
     def __init__(self, table: dict):
         self.items: Dict[str, dict] = table.get("items", {})
@@ -532,12 +554,17 @@ class XC3Deliverer:
                 log("Delivery: waiting for the game's item lists (load a save; nothing is written or delivered until they are found).")
             return 0
         self.layout_warned = False
+        budget = _WriteBudget(self.MAX_WRITES_PER_POLL)
         writes = 0
         for base in bases:
+            if budget.left <= 0:
+                break
             blob = mem.read(base + self.FLAG2_BASE, 0x4000)
             if blob is None:
                 continue
             for name, eff in self.items.items():
+                if budget.left <= 0:
+                    break
                 if eff["t"] != "flag2":
                     continue
                 idx = eff["i"]
@@ -559,11 +586,16 @@ class XC3Deliverer:
                     continue
                 if mem.write(addr, bytes([(raw[0] & ~(3 << sh)) | (new << sh)])):
                     writes += 1
+                    budget.left -= 1
                     log(f"Delivery: {name} {'unlocked' if want else 'locked'}")
+            if budget.left <= 0:
+                break
             blob1 = mem.read(base + self.FLAG1_BASE, 0x2000)
             if blob1 is None:
                 continue
             for name, eff in self.items.items():
+                if budget.left <= 0:
+                    break
                 if eff["t"] != "flag1":
                     continue
                 idx = eff["i"]
@@ -579,6 +611,7 @@ class XC3Deliverer:
                     continue
                 if mem.write(addr, bytes([(raw[0] & ~(1 << bit)) | (new << bit)])):
                     writes += 1
+                    budget.left -= 1
                     log(f"Delivery: {name} {'unlocked' if want else 'locked'}")
         # bases[0]/ok_bases[0] is just whichever copy sorts first (by address) - usually fine when there is one real
         # copy, but XC3Probe can also report early-game candidates that pass its flag-block heuristic without having
@@ -587,14 +620,14 @@ class XC3Deliverer:
         # checks stopped sending because bases[0] was one of those flag-only candidates while the real copy with
         # working arrays was bases[3]) - ok_bases[0] is guaranteed to be one that passes.
         inv_base = ok_bases[0]
-        writes += self._deliver_inventory(mem, inv_base, counts, log)
+        writes += self._deliver_inventory(mem, inv_base, counts, log, budget)
         writes += self._watch_shops(mem, inv_base, log)
-        writes += self._open_gates(mem, inv_base, counts, log)
-        writes += self._open_container_gates(mem, inv_base, counts, log)
+        writes += self._open_gates(mem, inv_base, counts, log, budget)
+        writes += self._open_container_gates(mem, inv_base, counts, log, budget)
         if self.slot_data and self.slot_data.get("progressive_colony_affinity"):
-            writes += self._cap_affinity(mem, bases, counts, log)
+            writes += self._cap_affinity(mem, bases, counts, log, budget)
         if self.slot_data and self.slot_data.get("story_gating"):
-            writes += self._cap_story(mem, bases, counts, log)
+            writes += self._cap_story(mem, bases, counts, log, budget)
         return writes
 
     # ---- story gates: every locked story step waits for its own key item (rando_bridge xc3_story_gates); the k-th Progressive Story Quest hands over step k's item
@@ -609,7 +642,7 @@ class XC3Deliverer:
                 pass
         return self.gates
 
-    def _open_gates(self, mem, base: int, counts: Dict[str, int], log: Callable[[str], None]) -> int:
+    def _open_gates(self, mem, base: int, counts: Dict[str, int], log: Callable[[str], None], budget: "_WriteBudget") -> int:
         if not self.slot_data or not self.slot_data.get("story_gating"):
             return 0
         from .xc_inventory import xc3_add_item
@@ -621,8 +654,11 @@ class XC3Deliverer:
             key = f"__gate:{item}"
             if self.state.given.get(key):
                 continue
+            if not budget.take():
+                break
             if xc3_add_item(mem, base, "precious", item, 1):
                 self.state.given[key] = 1
+                self.state.save()
                 writes += 1
                 log(f"Story step {need} unlocked ({have} Progressive Story Quest item(s) received).")
         return writes
@@ -642,7 +678,7 @@ class XC3Deliverer:
                 pass
         return self.container_gates
 
-    def _open_container_gates(self, mem, base: int, counts: Dict[str, int], log: Callable[[str], None]) -> int:
+    def _open_container_gates(self, mem, base: int, counts: Dict[str, int], log: Callable[[str], None], budget: "_WriteBudget") -> int:
         if not self.slot_data or not self.slot_data.get("container_gating"):
             return 0
         from .xc_inventory import xc3_add_item
@@ -654,19 +690,20 @@ class XC3Deliverer:
             key = f"__cgate:{item}"
             if self.state.given.get(key):
                 continue
+            if not budget.take():
+                break
             if xc3_add_item(mem, base, "precious", item, 1):
                 self.state.given[key] = 1
+                self.state.save()
                 writes += 1
                 log(f"Container batch {need} unlocked ({have} Progressive Container Access item(s) received).")
-        if writes:
-            self.state.save()
         return writes
 
     # ---- colony (region) affinity: the colony's affinity points are a 16-bit flag (save struct + 0x9710 + 2 * RespectFlag); levels start at Level1..Level5 points.
     # Points are held below the next level's threshold until that many "Progressive Affinity" items have arrived (0 items: level 1 max, 4 items: no cap).
     F16_BASE = 0x9710
 
-    def _cap_affinity(self, mem, bases, counts: Dict[str, int], log: Callable[[str], None]) -> int:
+    def _cap_affinity(self, mem, bases, counts: Dict[str, int], log: Callable[[str], None], budget: "_WriteBudget") -> int:
         writes = 0
         for name, eff in self.items.items():
             if eff["t"] != "affinity_cap":
@@ -678,7 +715,11 @@ class XC3Deliverer:
             for base in bases:
                 addr = base + self.F16_BASE + 2 * eff["flag"]
                 raw = mem.read(addr, 2)
-                if raw is not None and struct.unpack("<H", raw)[0] > cap and mem.write(addr, struct.pack("<H", cap)):
+                if raw is None or struct.unpack("<H", raw)[0] <= cap:
+                    continue
+                if not budget.take():
+                    return writes
+                if mem.write(addr, struct.pack("<H", cap)):
                     writes += 1
                     log(f"Delivery: {name[len('Progressive Affinity: '):]} affinity held at {cap} points ({have} of 4 level-ups received)")
         return writes
@@ -691,7 +732,7 @@ class XC3Deliverer:
     # array, confirmed live: 0 = not started, 1 = in progress, 2 = complete). Beat i (1-based) is held below
     # "complete" until `have >= i` Progressive Story Quest items have arrived - same cap-below-threshold shape as
     # _cap_affinity, just on quest-task state instead of a 16-bit point counter.
-    def _cap_story(self, mem, bases, counts: Dict[str, int], log: Callable[[str], None]) -> int:
+    def _cap_story(self, mem, bases, counts: Dict[str, int], log: Callable[[str], None], budget: "_WriteBudget") -> int:
         writes = 0
         for name, eff in self.items.items():
             if eff["t"] != "story_gate":
@@ -715,13 +756,15 @@ class XC3Deliverer:
                     cur = (raw[0] >> shift) & mask
                     if cur <= cap:
                         continue
+                    if not budget.take():
+                        return writes
                     new_byte = (raw[0] & ~(mask << shift)) | (cap << shift)
                     if mem.write(addr, bytes([new_byte])):
                         writes += 1
                         log(f"Delivery: {b['label']} held (need {i} of {len(eff['beats'])} Progressive Story Quest, have {have})")
         return writes
 
-    def _deliver_inventory(self, mem, base: int, counts: Dict[str, int], log: Callable[[str], None]) -> int:
+    def _deliver_inventory(self, mem, base: int, counts: Dict[str, int], log: Callable[[str], None], budget: "_WriteBudget") -> int:
         from .xc_inventory import xc3_add_item
         todo = [(name, eff, counts.get(name, 0) - self.state.given.get(name, 0)) for name, eff in self.items.items()
                 if eff["t"] == "give" and counts.get(name, 0) > self.state.given.get(name, 0)]
@@ -730,13 +773,14 @@ class XC3Deliverer:
         writes = 0
         for name, eff, n in todo:
             for _ in range(n):
+                if not budget.take():
+                    return writes
                 if not xc3_add_item(mem, base, eff["kind"], eff["id"], eff.get("qty", 1)):
                     break
                 self.state.given[name] = self.state.given.get(name, 0) + 1
+                self.state.save()
                 writes += 1
                 log(f"Delivery: {name} added to the inventory")
-        if writes:
-            self.state.save()
         return writes
 
 
