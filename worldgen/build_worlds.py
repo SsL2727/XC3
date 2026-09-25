@@ -897,7 +897,7 @@ from worlds.AutoWorld import WebWorld, World
 from .xc_core import XCData, XCMixin, to_identifier
 {extra_imports}
 
-XC = XCData(__name__)
+XC = XCData("{pkg}")
 
 
 def launch_client(*args):
@@ -1201,7 +1201,7 @@ def write_package(pkg: str, bundle: dict, cfg: dict, manual: dict) -> Path:
     game_source = {"xenoblade_de": DE_SOURCE, "xenoblade_2": XC2_SOURCE, "xenoblade_3": XC3_SOURCE}[pkg]
     class_body = {"xenoblade_de": DE_BODY, "xenoblade_2": XC2_BODY, "xenoblade_3": XC3_BODY}[pkg]
     init = INIT_TEMPLATE.format(title=cfg["title"], klass=cfg["class"], game_source=game_source,
-                                class_body=class_body, extra_imports=extra_imports,
+                                class_body=class_body, extra_imports=extra_imports, pkg=pkg,
                                 suffix={"xenoblade_de": ".apxcde", "xenoblade_2": ".apxc2", "xenoblade_3": ".apxc3"}[pkg])
     (pdir / "__init__.py").write_text(init, encoding="utf-8")
     (pdir / "archipelago.json").write_text(json.dumps({
