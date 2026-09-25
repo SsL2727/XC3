@@ -156,9 +156,20 @@ class XCCommandProcessor(ClientCommandProcessor):
             ctx.autotrack_pending, ctx.autotrack_pending_polls, ctx.autotrack_pending_pid = None, 0, None
             logger.info(f"Baseline set: ignoring {len(ctx.autotrack_ignore)} check(s) the loaded save already has.")
         elif mode == "send":
+            # Must actually send here, synchronously - not just clear the hold and rely on the next poll. Live-
+            # confirmed 2026-09-25: clearing autotrack_pending alone let the very next poll's burst-detection gate
+            # in _autotrack_apply (len(fresh) > AUTOTRACK_BURST) immediately re-arm hold before that poll ever
+            # reached the send logic, since fresh was still the same large set - /autotrack send looped forever
+            # without ever sending anything. Sending the current fresh set here and recording it in autotrack_sent
+            # makes the next poll's fresh set correctly exclude these names, so it no longer re-triggers the gate.
+            fresh = [n for n in sorted(ctx.autotrack_last_true) if n not in ctx.autotrack_ignore and n not in ctx.autotrack_sent
+                     and ctx.location_name_to_id[n] in ctx.missing_locations]
             ctx.autotrack_held = False
             ctx.autotrack_pending, ctx.autotrack_pending_polls, ctx.autotrack_pending_pid = None, 0, None
-            logger.info("Sending everything the loaded save has set.")
+            if fresh:
+                ctx.autotrack_sent.update(fresh)
+                ctx.send_checks([ctx.location_name_to_id[n] for n in fresh])
+            logger.info(f"Sending everything the loaded save has set ({len(fresh)} check(s)).")
         else:
             state = "on" if ctx.autotrack_enabled else "off"
             attached = "attached to " + ctx.autotrack_target if ctx.autotrack_target else "game not found"
