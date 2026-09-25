@@ -489,9 +489,7 @@ class XC3Deliverer:
         placeholders = self._marker().get("shop_placeholders") if mode else None
         if not placeholders:
             return 0
-        from .xc_inventory import XC3_ARRAYS, XC3_ENTRY, XC3_SHIFT, xc3_layout_ok, xc3_remove_placeholders
-        if not xc3_layout_ok(mem, base):
-            return 0
+        from .xc_inventory import XC3_ARRAYS, XC3_ENTRY, XC3_SHIFT, xc3_remove_placeholders
         off, typ, cap, _st = XC3_ARRAYS["accessory"]
         raw = mem.read(base + XC3_SHIFT + off, 16 * cap)
         if raw is None:
@@ -518,8 +516,24 @@ class XC3Deliverer:
         mem = probe.mem
         if mem is None:
             return 0
+        bases = probe.live_bases()
+        if not bases:
+            return 0
+        # Nothing is written or delivered - not the outfit/flag writes below, not inventory, not gating - until at
+        # least one live copy's item arrays check out. Previously only the item-array writers (_deliver_inventory,
+        # _watch_shops, _open_gates, _open_container_gates) waited on this; the flag2/flag1 loop and
+        # _cap_affinity/_cap_story had no such gate and would fire on connect before the game's item lists were
+        # found, which is what produced the burst of writes reported live 2026-09-25.
+        from .xc_inventory import xc3_layout_ok
+        ok_bases = [b for b in bases if xc3_layout_ok(mem, b)]
+        if not ok_bases:
+            if not self.layout_warned:
+                self.layout_warned = True
+                log("Delivery: waiting for the game's item lists (load a save; nothing is written or delivered until they are found).")
+            return 0
+        self.layout_warned = False
         writes = 0
-        for base in probe.live_bases():
+        for base in bases:
             blob = mem.read(base + self.FLAG2_BASE, 0x4000)
             if blob is None:
                 continue
@@ -566,25 +580,21 @@ class XC3Deliverer:
                 if mem.write(addr, bytes([(raw[0] & ~(1 << bit)) | (new << bit)])):
                     writes += 1
                     log(f"Delivery: {name} {'unlocked' if want else 'locked'}")
-        bases = probe.live_bases()
-        if bases:
-            # bases[0] is just whichever copy sorts first (by address) - usually fine when there is one real copy,
-            # but XC3Probe can now also report early-game candidates that pass its flag-block heuristic without
-            # having a valid inventory layout yet (see _plausible's 2026-09-22 early-game fix). Inventory-dependent
-            # operations need the copy whose item arrays actually check out, or they silently do nothing (live-
-            # confirmed: shop checks stopped sending because bases[0] was one of those flag-only candidates while
-            # the real copy with working arrays was bases[3]) - prefer whichever copy passes the stricter check.
-            from .xc_inventory import xc3_layout_ok
-            ok_bases = [b for b in bases if xc3_layout_ok(mem, b)]
-            inv_base = ok_bases[0] if ok_bases else bases[0]
-            writes += self._deliver_inventory(mem, inv_base, counts, log)
-            writes += self._watch_shops(mem, inv_base, log)
-            writes += self._open_gates(mem, inv_base, counts, log)
-            writes += self._open_container_gates(mem, inv_base, counts, log)
-            if self.slot_data and self.slot_data.get("progressive_colony_affinity"):
-                writes += self._cap_affinity(mem, bases, counts, log)
-            if self.slot_data and self.slot_data.get("story_gating"):
-                writes += self._cap_story(mem, bases, counts, log)
+        # bases[0]/ok_bases[0] is just whichever copy sorts first (by address) - usually fine when there is one real
+        # copy, but XC3Probe can also report early-game candidates that pass its flag-block heuristic without having
+        # a valid inventory layout yet (see _plausible's 2026-09-22 early-game fix). Inventory-dependent operations
+        # need the copy whose item arrays actually check out, or they silently do nothing (live-confirmed: shop
+        # checks stopped sending because bases[0] was one of those flag-only candidates while the real copy with
+        # working arrays was bases[3]) - ok_bases[0] is guaranteed to be one that passes.
+        inv_base = ok_bases[0]
+        writes += self._deliver_inventory(mem, inv_base, counts, log)
+        writes += self._watch_shops(mem, inv_base, log)
+        writes += self._open_gates(mem, inv_base, counts, log)
+        writes += self._open_container_gates(mem, inv_base, counts, log)
+        if self.slot_data and self.slot_data.get("progressive_colony_affinity"):
+            writes += self._cap_affinity(mem, bases, counts, log)
+        if self.slot_data and self.slot_data.get("story_gating"):
+            writes += self._cap_story(mem, bases, counts, log)
         return writes
 
     # ---- story gates: every locked story step waits for its own key item (rando_bridge xc3_story_gates); the k-th Progressive Story Quest hands over step k's item
@@ -602,9 +612,7 @@ class XC3Deliverer:
     def _open_gates(self, mem, base: int, counts: Dict[str, int], log: Callable[[str], None]) -> int:
         if not self.slot_data or not self.slot_data.get("story_gating"):
             return 0
-        from .xc_inventory import xc3_add_item, xc3_layout_ok
-        if not xc3_layout_ok(mem, base):
-            return 0
+        from .xc_inventory import xc3_add_item
         have = counts.get("Progressive Story Quest", 0)
         writes = 0
         for need, item in self._gate_table().items():
@@ -637,9 +645,7 @@ class XC3Deliverer:
     def _open_container_gates(self, mem, base: int, counts: Dict[str, int], log: Callable[[str], None]) -> int:
         if not self.slot_data or not self.slot_data.get("container_gating"):
             return 0
-        from .xc_inventory import xc3_add_item, xc3_layout_ok
-        if not xc3_layout_ok(mem, base):
-            return 0
+        from .xc_inventory import xc3_add_item
         have = counts.get("Progressive Container Access", 0)
         writes = 0
         for need, item in self._container_gate_table().items():
@@ -716,17 +722,11 @@ class XC3Deliverer:
         return writes
 
     def _deliver_inventory(self, mem, base: int, counts: Dict[str, int], log: Callable[[str], None]) -> int:
-        from .xc_inventory import xc3_add_item, xc3_layout_ok
+        from .xc_inventory import xc3_add_item
         todo = [(name, eff, counts.get(name, 0) - self.state.given.get(name, 0)) for name, eff in self.items.items()
                 if eff["t"] == "give" and counts.get(name, 0) > self.state.given.get(name, 0)]
         if not todo:
             return 0
-        if not xc3_layout_ok(mem, base):                   # the game is not in a state where the item arrays can be trusted
-            if not self.layout_warned:
-                self.layout_warned = True
-                log("Delivery: waiting for the game's item lists (load a save; items are handed over once they are found).")
-            return 0
-        self.layout_warned = False
         writes = 0
         for name, eff, n in todo:
             for _ in range(n):
