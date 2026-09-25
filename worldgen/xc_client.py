@@ -153,6 +153,7 @@ class XCCommandProcessor(ClientCommandProcessor):
         elif mode == "baseline":
             ctx.autotrack_ignore |= ctx.autotrack_last_true
             ctx.autotrack_held = False
+            ctx.autotrack_streak = {}
             ctx.autotrack_pending, ctx.autotrack_pending_polls, ctx.autotrack_pending_pid = None, 0, None
             logger.info(f"Baseline set: ignoring {len(ctx.autotrack_ignore)} check(s) the loaded save already has.")
         elif mode == "send":
@@ -165,6 +166,7 @@ class XCCommandProcessor(ClientCommandProcessor):
             fresh = [n for n in sorted(ctx.autotrack_last_true) if n not in ctx.autotrack_ignore and n not in ctx.autotrack_sent
                      and ctx.location_name_to_id[n] in ctx.missing_locations]
             ctx.autotrack_held = False
+            ctx.autotrack_streak = {}
             ctx.autotrack_pending, ctx.autotrack_pending_polls, ctx.autotrack_pending_pid = None, 0, None
             if fresh:
                 ctx.autotrack_sent.update(fresh)
@@ -234,8 +236,9 @@ class XCContext(CommonContext):
         self.autotrack_target: str = ""
         self.autotrack_held = False
         self._autotrack_first = True
-        self.autotrack_pending: Optional[set] = None    # last-confirmed superset of a burst being auto-verified, see _autotrack_apply
-        self.autotrack_pending_polls = 0
+        self.autotrack_streak: Dict[str, int] = {}       # name -> consecutive polls read true while unconfirmed, see _autotrack_apply
+        self.autotrack_pending: Optional[set] = None    # mirror of autotrack_streak's keys, for /autotrack status - see _autotrack_apply
+        self.autotrack_pending_polls = 0                # mirror of the lowest streak among autotrack_pending, for /autotrack status
         self.autotrack_pending_pid: Optional[int] = None
         self.autotrack_pid: Optional[int] = None
         self.deliver_enabled = True
@@ -483,9 +486,8 @@ class XCContext(CommonContext):
             if bases:
                 self._landmark_tracker.update(self._probe.mem, bases[0], names, self.autotrack_last_true, logger.info)
         self.autotrack_last_true = names
-        fresh = [n for n in sorted(names) if n not in self.autotrack_ignore and n not in self.autotrack_sent
-                 and self.location_name_to_id[n] in self.missing_locations]
-        fresh_set = set(fresh)
+        fresh_set = {n for n in names if n not in self.autotrack_ignore and n not in self.autotrack_sent
+                     and self.location_name_to_id[n] in self.missing_locations}
         if self._autotrack_first:
             self._autotrack_first = False
         # A burst this big is never real progress from one poll to the next, but for async play it very often IS
@@ -494,47 +496,58 @@ class XCContext(CommonContext):
         # Rather than freezing until a human runs /autotrack send, confirm it automatically by requiring the SAME
         # (or a growing) set to read true across several consecutive polls: a bad/transient read - the emulator
         # dying mid-poll, a wrong memory copy, a save file being rebuilt - won't reproduce identically poll after
-        # poll, but real save data will. Real save progress also never un-sets a flag, so any check that was seen
-        # true and then reads false again is a strong tell of a bad read and restarts confirmation from scratch
-        # (live-confirmed 2026-09-22: bursts of 1500+ false checks, including a false goal completion, arrived on
-        # the poll right as an emulator process was killed, and again during "New Game" creation on a freshly
-        # booted one - both would fail to reproduce identically on the next poll). Stability alone is not quite
-        # enough, though: a frozen-but-wrong memory copy (a stale save-slot preview still resident after a restart,
-        # live-confirmed 2026-09-22 - see xc_autotrack.py) reads just as consistently as real data. So confirmation
-        # ALSO requires the emulator attachment itself to have stayed continuous throughout - any reattach (a new
-        # pid) restarts the count too, since that is exactly the moment a different/wrong copy could get picked up.
-        if len(fresh) > self.AUTOTRACK_BURST:
-            pid_changed = self.autotrack_pending_pid is not None and self.autotrack_pending_pid != self.autotrack_pid
-            reverted = self.autotrack_pending is not None and not (self.autotrack_pending <= fresh_set)
-            if self.autotrack_pending is None or reverted or pid_changed:
-                if pid_changed:
-                    logger.warning("Autotracking: the emulator reattached while a burst was pending confirmation - "
-                                   "restarting confirmation in case a different memory copy is now being read.")
-                elif reverted:
-                    logger.warning("Autotracking: the pending burst partly reverted (some checks that read true went "
-                                   "false again) - treating this as a bad read and restarting confirmation.")
-                else:
-                    logger.warning(f"Autotracking: {len(fresh)} checks appeared at once - holding for automatic "
-                                   f"confirmation over the next ~{self.AUTOTRACK_STABLE_POLLS * 2}s (a real, already-"
-                                   f"progressed save reads the same or grows every poll; a bad read will not). "
-                                   f"/autotrack send confirms immediately, /autotrack baseline discards them instead.")
-                self.autotrack_pending, self.autotrack_pending_polls, self.autotrack_held = fresh_set, 1, True
-                self.autotrack_pending_pid = self.autotrack_pid
+        # poll, but real save data will. So confirmation ALSO requires the emulator attachment itself to have stayed
+        # continuous throughout - any reattach (a new pid) restarts everything, since that is exactly the moment a
+        # different/wrong copy could get picked up (live-confirmed 2026-09-22: bursts of 1500+ false checks, including
+        # a false goal completion, arrived on the poll right as an emulator process was killed, and again during
+        # "New Game" creation on a freshly booted one).
+        #
+        # Confirmation is tracked PER CHECK (autotrack_streak: name -> consecutive polls read true), not as one
+        # shared counter for the whole batch. It used to be one counter, reset to zero the instant ANY previously-
+        # pending check read false for a single poll - live-confirmed 2026-09-25 that this stopped working once
+        # container detection added ~300 more individually-polled flags: with that many detectors read out of a
+        # 1.5MB cross-process snapshot every 2s, at least one single-poll transient misread became common enough
+        # that the 25-poll/50s window essentially never completed - one flaky bit wiped out the accumulated
+        # confirmation of hundreds of other checks that had already read true many polls in a row, over and over,
+        # forever (a client log showed continuous "bad read" reversion for 6+ minutes straight). Now a check that
+        # drops out of fresh_set for a poll only loses its OWN progress; everything else keeps counting, and each
+        # check is sent as soon as IT individually reaches the stability threshold rather than waiting for the
+        # entire original batch to be simultaneously stable.
+        pid_changed = self.autotrack_pending_pid is not None and self.autotrack_pending_pid != self.autotrack_pid
+        if pid_changed:
+            logger.warning("Autotracking: the emulator reattached while checks were pending confirmation - "
+                           "restarting confirmation in case a different memory copy is now being read.")
+            self.autotrack_streak = {}
+        for n in list(self.autotrack_streak):
+            if n not in fresh_set:
+                del self.autotrack_streak[n]                   # only this one's progress is lost, not everyone else's
+        already_holding = bool(self.autotrack_streak)
+        if not already_holding and len(fresh_set) > self.AUTOTRACK_BURST:
+            logger.warning(f"Autotracking: {len(fresh_set)} checks appeared at once - holding for automatic "
+                           f"confirmation over the next ~{self.AUTOTRACK_STABLE_POLLS * 2}s (a real, already-"
+                           f"progressed save reads the same or grows every poll; a bad read will not). "
+                           f"/autotrack send confirms immediately, /autotrack baseline discards them instead.")
+            already_holding = True
+        ready = []
+        for n in fresh_set:
+            streak = self.autotrack_streak.get(n, 0) + 1
+            if already_holding and streak < self.AUTOTRACK_STABLE_POLLS:
+                self.autotrack_streak[n] = streak
             else:
-                self.autotrack_pending = fresh_set                 # absorb any further growth, never resets the count
-                self.autotrack_pending_polls += 1
-                if self.autotrack_pending_polls >= self.AUTOTRACK_STABLE_POLLS:
-                    logger.info(f"Autotracking: {len(fresh_set)} checks held stable for "
-                                f"{self.autotrack_pending_polls} polls - accepting as real progress.")
-                    self.autotrack_held = False
-                    self.autotrack_pending = self.autotrack_pending_pid = None
-        elif self.autotrack_pending is not None and not self.autotrack_held:
-            self.autotrack_pending = self.autotrack_pending_pid = None   # cleared out from under us (baseline/send) - drop stale state
-        if fresh and not self.autotrack_held:
-            for n in fresh:
+                ready.append(n)
+                self.autotrack_streak.pop(n, None)
+        self.autotrack_held = bool(self.autotrack_streak)
+        self.autotrack_pending = set(self.autotrack_streak) or None
+        self.autotrack_pending_polls = min(self.autotrack_streak.values()) if self.autotrack_streak else 0
+        if self.autotrack_streak and self.autotrack_pending_pid is None:
+            self.autotrack_pending_pid = self.autotrack_pid
+        elif not self.autotrack_streak:
+            self.autotrack_pending_pid = None
+        if ready:
+            for n in sorted(ready):
                 logger.info(f"Autotracking: {n}")
-            self.autotrack_sent.update(fresh)
-            self.send_checks([self.location_name_to_id[n] for n in fresh])
+            self.autotrack_sent.update(ready)
+            self.send_checks([self.location_name_to_id[n] for n in ready])
         if goal_hit and not self.finished_game and not self.autotrack_held:
             self.finished_game = True
             logger.info(f"Autotracking: goal '{self.slot_data.get('goal')}' reached!")
