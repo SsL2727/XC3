@@ -554,9 +554,18 @@ class XC3Deliverer:
                 log("Delivery: waiting for the game's item lists (load a save; nothing is written or delivered until they are found).")
             return 0
         self.layout_warned = False
+        # Every write below (flag2/flag1 loop, and the bases-scanning _cap_affinity/_cap_story) targets ok_bases only,
+        # never the raw `bases` list. XC3Probe's "plausible" heuristic can report a candidate that looks enough like
+        # a save copy to pass its loose flag-block check without actually being real save data (see the early-game
+        # note below); writing flags/caps into such a candidate stomps on whatever memory is actually there.
+        # Live-confirmed 2026-09-25: an Eden session crashed with "Cannot execute instruction at unmapped address 0"
+        # a few seconds after connect, preceded by repeated Unmapped Read32 errors recurring on the delivery poll
+        # interval - consistent with a write landing outside real save data and corrupting a pointer the game later
+        # jumped through. xc3_layout_ok's structural check (type/index/qty coherence, serial counter in range) is
+        # what makes ok_bases trustworthy; bases is not.
         budget = _WriteBudget(self.MAX_WRITES_PER_POLL)
         writes = 0
-        for base in bases:
+        for base in ok_bases:
             if budget.left <= 0:
                 break
             blob = mem.read(base + self.FLAG2_BASE, 0x4000)
@@ -625,9 +634,9 @@ class XC3Deliverer:
         writes += self._open_gates(mem, inv_base, counts, log, budget)
         writes += self._open_container_gates(mem, inv_base, counts, log, budget)
         if self.slot_data and self.slot_data.get("progressive_colony_affinity"):
-            writes += self._cap_affinity(mem, bases, counts, log, budget)
+            writes += self._cap_affinity(mem, ok_bases, counts, log, budget)
         if self.slot_data and self.slot_data.get("story_gating"):
-            writes += self._cap_story(mem, bases, counts, log, budget)
+            writes += self._cap_story(mem, ok_bases, counts, log, budget)
         return writes
 
     # ---- story gates: every locked story step waits for its own key item (rando_bridge xc3_story_gates); the k-th Progressive Story Quest hands over step k's item
