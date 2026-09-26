@@ -1,6 +1,22 @@
 {
 "items": [
 {
+"name": "Progressive Region",
+"count": 0,
+"category": [
+"Region Progression"
+],
+"progression": true
+},
+{
+"name": "Origin Shard",
+"count": 0,
+"category": [
+"Region Progression"
+],
+"progression": true
+},
+{
 "name": "Gem: Ironclad I",
 "count": 0,
 "category": [

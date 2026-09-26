@@ -235,7 +235,8 @@ GAMES = {
         "extra_categories": {"Colony Affinity": {"yaml_option": ["progressive_colony_affinity"]},
                              "shops": {"choice": {"option": "shop_checks", "values": [0]}},        # the manual world's own 'Buy <item>' checks
                              "Shops": {"choice": {"option": "shop_checks", "values": [1]}},
-                             "Shop Slots": {"choice": {"option": "shop_checks", "values": [2]}}},
+                             "Shop Slots": {"choice": {"option": "shop_checks", "values": [2]}},
+                             "quests": {"yaml_option": ["questsanity"]}},
         "extra_options": {"progressive_colony_affinity": {"type": "Toggle", "default": True, "display_name": "Progressive Colony Affinity",
                                                           "description": "The affinity level of every colony (Colony 9, Colony Gamma, ... City, Nopon Caravans) is capped at level 1 until "
                                                                          "'Progressive Affinity: <colony>' items arrive; each copy raises the cap by one level (4 copies = all 5 levels)."},
@@ -255,7 +256,34 @@ GAMES = {
                           "shop_checks": {"type": "Choice", "default": 2, "display_name": "Shop Checks", "values": {"Off": 0, "Per Shop": 1, "Per Slot": 2},
                                           "description": "Shops are part of the multiworld: every commissary / caravan item (each costs 100 G and shows the multiworld item it holds) is a "
                                                          "check. Per Shop = one check per shop (buying anything there), Per Slot = one check per shop slot; shops and items a quest needs "
-                                                         "you to buy stay vanilla. Needs the patcher AND the Skyline loader (Eden; it crashes Ryujinx)."}},
+                                                         "you to buy stay vanilla. Needs the patcher AND the Skyline loader (Eden; it crashes Ryujinx)."},
+                          "questsanity": {"type": "Toggle", "default": True, "display_name": "Questsanity",
+                                         "description": "Include quest checks in the pool (about 198 of them, the 'Quests' category). Off removes every quest location from the "
+                                                        "world entirely (default on, same as today's behavior before this option existed)."},
+                          "open_world": {"type": "Toggle", "default": False, "display_name": "Open World",
+                                        "description": "Every region is open from the start except behind seven honor-system checkpoints, in this order: Aetia (the starting "
+                                                       "continent, no gate needed) -> Fornis -> Pentelas -> Keves Castle -> Cadensia -> Agnus Castle -> Swordmarch/City, each "
+                                                       "one opening as 'Progressive Region' items arrive. Origin instead opens on 'Origin Shard' items (see the two options "
+                                                       "below) rather than its usual key/story requirements. Neither item has any in-game effect - the client never grants or "
+                                                       "enforces them, so nothing physically stops you from wandering past a checkpoint you have not 'unlocked' yet; this is "
+                                                       "logic-only, the same honor system Manual worlds already use for anything with no real memory hook. Replaces only the "
+                                                       "one region (Millick Meadows/Fornis) that was gated on Progressive Story Quest - the separate Story Gating option "
+                                                       "(which locks main-story cutscenes, not region access) is untouched and can still be on at the same time. Every "
+                                                       "colony also starts already at max affinity, written once by the client (needs the running client - everything "
+                                                       "else here is pure logic and needs nothing extra). Off (default) leaves world traversal exactly as today, unaffected."},
+                          "progressive_region_items": {"type": "Range", "range_start": 6, "range_end": 50, "default": 15,
+                                                       "display_name": "Progressive Region Items",
+                                                       "description": "Open World only. How many 'Progressive Region' items are placed in the pool. The six checkpoints only "
+                                                                      "ever need 6 total (one each), so anything above that is pure slack/redundancy for a better chance of "
+                                                                      "finding one earlier - it does not change the order regions unlock in."},
+                          "origin_shard_items": {"type": "Range", "range_start": 1, "range_end": 20, "default": 20,
+                                                 "display_name": "Origin Shard Items",
+                                                 "description": "Open World only. How many 'Origin Shard' items are placed in the pool."},
+                          "origin_shard_required": {"type": "Range", "range_start": 1, "range_end": 20, "default": 20,
+                                                    "display_name": "Origin Shards Required",
+                                                    "description": "Open World only. How many 'Origin Shard' items it actually takes to unlock Origin, independent of how "
+                                                                   "many are placed in the pool above. If this is higher than Origin Shard Items, it is silently lowered to "
+                                                                   "match so Origin always stays reachable."}},
         "item_base": 0x5C3000,
         "loc_base": 0x5C300000,
         "death_link": False,
@@ -363,6 +391,57 @@ def normalize(pkg: str, manual: dict, cfg: dict) -> dict:
                 report.append(f"restored real gating on Millick Meadows (needs {ch1_beats} Progressive Story Quest "
                               f"= chapter 1 complete) - replaces the unenforceable gate stripped above, which "
                               f"otherwise left the whole Fornis Region cluster open from a fresh save")
+
+    # ---- Open World mode (XC3, user decision 2026-09-26): honor-system region-progression gating, layered on TOP
+    # of everything above. This file builds one shared .apworld for every player's YAML, not a per-player artifact,
+    # so - same technique as the container-gating {YamlDisabled(container_gating)} clause a bit further down - every
+    # added clause has to branch on the player's own open_world choice at generate time via {YamlEnabled(...)}/
+    # {YamlDisabled(...)}, not a python if here. 'Progressive Region' and 'Origin Shard' have no in-game delivery at
+    # all (client never grants/enforces them - pure AP logic, an honor system): the game unlocks in this order -
+    # Aetia (the starting continent - already open, no gate) -> Fornis -> Pentelas -> Keves Castle -> Cadensia ->
+    # Agnus Castle -> Swordmarch/City - one Progressive Region entry-region gate per cluster boundary (the same
+    # single-choke-point shape as the Millick Meadows fix just above), then Origin on Origin Shard instead of its
+    # usual (already-unenforceable, see Area Keys above) requirement. Every non-Millick-Meadows gate ANDs onto
+    # whatever real requirement is already there (e.g. Wall Climbing/Rope Sliding are real traversal-skill items,
+    # untouched); off (default), every added clause reduces to exactly what was there before this ran.
+    if pkg == "xenoblade_3":
+        OPEN_WORLD_GATES = {
+            "Millick Meadows": 1,              # Fornis
+            "Rae-Bel Tableland": 2,             # Pentelas
+            "Keves Castle": 3,
+            "Great Sword's Base": 4,            # Cadensia
+            "Agnus Castle Barbican": 5,
+            "City": 6,                          # Swordmarch
+        }
+        manual = dict(manual)
+        manual["regions"] = dict(manual["regions"])
+        gated = []
+        for region_name, need in OPEN_WORLD_GATES.items():
+            if region_name not in manual["regions"]:
+                continue
+            r = dict(manual["regions"][region_name])
+            current = r.get("requires", "") or ""
+            gate = f"|Progressive Region:{need}|"
+            if region_name == "Millick Meadows" and current:
+                # replaces (not ANDs onto) the real Progressive Story Quest gate restored above - the whole point
+                # of Open World is to not need real story progress to explore
+                r["requires"] = f"({{YamlEnabled(open_world)}} AND {gate}) OR ({{YamlDisabled(open_world)}} AND ({current}))"
+            else:
+                guarded = f"{{YamlDisabled(open_world)}} OR {gate}"
+                r["requires"] = guarded if not current else f"({current}) AND ({guarded})"
+            manual["regions"][region_name] = r
+            gated.append(region_name)
+        if "Origin" in manual["regions"]:
+            o = dict(manual["regions"]["Origin"])
+            current = o.get("requires", "") or ""
+            shard_gate = "{YamlDisabled(open_world)} OR {checkOriginShard()}"
+            o["requires"] = shard_gate if not current else f"({current}) AND ({shard_gate})"
+            manual["regions"]["Origin"] = o
+            gated.append("Origin")
+        report.append(f"added Open World mode region gating (XC3) to {', '.join(gated)}: honor-system 'Progressive "
+                      f"Region' (no in-game effect) gates Fornis/Pentelas/Keves Castle/Cadensia/Agnus Castle/"
+                      f"Swordmarch+City in that order behind their one entry region each; Origin instead needs "
+                      f"'Origin Shard'. No effect on any of this unless the open_world option is on.")
 
     # ---- drop the "Dromarch AND Nia (Driver)" core-party clause from Ancient Ship (XC2): the source manual world
     # glues this same clause onto every region from Ancient Ship onward as a blanket "have your team" requirement,
@@ -1112,9 +1191,32 @@ def _yaml_disabled(world, arg):
     return not world.opt_on(arg)
 
 
-RULE_FUNCTIONS = {"YamlEnabled": _yaml_enabled, "YamlDisabled": _yaml_disabled}
+def _check_origin_shard(world, arg):
+    # Origin Shard Items (pool count) and Origin Shards Required (threshold) are independently player-configured;
+    # clamp so a required-higher-than-placed YAML can never make Origin unreachable.
+    p = world.player
+    need = min(world.opt("origin_shard_required", 20), world.opt("origin_shard_items", 20))
+    return lambda state: state.count("Origin Shard", p) >= need
+
+
+RULE_FUNCTIONS = {"YamlEnabled": _yaml_enabled, "YamlDisabled": _yaml_disabled, "checkOriginShard": _check_origin_shard}
 '''
-XC3_BODY = ""
+XC3_BODY = '''
+    def pool_hook(self, pool):
+        # Open World (user decision 2026-09-26): 'Progressive Region' / 'Origin Shard' are honor-system logic
+        # items with count 0 in the base data (detect/xc3_extras.json) - pool_hook alone decides how many exist,
+        # straight from the player's own Range options, same shape as XC2's extra_story_items/fragments pattern.
+        if self.opt_on("open_world"):
+            region_total = self.opt("progressive_region_items", 15)
+            have_region = sum(1 for i in pool if i.name == "Progressive Region")
+            for _ in range(max(0, region_total - have_region)):
+                pool.append(self.create_item("Progressive Region"))
+            shard_total = self.opt("origin_shard_items", 20)
+            have_shard = sum(1 for i in pool if i.name == "Origin Shard")
+            for _ in range(max(0, shard_total - have_shard)):
+                pool.append(self.create_item("Origin Shard"))
+        return pool
+'''
 
 
 PATCHER_TEMPLATE = """import sys

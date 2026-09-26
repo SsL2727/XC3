@@ -633,7 +633,12 @@ class XC3Deliverer:
         writes += self._watch_shops(mem, inv_base, log)
         writes += self._open_gates(mem, inv_base, counts, log, budget)
         writes += self._open_container_gates(mem, inv_base, counts, log, budget)
-        if self.slot_data and self.slot_data.get("progressive_colony_affinity"):
+        if self.slot_data and self.slot_data.get("open_world"):
+            # Open World: every colony starts already at max affinity - this directly conflicts with
+            # progressive_colony_affinity's job of holding affinity DOWN, so it wins outright rather than
+            # stacking with it (see the option's own description).
+            writes += self._max_affinity_once(mem, ok_bases, log, budget)
+        elif self.slot_data and self.slot_data.get("progressive_colony_affinity"):
             writes += self._cap_affinity(mem, ok_bases, counts, log, budget)
         if self.slot_data and self.slot_data.get("story_gating"):
             writes += self._cap_story(mem, ok_bases, counts, log, budget)
@@ -731,6 +736,42 @@ class XC3Deliverer:
                 if mem.write(addr, struct.pack("<H", cap)):
                     writes += 1
                     log(f"Delivery: {name[len('Progressive Affinity: '):]} affinity held at {cap} points ({have} of 4 level-ups received)")
+        return writes
+
+    # ---- Open World (user decision 2026-09-26): every colony starts already at max affinity - the mirror image of
+    # _cap_affinity above (write UP to the Level5 threshold once, instead of holding DOWN below a cap forever).
+    # One-time per validated save (self.state.given), same pattern as _open_gates/_open_container_gates: only marks
+    # done once every colony actually got written, so a budget-starved or short-lived poll retries next time instead
+    # of silently giving up partway through.
+    _AFFINITY_MAXED_KEY = "__open_world_affinity_maxed"
+
+    def _max_affinity_once(self, mem, bases, log: Callable[[str], None], budget: "_WriteBudget") -> int:
+        if self.state.given.get(self._AFFINITY_MAXED_KEY):
+            return 0
+        writes = 0
+        all_done = True
+        for name, eff in self.items.items():
+            if eff["t"] != "affinity_cap":
+                continue
+            target = eff["levels"][4]
+            for base in bases:
+                addr = base + self.F16_BASE + 2 * eff["flag"]
+                raw = mem.read(addr, 2)
+                if raw is None:
+                    all_done = False
+                    continue
+                if struct.unpack("<H", raw)[0] >= target:
+                    continue
+                if not budget.take():
+                    return writes
+                if mem.write(addr, struct.pack("<H", target)):
+                    writes += 1
+                    log(f"Open World: {name[len('Progressive Affinity: '):]} affinity set to max ({target} points)")
+                else:
+                    all_done = False
+        if all_done:
+            self.state.given[self._AFFINITY_MAXED_KEY] = 1
+            self.state.save()
         return writes
 
     # ---- main story gate (live-verified 2026-09-22, see gen_story_gates2_xc3.py): the old approach patched an item
