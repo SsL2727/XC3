@@ -905,11 +905,27 @@ class XC3Deliverer:
                 cur = (raw[0] >> shift) & mask
                 if cur >= target:
                     continue
+                # LIVE BUG 2026-09-26: a beat's flag can revert on its own right after being set (task 114's
+                # flag_id=2 did, every poll, forever) - live evidence that condition-flag slots aren't
+                # permanently one beat each, some get reused for other live game state (quest activation, etc.),
+                # so writing one can fight whatever else currently owns that slot. Retrying forever both wastes
+                # the write budget and keeps re-clobbering that other state. Try each beat exactly once; if it
+                # doesn't stick, log it and leave it alone rather than hammering it every poll.
+                tries_key = f"__owsc_tries:{ft}:{fid}"
+                if self.state.given.get(tries_key):
+                    if self.state.given[tries_key] == 1:
+                        log(f"Open World: {b['label']} flag reverted after being set once - looks shared with "
+                            f"other live game state, leaving it alone instead of retrying forever")
+                        self.state.given[tries_key] = 2
+                        self.state.save()
+                    continue
                 if not budget.take():
                     return writes
                 new_byte = (raw[0] & ~(mask << shift)) | (target << shift)
                 if mem.write(addr, bytes([new_byte])):
                     writes += 1
+                    self.state.given[tries_key] = 1
+                    self.state.save()
                     log(f"Open World: {b['label']} marked complete")
                 else:
                     all_done = False
