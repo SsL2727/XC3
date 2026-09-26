@@ -436,13 +436,18 @@ class XC2Probe(Probe):
 
 class XC3Probe(Probe):
     """XC3 keeps the flag arrays live in a save-shaped struct (same offsets as the save file) but stamps no header on it, so it is found
-    by an anchor: 8-bit flags 2704..2709 hold 0xFF from the start of every game and the 906 flags before them are never used (identical
-    in a new game and in a 90 h save).  Enemy tombstones / inventory are only filled into the struct when the game writes a save
-    (the game then builds a full save image, with header, in a buffer) - that buffer is a second, slightly stale copy."""
+    by an anchor: 8-bit flags 2704..2709 hold 0xFF from the start of every game. The 700 flags right before them (2004..2703) are unused
+    in ordinary play, but NOT the full 906 before that: the Open World base save (worldgen/detect/xc3_open_world_base.sav.gz, a genuine
+    100%-completion save) has real, non-zero data in up to the first ~165 of those 906 bytes on disk (confirmed 2026-09-26 by inspecting
+    the save file directly - not yet confirmed against live emulator memory), which would make the old exact-906 anchor never match that
+    save's live struct at all - the only copy left in `copies` would be the save-time buffer, which evaluate() intentionally blanks for
+    every non-tombstone detector, matching the reported symptom of autotracking showing attached but never firing a single check. 700
+    keeps a wide zero margin below the observed non-zero bytes. Enemy tombstones / inventory are only filled into the struct when the
+    game writes a save (the game then builds a full save image, with header, in a buffer) - that buffer is a second, slightly stale copy."""
     game = "Xenoblade Chronicles 3"
     SIG = bytes.fromhex("6afa68b30a000000")            # save-file magic + version 10 (present on the save-time buffer only)
-    ANCHOR = bytes(906) + bytes([0xFF]) * 6
-    ANCHOR_REL = 0x710 + 0x7000 + 2704 - 906           # offset of ANCHOR start from the struct start
+    ANCHOR = bytes(700) + bytes([0xFF]) * 6
+    ANCHOR_REL = 0x710 + 0x7000 + 2704 - 700           # offset of ANCHOR start from the struct start
     FLAG_BASE = 0x710
     TOMB_BASE = 0x183000
     TOMB_STRIDE = 20
