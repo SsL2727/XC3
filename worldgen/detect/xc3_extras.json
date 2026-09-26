@@ -6320,987 +6320,1128 @@
 "task": 5,
 "flag_type": 1,
 "flag_id": 1,
-"label": "Chapter 1 Story Beat 5"
+"label": "Chapter 1 Story Beat 5",
+"dedicated": true
 },
 {
 "chapter": 1,
 "task": 6,
 "flag_type": 2,
 "flag_id": 34,
-"label": "Chapter 1 Story Beat 6"
+"label": "Chapter 1 Story Beat 6",
+"dedicated": true
 },
 {
 "chapter": 1,
 "task": 7,
 "flag_type": 2,
 "flag_id": 36,
-"label": "Chapter 1 Story Beat 7"
+"label": "Chapter 1 Story Beat 7",
+"dedicated": true
 },
 {
 "chapter": 1,
 "task": 8,
 "flag_type": 2,
 "flag_id": 39,
-"label": "Chapter 1 Story Beat 8"
+"label": "Chapter 1 Story Beat 8",
+"dedicated": true
 },
 {
 "chapter": 1,
 "task": 9,
 "flag_type": 2,
 "flag_id": 40,
-"label": "Chapter 1 Story Beat 9"
+"label": "Chapter 1 Story Beat 9",
+"dedicated": true
 },
 {
 "chapter": 1,
 "task": 10,
 "flag_type": 2,
 "flag_id": 41,
-"label": "Chapter 1 Story Beat 10"
+"label": "Chapter 1 Story Beat 10",
+"dedicated": true
 },
 {
 "chapter": 1,
 "task": 12,
 "flag_type": 2,
 "flag_id": 43,
-"label": "Chapter 1 Story Beat 12"
+"label": "Chapter 1 Story Beat 12",
+"dedicated": true
 },
 {
 "chapter": 1,
 "task": 14,
 "flag_type": 2,
 "flag_id": 46,
-"label": "Chapter 1 Story Beat 14"
+"label": "Chapter 1 Story Beat 14",
+"dedicated": true
 },
 {
 "chapter": 1,
 "task": 15,
 "flag_type": 2,
 "flag_id": 47,
-"label": "Chapter 1 Story Beat 15"
+"label": "Chapter 1 Story Beat 15",
+"dedicated": true
 },
 {
 "chapter": 1,
 "task": 16,
 "flag_type": 2,
 "flag_id": 49,
-"label": "Chapter 1 Story Beat 16"
+"label": "Chapter 1 Story Beat 16",
+"dedicated": true
 },
 {
 "chapter": 1,
 "task": 17,
 "flag_type": 2,
 "flag_id": 51,
-"label": "Chapter 1 Story Beat 17"
+"label": "Chapter 1 Story Beat 17",
+"dedicated": true
 },
 {
 "chapter": 1,
 "task": 18,
 "flag_type": 2,
 "flag_id": 53,
-"label": "Chapter 1 Story Beat 18"
+"label": "Chapter 1 Story Beat 18",
+"dedicated": true
 },
 {
 "chapter": 1,
 "task": 19,
 "flag_type": 2,
 "flag_id": 54,
-"label": "Chapter 1 Story Beat 19"
+"label": "Chapter 1 Story Beat 19",
+"dedicated": true
 },
 {
 "chapter": 1,
 "task": 20,
 "flag_type": 2,
 "flag_id": 55,
-"label": "Chapter 1 Story Beat 20"
+"label": "Chapter 1 Story Beat 20",
+"dedicated": true
 },
 {
 "chapter": 1,
 "task": 21,
 "flag_type": 2,
 "flag_id": 57,
-"label": "Chapter 1 Story Beat 21"
+"label": "Chapter 1 Story Beat 21",
+"dedicated": true
 },
 {
 "chapter": 1,
 "task": 22,
 "flag_type": 2,
 "flag_id": 59,
-"label": "Chapter 1 Story Beat 22"
+"label": "Chapter 1 Story Beat 22",
+"dedicated": true
 },
 {
 "chapter": 1,
 "task": 24,
 "flag_type": 2,
 "flag_id": 65,
-"label": "Chapter 1 Story Beat 24"
+"label": "Chapter 1 Story Beat 24",
+"dedicated": true
 },
 {
 "chapter": 1,
 "task": 25,
 "flag_type": 2,
 "flag_id": 67,
-"label": "Chapter 1 Story Beat 25"
+"label": "Chapter 1 Story Beat 25",
+"dedicated": true
 },
 {
 "chapter": 1,
 "task": 27,
 "flag_type": 2,
 "flag_id": 69,
-"label": "Chapter 1 Story Beat 27"
+"label": "Chapter 1 Story Beat 27",
+"dedicated": true
 },
 {
 "chapter": 1,
 "task": 28,
 "flag_type": 2,
 "flag_id": 70,
-"label": "Chapter 1 Story Beat 28"
+"label": "Chapter 1 Story Beat 28",
+"dedicated": true
 },
 {
 "chapter": 1,
 "task": 29,
 "flag_type": 2,
 "flag_id": 203,
-"label": "Chapter 1 Story Beat 29"
+"label": "Chapter 1 Story Beat 29",
+"dedicated": true
 },
 {
 "chapter": 1,
 "task": 30,
 "flag_type": 2,
 "flag_id": 205,
-"label": "Chapter 1 Story Beat 30"
+"label": "Chapter 1 Story Beat 30",
+"dedicated": true
 },
 {
 "chapter": 1,
 "task": 31,
 "flag_type": 2,
 "flag_id": 206,
-"label": "Chapter 1 Story Beat 31"
+"label": "Chapter 1 Story Beat 31",
+"dedicated": true
 },
 {
 "chapter": 1,
 "task": 32,
 "flag_type": 2,
 "flag_id": 207,
-"label": "Chapter 1 Story Beat 32"
+"label": "Chapter 1 Story Beat 32",
+"dedicated": true
 },
 {
 "chapter": 1,
 "task": 33,
 "flag_type": 2,
 "flag_id": 210,
-"label": "Chapter 1 Story Beat 33"
+"label": "Chapter 1 Story Beat 33",
+"dedicated": true
 },
 {
 "chapter": 1,
 "task": 35,
 "flag_type": 2,
 "flag_id": 75,
-"label": "Chapter 1 Story Beat 35"
+"label": "Chapter 1 Story Beat 35",
+"dedicated": true
 },
 {
 "chapter": 1,
 "task": 36,
 "flag_type": 2,
 "flag_id": 76,
-"label": "Chapter 1 Story Beat 36"
+"label": "Chapter 1 Story Beat 36",
+"dedicated": true
 },
 {
 "chapter": 2,
 "task": 37,
 "flag_type": 2,
 "flag_id": 77,
-"label": "Chapter 2 Story Beat 37"
+"label": "Chapter 2 Story Beat 37",
+"dedicated": true
 },
 {
 "chapter": 2,
 "task": 38,
 "flag_type": 2,
 "flag_id": 79,
-"label": "Chapter 2 Story Beat 38"
+"label": "Chapter 2 Story Beat 38",
+"dedicated": true
 },
 {
 "chapter": 2,
 "task": 42,
 "flag_type": 2,
 "flag_id": 83,
-"label": "Chapter 2 Story Beat 42"
+"label": "Chapter 2 Story Beat 42",
+"dedicated": true
 },
 {
 "chapter": 2,
 "task": 43,
 "flag_type": 2,
 "flag_id": 87,
-"label": "Chapter 2 Story Beat 43"
+"label": "Chapter 2 Story Beat 43",
+"dedicated": true
 },
 {
 "chapter": 2,
 "task": 44,
 "flag_type": 2,
 "flag_id": 88,
-"label": "Chapter 2 Story Beat 44"
+"label": "Chapter 2 Story Beat 44",
+"dedicated": true
 },
 {
 "chapter": 2,
 "task": 45,
 "flag_type": 2,
 "flag_id": 89,
-"label": "Chapter 2 Story Beat 45"
+"label": "Chapter 2 Story Beat 45",
+"dedicated": true
 },
 {
 "chapter": 2,
 "task": 47,
 "flag_type": 2,
 "flag_id": 95,
-"label": "Chapter 2 Story Beat 47"
+"label": "Chapter 2 Story Beat 47",
+"dedicated": true
 },
 {
 "chapter": 2,
 "task": 48,
 "flag_type": 2,
 "flag_id": 96,
-"label": "Chapter 2 Story Beat 48"
+"label": "Chapter 2 Story Beat 48",
+"dedicated": true
 },
 {
 "chapter": 2,
 "task": 49,
 "flag_type": 2,
 "flag_id": 98,
-"label": "Chapter 2 Story Beat 49"
+"label": "Chapter 2 Story Beat 49",
+"dedicated": true
 },
 {
 "chapter": 2,
 "task": 51,
 "flag_type": 1,
 "flag_id": 13972,
-"label": "Chapter 2 Story Beat 51"
+"label": "Chapter 2 Story Beat 51",
+"dedicated": false
 },
 {
 "chapter": 2,
 "task": 52,
 "flag_type": 2,
 "flag_id": 100,
-"label": "Chapter 2 Story Beat 52"
+"label": "Chapter 2 Story Beat 52",
+"dedicated": true
 },
 {
 "chapter": 2,
 "task": 53,
 "flag_type": 2,
 "flag_id": 102,
-"label": "Chapter 2 Story Beat 53"
+"label": "Chapter 2 Story Beat 53",
+"dedicated": true
 },
 {
 "chapter": 2,
 "task": 54,
 "flag_type": 2,
 "flag_id": 103,
-"label": "Chapter 2 Story Beat 54"
+"label": "Chapter 2 Story Beat 54",
+"dedicated": true
 },
 {
 "chapter": 2,
 "task": 55,
 "flag_type": 2,
 "flag_id": 104,
-"label": "Chapter 2 Story Beat 55"
+"label": "Chapter 2 Story Beat 55",
+"dedicated": true
 },
 {
 "chapter": 2,
 "task": 56,
 "flag_type": 2,
 "flag_id": 105,
-"label": "Chapter 2 Story Beat 56"
+"label": "Chapter 2 Story Beat 56",
+"dedicated": true
 },
 {
 "chapter": 3,
 "task": 57,
 "flag_type": 2,
 "flag_id": 107,
-"label": "Chapter 3 Story Beat 57"
+"label": "Chapter 3 Story Beat 57",
+"dedicated": true
 },
 {
 "chapter": 3,
 "task": 58,
 "flag_type": 2,
 "flag_id": 108,
-"label": "Chapter 3 Story Beat 58"
+"label": "Chapter 3 Story Beat 58",
+"dedicated": true
 },
 {
 "chapter": 3,
 "task": 63,
 "flag_type": 2,
 "flag_id": 119,
-"label": "Chapter 3 Story Beat 63"
+"label": "Chapter 3 Story Beat 63",
+"dedicated": true
 },
 {
 "chapter": 3,
 "task": 64,
 "flag_type": 2,
 "flag_id": 120,
-"label": "Chapter 3 Story Beat 64"
+"label": "Chapter 3 Story Beat 64",
+"dedicated": true
 },
 {
 "chapter": 3,
 "task": 65,
 "flag_type": 2,
 "flag_id": 121,
-"label": "Chapter 3 Story Beat 65"
+"label": "Chapter 3 Story Beat 65",
+"dedicated": true
 },
 {
 "chapter": 3,
 "task": 67,
 "flag_type": 2,
 "flag_id": 124,
-"label": "Chapter 3 Story Beat 67"
+"label": "Chapter 3 Story Beat 67",
+"dedicated": true
 },
 {
 "chapter": 3,
 "task": 68,
 "flag_type": 2,
 "flag_id": 129,
-"label": "Chapter 3 Story Beat 68"
+"label": "Chapter 3 Story Beat 68",
+"dedicated": true
 },
 {
 "chapter": 3,
 "task": 69,
 "flag_type": 2,
 "flag_id": 130,
-"label": "Chapter 3 Story Beat 69"
+"label": "Chapter 3 Story Beat 69",
+"dedicated": true
 },
 {
 "chapter": 3,
 "task": 70,
 "flag_type": 2,
 "flag_id": 131,
-"label": "Chapter 3 Story Beat 70"
+"label": "Chapter 3 Story Beat 70",
+"dedicated": true
 },
 {
 "chapter": 3,
 "task": 71,
 "flag_type": 2,
 "flag_id": 132,
-"label": "Chapter 3 Story Beat 71"
+"label": "Chapter 3 Story Beat 71",
+"dedicated": true
 },
 {
 "chapter": 3,
 "task": 73,
 "flag_type": 2,
 "flag_id": 135,
-"label": "Chapter 3 Story Beat 73"
+"label": "Chapter 3 Story Beat 73",
+"dedicated": true
 },
 {
 "chapter": 3,
 "task": 74,
 "flag_type": 2,
 "flag_id": 136,
-"label": "Chapter 3 Story Beat 74"
+"label": "Chapter 3 Story Beat 74",
+"dedicated": true
 },
 {
 "chapter": 3,
 "task": 75,
 "flag_type": 2,
 "flag_id": 137,
-"label": "Chapter 3 Story Beat 75"
+"label": "Chapter 3 Story Beat 75",
+"dedicated": true
 },
 {
 "chapter": 3,
 "task": 77,
 "flag_type": 2,
 "flag_id": 139,
-"label": "Chapter 3 Story Beat 77"
+"label": "Chapter 3 Story Beat 77",
+"dedicated": true
 },
 {
 "chapter": 3,
 "task": 78,
 "flag_type": 2,
 "flag_id": 140,
-"label": "Chapter 3 Story Beat 78"
+"label": "Chapter 3 Story Beat 78",
+"dedicated": true
 },
 {
 "chapter": 3,
 "task": 79,
 "flag_type": 2,
 "flag_id": 141,
-"label": "Chapter 3 Story Beat 79"
+"label": "Chapter 3 Story Beat 79",
+"dedicated": true
 },
 {
 "chapter": 3,
 "task": 80,
 "flag_type": 2,
 "flag_id": 143,
-"label": "Chapter 3 Story Beat 80"
+"label": "Chapter 3 Story Beat 80",
+"dedicated": true
 },
 {
 "chapter": 3,
 "task": 81,
 "flag_type": 2,
 "flag_id": 144,
-"label": "Chapter 3 Story Beat 81"
+"label": "Chapter 3 Story Beat 81",
+"dedicated": true
 },
 {
 "chapter": 3,
 "task": 82,
 "flag_type": 2,
 "flag_id": 199,
-"label": "Chapter 3 Story Beat 82"
+"label": "Chapter 3 Story Beat 82",
+"dedicated": true
 },
 {
 "chapter": 3,
 "task": 83,
 "flag_type": 2,
 "flag_id": 202,
-"label": "Chapter 3 Story Beat 83"
+"label": "Chapter 3 Story Beat 83",
+"dedicated": true
 },
 {
 "chapter": 3,
 "task": 84,
 "flag_type": 2,
 "flag_id": 213,
-"label": "Chapter 3 Story Beat 84"
+"label": "Chapter 3 Story Beat 84",
+"dedicated": true
 },
 {
 "chapter": 4,
 "task": 87,
 "flag_type": 2,
 "flag_id": 198,
-"label": "Chapter 4 Story Beat 87"
+"label": "Chapter 4 Story Beat 87",
+"dedicated": true
 },
 {
 "chapter": 4,
 "task": 88,
 "flag_type": 2,
 "flag_id": 200,
-"label": "Chapter 4 Story Beat 88"
+"label": "Chapter 4 Story Beat 88",
+"dedicated": true
 },
 {
 "chapter": 4,
 "task": 90,
 "flag_type": 2,
 "flag_id": 151,
-"label": "Chapter 4 Story Beat 90"
+"label": "Chapter 4 Story Beat 90",
+"dedicated": true
 },
 {
 "chapter": 4,
 "task": 91,
 "flag_type": 2,
 "flag_id": 152,
-"label": "Chapter 4 Story Beat 91"
+"label": "Chapter 4 Story Beat 91",
+"dedicated": true
 },
 {
 "chapter": 4,
 "task": 92,
 "flag_type": 2,
 "flag_id": 153,
-"label": "Chapter 4 Story Beat 92"
+"label": "Chapter 4 Story Beat 92",
+"dedicated": true
 },
 {
 "chapter": 4,
 "task": 93,
 "flag_type": 2,
 "flag_id": 154,
-"label": "Chapter 4 Story Beat 93"
+"label": "Chapter 4 Story Beat 93",
+"dedicated": true
 },
 {
 "chapter": 4,
 "task": 97,
 "flag_type": 2,
 "flag_id": 156,
-"label": "Chapter 4 Story Beat 97"
+"label": "Chapter 4 Story Beat 97",
+"dedicated": true
 },
 {
 "chapter": 4,
 "task": 100,
 "flag_type": 2,
 "flag_id": 212,
-"label": "Chapter 4 Story Beat 100"
+"label": "Chapter 4 Story Beat 100",
+"dedicated": true
 },
 {
 "chapter": 4,
 "task": 101,
 "flag_type": 2,
 "flag_id": 216,
-"label": "Chapter 4 Story Beat 101"
+"label": "Chapter 4 Story Beat 101",
+"dedicated": true
 },
 {
 "chapter": 4,
 "task": 102,
 "flag_type": 2,
 "flag_id": 218,
-"label": "Chapter 4 Story Beat 102"
+"label": "Chapter 4 Story Beat 102",
+"dedicated": true
 },
 {
 "chapter": 4,
 "task": 103,
 "flag_type": 2,
 "flag_id": 221,
-"label": "Chapter 4 Story Beat 103"
+"label": "Chapter 4 Story Beat 103",
+"dedicated": true
 },
 {
 "chapter": 4,
 "task": 104,
 "flag_type": 2,
 "flag_id": 223,
-"label": "Chapter 4 Story Beat 104"
+"label": "Chapter 4 Story Beat 104",
+"dedicated": true
 },
 {
 "chapter": 4,
 "task": 105,
 "flag_type": 2,
 "flag_id": 192,
-"label": "Chapter 4 Story Beat 105"
+"label": "Chapter 4 Story Beat 105",
+"dedicated": true
 },
 {
 "chapter": 4,
 "task": 106,
 "flag_type": 2,
 "flag_id": 193,
-"label": "Chapter 4 Story Beat 106"
+"label": "Chapter 4 Story Beat 106",
+"dedicated": true
 },
 {
 "chapter": 4,
 "task": 107,
 "flag_type": 2,
 "flag_id": 194,
-"label": "Chapter 4 Story Beat 107"
+"label": "Chapter 4 Story Beat 107",
+"dedicated": true
 },
 {
 "chapter": 4,
 "task": 108,
 "flag_type": 2,
 "flag_id": 195,
-"label": "Chapter 4 Story Beat 108"
+"label": "Chapter 4 Story Beat 108",
+"dedicated": true
 },
 {
 "chapter": 4,
 "task": 109,
 "flag_type": 1,
 "flag_id": 5368,
-"label": "Chapter 4 Story Beat 109"
+"label": "Chapter 4 Story Beat 109",
+"dedicated": true
 },
 {
 "chapter": 4,
 "task": 110,
 "flag_type": 1,
 "flag_id": 23894,
-"label": "Chapter 4 Story Beat 110"
+"label": "Chapter 4 Story Beat 110",
+"dedicated": true
 },
 {
 "chapter": 4,
 "task": 111,
 "flag_type": 1,
 "flag_id": 23894,
-"label": "Chapter 4 Story Beat 111"
+"label": "Chapter 4 Story Beat 111",
+"dedicated": true
 },
 {
 "chapter": 4,
 "task": 112,
 "flag_type": 1,
 "flag_id": 23894,
-"label": "Chapter 4 Story Beat 112"
+"label": "Chapter 4 Story Beat 112",
+"dedicated": true
 },
 {
 "chapter": 4,
 "task": 113,
 "flag_type": 1,
 "flag_id": 23894,
-"label": "Chapter 4 Story Beat 113"
+"label": "Chapter 4 Story Beat 113",
+"dedicated": true
 },
 {
 "chapter": 4,
 "task": 114,
 "flag_type": 1,
 "flag_id": 2,
-"label": "Chapter 4 Story Beat 114"
+"label": "Chapter 4 Story Beat 114",
+"dedicated": false
 },
 {
 "chapter": 4,
 "task": 115,
 "flag_type": 1,
 "flag_id": 21588,
-"label": "Chapter 4 Story Beat 115"
+"label": "Chapter 4 Story Beat 115",
+"dedicated": true
 },
 {
 "chapter": 4,
 "task": 116,
 "flag_type": 1,
 "flag_id": 3613,
-"label": "Chapter 4 Story Beat 116"
+"label": "Chapter 4 Story Beat 116",
+"dedicated": true
 },
 {
 "chapter": 5,
 "task": 117,
 "flag_type": 1,
 "flag_id": 3614,
-"label": "Chapter 5 Story Beat 117"
+"label": "Chapter 5 Story Beat 117",
+"dedicated": true
 },
 {
 "chapter": 5,
 "task": 118,
 "flag_type": 1,
 "flag_id": 3615,
-"label": "Chapter 5 Story Beat 118"
+"label": "Chapter 5 Story Beat 118",
+"dedicated": true
 },
 {
 "chapter": 5,
 "task": 119,
 "flag_type": 1,
 "flag_id": 3616,
-"label": "Chapter 5 Story Beat 119"
+"label": "Chapter 5 Story Beat 119",
+"dedicated": true
 },
 {
 "chapter": 5,
 "task": 120,
 "flag_type": 1,
 "flag_id": 3617,
-"label": "Chapter 5 Story Beat 120"
+"label": "Chapter 5 Story Beat 120",
+"dedicated": true
 },
 {
 "chapter": 5,
 "task": 121,
 "flag_type": 1,
 "flag_id": 3618,
-"label": "Chapter 5 Story Beat 121"
+"label": "Chapter 5 Story Beat 121",
+"dedicated": true
 },
 {
 "chapter": 5,
 "task": 122,
 "flag_type": 1,
 "flag_id": 3619,
-"label": "Chapter 5 Story Beat 122"
+"label": "Chapter 5 Story Beat 122",
+"dedicated": true
 },
 {
 "chapter": 5,
 "task": 123,
 "flag_type": 1,
 "flag_id": 3620,
-"label": "Chapter 5 Story Beat 123"
+"label": "Chapter 5 Story Beat 123",
+"dedicated": true
 },
 {
 "chapter": 5,
 "task": 124,
 "flag_type": 1,
 "flag_id": 3621,
-"label": "Chapter 5 Story Beat 124"
+"label": "Chapter 5 Story Beat 124",
+"dedicated": true
 },
 {
 "chapter": 5,
 "task": 125,
 "flag_type": 1,
 "flag_id": 3622,
-"label": "Chapter 5 Story Beat 125"
+"label": "Chapter 5 Story Beat 125",
+"dedicated": true
 },
 {
 "chapter": 5,
 "task": 126,
 "flag_type": 1,
 "flag_id": 3623,
-"label": "Chapter 5 Story Beat 126"
+"label": "Chapter 5 Story Beat 126",
+"dedicated": true
 },
 {
 "chapter": 5,
 "task": 127,
 "flag_type": 1,
 "flag_id": 3624,
-"label": "Chapter 5 Story Beat 127"
+"label": "Chapter 5 Story Beat 127",
+"dedicated": true
 },
 {
 "chapter": 5,
 "task": 128,
 "flag_type": 1,
 "flag_id": 3625,
-"label": "Chapter 5 Story Beat 128"
+"label": "Chapter 5 Story Beat 128",
+"dedicated": true
 },
 {
 "chapter": 5,
 "task": 129,
 "flag_type": 1,
 "flag_id": 3626,
-"label": "Chapter 5 Story Beat 129"
+"label": "Chapter 5 Story Beat 129",
+"dedicated": true
 },
 {
 "chapter": 5,
 "task": 131,
 "flag_type": 1,
 "flag_id": 3628,
-"label": "Chapter 5 Story Beat 131"
+"label": "Chapter 5 Story Beat 131",
+"dedicated": false
 },
 {
 "chapter": 5,
 "task": 133,
 "flag_type": 1,
 "flag_id": 3630,
-"label": "Chapter 5 Story Beat 133"
+"label": "Chapter 5 Story Beat 133",
+"dedicated": false
 },
 {
 "chapter": 5,
 "task": 134,
 "flag_type": 1,
 "flag_id": 3631,
-"label": "Chapter 5 Story Beat 134"
+"label": "Chapter 5 Story Beat 134",
+"dedicated": false
 },
 {
 "chapter": 5,
 "task": 137,
 "flag_type": 1,
 "flag_id": 3634,
-"label": "Chapter 5 Story Beat 137"
+"label": "Chapter 5 Story Beat 137",
+"dedicated": false
 },
 {
 "chapter": 5,
 "task": 138,
 "flag_type": 1,
 "flag_id": 3635,
-"label": "Chapter 5 Story Beat 138"
+"label": "Chapter 5 Story Beat 138",
+"dedicated": false
 },
 {
 "chapter": 5,
 "task": 139,
 "flag_type": 1,
 "flag_id": 3636,
-"label": "Chapter 5 Story Beat 139"
+"label": "Chapter 5 Story Beat 139",
+"dedicated": false
 },
 {
 "chapter": 5,
 "task": 140,
 "flag_type": 1,
 "flag_id": 3637,
-"label": "Chapter 5 Story Beat 140"
+"label": "Chapter 5 Story Beat 140",
+"dedicated": false
 },
 {
 "chapter": 5,
 "task": 144,
 "flag_type": 1,
 "flag_id": 3641,
-"label": "Chapter 5 Story Beat 144"
+"label": "Chapter 5 Story Beat 144",
+"dedicated": false
 },
 {
 "chapter": 5,
 "task": 147,
 "flag_type": 1,
 "flag_id": 3644,
-"label": "Chapter 5 Story Beat 147"
+"label": "Chapter 5 Story Beat 147",
+"dedicated": true
 },
 {
 "chapter": 5,
 "task": 151,
 "flag_type": 1,
 "flag_id": 3648,
-"label": "Chapter 5 Story Beat 151"
+"label": "Chapter 5 Story Beat 151",
+"dedicated": false
 },
 {
 "chapter": 5,
 "task": 153,
 "flag_type": 1,
 "flag_id": 3646,
-"label": "Chapter 5 Story Beat 153"
+"label": "Chapter 5 Story Beat 153",
+"dedicated": false
 },
 {
 "chapter": 5,
 "task": 155,
 "flag_type": 1,
 "flag_id": 3648,
-"label": "Chapter 5 Story Beat 155"
+"label": "Chapter 5 Story Beat 155",
+"dedicated": false
 },
 {
 "chapter": 5,
 "task": 156,
 "flag_type": 1,
 "flag_id": 3632,
-"label": "Chapter 5 Story Beat 156"
+"label": "Chapter 5 Story Beat 156",
+"dedicated": false
 },
 {
 "chapter": 5,
 "task": 157,
 "flag_type": 1,
 "flag_id": 3633,
-"label": "Chapter 5 Story Beat 157"
+"label": "Chapter 5 Story Beat 157",
+"dedicated": false
 },
 {
 "chapter": 5,
 "task": 158,
 "flag_type": 1,
 "flag_id": 3649,
-"label": "Chapter 5 Story Beat 158"
+"label": "Chapter 5 Story Beat 158",
+"dedicated": false
 },
 {
 "chapter": 5,
 "task": 159,
 "flag_type": 1,
 "flag_id": 3650,
-"label": "Chapter 5 Story Beat 159"
+"label": "Chapter 5 Story Beat 159",
+"dedicated": false
 },
 {
 "chapter": 5,
 "task": 160,
 "flag_type": 1,
 "flag_id": 3651,
-"label": "Chapter 5 Story Beat 160"
+"label": "Chapter 5 Story Beat 160",
+"dedicated": false
 },
 {
 "chapter": 5,
 "task": 161,
 "flag_type": 1,
 "flag_id": 3652,
-"label": "Chapter 5 Story Beat 161"
+"label": "Chapter 5 Story Beat 161",
+"dedicated": false
 },
 {
 "chapter": 5,
 "task": 162,
 "flag_type": 1,
 "flag_id": 3653,
-"label": "Chapter 5 Story Beat 162"
+"label": "Chapter 5 Story Beat 162",
+"dedicated": true
 },
 {
 "chapter": 5,
 "task": 238,
 "flag_type": 1,
 "flag_id": 13940,
-"label": "Chapter 5 Story Beat 238"
+"label": "Chapter 5 Story Beat 238",
+"dedicated": true
 },
 {
 "chapter": 6,
 "task": 163,
 "flag_type": 1,
 "flag_id": 3654,
-"label": "Chapter 6 Story Beat 163"
+"label": "Chapter 6 Story Beat 163",
+"dedicated": true
 },
 {
 "chapter": 6,
 "task": 164,
 "flag_type": 1,
 "flag_id": 3655,
-"label": "Chapter 6 Story Beat 164"
+"label": "Chapter 6 Story Beat 164",
+"dedicated": true
 },
 {
 "chapter": 6,
 "task": 165,
 "flag_type": 1,
 "flag_id": 3653,
-"label": "Chapter 6 Story Beat 165"
+"label": "Chapter 6 Story Beat 165",
+"dedicated": true
 },
 {
 "chapter": 6,
 "task": 166,
 "flag_type": 1,
 "flag_id": 3654,
-"label": "Chapter 6 Story Beat 166"
+"label": "Chapter 6 Story Beat 166",
+"dedicated": true
 },
 {
 "chapter": 6,
 "task": 167,
 "flag_type": 1,
 "flag_id": 3655,
-"label": "Chapter 6 Story Beat 167"
+"label": "Chapter 6 Story Beat 167",
+"dedicated": true
 },
 {
 "chapter": 6,
 "task": 168,
 "flag_type": 1,
 "flag_id": 3656,
-"label": "Chapter 6 Story Beat 168"
+"label": "Chapter 6 Story Beat 168",
+"dedicated": true
 },
 {
 "chapter": 6,
 "task": 169,
 "flag_type": 1,
 "flag_id": 3657,
-"label": "Chapter 6 Story Beat 169"
+"label": "Chapter 6 Story Beat 169",
+"dedicated": false
 },
 {
 "chapter": 6,
 "task": 170,
 "flag_type": 1,
 "flag_id": 3658,
-"label": "Chapter 6 Story Beat 170"
+"label": "Chapter 6 Story Beat 170",
+"dedicated": false
 },
 {
 "chapter": 6,
 "task": 171,
 "flag_type": 1,
 "flag_id": 3657,
-"label": "Chapter 6 Story Beat 171"
+"label": "Chapter 6 Story Beat 171",
+"dedicated": false
 },
 {
 "chapter": 6,
 "task": 173,
 "flag_type": 1,
 "flag_id": 3659,
-"label": "Chapter 6 Story Beat 173"
+"label": "Chapter 6 Story Beat 173",
+"dedicated": false
 },
 {
 "chapter": 6,
 "task": 174,
 "flag_type": 1,
 "flag_id": 3660,
-"label": "Chapter 6 Story Beat 174"
+"label": "Chapter 6 Story Beat 174",
+"dedicated": false
 },
 {
 "chapter": 6,
 "task": 179,
 "flag_type": 2,
 "flag_id": 3947,
-"label": "Chapter 6 Story Beat 179"
+"label": "Chapter 6 Story Beat 179",
+"dedicated": true
 },
 {
 "chapter": 6,
 "task": 180,
 "flag_type": 2,
 "flag_id": 3947,
-"label": "Chapter 6 Story Beat 180"
+"label": "Chapter 6 Story Beat 180",
+"dedicated": true
 },
 {
 "chapter": 7,
 "task": 181,
 "flag_type": 1,
 "flag_id": 3661,
-"label": "Chapter 7 Story Beat 181"
+"label": "Chapter 7 Story Beat 181",
+"dedicated": true
 },
 {
 "chapter": 7,
 "task": 188,
 "flag_type": 1,
 "flag_id": 3663,
-"label": "Chapter 7 Story Beat 188"
+"label": "Chapter 7 Story Beat 188",
+"dedicated": false
 },
 {
 "chapter": 7,
 "task": 189,
 "flag_type": 1,
 "flag_id": 3912,
-"label": "Chapter 7 Story Beat 189"
+"label": "Chapter 7 Story Beat 189",
+"dedicated": false
 },
 {
 "chapter": 7,
 "task": 190,
 "flag_type": 1,
 "flag_id": 3912,
-"label": "Chapter 7 Story Beat 190"
+"label": "Chapter 7 Story Beat 190",
+"dedicated": false
 },
 {
 "chapter": 7,
 "task": 191,
 "flag_type": 1,
 "flag_id": 3664,
-"label": "Chapter 7 Story Beat 191"
+"label": "Chapter 7 Story Beat 191",
+"dedicated": true
 },
 {
 "chapter": 7,
 "task": 193,
 "flag_type": 1,
 "flag_id": 3665,
-"label": "Chapter 7 Story Beat 193"
+"label": "Chapter 7 Story Beat 193",
+"dedicated": true
 },
 {
 "chapter": 7,
 "task": 195,
 "flag_type": 1,
 "flag_id": 3650,
-"label": "Chapter 7 Story Beat 195"
+"label": "Chapter 7 Story Beat 195",
+"dedicated": false
 },
 {
 "chapter": 7,
 "task": 196,
 "flag_type": 1,
 "flag_id": 3651,
-"label": "Chapter 7 Story Beat 196"
+"label": "Chapter 7 Story Beat 196",
+"dedicated": false
 }
 ]
 },

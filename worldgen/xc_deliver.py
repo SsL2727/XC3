@@ -837,35 +837,43 @@ class XC3Deliverer:
     # mimicking the "everything but the last fight" shape other JRPG Archipelagos use. Same QST_Purpose task flags
     # _cap_story reads/holds above, just forced UP to "complete" instead of held below it.
     #
-    # Left un-touched: every beat in the LAST chapter (today: chapter 7, 8 beats) - not just "the last beat in the
-    # list", because detect/xc3_story_gates2.json reuses (flag_type, flag_id) pairs across chapters (10 of 141
-    # beats collide with another beat elsewhere - confirmed by inspecting the data directly, not assumed): chapter
-    # 5 tasks 159/160 happen to share their exact flag with chapter 7 tasks 195/196. Forcing task 160 complete
-    # would silently also flip task 196's flag - the literal last-in-list beat - defeating the whole point of
-    # leaving something to fight. _final_chapter_beats() below excludes the whole final chapter AND transitively
-    # follows shared flags outward, so nothing that aliases into the final chapter's flags gets force-completed
-    # either (10 beats end up excluded in total for the current data, all in chapter 5 or 7).
+    # Left un-touched:
+    #  1) every beat in the LAST chapter (today: chapter 7, 8 beats) - so there is still a final encounter to fight.
+    #  2) every beat NOT marked "dedicated" in detect/xc3_story_gates2.json (29 of 141 for the current data) - a
+    #     GROUND-TRUTH signal read directly from the game's own FLD_ConditionFlag table (columns A8D0C912/DA6D358F,
+    #     names unknown but the pattern is unambiguous: (1,1) or (2,2) for a flag genuinely dedicated to one story
+    #     beat, (0,0) for a flag the game shares/reuses for other live state). This was live-confirmed the hard
+    #     way first: task 114 (chapter 4) kept reverting every poll after being force-set - it turned out to be
+    #     (0,0) in this table. Cross-checking gen_story_gates2_xc3.py's flags against the real table found 28 MORE
+    #     (0,0) beats nobody had hit live yet, several with zero chapter-flag-name overlap with the chapter-7
+    #     exclusion (e.g. chapter 2 task 51, chapter 5/6 tasks 131-174) - these would only have surfaced as more
+    #     live corruption reports one at a time. Extracted via SirTeateiMoonlight/xenoblade-bdat-tools'
+    #     bdat2_reader.py against the game's own fld.bdat FLD_ConditionFlag table, not guessed.
+    # _final_chapter_beats() below computes the union of both, plus the transitive closure of shared flags (in
+    # case two "dedicated" beats ever alias each other in future data - defense in depth, not required by any
+    # case seen so far).
     #
     # RISK, read before trusting this: this is a much bigger blast radius than the affinity write (141 tasks
     # across all 7 chapters, the game's real main-quest tracker, not 15 independent colony counters), and unlike
     # affinity there is no live-tested precedent for forcing this system UP rather than holding it down - I have
     # no way to run the game from this environment. I also do not know FOR CERTAIN that "chapter 7" is entirely
     # and only the final boss content, or that jumping straight to "complete" on every prior task (instead of
-    # playing them in order) leaves the game in a clean state rather than a confused one (missing cutscenes/
-    # character state it thinks already happened - flag reuse across chapters, just proven above, makes this a
-    # real possibility, not a hypothetical one). Single base only, same lesson as the affinity bug above. Test
-    # this on a save you are fully willing to lose, watch exactly where the story actually resumes, and tell me
-    # if the cutoff needs to move.
+    # playing them in order) leaves every "dedicated" beat's associated quest state (not just its raw flag) in a
+    # clean state - the bathing-tent-quest report suggests forcing beats out of order can leave a quest's own
+    # activation state inconsistent even when its underlying flag is a real, dedicated one. Single base only,
+    # same lesson as the affinity bug above. Test this on a save you are fully willing to lose, watch exactly
+    # where the story actually resumes, and tell me if the cutoff needs to move.
     _STORY_COMPLETE_KEY = "__open_world_story_complete"
 
     @staticmethod
     def _final_chapter_beats(beats: list) -> set:
-        """Indices to leave alone: every beat in the last chapter, plus (transitively) any other beat anywhere
-        that shares its exact (flag_type, flag_id) with one of those - see the comment above for why."""
+        """Indices to leave alone: every beat in the last chapter, every beat not marked "dedicated" (a shared/
+        reused condition-flag slot per the real FLD_ConditionFlag table - see the comment above), plus
+        (transitively) any other beat anywhere that shares its exact (flag_type, flag_id) with one of those."""
         if not beats:
             return set()
         last_chapter = max(b["chapter"] for b in beats)
-        keep = {i for i, b in enumerate(beats) if b["chapter"] == last_chapter}
+        keep = {i for i, b in enumerate(beats) if b["chapter"] == last_chapter or not b.get("dedicated", True)}
         changed = True
         while changed:
             changed = False
