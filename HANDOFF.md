@@ -59,7 +59,9 @@ Implementation:
     `<eden user>/nand/user/save/<zeros>/<profile>/010074F013262000/`
   - backs up the existing folder to `…_backup_<timestamp>` first
   - writes a marker `ap_open_world.json` (seed_name + player) so re-patching the same seed never overwrites the slot
-  - is Eden/yuzu-family only; on Ryujinx it just logs a note
+  - installs into the `xc3_save_dir` setting (default `DEFAULT_XC3_SAVE_DIR`, the user's Eden folder
+    `F:\XCAP\work\emus\eden\user\nand\user\save\0000000000000000\F2DF0042DCA2C1FAFDC05D1CE5065C54\010074F013262000`)
+    if that folder exists, else searches the yuzu-family emulator dirs; on Ryujinx it just logs a note
 - `xc_deliver.py`: when Open World is on, skips `_open_gates`, `_cap_story` and `_cap_affinity`, which would drag the
   finished story and maxed colonies back down. The v1 live writes (`_story_complete_once`, `_max_affinity_once`) are
   **deleted**.
