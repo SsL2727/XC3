@@ -743,6 +743,20 @@ class XC3Deliverer:
     # One-time per validated save (self.state.given), same pattern as _open_gates/_open_container_gates: only marks
     # done once every colony actually got written, so a budget-starved or short-lived poll retries next time instead
     # of silently giving up partway through.
+    #
+    # LIVE BUG 2026-09-26: originally looped over every base in ok_bases (same shape as _cap_affinity above), and a
+    # user's real playthrough (open_world on, "3 save copies" detected) had their ENTIRE remaining location pool
+    # read as complete and the goal instantly triggered within minutes of connecting, while standing still in
+    # Colony 9 - not a real completion. xc3_layout_ok (xc_inventory.py) only validates the INVENTORY arrays for a
+    # candidate base; it says nothing about the flag region at F16_BASE (0x9710) this method writes into, so a
+    # non-primary "copy" that merely happens to have a plausible-looking inventory can still be a stale/aliased
+    # region for everything else. _cap_affinity/_cap_story share this same multi-base gap, but in practice almost
+    # never actually write (a fresh save's real affinity/story state starts well below any cap, so the write is
+    # usually skipped) - this method is different: the target is a max value virtually always above the current
+    # one, so it writes on every base, every time, every colony, immediately - the first code path to actually
+    # exercise the gap at scale. Restricting to bases[0] only, matching the already-proven-safe convention used by
+    # _deliver_inventory/_watch_shops/_open_gates/_open_container_gates (see inv_base above) rather than the two
+    # "cap" methods, until the multi-base case can be verified live.
     _AFFINITY_MAXED_KEY = "__open_world_affinity_maxed"
 
     def _max_affinity_once(self, mem, bases, log: Callable[[str], None], budget: "_WriteBudget") -> int:
@@ -750,25 +764,25 @@ class XC3Deliverer:
             return 0
         writes = 0
         all_done = True
+        base = bases[0]
         for name, eff in self.items.items():
             if eff["t"] != "affinity_cap":
                 continue
             target = eff["levels"][4]
-            for base in bases:
-                addr = base + self.F16_BASE + 2 * eff["flag"]
-                raw = mem.read(addr, 2)
-                if raw is None:
-                    all_done = False
-                    continue
-                if struct.unpack("<H", raw)[0] >= target:
-                    continue
-                if not budget.take():
-                    return writes
-                if mem.write(addr, struct.pack("<H", target)):
-                    writes += 1
-                    log(f"Open World: {name[len('Progressive Affinity: '):]} affinity set to max ({target} points)")
-                else:
-                    all_done = False
+            addr = base + self.F16_BASE + 2 * eff["flag"]
+            raw = mem.read(addr, 2)
+            if raw is None:
+                all_done = False
+                continue
+            if struct.unpack("<H", raw)[0] >= target:
+                continue
+            if not budget.take():
+                return writes
+            if mem.write(addr, struct.pack("<H", target)):
+                writes += 1
+                log(f"Open World: {name[len('Progressive Affinity: '):]} affinity set to max ({target} points)")
+            else:
+                all_done = False
         if all_done:
             self.state.given[self._AFFINITY_MAXED_KEY] = 1
             self.state.save()
