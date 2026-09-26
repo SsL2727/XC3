@@ -13,7 +13,7 @@ import json
 import math
 import os
 import struct
-from typing import Callable, Dict, List, Optional
+from typing import Callable, Dict, List, Optional, Tuple
 
 class DeliveryState:
     """What has already been handed to the game for this slot (a JSON file next to the client's other data).  Items that end up
@@ -495,6 +495,14 @@ class XC3Deliverer:
         self.sent_shops: set = set()
         self.gates = None
         self.container_gates = None
+        # Open World one-time-write bookkeeping (see _max_affinity_once/_story_complete_once below) - deliberately
+        # NOT self.state.given: that persists to disk keyed by seed+slot, shared across every save tested on the
+        # same multiworld generation. LIVE BUG 2026-09-26: a second fresh save tested against the same seed found
+        # "already done" markers left by the FIRST save's test and silently did nothing at all - no beats forced,
+        # no log lines, nothing - because the on-disk state said this one-time job was already finished. This
+        # deliverer is recreated fresh on every client connection (xc_client._start_delivery), so a plain instance
+        # attribute resets exactly when it should: per test session, not persisted across different saves.
+        self._owsc_tries: Dict[Tuple[int, int], int] = {}
 
     def _marker(self) -> dict:
         if self.marker_data is None:
@@ -745,30 +753,29 @@ class XC3Deliverer:
 
     # ---- Open World (user decision 2026-09-26): every colony starts already at max affinity - the mirror image of
     # _cap_affinity above (write UP to the Level5 threshold once, instead of holding DOWN below a cap forever).
-    # One-time per validated save (self.state.given), same pattern as _open_gates/_open_container_gates: only marks
-    # done once every colony actually got written, so a budget-starved or short-lived poll retries next time instead
-    # of silently giving up partway through.
     #
-    # LIVE BUG 2026-09-26: originally looped over every base in ok_bases (same shape as _cap_affinity above), and a
-    # user's real playthrough (open_world on, "3 save copies" detected) had their ENTIRE remaining location pool
-    # read as complete and the goal instantly triggered within minutes of connecting, while standing still in
-    # Colony 9 - not a real completion. xc3_layout_ok (xc_inventory.py) only validates the INVENTORY arrays for a
-    # candidate base; it says nothing about the flag region at F16_BASE (0x9710) this method writes into, so a
-    # non-primary "copy" that merely happens to have a plausible-looking inventory can still be a stale/aliased
-    # region for everything else. _cap_affinity/_cap_story share this same multi-base gap, but in practice almost
-    # never actually write (a fresh save's real affinity/story state starts well below any cap, so the write is
-    # usually skipped) - this method is different: the target is a max value virtually always above the current
-    # one, so it writes on every base, every time, every colony, immediately - the first code path to actually
-    # exercise the gap at scale. Restricting to bases[0] only, matching the already-proven-safe convention used by
-    # _deliver_inventory/_watch_shops/_open_gates/_open_container_gates (see inv_base above) rather than the two
-    # "cap" methods, until the multi-base case can be verified live.
-    _AFFINITY_MAXED_KEY = "__open_world_affinity_maxed"
-
+    # LIVE BUG 2026-09-26 (multi-base): originally looped over every base in ok_bases (same shape as _cap_affinity
+    # above), and a user's real playthrough (open_world on, "3 save copies" detected) had their ENTIRE remaining
+    # location pool read as complete and the goal instantly triggered within minutes of connecting, while standing
+    # still in Colony 9 - not a real completion. xc3_layout_ok (xc_inventory.py) only validates the INVENTORY
+    # arrays for a candidate base; it says nothing about the flag region at F16_BASE (0x9710) this method writes
+    # into, so a non-primary "copy" that merely happens to have a plausible-looking inventory can still be a
+    # stale/aliased region for everything else. Fixed by restricting to bases[0] only, matching the already-proven-
+    # safe convention used by _deliver_inventory/_watch_shops/_open_gates/_open_container_gates (see inv_base
+    # above) rather than the two "cap" methods.
+    #
+    # LIVE BUG 2026-09-26 (stale "done" flag): originally short-circuited via a self.state.given one-time marker,
+    # same pattern as _open_gates/_open_container_gates. That's wrong here: self.state.given persists to disk
+    # keyed by seed+slot (DeliveryState.bind in xc_client.py), shared across every save tested on the SAME
+    # multiworld generation - it is meant to remember "already delivered to the multiworld", not "already fixed up
+    # this save's raw memory". A second fresh save tested against the same seed inherited the first save's
+    # "already done" marker and this method did nothing at all: no writes, no log lines, colonies stayed
+    # un-maxed. Fixed by dropping the persisted marker entirely - every check below is already its own no-op once
+    # a colony's real value reaches the target, so there is nothing to gain from skipping the whole pass, and
+    # removing the gate means a genuinely new save always gets checked properly regardless of what a previous test
+    # on the same seed already did.
     def _max_affinity_once(self, mem, bases, log: Callable[[str], None], budget: "_WriteBudget") -> int:
-        if self.state.given.get(self._AFFINITY_MAXED_KEY):
-            return 0
         writes = 0
-        all_done = True
         base = bases[0]
         for name, eff in self.items.items():
             if eff["t"] != "affinity_cap":
@@ -777,7 +784,6 @@ class XC3Deliverer:
             addr = base + self.F16_BASE + 2 * eff["flag"]
             raw = mem.read(addr, 2)
             if raw is None:
-                all_done = False
                 continue
             if struct.unpack("<H", raw)[0] >= target:
                 continue
@@ -786,11 +792,6 @@ class XC3Deliverer:
             if mem.write(addr, struct.pack("<H", target)):
                 writes += 1
                 log(f"Open World: {name[len('Progressive Affinity: '):]} affinity set to max ({target} points)")
-            else:
-                all_done = False
-        if all_done:
-            self.state.given[self._AFFINITY_MAXED_KEY] = 1
-            self.state.save()
         return writes
 
     # ---- main story gate (live-verified 2026-09-22, see gen_story_gates2_xc3.py): the old approach patched an item
@@ -863,7 +864,16 @@ class XC3Deliverer:
     # activation state inconsistent even when its underlying flag is a real, dedicated one. Single base only,
     # same lesson as the affinity bug above. Test this on a save you are fully willing to lose, watch exactly
     # where the story actually resumes, and tell me if the cutoff needs to move.
-    _STORY_COMPLETE_KEY = "__open_world_story_complete"
+    #
+    # LIVE BUG 2026-09-26 (stale "done"/"tried" flags): this used to gate on a self.state.given one-time marker,
+    # plus per-beat "tried once" markers in the same dict - same mistake as _max_affinity_once above.
+    # self.state.given persists to disk keyed by seed+slot, so a second fresh save tested against the same seed
+    # inherited the first save's markers wholesale: the outer marker said "already done" so the whole method did
+    # nothing (no beats forced, no log lines, no cutscenes skipped), and even the per-beat "reverted, giving up"
+    # markers would have wrongly carried over too. Fixed by moving all of this to self._owsc_tries, a plain
+    # instance attribute that resets every time the client reconnects (a new XC3Deliverer is constructed in
+    # xc_client._start_delivery on every "Connected" package) - the right scope, since these are about "already
+    # fixed up in THIS session/save", not "already delivered to the multiworld".
 
     @staticmethod
     def _final_chapter_beats(beats: list) -> set:
@@ -885,10 +895,7 @@ class XC3Deliverer:
         return keep
 
     def _story_complete_once(self, mem, bases, log: Callable[[str], None], budget: "_WriteBudget") -> int:
-        if self.state.given.get(self._STORY_COMPLETE_KEY):
-            return 0
         writes = 0
-        all_done = True
         base = bases[0]
         for name, eff in self.items.items():
             if eff["t"] != "story_gate":
@@ -908,7 +915,6 @@ class XC3Deliverer:
                 addr = base + flag_base + byte
                 raw = mem.read(addr, 1)
                 if raw is None:
-                    all_done = False
                     continue
                 cur = (raw[0] >> shift) & mask
                 if cur >= target:
@@ -917,29 +923,23 @@ class XC3Deliverer:
                 # flag_id=2 did, every poll, forever) - live evidence that condition-flag slots aren't
                 # permanently one beat each, some get reused for other live game state (quest activation, etc.),
                 # so writing one can fight whatever else currently owns that slot. Retrying forever both wastes
-                # the write budget and keeps re-clobbering that other state. Try each beat exactly once; if it
-                # doesn't stick, log it and leave it alone rather than hammering it every poll.
-                tries_key = f"__owsc_tries:{ft}:{fid}"
-                if self.state.given.get(tries_key):
-                    if self.state.given[tries_key] == 1:
+                # the write budget and keeps re-clobbering that other state. Try each beat exactly once per
+                # session; if it doesn't stick, log it and leave it alone rather than hammering it every poll.
+                tries_key = (ft, fid)
+                tried = self._owsc_tries.get(tries_key, 0)
+                if tried:
+                    if tried == 1:
                         log(f"Open World: {b['label']} flag reverted after being set once - looks shared with "
                             f"other live game state, leaving it alone instead of retrying forever")
-                        self.state.given[tries_key] = 2
-                        self.state.save()
+                        self._owsc_tries[tries_key] = 2
                     continue
                 if not budget.take():
                     return writes
                 new_byte = (raw[0] & ~(mask << shift)) | (target << shift)
                 if mem.write(addr, bytes([new_byte])):
                     writes += 1
-                    self.state.given[tries_key] = 1
-                    self.state.save()
+                    self._owsc_tries[tries_key] = 1
                     log(f"Open World: {b['label']} marked complete")
-                else:
-                    all_done = False
-        if all_done:
-            self.state.given[self._STORY_COMPLETE_KEY] = 1
-            self.state.save()
         return writes
 
     def _deliver_inventory(self, mem, base: int, counts: Dict[str, int], log: Callable[[str], None], budget: "_WriteBudget") -> int:
