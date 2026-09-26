@@ -316,8 +316,7 @@ def run_patch(patch_path: str, ask_dir: Optional[Callable[[str], str]] = None, l
         put(os.path.join(d, "load", load_title_id, MOD_NAME), True)
     shutil.rmtree(work, ignore_errors=True)
     if open_world:
-        for d in s.get("emulator_dirs", []):
-            _install_open_world_save(d, info["title_id"], data, log)
+        _install_open_world_save(_xc3_save_targets(s, info["title_id"]), data, log)
         if s.get("ryujinx_dir"):
             log("NOTE: the Open World save is only installed for Eden / yuzu-family emulators, not Ryujinx.")
         log("Installed to " + ", ".join(installed) + f". Load save slot 1 in {game} (Open World).")
@@ -326,6 +325,7 @@ def run_patch(patch_path: str, ask_dir: Optional[Callable[[str], str]] = None, l
     return installed[0]
 
 
+DEFAULT_XC3_SAVE_DIR = r"F:\XCAP\work\emus\eden\user\nand\user\save\0000000000000000\F2DF0042DCA2C1FAFDC05D1CE5065C54\010074F013262000"
 OPEN_WORLD_SLOT = "bf3game01"
 OPEN_WORLD_MARKER = "ap_open_world.json"
 
@@ -342,13 +342,23 @@ def _xc3_save_dirs(user_dir: str, title_id: str) -> list:
     return found
 
 
-def _install_open_world_save(user_dir: str, title_id: str, data: Dict[str, Any], log: Callable[[str], None]) -> None:
+def _xc3_save_targets(s: Dict[str, Any], title_id: str) -> list:
+    """The XC3 save folder(s) to install into: the "xc3_save_dir" setting if that folder exists, else every existing
+    XC3 save folder under the yuzu-family emulator dirs."""
+    explicit = s.get("xc3_save_dir") or DEFAULT_XC3_SAVE_DIR
+    if os.path.isdir(explicit):
+        return [explicit]
+    targets = [t for d in s.get("emulator_dirs", []) for t in _xc3_save_dirs(d, title_id)]
+    if not targets:
+        raise RuntimeError(f"No Xenoblade Chronicles 3 save folder found (tried {explicit} and the emulator folders). Start the "
+                           "game once in the emulator (reach the title screen so it makes its system save), or set "
+                           "\"xc3_save_dir\" in the patcher settings, then patch again.")
+    return targets
+
+
+def _install_open_world_save(targets: list, data: Dict[str, Any], log: Callable[[str], None]) -> None:
     """Put the prepared Open World save into slot 1, once per seed. Existing saves are backed up first; re-patching the
     same seed leaves the slot alone so a run in progress is never overwritten."""
-    targets = _xc3_save_dirs(user_dir, title_id)
-    if not targets:
-        raise RuntimeError(f"No Xenoblade Chronicles 3 save folder found under {user_dir}. Start the game once in the emulator "
-                           "(create any save, or just reach the title screen and let it make its system save), then patch again.")
     this_run = {"seed_name": data["seed_name"], "player": data["player"]}
     save = pkgutil.get_data(__package__, "data/open_world.sav")
     thumb = pkgutil.get_data(__package__, "data/open_world.tmb")
