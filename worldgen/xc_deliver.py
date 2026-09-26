@@ -640,7 +640,12 @@ class XC3Deliverer:
             writes += self._max_affinity_once(mem, ok_bases, log, budget)
         elif self.slot_data and self.slot_data.get("progressive_colony_affinity"):
             writes += self._cap_affinity(mem, ok_bases, counts, log, budget)
-        if self.slot_data and self.slot_data.get("story_gating"):
+        if self.slot_data and self.slot_data.get("open_world"):
+            # Open World: the whole main story is already done except the final battle - same conflict/override
+            # reasoning as affinity above, this replaces story_gating's hold-below-complete behavior rather than
+            # stacking with it.
+            writes += self._story_complete_once(mem, ok_bases, log, budget)
+        elif self.slot_data and self.slot_data.get("story_gating"):
             writes += self._cap_story(mem, ok_bases, counts, log, budget)
         return writes
 
@@ -743,6 +748,20 @@ class XC3Deliverer:
     # One-time per validated save (self.state.given), same pattern as _open_gates/_open_container_gates: only marks
     # done once every colony actually got written, so a budget-starved or short-lived poll retries next time instead
     # of silently giving up partway through.
+    #
+    # LIVE BUG 2026-09-26: originally looped over every base in ok_bases (same shape as _cap_affinity above), and a
+    # user's real playthrough (open_world on, "3 save copies" detected) had their ENTIRE remaining location pool
+    # read as complete and the goal instantly triggered within minutes of connecting, while standing still in
+    # Colony 9 - not a real completion. xc3_layout_ok (xc_inventory.py) only validates the INVENTORY arrays for a
+    # candidate base; it says nothing about the flag region at F16_BASE (0x9710) this method writes into, so a
+    # non-primary "copy" that merely happens to have a plausible-looking inventory can still be a stale/aliased
+    # region for everything else. _cap_affinity/_cap_story share this same multi-base gap, but in practice almost
+    # never actually write (a fresh save's real affinity/story state starts well below any cap, so the write is
+    # usually skipped) - this method is different: the target is a max value virtually always above the current
+    # one, so it writes on every base, every time, every colony, immediately - the first code path to actually
+    # exercise the gap at scale. Restricting to bases[0] only, matching the already-proven-safe convention used by
+    # _deliver_inventory/_watch_shops/_open_gates/_open_container_gates (see inv_base above) rather than the two
+    # "cap" methods, until the multi-base case can be verified live.
     _AFFINITY_MAXED_KEY = "__open_world_affinity_maxed"
 
     def _max_affinity_once(self, mem, bases, log: Callable[[str], None], budget: "_WriteBudget") -> int:
@@ -750,25 +769,25 @@ class XC3Deliverer:
             return 0
         writes = 0
         all_done = True
+        base = bases[0]
         for name, eff in self.items.items():
             if eff["t"] != "affinity_cap":
                 continue
             target = eff["levels"][4]
-            for base in bases:
-                addr = base + self.F16_BASE + 2 * eff["flag"]
-                raw = mem.read(addr, 2)
-                if raw is None:
-                    all_done = False
-                    continue
-                if struct.unpack("<H", raw)[0] >= target:
-                    continue
-                if not budget.take():
-                    return writes
-                if mem.write(addr, struct.pack("<H", target)):
-                    writes += 1
-                    log(f"Open World: {name[len('Progressive Affinity: '):]} affinity set to max ({target} points)")
-                else:
-                    all_done = False
+            addr = base + self.F16_BASE + 2 * eff["flag"]
+            raw = mem.read(addr, 2)
+            if raw is None:
+                all_done = False
+                continue
+            if struct.unpack("<H", raw)[0] >= target:
+                continue
+            if not budget.take():
+                return writes
+            if mem.write(addr, struct.pack("<H", target)):
+                writes += 1
+                log(f"Open World: {name[len('Progressive Affinity: '):]} affinity set to max ({target} points)")
+            else:
+                all_done = False
         if all_done:
             self.state.given[self._AFFINITY_MAXED_KEY] = 1
             self.state.save()
@@ -812,6 +831,91 @@ class XC3Deliverer:
                     if mem.write(addr, bytes([new_byte])):
                         writes += 1
                         log(f"Delivery: {b['label']} held (need {i} of {len(eff['beats'])} Progressive Story Quest, have {have})")
+        return writes
+
+    # ---- Open World (user decision 2026-09-26): the whole main story is already done except the final chapter,
+    # mimicking the "everything but the last fight" shape other JRPG Archipelagos use. Same QST_Purpose task flags
+    # _cap_story reads/holds above, just forced UP to "complete" instead of held below it.
+    #
+    # Left un-touched: every beat in the LAST chapter (today: chapter 7, 8 beats) - not just "the last beat in the
+    # list", because detect/xc3_story_gates2.json reuses (flag_type, flag_id) pairs across chapters (10 of 141
+    # beats collide with another beat elsewhere - confirmed by inspecting the data directly, not assumed): chapter
+    # 5 tasks 159/160 happen to share their exact flag with chapter 7 tasks 195/196. Forcing task 160 complete
+    # would silently also flip task 196's flag - the literal last-in-list beat - defeating the whole point of
+    # leaving something to fight. _final_chapter_beats() below excludes the whole final chapter AND transitively
+    # follows shared flags outward, so nothing that aliases into the final chapter's flags gets force-completed
+    # either (10 beats end up excluded in total for the current data, all in chapter 5 or 7).
+    #
+    # RISK, read before trusting this: this is a much bigger blast radius than the affinity write (141 tasks
+    # across all 7 chapters, the game's real main-quest tracker, not 15 independent colony counters), and unlike
+    # affinity there is no live-tested precedent for forcing this system UP rather than holding it down - I have
+    # no way to run the game from this environment. I also do not know FOR CERTAIN that "chapter 7" is entirely
+    # and only the final boss content, or that jumping straight to "complete" on every prior task (instead of
+    # playing them in order) leaves the game in a clean state rather than a confused one (missing cutscenes/
+    # character state it thinks already happened - flag reuse across chapters, just proven above, makes this a
+    # real possibility, not a hypothetical one). Single base only, same lesson as the affinity bug above. Test
+    # this on a save you are fully willing to lose, watch exactly where the story actually resumes, and tell me
+    # if the cutoff needs to move.
+    _STORY_COMPLETE_KEY = "__open_world_story_complete"
+
+    @staticmethod
+    def _final_chapter_beats(beats: list) -> set:
+        """Indices to leave alone: every beat in the last chapter, plus (transitively) any other beat anywhere
+        that shares its exact (flag_type, flag_id) with one of those - see the comment above for why."""
+        if not beats:
+            return set()
+        last_chapter = max(b["chapter"] for b in beats)
+        keep = {i for i, b in enumerate(beats) if b["chapter"] == last_chapter}
+        changed = True
+        while changed:
+            changed = False
+            kept_flags = {(beats[i]["flag_type"], beats[i]["flag_id"]) for i in keep}
+            for i, b in enumerate(beats):
+                if i not in keep and (b["flag_type"], b["flag_id"]) in kept_flags:
+                    keep.add(i)
+                    changed = True
+        return keep
+
+    def _story_complete_once(self, mem, bases, log: Callable[[str], None], budget: "_WriteBudget") -> int:
+        if self.state.given.get(self._STORY_COMPLETE_KEY):
+            return 0
+        writes = 0
+        all_done = True
+        base = bases[0]
+        for name, eff in self.items.items():
+            if eff["t"] != "story_gate":
+                continue
+            beats = eff["beats"]
+            keep = self._final_chapter_beats(beats)
+            for i, b in enumerate(beats):
+                if i in keep:
+                    continue
+                ft, fid = b["flag_type"], b["flag_id"]
+                if ft == 1:
+                    flag_base, target, byte, shift, mask = self.FLAG1_BASE, 1, fid >> 3, fid & 7, 1
+                elif ft == 2:
+                    flag_base, target, byte, shift, mask = self.FLAG2_BASE, 2, fid >> 2, (fid & 3) * 2, 3
+                else:
+                    continue
+                addr = base + flag_base + byte
+                raw = mem.read(addr, 1)
+                if raw is None:
+                    all_done = False
+                    continue
+                cur = (raw[0] >> shift) & mask
+                if cur >= target:
+                    continue
+                if not budget.take():
+                    return writes
+                new_byte = (raw[0] & ~(mask << shift)) | (target << shift)
+                if mem.write(addr, bytes([new_byte])):
+                    writes += 1
+                    log(f"Open World: {b['label']} marked complete")
+                else:
+                    all_done = False
+        if all_done:
+            self.state.given[self._STORY_COMPLETE_KEY] = 1
+            self.state.save()
         return writes
 
     def _deliver_inventory(self, mem, base: int, counts: Dict[str, int], log: Callable[[str], None], budget: "_WriteBudget") -> int:
