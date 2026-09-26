@@ -631,21 +631,15 @@ class XC3Deliverer:
         inv_base = ok_bases[0]
         writes += self._deliver_inventory(mem, inv_base, counts, log, budget)
         writes += self._watch_shops(mem, inv_base, log)
-        writes += self._open_gates(mem, inv_base, counts, log, budget)
+        # Open World plays on a prepared save (xc3_open_world_save) whose story is already done up to the final battle
+        # and whose colonies are already maxed - story gating and the affinity cap would drag that state back down.
+        open_world = bool(self.slot_data and self.slot_data.get("open_world"))
+        if not open_world:
+            writes += self._open_gates(mem, inv_base, counts, log, budget)
         writes += self._open_container_gates(mem, inv_base, counts, log, budget)
-        if self.slot_data and self.slot_data.get("open_world"):
-            # Open World: every colony starts already at max affinity - this directly conflicts with
-            # progressive_colony_affinity's job of holding affinity DOWN, so it wins outright rather than
-            # stacking with it (see the option's own description).
-            writes += self._max_affinity_once(mem, ok_bases, log, budget)
-        elif self.slot_data and self.slot_data.get("progressive_colony_affinity"):
+        if not open_world and self.slot_data and self.slot_data.get("progressive_colony_affinity"):
             writes += self._cap_affinity(mem, ok_bases, counts, log, budget)
-        if self.slot_data and self.slot_data.get("open_world"):
-            # Open World: the whole main story is already done except the final battle - same conflict/override
-            # reasoning as affinity above, this replaces story_gating's hold-below-complete behavior rather than
-            # stacking with it.
-            writes += self._story_complete_once(mem, ok_bases, log, budget)
-        elif self.slot_data and self.slot_data.get("story_gating"):
+        if not open_world and self.slot_data and self.slot_data.get("story_gating"):
             writes += self._cap_story(mem, ok_bases, counts, log, budget)
         return writes
 
@@ -743,56 +737,6 @@ class XC3Deliverer:
                     log(f"Delivery: {name[len('Progressive Affinity: '):]} affinity held at {cap} points ({have} of 4 level-ups received)")
         return writes
 
-    # ---- Open World (user decision 2026-09-26): every colony starts already at max affinity - the mirror image of
-    # _cap_affinity above (write UP to the Level5 threshold once, instead of holding DOWN below a cap forever).
-    # One-time per validated save (self.state.given), same pattern as _open_gates/_open_container_gates: only marks
-    # done once every colony actually got written, so a budget-starved or short-lived poll retries next time instead
-    # of silently giving up partway through.
-    #
-    # LIVE BUG 2026-09-26: originally looped over every base in ok_bases (same shape as _cap_affinity above), and a
-    # user's real playthrough (open_world on, "3 save copies" detected) had their ENTIRE remaining location pool
-    # read as complete and the goal instantly triggered within minutes of connecting, while standing still in
-    # Colony 9 - not a real completion. xc3_layout_ok (xc_inventory.py) only validates the INVENTORY arrays for a
-    # candidate base; it says nothing about the flag region at F16_BASE (0x9710) this method writes into, so a
-    # non-primary "copy" that merely happens to have a plausible-looking inventory can still be a stale/aliased
-    # region for everything else. _cap_affinity/_cap_story share this same multi-base gap, but in practice almost
-    # never actually write (a fresh save's real affinity/story state starts well below any cap, so the write is
-    # usually skipped) - this method is different: the target is a max value virtually always above the current
-    # one, so it writes on every base, every time, every colony, immediately - the first code path to actually
-    # exercise the gap at scale. Restricting to bases[0] only, matching the already-proven-safe convention used by
-    # _deliver_inventory/_watch_shops/_open_gates/_open_container_gates (see inv_base above) rather than the two
-    # "cap" methods, until the multi-base case can be verified live.
-    _AFFINITY_MAXED_KEY = "__open_world_affinity_maxed"
-
-    def _max_affinity_once(self, mem, bases, log: Callable[[str], None], budget: "_WriteBudget") -> int:
-        if self.state.given.get(self._AFFINITY_MAXED_KEY):
-            return 0
-        writes = 0
-        all_done = True
-        base = bases[0]
-        for name, eff in self.items.items():
-            if eff["t"] != "affinity_cap":
-                continue
-            target = eff["levels"][4]
-            addr = base + self.F16_BASE + 2 * eff["flag"]
-            raw = mem.read(addr, 2)
-            if raw is None:
-                all_done = False
-                continue
-            if struct.unpack("<H", raw)[0] >= target:
-                continue
-            if not budget.take():
-                return writes
-            if mem.write(addr, struct.pack("<H", target)):
-                writes += 1
-                log(f"Open World: {name[len('Progressive Affinity: '):]} affinity set to max ({target} points)")
-            else:
-                all_done = False
-        if all_done:
-            self.state.given[self._AFFINITY_MAXED_KEY] = 1
-            self.state.save()
-        return writes
-
     # ---- main story gate (live-verified 2026-09-22, see gen_story_gates2_xc3.py): the old approach patched an item
     # requirement onto GMK_Event map triggers, which turned out to gate ambient side content, not the story - live
     # testing proved chapters advanced with zero blocking. The real driver is QST_Purpose (QuestID 1-7 = the seven
@@ -831,115 +775,6 @@ class XC3Deliverer:
                     if mem.write(addr, bytes([new_byte])):
                         writes += 1
                         log(f"Delivery: {b['label']} held (need {i} of {len(eff['beats'])} Progressive Story Quest, have {have})")
-        return writes
-
-    # ---- Open World (user decision 2026-09-26): the whole main story is already done except the final chapter,
-    # mimicking the "everything but the last fight" shape other JRPG Archipelagos use. Same QST_Purpose task flags
-    # _cap_story reads/holds above, just forced UP to "complete" instead of held below it.
-    #
-    # Left un-touched:
-    #  1) every beat in the LAST chapter (today: chapter 7, 8 beats) - so there is still a final encounter to fight.
-    #  2) every beat NOT marked "dedicated" in detect/xc3_story_gates2.json (29 of 141 for the current data) - a
-    #     GROUND-TRUTH signal read directly from the game's own FLD_ConditionFlag table (columns A8D0C912/DA6D358F,
-    #     names unknown but the pattern is unambiguous: (1,1) or (2,2) for a flag genuinely dedicated to one story
-    #     beat, (0,0) for a flag the game shares/reuses for other live state). This was live-confirmed the hard
-    #     way first: task 114 (chapter 4) kept reverting every poll after being force-set - it turned out to be
-    #     (0,0) in this table. Cross-checking gen_story_gates2_xc3.py's flags against the real table found 28 MORE
-    #     (0,0) beats nobody had hit live yet, several with zero chapter-flag-name overlap with the chapter-7
-    #     exclusion (e.g. chapter 2 task 51, chapter 5/6 tasks 131-174) - these would only have surfaced as more
-    #     live corruption reports one at a time. Extracted via SirTeateiMoonlight/xenoblade-bdat-tools'
-    #     bdat2_reader.py against the game's own fld.bdat FLD_ConditionFlag table, not guessed.
-    # _final_chapter_beats() below computes the union of both, plus the transitive closure of shared flags (in
-    # case two "dedicated" beats ever alias each other in future data - defense in depth, not required by any
-    # case seen so far).
-    #
-    # RISK, read before trusting this: this is a much bigger blast radius than the affinity write (141 tasks
-    # across all 7 chapters, the game's real main-quest tracker, not 15 independent colony counters), and unlike
-    # affinity there is no live-tested precedent for forcing this system UP rather than holding it down - I have
-    # no way to run the game from this environment. I also do not know FOR CERTAIN that "chapter 7" is entirely
-    # and only the final boss content, or that jumping straight to "complete" on every prior task (instead of
-    # playing them in order) leaves every "dedicated" beat's associated quest state (not just its raw flag) in a
-    # clean state - the bathing-tent-quest report suggests forcing beats out of order can leave a quest's own
-    # activation state inconsistent even when its underlying flag is a real, dedicated one. Single base only,
-    # same lesson as the affinity bug above. Test this on a save you are fully willing to lose, watch exactly
-    # where the story actually resumes, and tell me if the cutoff needs to move.
-    _STORY_COMPLETE_KEY = "__open_world_story_complete"
-
-    @staticmethod
-    def _final_chapter_beats(beats: list) -> set:
-        """Indices to leave alone: every beat in the last chapter, every beat not marked "dedicated" (a shared/
-        reused condition-flag slot per the real FLD_ConditionFlag table - see the comment above), plus
-        (transitively) any other beat anywhere that shares its exact (flag_type, flag_id) with one of those."""
-        if not beats:
-            return set()
-        last_chapter = max(b["chapter"] for b in beats)
-        keep = {i for i, b in enumerate(beats) if b["chapter"] == last_chapter or not b.get("dedicated", True)}
-        changed = True
-        while changed:
-            changed = False
-            kept_flags = {(beats[i]["flag_type"], beats[i]["flag_id"]) for i in keep}
-            for i, b in enumerate(beats):
-                if i not in keep and (b["flag_type"], b["flag_id"]) in kept_flags:
-                    keep.add(i)
-                    changed = True
-        return keep
-
-    def _story_complete_once(self, mem, bases, log: Callable[[str], None], budget: "_WriteBudget") -> int:
-        if self.state.given.get(self._STORY_COMPLETE_KEY):
-            return 0
-        writes = 0
-        all_done = True
-        base = bases[0]
-        for name, eff in self.items.items():
-            if eff["t"] != "story_gate":
-                continue
-            beats = eff["beats"]
-            keep = self._final_chapter_beats(beats)
-            for i, b in enumerate(beats):
-                if i in keep:
-                    continue
-                ft, fid = b["flag_type"], b["flag_id"]
-                if ft == 1:
-                    flag_base, target, byte, shift, mask = self.FLAG1_BASE, 1, fid >> 3, fid & 7, 1
-                elif ft == 2:
-                    flag_base, target, byte, shift, mask = self.FLAG2_BASE, 2, fid >> 2, (fid & 3) * 2, 3
-                else:
-                    continue
-                addr = base + flag_base + byte
-                raw = mem.read(addr, 1)
-                if raw is None:
-                    all_done = False
-                    continue
-                cur = (raw[0] >> shift) & mask
-                if cur >= target:
-                    continue
-                # LIVE BUG 2026-09-26: a beat's flag can revert on its own right after being set (task 114's
-                # flag_id=2 did, every poll, forever) - live evidence that condition-flag slots aren't
-                # permanently one beat each, some get reused for other live game state (quest activation, etc.),
-                # so writing one can fight whatever else currently owns that slot. Retrying forever both wastes
-                # the write budget and keeps re-clobbering that other state. Try each beat exactly once; if it
-                # doesn't stick, log it and leave it alone rather than hammering it every poll.
-                tries_key = f"__owsc_tries:{ft}:{fid}"
-                if self.state.given.get(tries_key):
-                    if self.state.given[tries_key] == 1:
-                        log(f"Open World: {b['label']} flag reverted after being set once - looks shared with "
-                            f"other live game state, leaving it alone instead of retrying forever")
-                        self.state.given[tries_key] = 2
-                        self.state.save()
-                    continue
-                if not budget.take():
-                    return writes
-                new_byte = (raw[0] & ~(mask << shift)) | (target << shift)
-                if mem.write(addr, bytes([new_byte])):
-                    writes += 1
-                    self.state.given[tries_key] = 1
-                    self.state.save()
-                    log(f"Open World: {b['label']} marked complete")
-                else:
-                    all_done = False
-        if all_done:
-            self.state.given[self._STORY_COMPLETE_KEY] = 1
-            self.state.save()
         return writes
 
     def _deliver_inventory(self, mem, base: int, counts: Dict[str, int], log: Callable[[str], None], budget: "_WriteBudget") -> int:

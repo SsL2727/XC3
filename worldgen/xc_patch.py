@@ -17,6 +17,7 @@ import shutil
 import subprocess
 import sys
 import tempfile
+import time
 import zipfile
 from typing import Any, Callable, Dict, Optional
 
@@ -229,7 +230,8 @@ def run_patch(patch_path: str, ask_dir: Optional[Callable[[str], str]] = None, l
     if info["code"] == "XC2" and data["slot_data"].get("story_gating"):      # region entrances wait for Progressive Area items
         cfg["ap_patches"].append("xc2_story_gates")
         cfg["gates"] = json.loads(pkgutil.get_data(__package__, "data/gates.json").decode("utf-8"))
-    if info["code"] == "XC3" and data["slot_data"].get("story_gating"):      # the game's own cutscene triggers wait for Progressive Story Quest items
+    open_world = info["code"] == "XC3" and bool(data["slot_data"].get("open_world"))
+    if info["code"] == "XC3" and data["slot_data"].get("story_gating") and not open_world:   # cutscene triggers wait for Progressive Story Quest items (Open World's save is past them)
         cfg["ap_patches"].append("xc3_story_gates")
         cfg["gates"] = json.loads(pkgutil.get_data(__package__, "data/gates.json").decode("utf-8"))
     if info["code"] == "XC3" and data["slot_data"].get("hero_randomization"):
@@ -313,8 +315,73 @@ def run_patch(patch_path: str, ask_dir: Optional[Callable[[str], str]] = None, l
         os.makedirs(os.path.join(d, "load", load_title_id), exist_ok=True)
         put(os.path.join(d, "load", load_title_id, MOD_NAME), True)
     shutil.rmtree(work, ignore_errors=True)
-    log("Installed to " + ", ".join(installed) + f". Start {game} with a NEW game.")
+    if open_world:
+        _install_open_world_save(_xc3_save_targets(s, info["title_id"]), data, log)
+        if s.get("ryujinx_dir"):
+            log("NOTE: the Open World save is only installed for Eden / yuzu-family emulators, not Ryujinx.")
+        log("Installed to " + ", ".join(installed) + f". Load save slot 1 in {game} (Open World).")
+    else:
+        log("Installed to " + ", ".join(installed) + f". Start {game} with a NEW game.")
     return installed[0]
+
+
+DEFAULT_XC3_SAVE_DIR = r"F:\XCAP\work\emus\eden\user\nand\user\save\0000000000000000\F2DF0042DCA2C1FAFDC05D1CE5065C54\010074F013262000"
+OPEN_WORLD_SLOT = "bf3game01"
+OPEN_WORLD_MARKER = "ap_open_world.json"
+
+
+def _xc3_save_dirs(user_dir: str, title_id: str) -> list:
+    """<user>/nand/user/save/<zeros>/<profile>/<title id> folders that already exist for the game."""
+    root = os.path.join(user_dir, "nand", "user", "save")
+    found = []
+    for zeros in (os.listdir(root) if os.path.isdir(root) else []):
+        for profile in (os.listdir(os.path.join(root, zeros)) if os.path.isdir(os.path.join(root, zeros)) else []):
+            for tid in (os.listdir(os.path.join(root, zeros, profile)) if os.path.isdir(os.path.join(root, zeros, profile)) else []):
+                if tid.upper() == title_id.upper():
+                    found.append(os.path.join(root, zeros, profile, tid))
+    return found
+
+
+def _xc3_save_targets(s: Dict[str, Any], title_id: str) -> list:
+    """The XC3 save folder(s) to install into: the "xc3_save_dir" setting if that folder exists, else every existing
+    XC3 save folder under the yuzu-family emulator dirs."""
+    explicit = s.get("xc3_save_dir") or DEFAULT_XC3_SAVE_DIR
+    if os.path.isdir(explicit):
+        return [explicit]
+    targets = [t for d in s.get("emulator_dirs", []) for t in _xc3_save_dirs(d, title_id)]
+    if not targets:
+        raise RuntimeError(f"No Xenoblade Chronicles 3 save folder found (tried {explicit} and the emulator folders). Start the "
+                           "game once in the emulator (reach the title screen so it makes its system save), or set "
+                           "\"xc3_save_dir\" in the patcher settings, then patch again.")
+    return targets
+
+
+def _install_open_world_save(targets: list, data: Dict[str, Any], log: Callable[[str], None]) -> None:
+    """Put the prepared Open World save into slot 1, once per seed. Existing saves are backed up first; re-patching the
+    same seed leaves the slot alone so a run in progress is never overwritten."""
+    this_run = {"seed_name": data["seed_name"], "player": data["player"]}
+    save = pkgutil.get_data(__package__, "data/open_world.sav")
+    thumb = pkgutil.get_data(__package__, "data/open_world.tmb")
+    for target in targets:
+        marker_path = os.path.join(target, OPEN_WORLD_MARKER)
+        try:
+            previous = json.load(open(marker_path, encoding="utf-8"))
+        except Exception:
+            previous = None
+        if previous == this_run:
+            log(f"Open World save already installed for this seed in {target} - left untouched.")
+            continue
+        if os.listdir(target):
+            backup = f"{target}_backup_{time.strftime('%Y%m%d_%H%M%S')}"
+            shutil.copytree(target, backup)
+            log(f"Backed up existing saves to {backup}")
+        with open(os.path.join(target, OPEN_WORLD_SLOT + ".sav"), "wb") as fh:
+            fh.write(save)
+        with open(os.path.join(target, OPEN_WORLD_SLOT + ".tmb"), "wb") as fh:
+            fh.write(thumb)
+        with open(marker_path, "w", encoding="utf-8") as fh:
+            json.dump(this_run, fh)
+        log(f"Installed the Open World save into slot 1: {target}")
 
 
 def main(argv=None) -> int:
