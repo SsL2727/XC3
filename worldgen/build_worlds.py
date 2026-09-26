@@ -8,6 +8,7 @@ Everything game-specific lives in GAMES below; the engine is xc_core.py (copied 
 from __future__ import annotations
 
 import argparse
+import gzip
 import json
 import re
 import shutil
@@ -15,6 +16,7 @@ import sys
 import zipfile
 from pathlib import Path
 
+import xc3_open_world_save
 from docgen import game_doc, setup_doc
 
 HERE = Path(__file__).resolve().parent
@@ -236,7 +238,8 @@ GAMES = {
                              "shops": {"choice": {"option": "shop_checks", "values": [0]}},        # the manual world's own 'Buy <item>' checks
                              "Shops": {"choice": {"option": "shop_checks", "values": [1]}},
                              "Shop Slots": {"choice": {"option": "shop_checks", "values": [2]}},
-                             "quests": {"yaml_option": ["questsanity"]}},
+                             "quests": {"yaml_option": ["questsanity", "!open_world"]},      # the Open World save has them done already
+                             "Open World Start": {"yaml_option": ["!open_world"]}},          # checks the Open World save keeps done (xc3_open_world_save.HOME_LOCATION)
         "extra_options": {"progressive_colony_affinity": {"type": "Toggle", "default": True, "display_name": "Progressive Colony Affinity",
                                                           "description": "The affinity level of every colony (Colony 9, Colony Gamma, ... City, Nopon Caravans) is capped at level 1 until "
                                                                          "'Progressive Affinity: <colony>' items arrive; each copy raises the cap by one level (4 copies = all 5 levels)."},
@@ -261,16 +264,15 @@ GAMES = {
                                          "description": "Include quest checks in the pool (about 198 of them, the 'Quests' category). Off removes every quest location from the "
                                                         "world entirely (default on, same as today's behavior before this option existed)."},
                           "open_world": {"type": "Toggle", "default": False, "display_name": "Open World",
-                                        "description": "Every region is open from the start except behind seven honor-system checkpoints, in this order: Aetia (the starting "
-                                                       "continent, no gate needed) -> Fornis -> Pentelas -> Keves Castle -> Cadensia -> Agnus Castle -> Swordmarch/City, each "
-                                                       "one opening as 'Progressive Region' items arrive. Origin instead opens on 'Origin Shard' items (see the two options "
-                                                       "below) rather than its usual key/story requirements. Neither item has any in-game effect - the client never grants or "
-                                                       "enforces them, so nothing physically stops you from wandering past a checkpoint you have not 'unlocked' yet; this is "
-                                                       "logic-only, the same honor system Manual worlds already use for anything with no real memory hook. Replaces only the "
-                                                       "one region (Millick Meadows/Fornis) that was gated on Progressive Story Quest - the separate Story Gating option "
-                                                       "(which locks main-story cutscenes, not region access) is untouched and can still be on at the same time. Every "
-                                                       "colony also starts already at max affinity, written once by the client (needs the running client - everything "
-                                                       "else here is pure logic and needs nothing extra). Off (default) leaves world traversal exactly as today, unaffected."},
+                                        "description": "You start on a save where the whole story is done except the final battle, with every colony at "
+                                                       "max affinity. The patcher installs it into save slot 1 (your existing saves are backed up first). "
+                                                       "Every landmark, container and unique monster check on it is reset so it can be done again; only "
+                                                       "Colony 9 Assembly Square stays unlocked as a fast-travel point. Quest checks are removed (the quests "
+                                                       "are already done on this save) and Story Gating is ignored. Beating the final boss is the goal. "
+                                                       "In logic, regions open in this order as 'Progressive Region' items arrive: Aetia -> Fornis -> "
+                                                       "Pentelas -> Keves Castle -> Cadensia -> Agnus Castle -> Swordmarch/City, and Origin opens on "
+                                                       "'Origin Shard' items. Those two items have no in-game effect (honor system), so nothing stops you "
+                                                       "wandering ahead. Needs the patcher with Eden (or another yuzu-family emulator)."},
                           "progressive_region_items": {"type": "Range", "range_start": 6, "range_end": 50, "default": 15,
                                                        "display_name": "Progressive Region Items",
                                                        "description": "Open World only. How many 'Progressive Region' items are placed in the pool. The six checkpoints only "
@@ -442,6 +444,15 @@ def normalize(pkg: str, manual: dict, cfg: dict) -> dict:
                       f"Region' (no in-game effect) gates Fornis/Pentelas/Keves Castle/Cadensia/Agnus Castle/"
                       f"Swordmarch+City in that order behind their one entry region each; Origin instead needs "
                       f"'Origin Shard'. No effect on any of this unless the open_world option is on.")
+
+        # the Open World save keeps this one fast-travel point unlocked, so its check is already done there - drop it
+        # from the pool when open_world is on (category "Open World Start" = yaml_option !open_world)
+        home = xc3_open_world_save.HOME_LOCATION
+        manual["locations"] = [dict(l, category=as_list(l.get("category")) + ["Open World Start"]) if l["name"] == home
+                               else l for l in manual["locations"]]
+        tagged = sum(1 for l in manual["locations"] if "Open World Start" in as_list(l.get("category")))
+        if tagged != 1:
+            raise RuntimeError(f"expected exactly one location named {home!r} to tag for Open World, found {tagged}")
 
     # ---- drop the "Dromarch AND Nia (Driver)" core-party clause from Ancient Ship (XC2): the source manual world
     # glues this same clause onto every region from Ancient Ship onward as a blanket "have your team" requirement,
@@ -1264,6 +1275,12 @@ def write_package(pkg: str, bundle: dict, cfg: dict, manual: dict) -> Path:
     detect = HERE / "detect" / (pkg.replace("xenoblade_", "xc") + ".json")            # xenoblade_2 -> xc2.json, _de -> xcde.json
     if detect.exists():
         shutil.copy(detect, pdir / "data" / "detect.json")
+    if pkg == "xenoblade_3":                                  # Open World starting save, installed by the patcher (xc_patch)
+        base = gzip.open(HERE / "detect" / "xc3_open_world_base.sav.gz").read()
+        cats = json.load(open(HERE / "detect" / "xc3_location_categories.json", encoding="utf-8"))["categories"]
+        locs = json.load(open(detect, encoding="utf-8"))["locations"]
+        (pdir / "data" / "open_world.sav").write_bytes(xc3_open_world_save.build(base, locs, cats))
+        (pdir / "data" / "open_world.tmb").write_bytes(gzip.open(HERE / "detect" / "xc3_open_world_base.tmb.gz").read())
     shutil.copy(HERE / "xc_deliver.py", pdir / "xc_deliver.py")
     shops = HERE / "detect" / (pkg.replace("xenoblade_", "xc") + "_shops.json")
     if shops.exists():
